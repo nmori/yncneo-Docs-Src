@@ -15,7 +15,13 @@ markdown_extensions:
     - fontawesome_markdown
     - codehilite
     - pymdownx.emoji
-        - emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - attr_list
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - pymdownx.details
+    - admonition
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 plugins:

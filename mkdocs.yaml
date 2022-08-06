@@ -3,7 +3,7 @@ theme:
   name: material
   language: ja
   features:
-    - tabs
+    tabs: true
   palette:
     primary: indigo
     accent: indigo
@@ -25,4 +25,5 @@ extra_css:
 plugins:
   - git-revision-date-localized
 nav:
-    - Home: 'index.md'
+    - 概要: 'index.md'
+    - ダウンロード: 'download.md'

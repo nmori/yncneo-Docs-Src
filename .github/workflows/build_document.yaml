@@ -5,6 +5,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
@@ -19,4 +20,4 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: nmori/yncneo-Docs
           publish_branch: master
-          publish_dir: ./site
+          publish_dir: /

@@ -29,3 +29,4 @@ pygments>=2.12
 pymdown-extensions>=9.4
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
+fontawesome_markdown

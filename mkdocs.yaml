@@ -10,6 +10,14 @@ theme:
 extra:
   search:
     language: 'ja'
+markdown_extensions:
+    - admonition
+    - fontawesome_markdown
+    - codehilite
+    - pymdownx.emoji
+        - emoji_generator: !!python/name:pymdownx.emoji.to_svg
+extra_css:
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 plugins:
   - git-revision-date-localized
 nav:

@@ -14,5 +14,3 @@ plugins:
   - git-revision-date-localized
 nav:
     - Home: 'index.md'
-    - 'User Guide':
-    - About:

@@ -1,0 +1,18 @@
+site_name: ゆかりねっとコネクターNEO
+theme:
+  name: material
+  language: ja
+  features:
+    - tabs
+  palette:
+    primary: indigo
+    accent: indigo
+extra:
+  search:
+    language: 'ja'
+plugins:
+  - git-revision-date-localized
+nav:
+    - Home: 'index.md'
+    - 'User Guide':
+    - About:

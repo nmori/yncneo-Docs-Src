@@ -1,5 +1,5 @@
 # 安定版
-!!! Note
+!!! Note "アップデートタイミングについて"
     更新は、配信直前などを避けて、再調整などができる「ゆとりのある時」に実施してください。
 
 [ゆかりねっとコネクターNEO_v1.9574](https://machanbazaar.com/wp-content/uploads/2022/07/YNCneo_v1.9574.zip)
@@ -10,13 +10,12 @@
 
 
 # 開発版
-!!! Warning
+!!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-[ゆかりねっとコネクターNEO_v1.9585](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9585.zip)
+[ゆかりねっとコネクターNEO_v1.9586](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9586.zip)
 
 |タイトル|内容|
 |:------|:---------------------------|
-|プラグイン追加|OBS WebSocket連携（v5）|
-|メンテナンスツール|Windows側ログを解析する機能を追加|
-|OBS WebSocket連携v5|OBS v28と連携できるように実装追加|
+|Youtubeタイムコード|時間の取り出しがうまくいってない点を修正|
+|OBS WebSocket連携v5|切断したとき自動再接続できるよう機能を再調整|

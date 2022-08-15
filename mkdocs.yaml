@@ -122,7 +122,7 @@ nav:
         - アップデート通知 : 'plugin_update.md'
         - ファイル出力 : 'plugin_exporter.md'
     - アンバサダープログラム:
-      - 1期生: 'ambasador.md'
+      - 1期生: 'ambasador_gen1.md'
     - サポータ: 'supporter.md'
     - 活用に関する補足・注意点: 'system_info.md'
     - 困ったときは:

@@ -39,8 +39,17 @@ nav:
     - 概要: 'index.md'
     - ダウンロード: 'download.md'
     - できること: 'spec.md'
-    - 始め方: 'startup.md'
-    - 支援について: 'support.md'
+    - 攻略手順(チートシート):
+      - 最速で英語翻訳をだす : 'startup_en.md'
+      - OBS Studioできれいに出す: 'startup_obs.md'
+      - わんコメ連携: 'startup_onecomme.md'
+    - 設定について:
+      - 標準設定項目: 'startup_basic.md'      
+      - オプション設定: 'startup_option.md'
+    - 支援について:
+      - 支援の概要: 'support_summary.md'
+      - 支援の仕方: 'support_howto.md'
+      - 支援機能の有効化: 'support_enabled_md'    
     - プラグイン:    
       - 読み上げ:    
         - 棒読みちゃん連携: 'plugin_bouyomi.md'
@@ -90,4 +99,12 @@ nav:
         - 起動支援 : 'plugin_startup.md'
         - アップデート通知 : 'plugin_update.md'
         - ファイル出力 : 'plugin_exporter.md'
-    - わんコメ連携: 'onecomme.md'
+    - アンバサダープログラム:
+      - 1期生: 'ambasador.md'
+    - サポータ: 'supporter.md'
+    - 活用に関する補足・注意点: 'system_info.md'
+    - 困ったときは:
+      - よくある質問 : 'faq.md'
+      - 再インストール : 'reinstall.md'
+      - 不具合を発見した時 : 'report.md'
+      - ヘルプを頼む前に : 'before_help.md' 

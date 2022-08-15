@@ -1,5 +1,6 @@
 # 何ができるか？
 ゆかりねっとコネクターは次のことをサポートします。
+![Image title](images/spec/totalmap.png)
 
 * 音声認識（との繋ぎ）
 * 翻訳

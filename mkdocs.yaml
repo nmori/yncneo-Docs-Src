@@ -3,23 +3,34 @@ theme:
   name: material
   language: ja
   features:
-    tabs: true
+    - content.tabs.link
   palette:
     primary: indigo
     accent: indigo
+  font:
+    text: Mochiy Pop P One
 extra:
   search:
     language: 'ja'
 markdown_extensions:
-    - admonition
-    - fontawesome_markdown
-    - codehilite
-    - pymdownx.emoji
-    - attr_list
-    - pymdownx.tabbed
-    - pymdownx.superfences
-    - pymdownx.details
-    - admonition
+  - abbr
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - fontawesome_markdown
+  - codehilite
+  - pymdownx.emoji
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences    
+  - pymdownx.highlight:
+      anchor_linenums: true
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 plugins:
@@ -27,3 +38,56 @@ plugins:
 nav:
     - 概要: 'index.md'
     - ダウンロード: 'download.md'
+    - できること: 'spec.md'
+    - 始め方: 'startup.md'
+    - 支援について: 'support.md'
+    - プラグイン:    
+      - 読み上げ:    
+        - 棒読みちゃん連携: 'plugin_bouyomi.md'
+        - Softalk読み上げ: 'plugin_softalk.md'
+        - 読み上げ : 'plugin_playvoice.md'
+      - サウンド:
+        - 動画再生 : 'plugin_MediaPlayer.md'      
+        - 音源再生 : 'plugin_playsound.md'
+      - 認識の修正:
+        - 辞書 : 'plugin_dictionary.md'
+        - 正規表現 : 'plugin_regexp.md'
+      - 見た目の補正:
+        - 強制整形 : 'plugin_forcestyle.md'
+        - ルビ付与 : 'plugin_ruby'
+      - 表示関連:
+        - 内蔵ブラウザ: 'plugin_browser.md'
+        - 歌詞支援 : 'plugin_LyricAssist.md'
+        - フォト読み込み : 'plugin_photopickup.md'
+        - 表示拡張(スタンプ) : 'plugin_viewextend.md'
+      - Windows連携:
+        - クリップボード連携: 'plugin_clipboard.md'
+        - MIDI入力 : 'plugin_midiinput.md'
+      - 配信システム:
+        - コメジェネ連携: 'plugin_commentgen.md'
+        - 配信ソフト向けテキスト出力 : 'plugin_OBSFile.md'
+        - OBS連携 WSv4 : 'plugin_OBS.md'
+        - OBS連携 WSv5 : 'plugin_OBS5.md'
+      - アプリ連携:
+        - わんコメテンプレ連携 : 'plugin_OCTemplateGen.md'
+        - 翻訳・発話連携 : 'plugin_transSrv.md'
+        - バーチャルキャスト連携 : 'plugin_vcas.md'
+        - VaNiiツール連携 : 'plugin_vanii.md'
+        - VRChat OSC連携: 'plugin_vrchat_osc.md'
+        - VRオーバーレイ : 'plugin_vroverlay.md'
+        - ばもきゃ連携 : 'plugin_vmc.md'
+        - MTGカード支援 : 'plugin_MTGCard.md'
+      - サイト連携:
+        - Discord BOT連携 : 'plugin_dicord.md'
+        - Discord Webhook連携 : 'plugin_dicordwebhook.md'
+        - Twitchチャット連携: 'plugin_twitch.md'
+        - Youtube Live字幕送信: 'plugin_youtube.md'
+        - Youtubeタイムコード生成 : 'plugin_youtubetimecode.md'
+        - ZOOM連携 : 'plugin_zoom.md'
+      - つかいやすさ向上:
+        - 直接入力: 'plugin_directinput.md'
+        - 入力支援 : 'plugin_InputAssist.md'
+        - 起動支援 : 'plugin_startup.md'
+        - アップデート通知 : 'plugin_update.md'
+        - ファイル出力 : 'plugin_exporter.md'
+    - わんコメ連携: 'onecomme.md'

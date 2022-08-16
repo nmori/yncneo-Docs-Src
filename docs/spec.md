@@ -1,6 +1,6 @@
 # 何ができるか？
 ゆかりねっとコネクターは次のことをサポートします。
-![Image title](images/spec/totalmap.png)
+![Image title](images/totalmap.png)
 
 * 音声認識（との繋ぎ）
 * 翻訳
@@ -17,6 +17,6 @@
 |ゆかりねっと連携|〇|●ゆかりねっとプラグイン併用モード<br>●ブラウザエミュレート|
 |OBS連携|〇| OBS Studio用 WebSocket v4/v5対応|
 |読み上げ|〇|プラグインを使えば可能<br>●A.I.Voice<br>●CeVIO/CeVIO AI<br>●AITalk3<br>●VOICEVOX<br>●COEIROINK on VOICEVOX<br>●LMRoid<br>●SAPI5<br>●VOICEROID2  |
-|表示形式|〇|●テロップ<br>●リスト<br>●多言語<br>●コラボ<br>●VRオーバーレイ<br>●リスト<br>●テロップ相当<br>●ゲーム風<br>●コラボレイアウト<br>●わんコメテンプレ<br>●VRオーバーレイ|
+|表示形式|〇|●多言語<br>●VRオーバーレイ<br>●リスト<br>●ゲーム風<br>●コラボレイアウト<br>●わんコメテンプレ|
 |辞書・ルビ|〇|プラグインで実現|
 |FANBOX支援|〇|支援しなくても利用はできます。<br>支援するとみんなで支える翻訳サーバがつかえるようになります|

@@ -39,6 +39,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
   - fontawesome_markdown
@@ -52,11 +53,16 @@ markdown_extensions:
   - pymdownx.superfences    
   - pymdownx.highlight:
       anchor_linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true       
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 plugins:
   - git-revision-date-localized
   - search
+  - glightbox
 nav:
     - 概要: 'index.md'
     - ダウンロード: 'download.md'
@@ -68,12 +74,13 @@ nav:
       - コラボ字幕(UDトーク経由): 'cs_colab_udtalk.md'
       - StreamDeckで操作する : 'cs_streamdeck.md'
     - 設定について:
-      - 標準設定項目: 'startup_basic.md'      
-      - オプション設定: 'startup_option.md'
+      - 標準設定項目: 'startup\startup_basic.md'      
+      - オプション設定: 'startup\startup_option.md'
+      - レイアウト: 'startup\startup_layout.md'
     - 支援について:
-      - 支援の概要: 'support_summary.md'
-      - 支援の仕方: 'support_howto.md'
-      - 支援機能の有効化: 'support_enabled_md'    
+      - 支援の概要: 'support/support_summary.md'
+      - 支援の仕方: 'support/support_howto.md'
+      - 支援機能の有効化: 'support/support_enabled.md'    
     - プラグイン:    
       - 読み上げ:    
         - 棒読みちゃん連携: 'plugin_bouyomi.md'
@@ -124,8 +131,8 @@ nav:
         - アップデート通知 : 'plugin_update.md'
         - ファイル出力 : 'plugin_exporter.md'
     - アンバサダープログラム:
-      - 1期生: 'ambasador_gen1.md'
-    - サポータ: 'supporter.md'
+      - 1期生: 'ambasador/ambasador_gen1.md'
+    - 担当・サポータ: 'supporter/supporter.md'
     - 活用に関する補足・注意点: 'system_info.md'
     - 困ったときは:
       - よくある質問 : 'faq.md'

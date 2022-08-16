@@ -68,11 +68,11 @@ nav:
     - ダウンロード: 'download.md'
     - できること: 'spec.md'
     - 攻略手順(チートシート):
-      - 最速で英語翻訳をだす : 'cs_en.md'
-      - OBS Studioできれいに出す: 'cs_obs.md'
-      - コラボ字幕(Discord経由): 'cs_colab_discord.md'
-      - コラボ字幕(UDトーク経由): 'cs_colab_udtalk.md'
-      - StreamDeckで操作する : 'cs_streamdeck.md'
+      - 最速で英語翻訳をだす : 'cs/cs_en.md'
+      - OBS Studioできれいに出す: 'cs/cs_obs.md'
+      - コラボ字幕(Discord経由): 'cs/cs_colab_discord.md'
+      - コラボ字幕(UDトーク経由): 'cs/cs_colab_udtalk.md'
+      - StreamDeckで操作する : 'cs/cs_streamdeck.md'
     - 設定について:
       - 標準設定項目: 'startup\startup_basic.md'      
       - オプション設定: 'startup\startup_option.md'

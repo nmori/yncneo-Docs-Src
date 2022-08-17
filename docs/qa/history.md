@@ -1,3 +1,12 @@
+###[v1.9589](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9589.zip)
+* NEO本体
+```
+・コラボウィンドウの縦幅指定を可能に
+```
+* バーチャルキャスト連携
+```
+・ゆかりねっとコネクター/NEO両方のVCIで動くように
+```
 ###[v1.9588](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9588.zip)
 
 * OBS WebSocket連携v5

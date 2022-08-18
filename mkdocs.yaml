@@ -82,6 +82,9 @@ nav:
       - 支援の概要: 'support/support_summary.md'
       - 支援の仕方: 'support/support_howto.md'
       - 支援機能の有効化: 'support/support_enabled.md'    
+    - 設計思想と仕組み:
+      - 言葉の精度向上方法: 'design/talk_quality.md'
+      - プラグインの動作 : 'design/plugin_rule.md'
     - プラグイン:  
       - 有効化 : 'plugin/enabled.md'  
       - 読み上げ:    
@@ -143,7 +146,7 @@ nav:
       - ヘルプを頼む前に : 'qa/before_help.md'
       - 開発履歴 : 'qa/history.md'
     - 技術者向け:
-      - 本体内蔵API : 'tech_api_neo.md'
-      - プラグイン系API : 'tech_api_plugin.md'
-      - わんコメ系API : 'tech_api_plugin_oc.md'
+      - 本体内蔵API : 'tech/tech_api_neo.md'
+      - プラグイン系API : 'tech/tech_api_plugin.md'
+      - わんコメ系API : 'tech/tech_api_plugin_oc.md'
 

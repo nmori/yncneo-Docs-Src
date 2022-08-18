@@ -13,12 +13,8 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-###[v1.9589](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9589.zip)
-* NEO本体
+###[v1.959](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.959.zip)
+* 翻訳・発話サーバ
 ```
-・コラボウィンドウの縦幅指定を可能に
-```
-* バーチャルキャスト連携
-```
-・ゆかりねっとコネクター/NEO両方のVCIで動くように
+・API仕様の追加
 ```

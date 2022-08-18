@@ -1,3 +1,10 @@
+
+###[v1.959](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.959.zip)
+* 翻訳・発話サーバ
+```
+・API仕様の追加
+```
+
 ###[v1.9589](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9589.zip)
 * NEO本体
 ```

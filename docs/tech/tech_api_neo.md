@@ -62,3 +62,17 @@
 
 
 * 成功すると ok が返ってきます。
+
+### インストールバージョンの特定
+
+* インストール情報はレジストリから取得できます
+
+!!! Tech "使用条件"
+    * ポートを開放したときに更新されます
+
+* レジストリ位置：HKCU\Software\YukarinetteConnectorNeo\TransServer
+
+|名前|型|意味|
+|:--|:--|:--|
+|WebSocket|DWord32|WebSocketポート番号|
+|HTTP|DWord32|HTTPポート番号|

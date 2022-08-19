@@ -99,7 +99,7 @@ nav:
         - 正規表現 : 'plugin/plugin_regexp.md'
       - 見た目の補正:
         - 強制整形 : 'plugin/plugin_forcestyle.md'
-        - ルビ付与 : 'plugin/plugin_ruby'
+        - ルビ付与 : 'plugin/plugin_ruby.md'
       - 表示関連:
         - 内蔵ブラウザ: 'plugin/plugin_browser.md'
         - 歌詞支援 : 'plugin/plugin_LyricAssist.md'

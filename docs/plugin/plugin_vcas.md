@@ -14,7 +14,7 @@
 
 ## 設定
 
-1. [THE SEED ONLINE](https://seed.online/products/66338c22802dab2dc2960fcfef0da39b7c916fcd9c7bdd24d5afd4e1d6fa7dde)でゆかコネNOE字幕VCIを手に入れます。
+1. [THE SEED ONLINE](https://seed.online/products/66338c22802dab2dc2960fcfef0da39b7c916fcd9c7bdd24d5afd4e1d6fa7dde)でゆかコネNEO字幕VCIを手に入れます。
 
 2. 一度バーチャルキャストの中でVCIを開いてください。
     * VCIを開くと、必要なフォルダが自動生成されます

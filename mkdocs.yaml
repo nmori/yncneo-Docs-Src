@@ -78,6 +78,7 @@ nav:
       - 標準設定項目: 'startup/startup_basic.md'      
       - オプション設定: 'startup/startup_option.md'
       - レイアウト: 'startup/startup_layout.md'
+      - GASの設定: 'startup/startup_gas.md'
     - 支援について:
       - 支援の概要: 'support/support_summary.md'
       - 支援の仕方: 'support/support_howto.md'

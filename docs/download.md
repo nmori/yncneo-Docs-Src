@@ -12,9 +12,9 @@
 ## 開発版
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
-
-###[v1.9591](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9591.zip)
-* 翻訳・発話サーバ
+    
+###[v1.9592](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9592.zip)
+* NEO本体
 ```
-・API仕様の追加
+・翻訳システムの追加（GAS）
 ```

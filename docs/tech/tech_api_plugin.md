@@ -9,6 +9,7 @@
 !!! Tech "使用条件"
     * 翻訳/発話連携サーバプラグインをONにしていること
     * 翻訳１の翻訳エンジンを選定していること（これが使われます）
+    * 送信先ポートはレジストリから取得します
 
 ### 翻訳（１言語）
 
@@ -244,3 +245,59 @@
         id: '0000-0000-0000-0000'
     }
     ```
+
+
+### バージョンの取得
+
+!!! Tips "対応プラグインバージョン: v1.4a以上"
+
+* 送付方式：HTTPの場合はPOST、WSの場合はテキスト
+* キューをクリアするため、現在発話動作に入っているものは読み上げします。
+
+=== "Request"
+    ```js
+    {
+        operation: 'version',
+        params: [
+            {
+                id: '0000-0000-0000-0000',
+            }
+        ]
+    }
+    ```
+=== "Response(OK)"
+    ```js
+    {
+        operation: 'version',
+        status: 'success',
+        version: [
+            {
+                System: '1.959',
+                Plugin: '1.4a'
+            }
+        ]
+        id: '0000-0000-0000-0000',
+    }
+    ```
+=== "Response(NG)"
+    ```js
+    {
+        operation: 'version',
+        status: 'failure',
+        id: '0000-0000-0000-0000'
+    }
+    ```
+
+### 通信ポートの特定
+
+* 通信ポートはレジストリから取得できます
+
+!!! Tech "使用条件"
+    * ポートを開放したときに更新されます
+
+* レジストリ位置：HKCU\Software\YukarinetteConnectorNeo\TransServer
+
+|名前|型|意味|
+|:--|:--|:--|
+|WebSocket|DWord32|WebSocketポート番号|
+|HTTP|DWord32|HTTPポート番号|

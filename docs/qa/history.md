@@ -1,5 +1,12 @@
 
-###[v1.959](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.959.zip)
+
+###[v1.9591](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9591.zip)
+* 翻訳・発話サーバ
+```
+・API仕様の追加
+```
+
+###[v1.9590](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.959.zip)
 * 翻訳・発話サーバ
 ```
 ・API仕様の追加

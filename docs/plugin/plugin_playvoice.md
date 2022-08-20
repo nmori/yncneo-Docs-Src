@@ -7,6 +7,21 @@
 
 * 各種音声生成ソフトウェアをつかって音声認識結果を読み上げできます。
 
+## 対応している音源
+* A.I.Voice
+* AITalk3
+* VOICEROID ＋
+* VOICEROID2 (64bit)
+* ガイノイドトーク
+* 音街ウナトーク
+* CeVIO CS7
+* CeVIO AI
+* SAPI5
+* VOICEVOX
+* COEIROINK
+* LMROID
+* CoeFont(Enterprise API)
+
 ##　有効化
 
 ![音声](images/plugin_playvoice_p1.png)

@@ -33,15 +33,11 @@
 
 === "Mute On"
     ``` js
-    {
         http://localhost:15520/mute-on
-    }
     ```
 === "Mute off"
     ``` js
-    {
         http://localhost:15520/mute-off
-    }
     ```
 
 * 成功すると ok が返ってきます。

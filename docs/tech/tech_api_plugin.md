@@ -291,6 +291,36 @@
 |System|String|NEO本体のバージョン|
 |Plugin|String|翻訳/発話連携サーバプラグイン|
 
+
+## 入力支援
+
+* ゆかりねっとコネクターNEOの文字入力を支援します
+!!! Tech "使用条件"
+    * 入力支援プラグインをONにしていること
+    * 送信先ポートはレジストリから取得します
+
+### バージョンの取得
+
+* 送付方式：HTTP(GET)
+
+=== "１行前に移動"
+    ```js
+        http://localhost:15520/command?target=Plugin_InputAssist&command=prev
+    ```
+=== "１行後に移動"
+    ```js
+        http://localhost:15520/command?target=Plugin_InputAssist&command=next
+    ```
+=== "カーソル行を送信"
+    ```js
+        http://localhost:15520/command?target=Plugin_InputAssist&command=send
+    ```
+=== "カーソル行を送り次の行に移動"
+    ```js
+        http://localhost:15520/command?target=Plugin_InputAssist&command=sendnext
+    ```
+
+
 ### 通信ポートの特定
 
 * 通信ポートはレジストリから取得できます

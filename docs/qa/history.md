@@ -1,4 +1,22 @@
 
+###[v1.9593](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9593.zip)
+* NEO本体
+```
+・プラグインポート一覧をヘルプ・インフォメーションに表示
+・ドキュメントを githubページに移行
+```
+* 更新通知
+```
+・更新チェックを githubページを見て行うように
+```
+* 翻訳/発話プラグイン
+```
+・通信使用状況の通知を追加（内部処理）
+```
+* わんコメプラグイン
+```
+・通信使用状況の通知を追加（内部処理）
+```
 
 ###[v1.9592](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9592.zip)
 * NEO本体

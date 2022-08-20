@@ -56,7 +56,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.tabbed:
-      alternate_style: true       
+      alternate_style: true      
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 plugins:
@@ -99,6 +102,7 @@ nav:
         - 辞書 : 'plugin/plugin_dictionary.md'
         - 正規表現 : 'plugin/plugin_regexp.md'
       - 見た目の補正:
+        - 文字変換 : 'plugin/plugin_ConvertString.md'
         - 強制整形 : 'plugin/plugin_forcestyle.md'
         - ルビ付与 : 'plugin/plugin_ruby.md'
       - 表示関連:
@@ -127,8 +131,8 @@ nav:
         - Discord BOT連携 : 'plugin/plugin_dicord.md'
         - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
         - Twitchチャット連携: 'plugin/plugin_twitch.md'
-        - Youtube Live字幕送信: 'plugin/plugin_youtube.md'
-        - Youtubeタイムコード生成 : 'plugin/plugin_youtubetimecode.md'
+        - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
+        - YouTubeタイムコード生成 : 'plugin/plugin_youtubetimecode.md'
         - ZOOM連携 : 'plugin/plugin_zoom.md'
       - つかいやすさ向上:
         - 直接入力: 'plugin/plugin_directinput.md'

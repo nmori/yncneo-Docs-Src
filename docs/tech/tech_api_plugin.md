@@ -320,7 +320,7 @@
         http://localhost:15520/command?target=Plugin_InputAssist&command=sendnext
     ```
 
-
+## 共通項目
 ### 通信ポートの特定
 
 * 通信ポートはレジストリから取得できます

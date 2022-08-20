@@ -1,4 +1,10 @@
 
+###[v1.9594](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
+* NEO本体
+```
+・デバッグの関係で内部処理を一部変更
+```
+
 ###[v1.9593](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9593.zip)
 * NEO本体
 ```

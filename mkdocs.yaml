@@ -73,10 +73,12 @@ nav:
     - 攻略手順(チートシート):
       - 最速で英語翻訳をだす : 'cs/cs_en.md'
       - OBS Studioできれいに出す: 'cs/cs_obs.md'
-      - コラボ字幕(Discord経由): 'cs/cs_colab_discord.md'
-      - コラボ字幕(UDトーク経由): 'cs/cs_colab_udtalk.md'
-      - コラボ字幕(画面共有編): 'cs/cs_colab_rd.md'
+      - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
       - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+      - コラボ字幕 :
+        - Discord経由でコラボ: 'cs/cs_colab_discord.md'
+        - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
+        - 画面共有でコラボ: 'cs/cs_colab_rd.md'
     - 設定について:
       - 標準設定項目: 'startup/startup_basic.md'      
       - オプション設定: 'startup/startup_option.md'

@@ -16,7 +16,7 @@
     ![君友ゆるし](images/yurushi.png){ align=left } 
         [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/KimitomoJurusxi)　 
         [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCfcMCHWc7DmnuLuusOZI_aw) 　
-        [:fontawesome-solid-tower-broadcast:{ .twitcasting }](https://twitcasting.tv/kimitomojurusxi/) 　
+        [:fontawesome-solid-tower-broadcast:{ .twicast }](https://twitcasting.tv/kimitomojurusxi/) 　
 
         一言コメント    
         Saluton! 趣味はエスペラント語の勉強、そのお供には勿論ゆかコネ！

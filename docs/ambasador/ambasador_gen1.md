@@ -15,7 +15,8 @@
 
 !!! Abstract "朝日ゆい"
     ![朝日ゆい](images/yui.jpg){ align=left } 
-        [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/yuiasahiv)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/AsahiYuiChannel)　
+        [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/asahi___yui)　 
+        [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/yuiasahiv) 　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/AsahiYuiChannel)　
 
         一言コメント    
         「かわいい」は世界共通なのです！
@@ -23,7 +24,7 @@
 
 !!! Abstract "猫入あこ"
     ![猫入あこ](images/aco.png){ align=left } 
-        [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Aco_Necoilie) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/aco_necoilie)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCHLZrWmAUDN7kQuFaOJvXew)　[:material-web:{ .web }](　https://aconecoaco151515.wixsite.com/aconeco)
+        [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Aco_Necoilie) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/aco_necoilie) 　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCHLZrWmAUDN7kQuFaOJvXew) 　[:material-web:{ .web }](　https://aconecoaco151515.wixsite.com/aconeco)
 
         一言コメント    
         「言語の国境を超えて、ワールドワイドなオタ活しちゃお！」

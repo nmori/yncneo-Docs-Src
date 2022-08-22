@@ -70,15 +70,18 @@ nav:
     - 概要: 'index.md'
     - ダウンロード: 'download.md'
     - できること: 'spec.md'
+    - 活用事例: 'usecase.md'
     - 攻略手順(チートシート):
       - 最速で英語翻訳をだす : 'cs/cs_en.md'
       - OBS Studioできれいに出す: 'cs/cs_obs.md'
+      - わんコメとの連動 : 'cs/cs_onecomme.md'
       - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
-      - StreamDeckで操作する : 'cs/cs_streamdeck.md'
       - コラボ字幕 :
         - Discord経由でコラボ: 'cs/cs_colab_discord.md'
         - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
         - 画面共有でコラボ: 'cs/cs_colab_rd.md'
+      - 応用編 :
+        - StreamDeckで操作する : 'cs/cs_streamdeck.md'
     - 設定について:
       - 標準設定項目: 'startup/startup_basic.md'      
       - オプション設定: 'startup/startup_option.md'
@@ -143,7 +146,8 @@ nav:
         - アップデート通知 : 'plugin/plugin_update.md'
         - ファイル出力 : 'plugin/plugin_exporter.md'
     - アンバサダープログラム:
-      - 1期生: 'ambasador/ambasador_gen1.md'
+      - 第１期メンバー: 'ambasador/ambasador_gen1.md'
+      - 第１期の活動: 'ambasador/ambasador_gen1_make.md'
     - 担当・サポータ: 'supporter/supporter.md'
     - 活用に関する補足・注意点: 'system_info.md'
     - 困ったときは:

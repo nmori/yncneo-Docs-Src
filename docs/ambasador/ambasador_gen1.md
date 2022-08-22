@@ -8,10 +8,6 @@
 
 !!! info "順不同"
 
-* わたあめ子
-* バーチャル世界の歌姫💫ローラ
-* 卯塚ウウ
-
 !!! Abstract "君友ゆるし"
     ![君友ゆるし](images/yurushi.png){ align=left } 
         [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/KimitomoJurusxi)　 
@@ -37,12 +33,14 @@
         一言コメント    
         「言語の国境を超えて、ワールドワイドなオタ活しちゃお！」
 
-
-
-* Inanaku muu
 !!! Abstract "ニコ(picNicco)"
     ![ニコ(picNicco)](images/niko.jfif){ align=left } 
         [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Fl_picc359) 　[:fontawesome-brands-twitch:{ .twitch }](https://twitch.tv/picnicco)
 
         一言コメント    
         「英語勉強中！ゲーム、料理、フルートなど、好きなこと配信してます！」
+
+* わたあめ子
+* バーチャル世界の歌姫💫ローラ
+* 卯塚ウウ
+* Inanaku muu

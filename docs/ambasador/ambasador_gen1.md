@@ -40,7 +40,34 @@
         一言コメント    
         「英語勉強中！ゲーム、料理、フルートなど、好きなこと配信してます！」
 
+!!! Abstract "Inanaku muu"
+    ![muu](images/Muu_icon.png){ align=left } 
+
+        一言コメント    
+        Howdy from Texas! テキサスから「ハウディ」！
+        TCG Vtuber ムウーちゃんです!
+
+!!! Abstract "Laura💫バーチャル世界の歌姫ローラ"
+    ![Laura](images/Laura.png){ align=left } 
+        [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Laura_Diva_VR) 　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/LauraDivaVR) 　[:material-web:{ .web }](　https://vprof.me/@/Laura_Diva_VR)
+
+
+        一言コメント    
+        ハローラ💫
+        メタバースの世界から、歌声を届けています！clusterで月３回ライブやってるよ！
+
+
+!!! Abstract "卯塚ウウ"
+    ![Laura](images/uu.png){ align=left } 
+        [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/uu_uzuka) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/uoo2525) 　[:fontawesome-brands-youtube:{ .youtube }](https://youtube.com/uooch/) 　
+        [:fontawesome-solid-tower-broadcast:{ .twicast }](https://twitcasting.tv/uu_uzuka) 　[:material-balloon:{ .booth }](https://uoochan.booth.pm/)
+
+
+        一言コメント    
+        バルーンアーティスト・マジシャン・ジャグラー・バ美肉Vtuberです！
+        ツール使うの大好きなので『ゆかりねっとコネクターアンバサダー』と
+        コメントアプリわんコメアンバサダーの『わんバサダー』を兼任しています！
+
+
 * わたあめ子
-* バーチャル世界の歌姫💫ローラ
-* 卯塚ウウ
-* Inanaku muu
+

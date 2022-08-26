@@ -13,9 +13,9 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-###[v1.9594](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
+###[v1.9595](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9595.zip)
 * NEO本体
 ```
-・デバッグの関係で内部処理を一部変更
+・通信ポートが通常想定される範囲に収まるように範囲を制限
 ```
 

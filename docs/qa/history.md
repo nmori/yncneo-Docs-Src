@@ -1,4 +1,11 @@
 
+
+###[v1.9595](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9595.zip)
+* NEO本体
+```
+・通信ポートが通常想定される範囲に収まるように範囲を制限
+```
+
 ###[v1.9594](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
 * NEO本体
 ```

@@ -118,6 +118,7 @@ nav:
       - Windows連携:
         - クリップボード連携: 'plugin/plugin_clipboard.md'
         - MIDI入力 : 'plugin/plugin_midiinput.md'
+        - ホットキー : 'plugin/plugin_hotkey.md'
       - 配信システム:
         - コメジェネ連携: 'plugin/plugin_commentgen.md'
         - 配信ソフト向けテキスト出力 : 'plugin/plugin_OBSFile.md'

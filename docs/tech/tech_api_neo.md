@@ -42,6 +42,49 @@
 
 * 成功すると ok が返ってきます。
 
+## 母国語設定の変更
+
+* 指定した言語に母国語設定を変更します
+
+!!! Tech "使用条件"
+    * ゆかりねっとコネクターNEO v2.0以上
+* 送付方式：GET
+* 送付先 : /api/setRecognitionParam
+
+|クエリ|意味|例|
+|:----|:---|:--|
+|language|言語名（ISO表記)|ja|
+
+=== "Query"
+    ``` js
+        http://localhost:15520/setRecognitionParam?language=ja
+    ```
+
+* 選択・認知可能な言語であれば変更を反映します
+
+
+## 翻訳表示設定の変更
+
+* 翻訳字幕表示設定を変更します
+
+!!! Tech "使用条件"
+    * ゆかりねっとコネクターNEO v2.0以上
+* 送付方式：GET
+* 送付先 : /api/setTranslationParam
+
+|クエリ|意味|例|
+|:----|:---|:--|
+|slot|翻訳ナンバー|1~4|
+|language|言語名（ISO表記)|ja|
+|engine|翻訳エンジン設定|`google`,`microsoft`,`deeplpro`,`deeplfree`,`amazon`,`amazon-eu`,`googletrans`,`watson`,`Papago`,`papago-app`,`share`,`gas`,`off`|
+
+=== "Query"
+    ``` js
+        http://localhost:15520/setTranslationParam?slot=1&language=en&engine=deeplpro
+    ```
+
+* 選択・認知可能な言語であれば変更を反映します
+
 ## プラグインコマンド
 
 * プラグイン特有のコマンドを送付します
@@ -72,3 +115,123 @@
 |:--|:--|:--|
 |WebSocket|DWord32|WebSocketポート番号|
 |HTTP|DWord32|HTTPポート番号|
+
+## 発話の受信(WebSocket)
+
+* 表示用のデータをJSONとして受け取れます。
+
+!!! Tech "使用条件"
+    * 特になし
+
+* 送付方式：Websocket Text
+* 送付先 :　ws://127.0.0.1:55501/ 
+* ポート番号は後述のレジストリから取得してください
+
+!!! Warning "パラメータについて"
+    * ゆかりねっとコネクター開発時から拡張してきたこともあり、中身が整理されてません。
+    * でも、いますぐ使いたいという声もあるので、触りたい方はつかってみてください
+    * リファクタリングが進んだ暁には、このフォーマットは使わなくなるかもしれません
+
+=== "Query"
+    ``` js
+        
+            {
+                "VoiceText": "12", 
+                "UpdateTranslation": false, //翻訳が更新されるとtrueになる
+                "ShowCaptionMode": 0,//途中経過を表示しない設定なら1
+                "Text1": "", //母国語(ユーザが上に表示すると指示するとこちらに入る)
+                "Text6": "", //母国語(ユーザが下に表示すると指示するとこちらに入る)
+                "Text1HTML": "",//母国語（ルビをHTML展開したもの）
+                "Text6HTML": "",//母国語（ルビをHTML展開したもの）
+                "Text1Clop": "",//母国語（ユーザが文字を切るよう指示した結果）
+                "Text6Clop": "",//母国語（ユーザが文字を切るよう指示した結果）
+                "Lang1": "", //言語名
+                "Lang2": "en",//言語名（翻訳1）
+                "Lang3": "",//言語名（翻訳2）
+                "Lang4": "",//言語名（翻訳3）
+                "Lang5": "",//言語名（翻訳4）
+                "Lang6": "",//言語名
+                "KeepTime": 3.4260476667501467, //ユーザが指示した表示を維持する時間の指示
+                "SettingUpdate": 4829,//設定の更新次数。数字がUPしたら、ユーザが何か設定をかえた
+                "LimitLine0": true,
+                "LimitLine1": false,
+                "LimitLine2": false,
+                "ShowLangName": true, // ユーザが言語名表示を指示したらtrue
+                "MsgID": "f4ad2560-11c0-494f-be04-5734bec5ea41", //文章に任意につくID
+                "isDeleted": false,//この文章が消去されているものならtrue。trueになったら表示せず消すこと
+                "InsertID": "",//前後関係を表すID。ここに指示されたIDの次に続く文章
+                "Alignment": "center",//文章の配置。left,center,right
+                "AuthorName": "nao",
+                "talkerID": "8141cf31-1685-4e88-97ce-9ae92981174b",//発話者に任意につくID
+                "talkerName": "nao",//発話者名
+                "BACKGROUND": "#00FF00FF",
+                "FOREGROUND": "#FFFFFFFF",
+                "DIVIDECOLOR": "#00FF00FF",
+                "LINECOLOR": "#00FF00FF",
+                "LINEWIDTH": 5.4123840909144327,
+                "LINEADVHEIGHT": 1.8,
+                "LINEHEIGHT": -0.5,
+                "LINESPACE": -0.1,
+                "WINDOWFRAMEHEIGHT": 181.0,
+                "LINENUM": 2.2,
+                "WSPORT": 55501,
+                "Direction1": "ltr",
+                "Direction2": "ltr",
+                "Direction3": "ltr",
+                "Direction4": "ltr",
+                "Direction5": "ltr",
+                "Direction6": "ltr",
+                "FONT1NAME": "ＭＳ ゴシック",
+                "FONT2NAME": "ＭＳ ゴシック",
+                "FONT1SIZE": 70.9823527803947,
+                "FONT2SIZE": 42.594463711823266,
+                "FONT_M1_SIZE": 70.9823527803947,
+                "FONT_M2_SIZE": 42.594463711823266,
+                "FONT_M3_SIZE": 25.478836014663941,
+                "FONT_M4_SIZE": 13.736800910932674,
+                "FONT_M5_SIZE": 10.0,
+                "FONT_M6_SIZE": 70.9823527803947,
+                "FONT_M1_NAME": "ＭＳ ゴシック",
+                "FONT_M2_NAME": "ＭＳ ゴシック",
+                "FONT_M3_NAME": "ＭＳ ゴシック",
+                "FONT_M4_NAME": "",
+                "FONT_M5_NAME": "",
+                "FONT_M6_NAME": "ＭＳ ゴシック",
+                "Alignment1": "center",
+                "Alignment2": "left",
+                "Alignment3": "left",
+                "Alignment4": "left",
+                "TextFixed": false,
+                "WINDOW_WIDTH_M": 800,
+                "WINDOW_HEIGHT_M": 400,
+                "WINDOW_LOCK_M": false,
+                "FORECOLOR_M2_L0": "#FFFFFFFF",
+                "FORECOLOR_M2_L1": "#FFFFFFFF",
+                "FORECOLOR_M2_L2": "#FFFFFFFF",
+                "FORECOLOR_M2_L3": "#FFFFFFFF",
+                "FORECOLOR_M2_L4": "#FFFFFFFF",
+                "LINECOLOR_M2_L0": "#FF2600FF",
+                "LINECOLOR_M2_L1": "#FF2600FF",
+                "LINECOLOR_M2_L2": "#FF2600FF",
+                "LINECOLOR_M2_L3": "#FF2600FF",
+                "LINECOLOR_M2_L4": "#FF2600FF",
+                "BACKCOLOR_M0": "#00FF00FF",
+                "BACKCOLOR_M1": "#00FFFFFF",
+                "BACKCOLOR_M2": "#00FF00FF",
+                "FORECOLOR_M0": "#00FF00FF",
+                "FORECOLOR_M1": "#FFFFFFFF",
+                "FORECOLOR_M2": "#FFFFFFFF",
+                "LINECOLOR_M1": "#FF2600FF",
+                "LINECOLOR_M2": "#FF2600FF",
+                "LINEWIDTH_M1": 5.4123840909144327,
+                "LINEWIDTH_M2": 5.4123840909144327,
+                "AlreadyShown": false,
+                "Neo.WebSocket": "55501",
+                "Neo.HTTP": "15520",
+                "Plugin_OCTemplateGen.Port.WebSocket": "54000",
+                "Plugin_PlayVoice.VoiceList": "[\"つくよみちゃん-れいせい/COEIROINK\",\"MANA-のーまる/COEIROINK\",\"おふとんP-のーまる/COEIROINK\",\"ディアちゃん-のーまる/COEIROINK\",\"アルマちゃん-のーまる/COEIROINK\",\"つくよみちゃん-おしとやか/COEIROINK\",\"つくよみちゃん-げんき/COEIROINK\",\"れみ♀-キュート/LMROID\"
+                ]",
+                "Plugin_TransSrv.Port.HTTP": "8080",
+                "Plugin_TransSrv.Port.WebSocket": "52000"
+        }
+    ```

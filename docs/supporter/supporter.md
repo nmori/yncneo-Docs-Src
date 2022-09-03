@@ -8,8 +8,8 @@
         ただの文字情報から「楽しめる文字情報」、そして言語を超えた交流の先にある
         「楽しい」をみんなで作っていきましょう。
 
-## 公式(公認)担当
-!!! Abstract "clea （公式ガイド）　 [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/clea_vtuber)　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/cleareysol)　"
+## 公式ガイド
+!!! Abstract "clea 　 [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/clea_vtuber)　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/cleareysol)　"
     ![clea](images/clea.png){ align=left } 
     
         一言コメント 
@@ -19,8 +19,9 @@
         たくさんの可能性を皆さんにお届けする役割として、
         様々な領域で皆さんに体験してもらい、導入のお手伝いをしています。
 
+## イラスト
 !!! Abstract "asuma"
+    ![asuma](images/asuma.png){ align=left } 
 
-    * イラストレーター
-
-## 支援者
+    * ゆかりねっとコネクターを支えるイラストレーター。
+    * ゆかりねっとコネクター内のイラスト、キャラクターデザインを担当しています。

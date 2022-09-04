@@ -3,8 +3,15 @@ theme:
   name: material
   language: ja
   separator: '[\s\-\.]+'
+  logo: images/logo.png
+  favicon: images/favicon.png
   features:
     - content.tabs.link
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.section
+    #- toc.integrate
   font:
     text: BIZ UDPGothic
   palette:
@@ -33,6 +40,9 @@ theme:
 extra:
   search:
     language: 'ja'
+  analytics:
+    provider: google
+    property: G-8VEJJC6B3D
 markdown_extensions:
   - abbr
   - tables
@@ -62,103 +72,107 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    - css/extra.css
 plugins:
   - git-revision-date-localized
   - search
   - glightbox
 nav:
-    - 概要: 'index.md'
-    - ダウンロード: 'download.md'
-    - できること: 'spec.md'
-    - 活用事例: 'usecase.md'
-    - 攻略手順(チートシート):
-      - 最速で英語翻訳をだす : 'cs/cs_en.md'
-      - OBS Studioできれいに出す: 'cs/cs_obs.md'
-      - わんコメとの連動 : 'cs/cs_onecomme.md'
-      - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
-      - コラボ字幕 :
-        - Discord経由でコラボ: 'cs/cs_colab_discord.md'
-        - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
-        - 画面共有でコラボ: 'cs/cs_colab_rd.md'
-      - 応用編 :
-        - StreamDeckで操作する : 'cs/cs_streamdeck.md'
-    - 設定について:
-      - 標準設定項目: 'startup/startup_basic.md'      
-      - オプション設定: 'startup/startup_option.md'
-      - レイアウト: 'startup/startup_layout.md'
-      - GASの設定: 'startup/startup_gas.md'
-    - 支援について:
-      - 支援の概要: 'support/support_summary.md'
-      - 支援の仕方: 'support/support_howto.md'
-      - 支援機能の有効化: 'support/support_enabled.md'    
-    - 設計思想と仕組み:
-      - 言葉の精度向上方法: 'design/talk_quality.md'
-      - プラグインの動作 : 'design/plugin_rule.md'
-    - プラグイン:  
-      - 有効化 : 'plugin/enabled.md'  
-      - 読み上げ:    
-        - 棒読みちゃん連携: 'plugin/plugin_bouyomi.md'
-        - Softalk読み上げ: 'plugin/plugin_softalk.md'
-        - 読み上げ : 'plugin/plugin_playvoice.md'
-      - サウンド:
-        - 動画再生 : 'plugin/plugin_MediaPlayer.md'      
-        - 音源再生 : 'plugin/plugin_playsound.md'
-      - 認識の修正:
-        - 辞書 : 'plugin/plugin_dictionary.md'
-        - 正規表現 : 'plugin/plugin_regexp.md'
-      - 見た目の補正:
-        - 文字変換 : 'plugin/plugin_ConvertString.md'
-        - 強制整形 : 'plugin/plugin_forcestyle.md'
-        - ルビ付与 : 'plugin/plugin_ruby.md'
-      - 表示関連:
-        - 内蔵ブラウザ: 'plugin/plugin_browser.md'
-        - 歌詞支援 : 'plugin/plugin_LyricAssist.md'
-        - フォト読み込み : 'plugin/plugin_photopickup.md'
-        - 表示拡張(スタンプ) : 'plugin/plugin_viewextend.md'
-      - Windows連携:
-        - クリップボード連携: 'plugin/plugin_clipboard.md'
-        - MIDI入力 : 'plugin/plugin_midiinput.md'
-        - ホットキー : 'plugin/plugin_hotkey.md'
-      - 配信システム:
-        - コメジェネ連携: 'plugin/plugin_commentgen.md'
-        - 配信ソフト向けテキスト出力 : 'plugin/plugin_OBSFile.md'
-        - OBS連携 WSv4 : 'plugin/plugin_OBS.md'
-        - OBS連携 WSv5 : 'plugin/plugin_OBS5.md'
-      - アプリ連携:
-        - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
-        - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
-        - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
-        - VaNiiツール連携 : 'plugin/plugin_vanii.md'
-        - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
-        - VRオーバーレイ : 'plugin/plugin_vroverlay.md'
-        - ばもきゃ連携 : 'plugin/plugin_vmc.md'
-        - MTGカード支援 : 'plugin/plugin_MTGCard.md'
-      - サイト連携:
-        - Discord BOT連携 : 'plugin/plugin_dicord.md'
-        - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
-        - Twitchチャット連携: 'plugin/plugin_twitch.md'
-        - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
-        - YouTubeタイムコード生成 : 'plugin/plugin_youtubetimecode.md'
-        - ZOOM連携 : 'plugin/plugin_zoom.md'
-      - つかいやすさ向上:
-        - 直接入力: 'plugin/plugin_directinput.md'
-        - 入力支援 : 'plugin/plugin_InputAssist.md'
-        - 起動支援 : 'plugin/plugin_startup.md'
-        - アップデート通知 : 'plugin/plugin_update.md'
-        - ファイル出力 : 'plugin/plugin_exporter.md'
-    - アンバサダープログラム:
+    - ゆかコネ▼:
+      - TOP: 'index.md'
+      - ゆかコネとは: 'about_ync.md'
+      - できること: 'spec.md'
+      - ダウンロード: 'download.md'
+      - 利用者の声: 'usecase.md'
+      - 利用規約: 'system_info.md'
+      - よくある質問 : 'qa/faq.md'
+    - ドキュメント▼:
+      - 攻略手順(チートシート):
+        - 最速で英語翻訳をだす : 'cs/cs_en.md'
+        - OBS Studioできれいに出す: 'cs/cs_obs.md'
+        - わんコメとの連動 : 'cs/cs_onecomme.md'
+        - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
+        - コラボ字幕 :
+          - Discord経由でコラボ: 'cs/cs_colab_discord.md'
+          - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
+          - 画面共有でコラボ: 'cs/cs_colab_rd.md'
+        - 応用編 :
+          - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+      - 設定について:
+        - 標準設定項目: 'startup/startup_basic.md'      
+        - オプション設定: 'startup/startup_option.md'
+        - レイアウト: 'startup/startup_layout.md'
+        - GASの設定: 'startup/startup_gas.md'
+      - 支援について:
+        - 支援の概要: 'support/support_summary.md'
+        - 支援の仕方: 'support/support_howto.md'
+        - 支援機能の有効化: 'support/support_enabled.md'    
+      - 設計思想と仕組み:
+        - 言葉の精度向上方法: 'design/talk_quality.md'
+        - プラグインの動作 : 'design/plugin_rule.md'
+      - プラグイン:  
+        - 有効化 : 'plugin/enabled.md'  
+        - 読み上げ:    
+          - 棒読みちゃん連携: 'plugin/plugin_bouyomi.md'
+          - Softalk読み上げ: 'plugin/plugin_softalk.md'
+          - 読み上げ : 'plugin/plugin_playvoice.md'
+        - サウンド:
+          - 動画再生 : 'plugin/plugin_MediaPlayer.md'      
+          - 音源再生 : 'plugin/plugin_playsound.md'
+        - 認識の修正:
+          - 辞書 : 'plugin/plugin_dictionary.md'
+          - 正規表現 : 'plugin/plugin_regexp.md'
+        - 見た目の補正:
+          - 文字変換 : 'plugin/plugin_ConvertString.md'
+          - 強制整形 : 'plugin/plugin_forcestyle.md'
+          - ルビ付与 : 'plugin/plugin_ruby.md'
+        - 表示関連:
+          - 内蔵ブラウザ: 'plugin/plugin_browser.md'
+          - 歌詞支援 : 'plugin/plugin_LyricAssist.md'
+          - フォト読み込み : 'plugin/plugin_photopickup.md'
+          - 表示拡張(スタンプ) : 'plugin/plugin_viewextend.md'
+        - Windows連携:
+          - クリップボード連携: 'plugin/plugin_clipboard.md'
+          - MIDI入力 : 'plugin/plugin_midiinput.md'
+          - ホットキー : 'plugin/plugin_hotkey.md'
+        - 配信システム:
+          - コメジェネ連携: 'plugin/plugin_commentgen.md'
+          - 配信ソフト向けテキスト出力 : 'plugin/plugin_OBSFile.md'
+          - OBS連携 WSv4 : 'plugin/plugin_OBS.md'
+          - OBS連携 WSv5 : 'plugin/plugin_OBS5.md'
+        - アプリ連携:
+          - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
+          - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
+          - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
+          - VaNiiツール連携 : 'plugin/plugin_vanii.md'
+          - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
+          - VRオーバーレイ : 'plugin/plugin_vroverlay.md'
+          - ばもきゃ連携 : 'plugin/plugin_vmc.md'
+          - MTGカード支援 : 'plugin/plugin_MTGCard.md'
+        - サイト連携:
+          - Discord BOT連携 : 'plugin/plugin_dicord.md'
+          - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
+          - Twitchチャット連携: 'plugin/plugin_twitch.md'
+          - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
+          - YouTubeタイムコード生成 : 'plugin/plugin_youtubetimecode.md'
+          - ZOOM連携 : 'plugin/plugin_zoom.md'
+        - つかいやすさ向上:
+          - 直接入力: 'plugin/plugin_directinput.md'
+          - 入力支援 : 'plugin/plugin_InputAssist.md'
+          - 起動支援 : 'plugin/plugin_startup.md'
+          - アップデート通知 : 'plugin/plugin_update.md'
+          - ファイル出力 : 'plugin/plugin_exporter.md'
+      - 技術者向け:
+        - 本体内蔵API : 'tech/tech_api_neo.md'
+        - プラグイン系API : 'tech/tech_api_plugin.md'
+        - わんコメ系API : 'tech/tech_api_plugin_oc.md'
+      - 開発履歴 : 'qa/history.md'
+    - アンバサダー▼:
       - 第１期メンバー: 'ambasador/ambasador_gen1.md'
       - 第１期の活動: 'ambasador/ambasador_gen1_make.md'
-    - 担当・サポータ: 'supporter/supporter.md'
-    - 活用に関する補足・注意点: 'system_info.md'
-    - 困ったときは:
-      - よくある質問 : 'qa/faq.md'
+    - 担当・サポータ▼: 'supporter/supporter.md'
+    - 困ったときは▼:
+      - ヘルプが欲しいとき : 'qa/before_help.md'
       - 再インストール : 'qa/reinstall.md'
       - 不具合を発見した時 : 'qa/report.md'
-      - ヘルプを頼む前に : 'qa/before_help.md'
-      - 開発履歴 : 'qa/history.md'
-    - 技術者向け:
-      - 本体内蔵API : 'tech/tech_api_neo.md'
-      - プラグイン系API : 'tech/tech_api_plugin.md'
-      - わんコメ系API : 'tech/tech_api_plugin_oc.md'
 

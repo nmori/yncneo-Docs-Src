@@ -18,7 +18,7 @@
 ```
 * NEO本体
 ```
-・外部ツール向けの[シンプルAPI](../tech/tech_api_neo.md#発話の受信websocketシンプル)を実装
+外部ツール向けの[シンプルAPI](../tech/tech_api_neo.md#発話の受信websocketシンプル)を実装
 ```
 
 ### v2.0α4 

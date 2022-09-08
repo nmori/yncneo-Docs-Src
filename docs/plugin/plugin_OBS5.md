@@ -1,6 +1,8 @@
 !!! Info "前提条件"
     * [OBS Studio v28](https://github.com/obsproject/obs-studio/releases/download/)以降を使用していること
-    * [OBS WebSocket v5](https://github.com/obsproject/obs-websocket/releases/download/)が入っていること
+    
+!!! Tip "OBS WebSocketについて"
+    * OBS Studio v28からは、デフォルトでWebSocket機能が備わっています。
 
 ## このプラグインで出来ること
 
@@ -21,7 +23,7 @@
 
 |設定|意味|
 |:--|:---|
-|通信先|字幕を送付したいOBSを指定します。<br>※ポート番号はバージョンによって``4440``・``4444``とばらつきがあるのでOBSで確認してください|
+|通信先|字幕を送付したいOBSを指定します。<br>※ポート番号はバージョンによって``4440``・``4444``・``4455``とばらつきがあるのでOBSで確認してください|
 |パスワード|パスワードを設定していれば入れます|
 |送信先|指定した文字列を超えた場合にクロップ処理をします|
 |ソース名＋…|話者毎にテキストを分ける場合に指定します|

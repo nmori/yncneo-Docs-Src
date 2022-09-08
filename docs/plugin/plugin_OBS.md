@@ -1,6 +1,10 @@
-!!! Info "前提条件"
+!!! Info "前提条件(OBS27)"
     * [OBS Studio v27](https://github.com/obsproject/obs-studio/releases/download/27.2.4/)までを使用していること
-    * [OBS WebSocket v4.9.1](https://github.com/obsproject/obs-websocket/releases/download/5.0.1/)が入っていること
+    * [OBS WebSocket v4.9.1/Qt5](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1)が入っていること
+
+!!! Info "前提条件(OBS28)"
+    * [OBS Studio v28](https://github.com/obsproject/obs-studio/releases/download/28.0.2/)を使用していること
+    * [OBS WebSocket v4.9.1/Qt6](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat)が入っていること
 
 ## このプラグインで出来ること
 

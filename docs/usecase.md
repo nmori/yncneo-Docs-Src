@@ -1,7 +1,7 @@
 ユーザさんから寄せられた活用事例をご紹介します
 
 ## 活用事例
-
+### ぱきちさん
 !!! Abstract "ぱきちさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/pakichi)"
     <iframe src="https://player.twitch.tv/?video=1580143203&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
@@ -18,6 +18,7 @@
     ワンポイント一言
     「世界中の人たちとお友達になれる魔法のツール！」
 
+### びたぁずさん
 !!! Abstract "びたぁずさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/bitterzzzzzz)"
     ![](./images/usecase_bitterz.png)
 
@@ -41,14 +42,14 @@
     外国の方とも友達ができ、徐々にフレンドの枠を広げているところです！！
     ぜひゆかコネneoの紹介枠につかっていただければと思います！
 
-
+### しゃくら / Shakuraさん
 !!! Abstract "しゃくら / Shakuraさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/channel/UCQaKE1t1qE_enMj79T418-A)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/04X2WUdv6dk?start=4908" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     ** 一言コメント **   
     　リアルタイム音声認識によるボイスロイド実況＋2か国語字幕＋わんコメ（WordParty）の合わせ技です🥳 ✨ 
 
-
+### 甘え隊さん
 !!! Abstract "甘え隊さん　 [:material-web:{ .niconico }](https://www.nicovideo.jp/user/121614426)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4UdlKYVAkcQ?start=2258" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

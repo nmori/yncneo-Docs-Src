@@ -3,7 +3,7 @@
 ## 活用事例
 
 !!! Abstract "ぱきちさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/pakichi)"
-    <iframe src="https://player.twitch.tv/?video=1580143203&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=1580143203&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **   
     配信歴５年目のかっぱの「ぱきち」です。

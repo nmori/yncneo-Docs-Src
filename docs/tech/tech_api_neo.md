@@ -16,7 +16,7 @@
 === "Query"
     ``` js
     {
-        http://localhost:15520/input?text=あいうえお
+        http://localhost:15520/api/input?text=あいうえお
     }
     ```
 
@@ -33,11 +33,11 @@
 
 === "Mute On"
     ``` js
-        http://localhost:15520/mute-on
+        http://localhost:15520/api/mute-on
     ```
 === "Mute off"
     ``` js
-        http://localhost:15520/mute-off
+        http://localhost:15520/api/mute-off
     ```
 
 * 成功すると ok が返ってきます。
@@ -57,7 +57,7 @@
 
 === "Query"
     ``` js
-        http://localhost:15520/setRecognitionParam?language=ja
+        http://localhost:15520/api/setRecognitionParam?language=ja
     ```
 
 * 選択・認知可能な言語であれば変更を反映します
@@ -80,7 +80,7 @@
 
 === "Query"
     ``` js
-        http://localhost:15520/setTranslationParam?slot=1&language=en&engine=deeplpro
+        http://localhost:15520/api/setTranslationParam?slot=1&language=en&engine=deeplpro
     ```
 
 * 選択・認知可能な言語であれば変更を反映します

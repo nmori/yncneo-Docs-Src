@@ -135,7 +135,7 @@ nav:
           - クリップボード連携: 'plugin/plugin_clipboard.md'
           - MIDI入力 : 'plugin/plugin_midiinput.md'
           - ホットキー : 'plugin/plugin_hotkey.md'
-        - 配信システム:
+        - 配信（OBS・コメント):
           - コメジェネ連携: 'plugin/plugin_commentgen.md'
           - 配信ソフト向けテキスト出力 : 'plugin/plugin_OBSFile.md'
           - OBS連携 WSv4 : 'plugin/plugin_OBS.md'
@@ -149,6 +149,7 @@ nav:
           - VRオーバーレイ : 'plugin/plugin_vroverlay.md'
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
+          - HTTPコール : 'plugin/plugin_httpcall.md'
         - サイト連携:
           - Discord BOT連携 : 'plugin/plugin_dicord.md'
           - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
@@ -163,6 +164,7 @@ nav:
           - アップデート通知 : 'plugin/plugin_update.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
       - 技術者向け:
+        - 起動オプション : 'tech/tech_option_neo.md' 
         - 本体内蔵API : 'tech/tech_api_neo.md'
         - プラグイン系API : 'tech/tech_api_plugin.md'
         - わんコメ系API : 'tech/tech_api_plugin_oc.md'
@@ -175,4 +177,5 @@ nav:
       - ヘルプが欲しいとき : 'qa/before_help.md'
       - 再インストール : 'qa/reinstall.md'
       - 不具合を発見した時 : 'qa/report.md'
+      - こんなときは : 'qa/troubleshooting.md'
 

@@ -173,9 +173,9 @@
     }
     ```
 
-* 要求時は、翻訳してほしい言語を指定します。
-* 返答時には、推定した言語と翻訳した文が来ます。
-* statusがfailureの場合は、処理に失敗しています。
+* 要求時は、発話してほしいボイスキャラクターを指定するとその音源で話そうとします。
+* statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
+* statusがsendedの場合、要求自体はだせたという意味で、発話が完了したわけではありません。
 
 ### 音声話者リスト
 
@@ -305,20 +305,87 @@
 
 === "１行前に移動"
     ```js
-        http://localhost:15520/command?target=Plugin_InputAssist&command=prev
+        http://localhost:15520/api/command?target=Plugin_InputAssist&command=prev
     ```
 === "１行後に移動"
     ```js
-        http://localhost:15520/command?target=Plugin_InputAssist&command=next
+        http://localhost:15520/api/command?target=Plugin_InputAssist&command=next
     ```
 === "カーソル行を送信"
     ```js
-        http://localhost:15520/command?target=Plugin_InputAssist&command=send
+        http://localhost:15520/api/command?target=Plugin_InputAssist&command=send
     ```
 === "カーソル行を送り次の行に移動"
     ```js
-        http://localhost:15520/command?target=Plugin_InputAssist&command=sendnext
+        http://localhost:15520/api/command?target=Plugin_InputAssist&command=sendnext
     ```
+
+## 歌詞プラグイン
+
+* ゆかりねっとコネクターNEOの文字入力を支援します
+!!! Tech "使用条件"
+    * 入力支援プラグインをONにしていること
+    * 送信先ポートはレジストリから取得します
+
+### 遠隔操作
+
+* 送付方式：HTTP(GET)
+
+=== "再生"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_LyricAssist&command=play
+    ```
+=== "一時停止"
+    ```js
+        http://localhost:15520/api/ommand?target=Plugin_LyricAssist&command=pause
+    ```
+=== "停止"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_LyricAssist&command=stop
+    ```
+=== "ファイルロード"
+    * ``sukiyuki.stl`` を読み込む場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_LyricAssist&command=load&file=d:/sukiyuki.stl
+    ```
+## OSCプラグイン
+
+* 指定したOSCメッセージを送付します。
+
+!!! Tech "使用条件"
+    * OSCプラグインをONにしていること
+    * 送信先ポートはレジストリから取得します
+    * OSCプラグイン v1.5以上で有効
+
+### OSCメッセージの遠隔発火
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``EyeClose`` を送りたい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_VRChat_OSC&command=exec&tag=EyeClose
+    ```
+
+## HTTPコールプラグイン
+
+* 指定したHTTP呼び出し(GET)を送付します。
+
+!!! Tech "使用条件"
+    * HTTPプラグインをONにしていること
+    * 送信先ポートはレジストリから取得します
+    * ゆかりねっとコネクターNEO v2.0～で有効
+
+### HTTPメッセージの遠隔発火
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``CALL`` を送りたい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_HTTPCall&command=exec&tag=CALL
+    ```
+
 
 ## 共通項目
 ### 通信ポートの特定

@@ -80,11 +80,14 @@
 !!! Tech "使用条件"
     * わんコメ仕様テンプレプラグインがONになっていること
 
+!!! Tech "通信先"
+    * わんコメ仕様プラグインのWebsocketポートに接続してください。デフォルトは ``54000`` です。
+
 * 送付方式：GET
 * 送付先 :　ws://127.0.0.1:54000/ 
 * ポート番号は後述のレジストリから取得してください
 
-=== "Query"
+=== "Response(v3)"
     ``` js
         {
             "type": "comments",
@@ -108,6 +111,41 @@
                     "url": ""
                 }
             ]
+        }
+    ```
+=== "Response(v4)"
+    ``` js
+        {
+        "type": "comments",
+        "data": {
+            "comments": [{
+            "id": "56e5b273-b216-4dfb-808d-3e4c448f115f",
+            "service": "YNC_Plugin_DirectInput",
+            "name": "#",
+            "url": "about.blank",
+            "data": {
+                "id": "56e5b273-b216-4dfb-808d-3e4c448f115f",
+                "liveId": "e68e52bd-9c36-4aee-a2f4-e76c94ab0944",
+                "userId": "e68e52bd-9c36-4aee-a2f4-e76c94ab0944",
+                "name": "なお",
+                "isOwner": false,
+                "isModerator": false,
+                "isMember": false,
+                "timestamp": 1662841943.4777987,
+                "badges": [],
+                "hasGift": false,
+                "profileImage": "http://127.0.0.1:15521/image/なお.png",
+                "originalProfileImage": "http://127.0.0.1:15521/image/なお.png",
+                "comment": "123",
+                "displayName": "なお",
+                "isFirstTime": false
+            },
+            "meta": {
+                "interval": 0
+            }
+            }],
+            "options": {}
+        }
         }
     ```
 

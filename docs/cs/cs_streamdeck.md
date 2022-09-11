@@ -44,7 +44,7 @@
 
 |URL|
 |:--|
-|http://localhost:15520/input?text=あいうえお|
+|http://localhost:15520/api/input?text=あいうえお|
 
 ## 3.翻訳１～４の翻訳をOFFに
 

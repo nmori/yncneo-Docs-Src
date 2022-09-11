@@ -337,7 +337,7 @@
     ```
 === "一時停止"
     ```js
-        http://localhost:15520/api/ommand?target=Plugin_LyricAssist&command=pause
+        http://localhost:15520/api/command?target=Plugin_LyricAssist&command=pause
     ```
 === "停止"
     ```js

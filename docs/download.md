@@ -23,7 +23,7 @@
 !!! Warning "お試し版です"
     これがある程度かたちになったら、開発版⇒安定板に進化します。
 
-### [v2.0β1](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta1.zip)
+### [v2.0β2](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta2.zip)
 
 《主な変更点》
 ```

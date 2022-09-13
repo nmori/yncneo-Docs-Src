@@ -8,18 +8,19 @@
 * 各種音声生成ソフトウェアをつかって音声認識結果を読み上げできます。
 
 ## 対応している音源
-* A.I.Voice
+* A.I.Voice (日、英、中)
 * AITalk3
 * VOICEROID ＋
 * VOICEROID2 (64bit)
 * ガイノイドトーク
 * 音街ウナトーク
 * CeVIO CS7
-* CeVIO AI
+* CeVIO AI (日、英)
 * SAPI5
 * VOICEVOX
 * COEIROINK
 * LMROID
+* SHAREVOX
 * CoeFont(Enterprise API)
 
 ##　有効化
@@ -53,10 +54,10 @@
 ## 注意点
 
 !!! Tips "負荷が上がる場合があります"
-    * VOICEOXなど、GPUを使うソフトウェアの場合、PCに負荷がかかる場合があります
+    * VOICEVOXなど、GPUを使うソフトウェアの場合、PCに負荷がかかる場合があります
 
 !!! Warning  "音声ソフトウェアがサポートする声が使えない場合があります"
-    * 起動時にVOICEOXなどへ問い合わせ通信をしているため、後からVOICEVOXを起動すると音源が表示されない場合があります。
+    * 起動時にVOICEVOXなどへ問い合わせ通信をしているため、後からVOICEVOXを起動すると音源が表示されない場合があります。
 
 !!! Success "使用中はバックグラウンドプロセスが立ち上がります"
     * 音源の制御をおこなう関係上、playengine.exe という発話管理プログラムが裏で起動します。

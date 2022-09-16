@@ -13,15 +13,15 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-### [v2.0β4](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta4.zip)
+### [v2.0β5](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta5.zip)
 
-* 辞書
+* OBS Websocket4プラグイン
 ```
-・改行対応
+・改行処理対応
 ```
-* 正規表現
+* OBS Websocket5プラグイン
 ```
-・改行対応
+・改行処理対応
 ```
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)

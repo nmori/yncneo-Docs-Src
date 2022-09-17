@@ -89,6 +89,7 @@ nav:
     - ドキュメント▼:
       - 攻略手順(チートシート):
         - 最速で英語翻訳をだす : 'cs/cs_en.md'
+        - 最速で英語翻訳（支援あり） : 'cs/cs_en_sp.md'
         - VRChatのチャットとつなぐ : 'cs/cs_vrchat.md'
         - OBS Studioできれいに出す: 'cs/cs_obs.md'
         - わんコメとの連動 : 'cs/cs_onecomme.md'

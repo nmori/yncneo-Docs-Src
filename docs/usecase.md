@@ -1,7 +1,9 @@
 ユーザさんから寄せられた活用事例をご紹介します
 
 ## 活用事例
-### ぱきちさん
+
+### 多言語翻訳
+#### ぱきちさん
 !!! Abstract "ぱきちさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/pakichi)"
     <iframe src="https://player.twitch.tv/?video=1580143203&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
@@ -18,7 +20,8 @@
     ワンポイント一言
     「世界中の人たちとお友達になれる魔法のツール！」
 
-### びたぁずさん
+### わんコメ併用
+#### びたぁずさん
 !!! Abstract "びたぁずさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/bitterzzzzzz)"
     ![](./images/usecase_bitterz.png)
 
@@ -42,17 +45,30 @@
     外国の方とも友達ができ、徐々にフレンドの枠を広げているところです！！
     ぜひゆかコネneoの紹介枠につかっていただければと思います！
 
-### しゃくら / Shakuraさん
+#### しゃくら / Shakuraさん
 !!! Abstract "しゃくら / Shakuraさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/channel/UCQaKE1t1qE_enMj79T418-A)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/04X2WUdv6dk?start=4908" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     ** 一言コメント **   
     　リアルタイム音声認識によるボイスロイド実況＋2か国語字幕＋わんコメ（WordParty）の合わせ技です🥳 ✨ 
 
-### 甘え隊さん
+### 読み上げと翻訳併用
+#### 甘え隊さん
 !!! Abstract "甘え隊さん　 [:material-web:{ .niconico }](https://www.nicovideo.jp/user/121614426)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4UdlKYVAkcQ?start=2258" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     ** 一言コメント **   
     いざという時でも喋れちゃうEdgeの音声認識や
     テキストでの綺麗な字幕出力・翻訳機能などとても助かっております！ 
+    
+### リスト表示活用
+#### むらづき/ Muradukiさん
+!!! Abstract "むらづき/ Muradukiさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/muraduki)"
+    <iframe src="https://clips.twitch.tv/embed?clip=PopularBlazingFalconCeilingCat-SFuX44lzDKA_jPZD&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **   
+    いわゆるバ美肉ゲーム実況・お絵かき実況を行っています。
+
+    翻訳字幕のリスト表示で国内視聴者・海外視聴者・編集する自分にもわかりやすい配信になったと思います。
+    
+    ちなみに、表示の更新が途切れないようにブラウザウィンドウをMicrosoft PowerToysで前面に固定しています。

@@ -99,6 +99,9 @@ nav:
           - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
           - 画面共有でコラボ: 'cs/cs_colab_rd.md'
         - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+      - システムVerUP:
+        - ゆかコネ→NEO : 'mig/mig_neo.md'
+        - NEO v1.9→v2.0 : 'mig/mig_neo_v2.md'
       - 設定について:
         - 標準設定項目: 'startup/startup_basic.md'      
         - オプション設定: 'startup/startup_option.md'

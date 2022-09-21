@@ -13,14 +13,12 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-### [v2.0β8](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta8.zip)
+### [v2.0β9](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta9.zip)
 
-* Twitch 転送プラグイン
+* NEO本体
 ```
-・送信フォーマットを選べるように
+・UDトーク通信時の応答を改善
 ```
-
-
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)
 

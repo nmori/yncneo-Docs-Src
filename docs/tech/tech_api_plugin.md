@@ -385,6 +385,24 @@
     ```js
         http://localhost:15520/api/command?target=Plugin_HTTPCall&command=exec&tag=CALL
     ```
+## clusterウェブトリガープラグイン
+
+* 指定したHTTP呼び出し(GET)を送付します。
+
+!!! Tech "使用条件"
+    * clusterウェブトリガープラグインをONにしていること
+    * 送信先ポートはレジストリから取得します
+    * ゆかりねっとコネクターNEO v2.0～で有効
+
+### ウェブトリガーの遠隔発火
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``Trig1`` を発火したい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_ClusterTrigger&command=exec&tag=Trig1
+    ```
 
 
 ## 共通項目

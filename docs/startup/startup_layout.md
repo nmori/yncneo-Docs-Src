@@ -43,7 +43,7 @@
 * 保持時間の設定で枠や文字の動作が変わります。
 * 保持時間を最大化すると、消去動作をしなくなります。
 
-# わんコメ連携
+## わんコメ連携
 
 * わんコメと連携させることで、わんコメが提供しているレイアウトをつかったエンタテインメント字幕を演出することが可能です。
 
@@ -53,49 +53,49 @@
 
 * 使うためには若干の設定が必要です。[設定方法](../plugin/plugin_OCTemplateGen.md#使い方)を参照してください。
 
-## audience
+### audience
 ![トーク](images/startup_layout_p01.png)
 
-## BASIC
+### BASIC
 ![トーク](images/startup_layout_p02.png)
 
-## cheer
+### cheer
 ![トーク](images/startup_layout_p03.png)
 
-## cool-pop
+### cool-pop
 ![トーク](images/startup_layout_p04.png)
 
-## flipboard
+### flipboard
 ![トーク](images/startup_layout_p05.png)
 
-## jugon
+### jugon
 ![トーク](images/startup_layout_p06.png)
 
-## ktx-quick-starter
+### ktx-quick-starter
 ![トーク](images/startup_layout_p07.png)
 
-## line / line-right
+### line / line-right
 ![トーク](images/startup_layout_p08.png)
 
-## neon
+### neon
 ![トーク](images/startup_layout_p09.png)
 
-## newsticker
+### newsticker
 ![トーク](images/startup_layout_p10.png)
 
-## persona / persona-right
+### persona / persona-right
 ![トーク](images/startup_layout_p11.png)
 
-## newsticker
+### newsticker
 ![トーク](images/startup_layout_p12.png)
 
-## slim
+### slim
 ![トーク](images/startup_layout_p13.png)
 
-## vertical
+### vertical
 ![トーク](images/startup_layout_p14.png)
 
-## yurucamp / yurucamp-right
+### yurucamp / yurucamp-right
 ![トーク](images/startup_layout_p15.png)
 
 

@@ -13,16 +13,7 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-### [v2.0β13](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta13.zip)
-
-* NEO本体
-```
-・GUI翻訳結果の追加(英語、中国語)
-```
-* 読み上げ
-```
-・過去バージョンの処理が残っていて発話に失敗する問題の修正
-```
+### [v2.0β14](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta14.zip)
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)
 

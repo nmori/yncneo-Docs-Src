@@ -32,6 +32,8 @@
     |設定ファイル(v1)|マイドキュメント\YukarinetteConnector|
     |設定ファイル(v2)|%APPDATA%\YukarinetteConnector|
 
+    * 設定を消したくない場合は設定ファイルフォルダは消さないください。
+
 ## 4. 再インストールする
 
 * [ダウンロード画面](../download.md)からダウンロードして導入しなおします。

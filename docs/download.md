@@ -13,7 +13,7 @@
 !!! Warning "これは開発版です"
     改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。ニーズに応じてご利用ください
 
-### [v2.0β15](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta15.zip)
+### [v2.0β16](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta16.zip)
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)
 

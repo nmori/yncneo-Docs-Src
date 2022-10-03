@@ -135,6 +135,7 @@ nav:
           - 歌詞支援 : 'plugin/plugin_LyricAssist.md'
           - フォト読み込み : 'plugin/plugin_photopickup.md'
           - 表示拡張(スタンプ) : 'plugin/plugin_viewextend.md'
+          - 遅延 : 'plugin/plugin_delay.md'
         - Windows連携:
           - クリップボード連携: 'plugin/plugin_clipboard.md'
           - MIDI入力 : 'plugin/plugin_midiinput.md'

@@ -12,7 +12,7 @@
 |項目|可否|補足|
 |:--|:---|:---|
 |多言語翻訳|〇|母国語＋４か国語まで|
-|翻訳エンジン|状況による|●Microsoft翻訳エンジン<br>●Google翻訳エンジン<br>●DeepL Pro翻訳エンジン<br>●Amazon翻訳エンジン<br>●IBM 翻訳エンジン<br>●NAVER Papago翻訳エンジン<br>●Google翻訳ライブラリ<br>●共用翻訳サーバ(lexcon）<br>●[Google Apps Script翻訳](startup/startup_gas.md)|
+|翻訳エンジン|状況による|●Microsoft翻訳エンジン<br>●Google翻訳エンジン<br>●DeepL Pro翻訳エンジン<br>●Amazon翻訳エンジン<br>●IBM 翻訳エンジン<br>●NAVER Papago翻訳エンジン<br>●共用翻訳サーバ(lexcon）<br>●[Google Apps Script翻訳](startup/startup_gas.md)|
 |音声認識|〇| ●[UDトーク](https://udtalk.jp/)<br>●ブラウザ音声認識<br>●ブラウザ音声認識(ガムベックさん開発)<br>●オフライン音声認識ライブラリ|
 |ゆかりねっと連携|〇|●ゆかりねっとプラグイン併用モード<br>●ブラウザエミュレート|
 |OBS連携|〇| OBS Studio用 WebSocket v4/v5対応|

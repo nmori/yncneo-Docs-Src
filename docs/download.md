@@ -18,7 +18,7 @@
     * バージョン1 とバージョン2 は仕組みが大きく異なるので上書きインストールで混ぜないでください。
     * 変更が大きい場合は上書きインストールすると不整合が起きる場合があります。その場合は一度消してから導入してください。
 
-### [v2.0β17](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta17.zip)
+### [v2.0β18](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta18.zip)
 
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)

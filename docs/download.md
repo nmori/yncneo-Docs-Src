@@ -3,7 +3,7 @@
     * 更新は、配信直前などを避けて、再調整などができる「ゆとりのある時」に実施してください。
     * うまくいかない場合は[再インストール](qa/reinstall.md)をお試しください。
 
-### [v1.9594](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
+### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
 
 * NEO本体
 ```
@@ -18,7 +18,7 @@
     * バージョン1 とバージョン2 は仕組みが大きく異なるので上書きインストールで混ぜないでください。
     * 変更が大きい場合は上書きインストールすると不整合が起きる場合があります。その場合は一度消してから導入してください。
 
-### [v2.0β18](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta18.zip)
+### v2.0β18：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta18.zip)
 
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)

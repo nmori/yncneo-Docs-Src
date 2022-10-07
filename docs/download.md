@@ -20,7 +20,7 @@
     * インストール先として「ゆかりねっと」のフォルダを選ばないようにしてください。ゆかりねっとが干渉で起動しなくなります。別フォルダにすることで問題なく動きます。
 
 !!! Info  "原因調査含めた最新版"
-### v2.0β23：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta23.zip)
+### v2.0β24：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0beta24.zip)
 
 !!! Info  "現行落ち着いているとレポートのあるもの"
 ### v2.0β14：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta14.zip)

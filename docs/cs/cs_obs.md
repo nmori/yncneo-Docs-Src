@@ -12,11 +12,14 @@
 
 ## 1.OBS StudioのWebSocket設定を有効にする
 
+!!! Info "OBS Websocket5はOBS標準装備になりました"
+    * 個別にインストールする必要はありません。
+
 ![プラグインメニュー](images/cs_obs_p1.png)
 
 * OBSのツールメニューから、WebSocketのメニューを開きます。
 
-![プラグインメニュー](images/cs_obs_p2.png)
+![プラグインメニュー](../plugin/images/plugin_obs5_p2.png)
 
 * OBS WebSocketを有効にしてください。
 * パスワードも必要に応じて設定します。（設定値は後ほど必要なので覚えておいて下さい）
@@ -35,14 +38,13 @@
 
 ## 3.ゆかりねっとコネクターNEOのプラグインを有効にする
 
-![プラグインメニュー](../plugin/images/plugin_obs_p1.png)
+![プラグインメニュー](../plugin/images/plugin_obs5_p1.png)
 
 * プラグインのチェックを打って、有効にしてください。
 * 有効にすべきプラグインは、OBSのバージョンによって異なります。
 
 |OBS Studioのバージョン|有効にすべきプラグイン|
 |:--------------------|:-------------------|
-|～ v27               | WebSocket4         |
 |v28 ～               | WebSokcet5         |
 
 ## 4.接続の設定をする

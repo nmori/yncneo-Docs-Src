@@ -154,9 +154,10 @@ nav:
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
-        - サイト連携:
+        - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
           - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
+          - NeosVR 連携: 'plugin/plugin_neosvr.md'
           - Discord BOT連携 : 'plugin/plugin_dicord.md'
           - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
           - Twitchチャット連携: 'plugin/plugin_twitch.md'

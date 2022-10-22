@@ -19,11 +19,8 @@
     * 変更が大きい場合は上書きインストールすると不整合が起きる場合があります。その場合は一度消してから導入してください。
     * インストール先として「ゆかりねっと」のフォルダを選ばないようにしてください。ゆかりねっとが干渉で起動しなくなります。別フォルダにすることで問題なく動きます。
 
-### v2.0 RC8(リリース候補8)：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0RC8.zip)
-!!! Info  "コミュニティレポートに基づく最新版"
-
-### v2.0β14：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/09/YNCneo_v2.0beta14.zip)
-!!! Info  "現行落ち着いているとレポートのあるもの"
+### v2.0 RC9(リリース候補9)：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0RC9.zip)
+!!! Info  "コミュニティレポートに基づくリリース前の最新版"
 
 《v2.0 主な変更点》詳細は[こちら](qa/history.md)
 

@@ -403,7 +403,23 @@
     ```js
         http://localhost:15520/api/command?target=Plugin_ClusterTrigger&command=exec&tag=Trig1
     ```
+## NeosVRプラグイン
 
+* NeosVRと通信してトリガーをかけることができます。
+
+!!! Tech "使用条件"
+    * NeosVRプラグインをONにしていること
+    * ゆかりねっとコネクターNEO v2.0～で有効
+
+### NeosVRメッセージの遠隔発火
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``CALL`` を送りたい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_NeosVR&command=exec&tag=CALL
+    ```
 
 ## 共通項目
 ### 通信ポートの特定

@@ -3,12 +3,8 @@
     * 更新は、配信直前などを避けて、再調整などができる「ゆとりのある時」に実施してください。
     * うまくいかない場合は[再インストール](qa/reinstall.md)をお試しください。
 
-### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
+### v2.0.0：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v2.0.0.zip)
 
-* NEO本体
-```
-・デバッグの関係で内部処理を一部変更
-```
 
 ## 開発版
 !!! Warning "これは開発版です"
@@ -22,20 +18,7 @@
 ### v2.0 RC13(リリース候補13)：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0RC13.zip)
 !!! Info  "コミュニティレポートに基づくリリース前の最新版"
 
-《v2.0 主な変更点》詳細は[こちら](qa/history.md)
+## 旧バージョン（バージョン１系統）
 
-```
-・変更がおおいので、新規インストールをお試しください
-・不具合レポートはDiscordで受け付けています
-```
+### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
 
-* レイアウトのレベルアップ、縁取り
-* わんコメ v4.0に向けた対応
-* APIのレベルアップ
-* プラグイン追加(ホットキー）
-* VRChat向けOSCのレベルアップ
-* OBS Websocket5への対応
-* 発話エンジンSHAREVOXへの対応およびリモート発話の対応
-* 言語推定のレベルアップ
-* プラグイン内の動作修正
-* 新プラグインの追加

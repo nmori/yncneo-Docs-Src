@@ -10,7 +10,7 @@
 
 !!! Info  "ゆかりねっとコネクターNEO v2.0は、わんコメv4.0に対応しています"
 
-### v2.0.1：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0.1.zip)
+### v2.0.2：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/10/YNCneo_v2.0.2.zip)
 
 
 

@@ -73,6 +73,8 @@ New Application を押して、登録しましょう。
 
 ![Discord](images/cs_colab_discord_p11.png)
 
+![Discord](images/cs_colab_discord_p11-2.png)
+
 * 値を入手したら、プラグインに設定します。
 
 ![Discord](images/cs_colab_discord_p12.png)

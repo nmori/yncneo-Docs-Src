@@ -437,7 +437,7 @@
         http://localhost:15520/api/command?target=Plugin_PlayVoice&command=stop
     ```
 
-### 発話パラメータの停止
+### 発話パラメータの設定
 
 * 送付方式：HTTP(GET)
 

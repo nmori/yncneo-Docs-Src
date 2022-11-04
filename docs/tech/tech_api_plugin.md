@@ -421,6 +421,45 @@
         http://localhost:15520/api/command?target=Plugin_NeosVR&command=exec&tag=CALL
     ```
 
+
+## 翻訳・発話サーバ
+
+* ゆかりねっとコネクターNEOを通して読み上げ設定のコントロールをサポートします。
+!!! Tech "使用条件"
+    * プラグイン v2.3以上
+
+### 発話の停止
+
+* 送付方式：HTTP(GET)
+
+=== "停止指示"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=stop
+    ```
+
+### 発話パラメータの停止
+
+* 送付方式：HTTP(GET)
+
+=== "停止パラメータ"
+
+|パラメータ|値    |例          |
+|---------|------|------------|
+|engine   |エンジン名|さとうささら/CeVIO_64|
+|pitch    |高さ    | 1.0 |
+|accent   |抑揚    | 1.0 |
+|speed   |速度    | 1.0 |
+|volume   | 音量  | 1.0 |
+|quality   |声質    | 1.0 |
+
+* engineに指定する文字の区切り文字 ``/`` は、``%2F`` に置き換えてください
+
+=== "停止指示"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=set&engine=さとうささら%2FCeVIO_64
+    ```
+
+
 ## 共通項目
 ### 通信ポートの特定
 

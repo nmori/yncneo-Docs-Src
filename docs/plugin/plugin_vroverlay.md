@@ -10,7 +10,7 @@
 
 ##　有効化
 
-![VRChat](images/plugin_vmc_p1.png)
+![VRChat](images/plugin_vroverlay_p1.png)
 
 * プラグインを使うチェックをONにしてください。
 

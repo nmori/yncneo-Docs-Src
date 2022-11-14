@@ -154,6 +154,7 @@ nav:
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
+          - Vtube Studio連携 : 'plugin/plugin_VtubeStudio.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
           - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
@@ -162,7 +163,7 @@ nav:
           - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
           - Twitchチャット連携: 'plugin/plugin_twitch.md'
           - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
-          - YouTubeタイムコード生成 : 'plugin/plugin_youtubetimecode.md'
+          - YouTube タイムコード生成 : 'plugin/plugin_youtubetimecode.md'
           - ZOOM連携 : 'plugin/plugin_zoom.md'
         - つかいやすさ向上:
           - 直接入力: 'plugin/plugin_directinput.md'

@@ -420,6 +420,24 @@
     ```js
         http://localhost:15520/api/command?target=Plugin_NeosVR&command=exec&tag=CALL
     ```
+    ```
+## VTuberStudio プラグイン
+
+* VTuberStudioと通信してトリガーをかけることができます。
+
+!!! Tech "使用条件"
+    * VTuberStudioプラグインをONにしていること
+    * ゆかりねっとコネクターNEO v2.0.17～で有効
+
+### VTuberStudioキーバインドアクションの遠隔発火
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``CALL`` を送りたい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_VtuberStudio&command=exec&tag=CALL
+    ```
 
 
 ## 翻訳・発話サーバ

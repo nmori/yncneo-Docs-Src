@@ -68,6 +68,7 @@
 |バーチャルキャスト連携                    |A     |
 |表示拡張（スタンプ）                      |B     |
 |ばもきゃ連携(VMC)                         |A     |
+|NeosVR 連携                             |A     |
 |VRChat向けOSC                             |A     |
 |VR オーバーレイ                           |S     |
 |Vroid Studio 連携                         |S     |

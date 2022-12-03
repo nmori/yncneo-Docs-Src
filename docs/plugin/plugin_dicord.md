@@ -40,3 +40,7 @@
 
 ## 具体的な使い方
 * [実践的なチートシート](../cs/cs_colab_discord.md) をなぞらえてみてください
+
+## 特筆する注意点
+* BOTの設定では、必ずContents Intent の権限付与をしてください。この設定をしないと、テキストを受信できないことがあります。
+![設定](images/plugin_discord_p3.png) 

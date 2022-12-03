@@ -83,9 +83,9 @@ New Application を押して、登録しましょう。
 
 ![Discord](images/cs_colab_discord_p13.png)
 
-！！！　Warn "この設定をしないとテキストが受信できません"
-    BOTがメッセージを受信できる権限を設定する必要があります。この項目をONにしておいてください。
-    ![Discord](images/cs_colab_discord_p11-2.png)
+!!! Warning "この設定をしないとテキストが受信できません"
+    BOTがメッセージを受信できるように、読み取り権限を設定する必要があります。この項目をONにしておいてください。
+    ![Discord](images/cs_colab_discord_p11-3.png)
 
 
 ### 9.Discord接続認証を行う

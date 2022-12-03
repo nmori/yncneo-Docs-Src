@@ -155,6 +155,7 @@ nav:
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
+          - GPT3プロンプト : 'plugin/plugin_GPT3.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
           - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'

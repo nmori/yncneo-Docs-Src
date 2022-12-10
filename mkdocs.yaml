@@ -1,7 +1,10 @@
 site_name: ゆかりねっとコネクターNEO
+site_description: 音声認識型多言語翻訳字幕ツール「ゆかりねっとコネクターNEO」のドキュメントページです
+site_author: nao
 theme:
   name: material
   language: ja
+  locale: ja
   separator: '[\s\-\.]+'
   logo: images/logo.png
   favicon: images/favicon.png
@@ -77,6 +80,12 @@ plugins:
   - git-revision-date-localized
   - search
   - glightbox
+  - meta-descriptions:
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
 nav:
     - ゆかコネ▼:
       - TOP: 'index.md'

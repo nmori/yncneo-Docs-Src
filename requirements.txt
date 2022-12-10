@@ -32,3 +32,4 @@ mkdocs-git-revision-date-localized-plugin
 fontawesome_markdown
 pymdown-extensions
 mkdocs-glightbox
+mkdocs-meta-descriptions-plugin

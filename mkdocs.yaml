@@ -132,9 +132,10 @@ nav:
         - サウンド:
           - 動画再生 : 'plugin/plugin_MediaPlayer.md'      
           - 音源再生 : 'plugin/plugin_playsound.md'
-        - 認識の修正:
+        - 認識の修正や変換:
           - 辞書 : 'plugin/plugin_dictionary.md'
           - 正規表現 : 'plugin/plugin_regexp.md'
+          - ノムリッシュ変換 : 'plugin/plugin_nomlish.md'
         - 見た目の補正:
           - 文字変換 : 'plugin/plugin_ConvertString.md'
           - 強制整形 : 'plugin/plugin_forcestyle.md'

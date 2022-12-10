@@ -11,13 +11,13 @@
 
 ##　有効化
 
-![置換](images/plugin_ｎｏｍｌｉｓｈ_p1.png)
+![置換](images/plugin_nomlish_p1.png)
 
 * プラグインを使うチェックをONにしてください。
 
 ## 設定
 
-![辞書](images/plugin_ｎｏｍｌｉｓｈ_p2.png)
+![辞書](images/plugin_nomlish_p2.png)
 
 |設定|意味|
 |:--|:---|

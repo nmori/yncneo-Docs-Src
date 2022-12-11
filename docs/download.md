@@ -21,7 +21,7 @@
 
 !!! Info "VRChat連携、ITVOICE連携、ノムリッシュ変換したい方はこちらをお使いください"
 
-### v2.0.34：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.34.zip)
+### v2.0.35：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.35.zip)
 
 !!! warn  "コミュニティにレポートがあった問題に最速対応したバージョンです"
 

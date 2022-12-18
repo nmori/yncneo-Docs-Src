@@ -6,7 +6,7 @@
 ## 自動で初期化する場合
 
 !!! Info "ツールをダウンロード"
-    * 初期化ツールはこちらから落とします⇒[ダウンロード](hhttps://machanbazaar.com/wp-content/uploads/2022/11/YNCNeo_ManualUninstall.zip)
+    * 初期化ツールはこちらから落とします⇒[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/11/YNCNeo_ManualUninstall.zip)
 
 ### 1. ツールでファイルを消します
 

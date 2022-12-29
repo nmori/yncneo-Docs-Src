@@ -7,13 +7,11 @@
 
 ## 安定版
 
-### v2.0.19：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/11/YNCneo_v2.0.19.zip)
+### v2.0.47：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.47.zip)
 
 ## 開発版
 
-!!! Info "VRChat連携、ITVOICE連携、ノムリッシュ変換したい方はこちらをお使いください"
-
-### v2.0.46：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.46.zip)
+### v2.0.48：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.48.zip)
 
 ## 旧バージョン（バージョン１系統）
 

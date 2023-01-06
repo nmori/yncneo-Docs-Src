@@ -11,7 +11,7 @@
 
 ## 開発版
 
-### v2.0.48：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.48.zip)
+### v2.0.50：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.50.zip)
 
 ## 旧バージョン（バージョン１系統）
 

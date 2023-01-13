@@ -7,7 +7,7 @@
 
 ## 安定版
 
-### v2.0.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/12/YNCneo_v2.0.57.zip)
+### v2.0.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.57.zip)
 * GPT3
 ```
 ・エラーログの整備

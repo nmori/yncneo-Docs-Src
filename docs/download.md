@@ -15,15 +15,18 @@
 
 ## 開発版
 
-### v2.0.59：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.59.zip)
+### v2.0.60：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
 
 * 読み上げプラグイン
 ```
-・ガイノイドトーク連携修正(32bit)
-・VOICEPEAK：v1.2対応
-・VOICEPEAK：キャラクター音声対応
-・VOICEPEAK：声色表現　仮対応
-・VOICEPEAK：再生失敗時デッドロックする件の修正
+* NEO本体
+```
+・テンプレートの計算バグ修正
+・再起動時にエンジン設定が消えるケースの修正
+```
+* 読み上げプラグイン
+```
+・VOICEPEAK：デフォルト設定が発話出来ない問題の修正
 ```
 
 ## 旧バージョン（バージョン１系統）

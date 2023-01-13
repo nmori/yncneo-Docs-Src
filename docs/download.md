@@ -17,8 +17,6 @@
 
 ### v2.0.60：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
 
-* 読み上げプラグイン
-```
 * NEO本体
 ```
 ・テンプレートの計算バグ修正

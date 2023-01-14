@@ -7,24 +7,27 @@
 
 ## 安定版
 
-### v2.0.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.57.zip)
-* GPT3
-```
-・エラーログの整備
-```
-
-## 開発版
-
-### v2.0.60：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
+### v2.0.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
 
 * NEO本体
 ```
-・テンプレートの計算バグ修正
+・テンプレートの計算バグ修正(文字が非表示状態になるバグ修正)
 ・再起動時にエンジン設定が消えるケースの修正
 ```
 * 読み上げプラグイン
 ```
 ・VOICEPEAK：デフォルト設定が発話出来ない問題の修正
+```
+
+
+## 開発版
+
+### v2.0.61：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.61.zip)
+
+```
+* 読み上げプラグイン
+```
+・読み上げ工程削減による速度UP
 ```
 
 ## 旧バージョン（バージョン１系統）

@@ -22,12 +22,11 @@
 
 ## 開発版
 
-### v2.0.61：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.61.zip)
+### v2.0.62：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.62.zip)
 
-```
 * 読み上げプラグイン
 ```
-・読み上げ工程削減による速度UP
+・VOICEPEAKの音源追加と、加工に伴って消えた音源の復活
 ```
 
 ## 旧バージョン（バージョン１系統）

@@ -7,7 +7,7 @@
 
 ## 安定版
 
-### v2.0.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
+### v2.0.60：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.60.zip)
 
 * NEO本体
 ```

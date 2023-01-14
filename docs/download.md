@@ -22,11 +22,15 @@
 
 ## 開発版
 
-### v2.0.62：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.62.zip)
+### v2.0.63：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.63.zip)
 
+* NEO本体
+```
+・メニューの中にドキュメントなどへのリンクを追加
+```
 * 読み上げプラグイン
 ```
-・VOICEPEAKの音源追加と、加工に伴って消えた音源の復活
+・VOICEVOXの再生ができなくなったというレポートのため差し戻し
 ```
 
 ## 旧バージョン（バージョン１系統）

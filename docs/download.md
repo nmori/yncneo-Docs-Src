@@ -22,15 +22,15 @@
 
 ## 開発版
 
-### v2.0.66：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.66.zip)
+### v2.0.69：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.69.zip)
 
 * NEO本体
 ```
-・Webポートを全IPに開放するモードを追加
+・スクロール調整の追加
 ```
-* 読み上げプラグイン
+* テンプレート追加
 ```
-・VOICEPEAK　彩澄しゅおの感情パラメータ修正
+・コンベア
 ```
 
 

@@ -22,17 +22,16 @@
 
 ## 開発版
 
-### v2.0.69：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.69.zip)
+### v2.0.70：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.70.zip)
 
 * NEO本体
 ```
-・スクロール調整の追加
+・フレーム線種調整を追加
 ```
-* テンプレート追加
+* テンプレート修正
 ```
-・コンベア
+・レイアウト文字位置ずれ調整
 ```
-
 
 ## 旧バージョン（バージョン１系統）
 

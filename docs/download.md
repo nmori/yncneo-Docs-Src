@@ -17,17 +17,12 @@
 
 ## 開発版
 
-### v2.0.70：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.70.zip)
+### v2.0.71：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.71.zip)
 
-* NEO本体
+* OBS-Websocket5
 ```
-・フレーム線種調整を追加
+・通信リトライが重なるとフリーズしたり再接続が多発する問題の修正
 ```
-* テンプレート修正
-```
-・レイアウト文字位置ずれ調整
-```
-
 ## 旧バージョン（バージョン１系統）
 
 !!! Warning "導入に関する注意"

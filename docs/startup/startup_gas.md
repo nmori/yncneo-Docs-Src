@@ -69,9 +69,14 @@
 
 ### 2. アドレスの設定をする
 
-![GASオプション](images/plugin_gas_p1.png)
+* ゆかりねっとコネクターNEOのオプションをひらきます。
+　　　![新しいプロジェクト](images/plugin_gas_p11.png)
 
 * ゆかりねっとコネクターNEOのオプション枠にあるURL欄にURLをいれます。
+
+![GASオプション](images/plugin_gas_p1.png)
+
+
 * 末尾の```/exec```は消してください。
 
 ### 3. 翻訳を使う設定

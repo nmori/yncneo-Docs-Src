@@ -17,6 +17,12 @@
 
 ## 開発版
 
+！！！ Tech "早期適用をしたい方はこちらをどうぞ"
+    * OBS　WebSocket5 通信 フリーズ対策
+    *　コンベアテロップの未スクロールバグ修正
+    * 音声発話の言語別設定
+    * API 拡張への早期アクセス
+
 ### v2.0.74：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.74.zip)
 
 * レイアウト

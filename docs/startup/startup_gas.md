@@ -73,11 +73,9 @@
 　　　![新しいプロジェクト](images/plugin_gas_p11.png)
 
 * ゆかりねっとコネクターNEOのオプション枠にあるURL欄にURLをいれます。
-
-![GASオプション](images/plugin_gas_p1.png)
-
-
-* 末尾の```/exec```は消してください。
+  ![GASオプション](images/plugin_gas_p1.png)
+  * 末尾の```/exec```は消してください。
+  * 設定が終わったら、OKでオプション画面を閉じます。
 
 ### 3. 翻訳を使う設定
 

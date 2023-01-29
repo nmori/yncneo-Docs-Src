@@ -3,7 +3,10 @@
 !!! Info "内容について"
     この内容はサービス改良の中で予告なく改定されることがあります
 
+
 ## 翻訳・発話サーバ
+
+* ゆかりねっとコネクターNEOを通して読み上げ設定のコントロールをサポートします。
 
 * ゆかりねっとコネクターNEOを通して翻訳と読み上げをサポートします。
 !!! Tech "使用条件"
@@ -11,7 +14,59 @@
     * 翻訳１の翻訳エンジンを選定していること（これが使われます）
     * 送信先ポートはレジストリから取得します
 
-### 翻訳（１言語）
+!!! Tech "使用条件"
+    * プラグイン v2.3以上
+
+### HTTP経由
+#### 発話の停止
+
+* 送付方式：HTTP(GET)
+
+=== "停止指示"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=stop
+    ```
+
+#### 発話パラメータの設定
+
+* 送付方式：HTTP(GET)
+
+=== "停止パラメータ"
+
+|パラメータ|値    |例          |
+|---------|------|------------|
+|engine   |エンジン名|さとうささら/CeVIO_64|
+|pitch    |高さ    | 1.0 |
+|accent   |抑揚    | 1.0 |
+|speed   |速度    | 1.0 |
+|volume   | 音量  | 1.0 |
+|quality   |声質    | 1.0 |
+
+* engineに指定する文字の区切り文字 ``/`` は、``%2F`` に置き換えてください
+
+=== "停止指示"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=set&engine=さとうささら%2FCeVIO_64
+    ```
+
+
+### 共通項目
+#### 通信ポートの特定
+
+* 通信ポートはレジストリから取得できます
+
+!!! Tech "使用条件"
+    * ポートを開放したときに更新されます
+
+* レジストリ位置：HKCU\Software\YukarinetteConnectorNeo\TransServer
+
+|名前|型|意味|
+|:--|:--|:--|
+|WebSocket|DWord32|WebSocketポート番号|
+|HTTP|DWord32|HTTPポート番号|
+
+### プラグイン通信
+#### 翻訳（１言語）
 
 * 翻訳/発話連携サーバプラグインが開いているHTTPサーバもしくはWebSocketサーバに下記のリクエストを送付してください。
 * 送付方式：HTTPの場合はPOST、WSの場合はテキスト
@@ -53,7 +108,7 @@
 * 返答時には、推定した言語と翻訳した文が来ます。
 * statusがfailureの場合は、処理に失敗しています。
 
-### 翻訳（複数言語）
+#### 翻訳（複数言語）
 
 !!! Tips "対応プラグインバージョン: v1.4以上"
 
@@ -137,11 +192,16 @@
 * 返答時には、推定した言語と翻訳した文が来ます。
 * statusがfailureの場合は、処理に失敗しています。
 
-### 読み上げ
+#### 読み上げ
 
 * 翻訳/発話連携サーバプラグインが開いているHTTPサーバもしくはWebSocketサーバに下記のリクエストを送付してください。
 * 送付方式：HTTPの場合はPOST、WSの場合はテキスト
-=== "Request"
+
+!!! info "パラメータ拡張"
+    * v2.0.73よりパラメータが追加されました。(volume)
+    * volumeは発話音量の設定です。（`float`型、単位は`倍`。有効指定範囲 `0.2～2`　）
+
+=== "Request(Standard)"
     ```js
     {
         operation: 'speech',
@@ -150,6 +210,20 @@
                 id: '0000-0000-0000-0000',
                 text: 'こんにちは',
                 talker: 'ずんだもん/VOICEVOX'
+            }
+        ]
+    }
+    ```
+=== "Request(Extend)"
+    ```js
+    {
+        operation: 'speech',
+        params: [
+            {
+                id: '0000-0000-0000-0000',
+                text: 'こんにちは',
+                talker: 'ずんだもん/VOICEVOX',
+                volume: 1.0
             }
         ]
     }
@@ -177,7 +251,7 @@
 * statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
 * statusがsendedの場合、要求自体はだせたという意味で、発話が完了したわけではありません。
 
-### 音声話者リスト
+#### 音声話者リスト
 
 * 送付方式：HTTPの場合はPOST、WSの場合はテキスト
 === "Request"
@@ -213,7 +287,7 @@
     }
     ```
 
-### 発話の強制停止
+#### 発話の強制停止
 
 * 送付方式：HTTPの場合はPOST、WSの場合はテキスト
 * キューをクリアするため、現在発話動作に入っているものは読み上げします。
@@ -247,7 +321,7 @@
     ```
 
 
-### バージョンの取得
+#### バージョンの取得
 
 !!! Tips "対応プラグインバージョン: v1.4a以上"
 
@@ -291,6 +365,60 @@
 |System|String|NEO本体のバージョン|
 |Plugin|String|翻訳/発話連携サーバプラグイン|
 
+#### OSCの送信
+
+* 翻訳/発話連携サーバプラグインが開いているHTTPサーバもしくはWebSocketサーバに下記のリクエストを送付してください。
+* 送付方式：HTTPの場合はPOST、WSの場合はテキスト
+* 対応バージョン：v2.0.73～
+
+=== "Request"
+    ```js
+    {
+        operation: 'osc',
+        params: [
+            {
+                address: '/comment/text',
+                id: '0000-0000-0000-0000',
+                text: 'こんにちは',
+                target : [
+                    'vrchat',
+                    'virtualcast',
+                    'unity',
+                    'neosvr'
+                ]
+            }
+        ]
+    }
+    ```
+=== "Response(OK)"
+    ```js
+    {
+        operation: 'osc',
+        status: 'sended'
+        id: '0000-0000-0000-0000',
+        text: 'こんにちは.' 
+    }
+    ```
+=== "Response(NG)"
+    ```js
+    {
+        operation: 'osc',
+        status: 'failure'
+        id: '0000-0000-0000-0000',
+        text: 'こんにちは.' 
+    }
+    ```
+!!! info "連携に必要なプラグイン名"
+    |送信先        |有効化すべきプラグイン|
+    |-------------------|------------------------------|
+    |vrchat       |VRChatプラグイン　　　　　　　　　　|
+    |virtualcast   |VirtualCastプラグイン　　　　　　　　　　|
+    |unity         |VMCプラグイン　　　　　　　　　　|
+    |neosvr       |NeosVRプラグイン　　　　　　　　　　|
+
+* 指定したOSC通信をプラットフォームに送信します。
+* statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
+* statusがsendedの場合、要求自体はだせたという意味です。
 
 ## 入力支援
 
@@ -439,56 +567,3 @@
         http://localhost:15520/api/command?target=Plugin_VtuberStudio&command=exec&tag=CALL
     ```
 
-
-## 翻訳・発話サーバ
-
-* ゆかりねっとコネクターNEOを通して読み上げ設定のコントロールをサポートします。
-!!! Tech "使用条件"
-    * プラグイン v2.3以上
-
-### 発話の停止
-
-* 送付方式：HTTP(GET)
-
-=== "停止指示"
-    ```js
-        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=stop
-    ```
-
-### 発話パラメータの設定
-
-* 送付方式：HTTP(GET)
-
-=== "停止パラメータ"
-
-|パラメータ|値    |例          |
-|---------|------|------------|
-|engine   |エンジン名|さとうささら/CeVIO_64|
-|pitch    |高さ    | 1.0 |
-|accent   |抑揚    | 1.0 |
-|speed   |速度    | 1.0 |
-|volume   | 音量  | 1.0 |
-|quality   |声質    | 1.0 |
-
-* engineに指定する文字の区切り文字 ``/`` は、``%2F`` に置き換えてください
-
-=== "停止指示"
-    ```js
-        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=set&engine=さとうささら%2FCeVIO_64
-    ```
-
-
-## 共通項目
-### 通信ポートの特定
-
-* 通信ポートはレジストリから取得できます
-
-!!! Tech "使用条件"
-    * ポートを開放したときに更新されます
-
-* レジストリ位置：HKCU\Software\YukarinetteConnectorNeo\TransServer
-
-|名前|型|意味|
-|:--|:--|:--|
-|WebSocket|DWord32|WebSocketポート番号|
-|HTTP|DWord32|HTTPポート番号|

@@ -209,7 +209,7 @@
             {
                 id: '0000-0000-0000-0000',
                 text: 'こんにちは',
-                talker: 'ずんだもん/VOICEVOX'
+                talker: 'ずんだもん-ノーマル/VOICEVOX'
             }
         ]
     }
@@ -222,7 +222,7 @@
             {
                 id: '0000-0000-0000-0000',
                 text: 'こんにちは',
-                talker: 'ずんだもん/VOICEVOX',
+                talker: 'ずんだもん-ノーマル/VOICEVOX',
                 volume: 1.0
             }
         ]

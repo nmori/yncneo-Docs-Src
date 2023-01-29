@@ -17,7 +17,7 @@
 
 ## 開発版
 
-### v2.0.73：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.73.zip)
+### v2.0.74：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.74.zip)
 
 * レイアウト
 ```
@@ -36,7 +36,7 @@
 ・音量設定などがAPI使用時に反映されない件の修正
 ・パラメータ計算が一部誤っていた点の修正
 ・言語に応じて音声を変えられる機能の追加
-・APIの設定追加
+・APIの設定追加 (v2.0.74で追加修正)
 ```
 * NEO本体
 ```

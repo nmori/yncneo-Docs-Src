@@ -23,11 +23,15 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.75：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.75.zip)
+### v2.0.76：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.76.zip)
 
 * 読み上げ連携
 ```
-・読み上げ記号の置換機能追加
+・ビートセイバー向け置換の移植
+```
+* 棒読みちゃん連携
+```
+・翻訳読み上げ不良の修正
 ```
 
 ## 旧バージョン（バージョン１系統）

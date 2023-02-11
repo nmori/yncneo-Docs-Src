@@ -23,19 +23,11 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.77：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.77.zip)
+### v2.0.78：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.78.zip)
 
-* VRChat プラグイン
+* 読み上げプラグイン
 ```
-・ミュートと字幕を連動するオプション追加（暫定）
-```
-* NEO本体
-```
-・ウィンドウ縮小制限の追加
-```
-* Discordプラグイン(Webhook)
-```
-・名前なし時に動かない問題の修正
+・ユーザ名にスペースが入っているときにVOICEPEAKが動かない問題の修正
 ```
 
 ## 旧バージョン（バージョン１系統）

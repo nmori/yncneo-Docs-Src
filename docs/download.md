@@ -23,11 +23,24 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.79：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.79.zip)
+### v2.0.84：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/02/YNCneo_v2.0.84.zip)
 
-* 読み上げプラグイン
+* 全般
+
+```text
+・プラグイン内にヘルプリンク追加
 ```
-・VOICEPEAK 彩澄りりせ対応
+
+* VRChatプラグイン＆発話プラグイン
+
+```text
+・VRChat左ジェスチャー連動の修正
+```
+
+* 歌詞表示
+
+```text
+・再生関連ロジックの修正
 ```
 
 ## 旧バージョン（バージョン１系統）

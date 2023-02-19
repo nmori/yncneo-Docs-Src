@@ -140,6 +140,7 @@ nav:
           - 文字変換 : 'plugin/plugin_ConvertString.md'
           - 強制整形 : 'plugin/plugin_forcestyle.md'
           - ルビ付与 : 'plugin/plugin_ruby.md'
+          - ゆかコネ互換 : 'plugin/plugin_viewcompat.md'
         - 表示関連:
           - 内蔵ブラウザ: 'plugin/plugin_browser.md'
           - 歌詞支援 : 'plugin/plugin_LyricAssist.md'
@@ -158,7 +159,6 @@ nav:
         - アプリ連携:
           - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
           - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
-          - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
           - VaNiiツール連携 : 'plugin/plugin_vanii.md'
           - VRオーバーレイ : 'plugin/plugin_vroverlay.md'
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
@@ -168,6 +168,7 @@ nav:
           - GPT3プロンプト : 'plugin/plugin_GPT3.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
+          - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
           - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
           - NeosVR 連携: 'plugin/plugin_neosvr.md'
           - Discord BOT連携 : 'plugin/plugin_dicord.md'

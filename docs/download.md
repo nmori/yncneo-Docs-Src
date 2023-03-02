@@ -23,11 +23,22 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.92：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.92.zip)
+### v2.0.93：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.93.zip)
 
 主な修正：
 
-* VRChat OSCの通信が途切れる問題の修正
+* ChatGPTプラグイン
+
+```text
+・GPT3.5に対応
+```
+
+* 本体テンプレート
+
+```text
+・スクロールの開始位置調整を実施
+・GPTプラグイン結果の反映がうまくいかない点を修正
+```
 
 ## 旧バージョン（バージョン１系統）
 

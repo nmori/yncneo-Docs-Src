@@ -420,6 +420,52 @@
 * statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
 * statusがsendedの場合、要求自体はだせたという意味です。
 
+#### GPTをつかった言葉の処理
+
+* 翻訳/発話連携サーバプラグインが開いているHTTPサーバもしくはWebSocketサーバに下記のリクエストを送付してください。
+* 送付方式：HTTPの場合はPOST、WSの場合はテキスト
+* 対応バージョン：v2.0.94～
+
+=== "Request"
+    ```js
+    {
+        "operation": "gpt",
+        "params": [
+            {
+                "id": "0000-0000-0000-0000",
+                "command": "question",
+                "premise": "あなたはおじいさん役。",
+                "prompt": "役割に合わせ発言せよ。「おはよう」",
+                "maxtokens": 1000,
+                "temperature":0.5
+            }
+        ]
+    }
+    ```
+
+=== "Response(OK)"
+    ```js
+    {
+        operation: 'gpt',
+        status: 'success'
+        id: '0000-0000-0000-0000',
+        text: '「皆の者、おはよう」' 
+    }
+    ```
+=== "Response(NG)"
+    ```js
+    {
+        operation: 'gpt',
+        status: 'failure'
+        id: '0000-0000-0000-0000',
+        text: '' 
+    }
+    ```
+
+* GPT3プラグイン自体が有効で、APIキーなどが設定済みであるときに使用可能です。
+* statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
+
+
 ## 入力支援
 
 * ゆかりねっとコネクターNEOの文字入力を支援します

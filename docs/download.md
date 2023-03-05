@@ -23,26 +23,14 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.95：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.95.zip)
+### v2.0.97：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.97.zip)
 
 主な修正：
-
-* ChatGPTプラグイン
-
-```text
-・API連動対応
-```
-
-* 翻訳/読み上げサーバプラグイン
-
-```text
-・API側からGPTがよびだせるように
-```
 
 * 読み上げプラグイン
 
 ```text
-・RecotteStudioプラグイン呼び出しが再生できない問題の修正
+・外部連携読み上げの修正
 ```
 
 

@@ -23,16 +23,15 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.98：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.98.zip)
+### v2.0.99：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.99.zip)
 
 主な修正：
 
-* 読み上げプラグイン
+* NEO本体
 
 ```text
-・わんコメ連携時のキャラ変更指示がうまくいかないケースの修正
+・APIの修正
 ```
-
 
 ## 旧バージョン（バージョン１系統）
 

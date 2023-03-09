@@ -613,3 +613,58 @@
         http://localhost:15520/api/command?target=Plugin_VtuberStudio&command=exec&tag=CALL
     ```
 
+## GPT3 プラグイン
+
+* GPT3処理をおこなうことができます
+
+!!! Tech "使用条件"
+    * GPT3プラグインをONにしていること
+    * ゆかりねっとコネクターNEO v2.0.94～で有効
+#### GPTをつかった言葉の処理
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * 送信タグ名 ``CALL`` を送りたい場合
+    ```js
+        http://localhost:15520/api/command?target=Plugin_VtuberStudio&command=exec&tag=CALL
+    ```
+
+=== "Request"
+    ```js
+    {
+        "operation": "gpt",
+        "params": [
+            {
+                "id": "0000-0000-0000-0000",
+                "command": "question",
+                "premise": "あなたはおじいさん役。",
+                "prompt": "役割に合わせ発言せよ。「おはよう」",
+                "maxtokens": 1000,
+                "temperature":0.5
+            }
+        ]
+    }
+    ```
+
+=== "Response(OK)"
+    ```js
+    {
+        operation: 'gpt',
+        status: 'success'
+        id: '0000-0000-0000-0000',
+        text: '「皆の者、おはよう」' 
+    }
+    ```
+=== "Response(NG)"
+    ```js
+    {
+        operation: 'gpt',
+        status: 'failure'
+        id: '0000-0000-0000-0000',
+        text: '' 
+    }
+    ```
+
+* GPT3プラグイン自体が有効で、APIキーなどが設定済みであるときに使用可能です。
+* statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。

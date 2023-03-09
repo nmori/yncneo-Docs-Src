@@ -23,14 +23,14 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.99：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.99.zip)
+### v2.0.101：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.101.zip)
 
 主な修正：
 
 * NEO本体
 
 ```text
-・APIの修正
+・APIの機能追加
 ```
 
 ## 旧バージョン（バージョン１系統）

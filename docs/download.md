@@ -23,7 +23,7 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.101：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.101.zip)
+### v2.0.102：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.102.zip)
 
 主な修正：
 

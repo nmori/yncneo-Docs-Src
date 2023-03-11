@@ -44,13 +44,59 @@
 
 * engineに指定する文字の区切り文字 ``/`` は、``%2F`` に置き換えてください
 
-=== "停止指示"
+=== "指示"
     ```js
         http://localhost:15520/api/command?target=Plugin_PlayVoice&command=set&engine=さとうささら%2FCeVIO_64
     ```
+#### デバイスの取得
 
+* 送付方式：HTTP(GET)
+
+=== "Request"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=device
+    ```
+
+=== "Result"
+    ```json
+    [
+    'ずんだもん-ノーマル/VOICEVOX',
+    'ずんだもん-あまあま/VOICEVOX'
+    ]  
+    ```
+
+#### 読み上げ指示
+
+* 送付方式：HTTP(GET)
+
+=== "パラメータ"
+
+|パラメータ|値    |例          |
+|---------|------|------------|
+|Engine   |エンジン名|さとうささら/CeVIO_64|
+|Pitch    |高さ    | 1.0 |
+|Accent   |抑揚    | 1.0 |
+|Speed   |速度    | 1.0 |
+|Volume   | 音量  | 1.0 |
+|Quality   |声質    | 1.0 |
+|Kuten   |句点待ち時間    | 1.0 |
+|Toten   |読点待ち時間   | 1.0 |
+|prePhoneme   |前空白    | 1.0 |
+|postPhoneme   |後空白   | 1.0 |
+|Text   |読む文章   | "おはよう" |
+|ID   |識別用のID   | "00000-0000-0000-000000" |
+
+* engineに指定する文字の区切り文字 ``/`` は、``%2F`` に置き換えてください
+* パラメータ名は大文字・小文字を区別します
+* IDを指定した場合は、何度要求しても1度しか読み上げません。
+
+=== "Request"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=speech&engine=さとうささら%2FCeVIO_64&Text=Hello&ID=00000-0000-0000-000000
+    ```
 
 ### 共通項目
+
 #### 通信ポートの特定
 
 * 通信ポートはレジストリから取得できます

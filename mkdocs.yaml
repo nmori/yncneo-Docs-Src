@@ -1,6 +1,7 @@
 site_name: ゆかりねっとコネクターNEO
 site_description: 音声認識型多言語翻訳字幕ツール「ゆかりねっとコネクターNEO」のドキュメントページです
 site_author: nao
+copyright: Copyright &copy; 2020 -  N,Mori/*nao*
 theme:
   name: material
   language: ja
@@ -14,6 +15,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.section
+    - navigation.footer
     #- toc.integrate
   font:
     text: BIZ UDPGothic
@@ -46,6 +48,10 @@ extra:
   analytics:
     provider: google
     property: G-8VEJJC6B3D
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yncneo
+  generator: true
 markdown_extensions:
   - abbr
   - tables

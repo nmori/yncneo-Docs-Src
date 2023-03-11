@@ -48,6 +48,7 @@
     ```js
         http://localhost:15520/api/command?target=Plugin_PlayVoice&command=set&engine=さとうささら%2FCeVIO_64
     ```
+
 #### デバイスの取得
 
 * 送付方式：HTTP(GET)
@@ -92,7 +93,7 @@
 
 === "Request"
     ```js
-        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=speech&engine=さとうささら%2FCeVIO_64&Text=Hello&ID=00000-0000-0000-000000
+        http://localhost:15520/api/command?target=Plugin_PlayVoice&command=speech&Engine=さとうささら%2FCeVIO_64&Text=Hello
     ```
 
 ### 共通項目

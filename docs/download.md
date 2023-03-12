@@ -23,22 +23,22 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.103：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.103.zip)
+### v2.0.104：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.104.zip)
 
 主な修正：
 
 * NEO本体
 
 ```text
-・環境によって翻訳処理が遅いケースへの高速化対応
-・翻訳処理の動作変更(アラビア語言語判定NGの修正）
+・APIの拡張
 ```
 
 * 読み上げプラグイン
 
 ```text
-・COEIROINK音源リストアップデート
+・COEIROINK通信エラー修正
 ```
+
 
 ## 旧バージョン（バージョン１系統）
 

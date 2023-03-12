@@ -23,7 +23,7 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.104：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.104.zip)
+### v2.0.105：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.105.zip)
 
 主な修正：
 
@@ -39,6 +39,11 @@
 ・COEIROINK通信エラー修正
 ```
 
+* 正規表現プラグイン
+
+```text
+・画面が白くなっていた件の修正
+```
 
 ## 旧バージョン（バージョン１系統）
 

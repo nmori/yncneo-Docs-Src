@@ -10,6 +10,7 @@
 ### v2.0.68：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.68.zip)
 
 * NEO本体
+
 ```
 ・言語推定の最適化
 ```
@@ -22,28 +23,14 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.109：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.109.zip)
+### v2.0.111：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.111.zip)
 
 主な修正：
 
 * NEO本体
 
-```text
-・API動作の修正
-・初期化に関するエラーの修正
 ```
-
-* わんコメ仕様テンプレ
-
-```text
-・メモリクリア機能追加
-```
-
-* 読み上げAPI
-
-```text
-・ブラウザ音源の選択ができるよう機能拡張
-　（使うブラウザによっても出てくる選択は異なります）
+・翻訳できる言語を追加調整(Google/DeepL)
 ```
 
 ## 旧バージョン（バージョン１系統）

@@ -130,7 +130,8 @@ nav:
       - 設計思想と仕組み:
         - 言葉の精度向上方法: 'design/talk_quality.md'
         - プラグインの動作 : 'design/plugin_rule.md'
-      - プラグイン:  
+      - プラグイン:
+        - 一覧: 'plugin/index.md'  
         - 有効化 : 'plugin/enabled.md'  
         - 読み上げ:    
           - 棒読みちゃん連携: 'plugin/plugin_bouyomi.md'
@@ -173,6 +174,7 @@ nav:
           - HTTPコール : 'plugin/plugin_httpcall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
           - GPT3プロンプト : 'plugin/plugin_GPT3.md'
+          - ファイル出力 : 'plugin/plugin_exporter.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
           - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
@@ -189,7 +191,6 @@ nav:
           - 入力支援 : 'plugin/plugin_InputAssist.md'
           - 起動支援 : 'plugin/plugin_startup.md'
           - アップデート通知 : 'plugin/plugin_update.md'
-          - ファイル出力 : 'plugin/plugin_exporter.md'
       - 技術者向け:
         - 起動オプション : 'tech/tech_option_neo.md' 
         - 本体内蔵API : 'tech/tech_api_neo.md'

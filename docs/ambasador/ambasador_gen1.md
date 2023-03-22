@@ -9,7 +9,7 @@
 
 !!! info "順不同"
 
-!!! Abstract "君友ゆるし 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/KimitomoJurusxi)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCfcMCHWc7DmnuLuusOZI_aw) 　[:fontawesome-solid-tower-broadcast:{ .twicast }](https://twitcasting.tv/kimitomojurusxi/) 　"
+!!! Abstract "君友ゆるし 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/KimitomoJursxi) 　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCfcMCHWc7DmnuLuusOZI_aw) 　[:fontawesome-solid-tower-broadcast:{ .twicast }](https://twitcasting.tv/kimitomojurusxi/) 　"
     ![君友ゆるし](images/yurushi.png){ align=left } 
 
     ** 一言コメント **   

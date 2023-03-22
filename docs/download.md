@@ -23,14 +23,14 @@
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
 
-### v2.0.111：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.111.zip)
+### v2.0.113：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.113.zip)
 
 主な修正：
 
-* NEO本体
+* 読み上げプラグイン
 
-```
-・翻訳できる言語を追加調整(Google/DeepL)
+```text
+・AssistantSeika対応（＋感情パラメータ）
 ```
 
 ## 旧バージョン（バージョン１系統）

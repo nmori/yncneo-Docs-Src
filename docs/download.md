@@ -17,21 +17,16 @@
 
 ## 開発版
 
+
+### v2.0.114：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.114.zip)
+
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
     * OBS　WebSocket5 通信 フリーズ対策 
     * コンベアテロップの未スクロールバグ修正
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
-
-### v2.0.113：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.113.zip)
-
-主な修正：
-
-* 読み上げプラグイン
-
-```text
-・AssistantSeika対応（＋感情パラメータ）
-```
+    * Discord連携のアップデート
+    * AssistantSeika連携
 
 ## 旧バージョン（バージョン１系統）
 

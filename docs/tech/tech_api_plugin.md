@@ -569,6 +569,42 @@
     ```js
         http://localhost:15520/api/command?target=Plugin_LyricAssist&command=load&file=d:/sukiyuki.stl
     ```
+
+## OBS WSプラグイン
+
+* 指定した字幕ソースに文字を表示します。
+
+!!! Tech "使用条件"
+    * OBS-WSプラグインをONにしていること
+    * OBS-WSプラグイン v2.1以上で有効
+
+### ソースに指定した字幕を表示する
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * ソース名 ``字幕枠`` に ``あいうえお`` と表示したい場合
+    ```js
+        http://127.0.0.1:15520/api/command?target=Plugin_OBS&command=set&text=あいうえお&source=字幕枠
+    ```
+
+## OBS WS5プラグイン
+
+* 指定した字幕ソースに文字を表示します。
+
+!!! Tech "使用条件"
+    * OBS-WS5プラグインをONにしていること
+    * OBS-WS5プラグイン v2.3以上で有効
+
+### ソースに指定した字幕を表示する
+
+* 送付方式：HTTP(GET)
+
+=== "実行"
+    * ソース名 ``字幕枠`` に ``あいうえお`` と表示したい場合
+    ```js
+        http://127.0.0.1:15520/api/command?target=Plugin_OBS5&command=set&text=あいうえお&source=字幕枠
+    ```
 ## OSCプラグイン
 
 * 指定したOSCメッセージを送付します。

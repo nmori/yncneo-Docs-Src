@@ -91,6 +91,8 @@
 |YouTube Live字幕送信             | YouTube LiveのCC字幕へ転送                       |[■](plugin_youtube.md)     |
 |YouTube タイムコード生成         | YouTube用タイムコードを生成                      |[■](plugin_youtubetimecode.md)|
 |ZOOM連携                         | ZOOMの字幕へ転送                                 |[■](plugin_zoom.md)        |
+|Slack Webhook連携                | Slack へ字幕を転送                               |[■](plugin_slackwebhook.md)|
+|Teams Webhook連携                | Teams へ字幕を転送                               |[■](plugin_teamswebhook.md)|
 
 ## つかいやすさ向上
 

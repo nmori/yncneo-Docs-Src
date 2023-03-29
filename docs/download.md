@@ -18,15 +18,17 @@
 ## 開発版
 
 
-### v2.0.115：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.115.zip)
+### v2.0.116：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/03/YNCneo_v2.0.116.zip)
 
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
-    * OBS　WebSocket5 通信 フリーズ対策 
+    * OBS　WebSocket5 通信 フリーズ対策、文字が残る問題
     * コンベアテロップの未スクロールバグ修正
     * 音声発話の言語別設定
     * API 拡張への早期アクセス
     * Discord連携のアップデート
     * AssistantSeika連携
+    * 翻訳安定化、通信負荷調整
+    * プラグイン追加(Teams/Slack)
 
 ## 旧バージョン（バージョン１系統）
 

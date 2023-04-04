@@ -1,4 +1,4 @@
-#アンバサダーの活動
+# アンバサダーの活動
 
 ## 就任時
 
@@ -13,10 +13,9 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MGWhGmCus5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### アンバサダーにフォーカス！
+### アンバサダーにフォーカス
 
 !!! Abstract "ニコ"
-    
     「ゆかりねっとコネクター　公式ガイド・アンバサダーはどう使ってるの！？」コラボ配信です！みんなの喋っていることがその場で字幕になる「コラボ配信機能」を使っています！
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1kRo6xp12lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +27,6 @@
 ### 初めて入れてみよう
 
 !!! Abstract "卯塚ウウ"
-        
     『開発者＆アンバサダー』VS『何もわからん人』で
     ゆかりねっとコネクターNEO導入を解説しています。
     (NEO開発版1.954使用)
@@ -38,7 +36,6 @@
 ### 開発者&アンバサダー対談
 
 !!! Abstract "卯塚ウウ"
-                
     ゆかりねっとコネクターNEOとわんコメの開発者を呼んで
     両ツールのアンバサダーが対談配信
 

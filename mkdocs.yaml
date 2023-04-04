@@ -1,4 +1,4 @@
-site_name: ゆかりねっとコネクターNEO
+site_name: ゆかりねっとコネクターNEO｜リアルタイム字幕・翻訳・連携ツール
 site_description: 音声認識型多言語翻訳字幕ツール「ゆかりねっとコネクターNEO」のドキュメントページです
 site_author: nao
 copyright: Copyright &copy; 2020 -  N,Mori/*nao*
@@ -186,6 +186,8 @@ nav:
           - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
           - YouTube タイムコード生成 : 'plugin/plugin_youtubetimecode.md'
           - ZOOM連携 : 'plugin/plugin_zoom.md'
+          - Slack Webhook連携 : 'plugin/plugin_slackwebhook.md'
+          - Teams Webhook連携 : 'plugin/plugin_teamswebhook.md'
         - つかいやすさ向上:
           - 直接入力: 'plugin/plugin_directinput.md'
           - 入力支援 : 'plugin/plugin_InputAssist.md'
@@ -199,9 +201,9 @@ nav:
       - 開発履歴 : 'qa/history.md'
       - 協力者 : 'qa/collaborator.md'
     - アンバサダー▼:
-      - 第１期メンバー: 'ambasador/ambasador_gen1.md'
-      - 第１期の活動: 'ambasador/ambasador_gen1_make.md'
-      - 第２期メンバー: 'ambasador/ambasador_gen2.md'
+      - 活動メンバー: 'ambasador/ambasador_member.md'
+      - 卒業メンバー: 'ambasador/ambasador_expired.md'
+      - 活動レポート: 'ambasador/ambasador_report.md'
     - 担当・サポータ▼: 'supporter/supporter.md'
     - 困ったときは▼:
       - ヘルプが欲しいとき : 'qa/before_help.md'

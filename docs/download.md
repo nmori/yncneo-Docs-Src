@@ -18,7 +18,7 @@
 ## 開発版
 
 
-### v2.0.121：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/04/YNCneo_v2.0.121.zip)
+### v2.0.122：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/04/YNCneo_v2.0.122.zip)
 
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
     * OBS　WebSocket5 通信 フリーズ対策、文字が残る問題

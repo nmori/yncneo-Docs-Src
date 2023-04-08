@@ -13,3 +13,4 @@
 !!! Info "ゆかりねっとコネクターNEOを使っている方へ"
     * 下記のバナーが使用可能ですので、配信ページなどに掲載いただけたら嬉しいです。
     ![バナー](images/YNCNEO_banner.png)
+    ![バナー](images/YNCNEO_banner2.png)

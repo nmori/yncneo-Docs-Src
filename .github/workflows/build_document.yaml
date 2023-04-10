@@ -2,11 +2,11 @@ on:
   push:
     branches:
       - main
-runs:
-  using: 'node16'
-  main: 'main.js'
-  
 jobs:
+  runs:
+    using: 'node16'
+    main: 'main.js'
+  
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30

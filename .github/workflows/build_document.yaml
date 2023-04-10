@@ -3,10 +3,8 @@ on:
     branches:
       - main
 jobs:
-  runs:
-    using: 'node16'
-    main: 'main.js'
-  
+  using: 'node16'
+  main: 'main.js'
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30

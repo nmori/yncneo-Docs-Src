@@ -74,7 +74,7 @@
 |MTGカード支援                    | MTG自動実況ツールと連携しカードを表示           |[■](plugin_MTGCard.md)     |
 |HTTPコール                       | 文字をトリガーにHTTPコールをする                |[■](plugin_httpcall.md)    |
 |VTubeStudio連携                  | VTuberStudio の画面の字幕を表示                 |[■](plugin_VtubeStudio.md) |
-|GPT3プロンプト                   | GPT3をつかって、字幕を整形                      |[■](plugin_GPT3.md)        |
+|GPT3整形/AIアシスタント          | GPT3をつかって、字幕を整形したりAI応答する      |[■](plugin_GPT3.md)        |
 |ファイル出力                     | 動画字幕編集ソフトに字幕をエクスポート          |[■](plugin_exporter.md)    |
 
 ## プラットフォーム連携

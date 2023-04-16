@@ -115,6 +115,7 @@ nav:
           - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
           - 画面共有でコラボ: 'cs/cs_colab_rd.md'
         - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+        - AIアシスタントを作る : 'cs/cs_aiassistant.md'
       - システムVerUP:
         - ゆかコネ→NEO : 'mig/mig_neo.md'
         - NEO v1.9→v2.0 : 'mig/mig_neo_v2.md'
@@ -173,7 +174,7 @@ nav:
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
-          - GPT3プロンプト : 'plugin/plugin_GPT3.md'
+          - GPT3整形/AIアシスタント : 'plugin/plugin_GPT3.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'

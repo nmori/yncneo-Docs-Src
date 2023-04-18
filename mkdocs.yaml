@@ -145,11 +145,11 @@ nav:
           - 辞書 : 'plugin/plugin_dictionary.md'
           - 正規表現 : 'plugin/plugin_regexp.md'
           - ノムリッシュ変換 : 'plugin/plugin_nomlish.md'
-        - 見た目の補正:
           - 文字変換 : 'plugin/plugin_ConvertString.md'
           - 強制整形 : 'plugin/plugin_forcestyle.md'
           - ルビ付与 : 'plugin/plugin_ruby.md'
           - ゆかコネ互換 : 'plugin/plugin_viewcompat.md'
+          - GPT3整形/AIアシスタント : 'plugin/plugin_GPT3.md'
         - 表示関連:
           - 内蔵ブラウザ: 'plugin/plugin_browser.md'
           - 歌詞支援 : 'plugin/plugin_LyricAssist.md'
@@ -174,7 +174,6 @@ nav:
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
-          - GPT3整形/AIアシスタント : 'plugin/plugin_GPT3.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'

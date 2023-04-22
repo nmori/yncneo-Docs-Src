@@ -1,7 +1,7 @@
 !!! Info "前提条件"
     * [VTubeStudio](https://store.steampowered.com/app/1325860/VTube_Studio/?l=japanese)が動作することが必要です
     * APIの有効化が必要です
-    * このプラグインは ゆかコネNEO　ｖ２．０．１７より同梱されています
+    * このプラグインは ゆかコネNEOv2.0.17より同梱されています
 
 ## このプラグインで出来ること
 

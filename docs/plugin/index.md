@@ -71,6 +71,7 @@
 |HTTPコール                       | 文字をトリガーにHTTPコールをする                |[■](plugin_httpcall.md)    |
 |VTubeStudio連携                  | VTuberStudio の画面の字幕を表示                 |[■](plugin_VtubeStudio.md) |
 |ファイル出力                     | 動画字幕編集ソフトに字幕をエクスポート          |[■](plugin_exporter.md)    |
+|  わんコメ連携                | わんコメにコメントとして転送                       |[■](plugin_OCComm.md)|
 
 ## プラットフォーム連携
 
@@ -88,6 +89,7 @@
 |ZOOM連携                         | ZOOMの字幕へ転送                                 |[■](plugin_zoom.md)        |
 |Slack Webhook連携                | Slack へ字幕を転送                               |[■](plugin_slackwebhook.md)|
 |Teams Webhook連携                | Teams へ字幕を転送                               |[■](plugin_teamswebhook.md)|
+|コメントスクリーン連携           | コメントスクリーンから字幕を受信                 |[■](plugin_comscr.md)|
 
 ## つかいやすさ向上
 

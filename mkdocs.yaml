@@ -18,7 +18,8 @@ theme:
     - navigation.footer
     #- toc.integrate
   font:
-    text: BIZ UDPGothic
+    text: BIZ UDGothic
+    code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme)"
       primary: blue

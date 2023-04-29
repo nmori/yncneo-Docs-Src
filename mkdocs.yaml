@@ -167,7 +167,7 @@ nav:
           - OBS連携 WSv5 : 'plugin/plugin_OBS5.md'
         - アプリ連携:
           - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
-          - わんコメ連携 : 'plugin/Plugin_occomm.md'
+          - わんコメ連携 : 'plugin/Plugin_OCComm.md'
           - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
           - VaNiiツール連携 : 'plugin/plugin_vanii.md'
           - VRオーバーレイ : 'plugin/plugin_vroverlay.md'

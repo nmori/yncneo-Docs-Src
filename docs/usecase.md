@@ -64,8 +64,8 @@
 
 #### 湧浦カランさん
 !!! Abstract "湧浦カランさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/@WakuuraKaranTV)"
-    <iframe width="560" height="315" src="https://www.youtube.com/live/es9yrPvc_vE?feature=share&t=319" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/es9yrPvc_vE?feature=share&t=319" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     ** 一言コメント **   
     海外での展開がメインのメックウォーリアというロボットゲームをメインコンテツとして配信しており、コメントに英語圏の方が来てくださるのでその際に受け答えにとても重宝しています。
 

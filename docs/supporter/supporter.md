@@ -9,13 +9,14 @@
         ただの文字情報から「楽しめる文字情報」、そして言語を超えた交流の先にある
         「楽しい」をみんなで作っていきましょう。
 
-## 公式イラストレーター
+## 公式ストリーマー・イラストレーター
 
-!!! Abstract "asuma"
-    ![asuma](images/asuma.png){ align=left } 
+!!! Abstract "ASUMA(あすま) 　 [:fontawesome-brands-twitter:{ .twitter }(Stream)](https://twitter.com/ASU5M843A)　[:fontawesome-brands-twitter:{ .twitter }(Art)](https://twitter.com/asu5m843B)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@ASU5M843A)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/asu5m843a)"
+    ![asuma](images/asuma.png){ align=left }
+        一言コメント
 
-    * ゆかりねっとコネクターを支えるイラストレーター。
-    * ゆかりねっとコネクター内のイラスト、キャラクターデザインを担当しています。
+        ゆかコネ公式ストリーマー・イラストレーターを
+        させていただいてるASUMAです！よろしくお願いします！
 
 ## 公式ガイド
 

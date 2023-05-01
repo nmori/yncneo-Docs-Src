@@ -190,6 +190,7 @@ nav:
           - ZOOM連携 : 'plugin/plugin_zoom.md'
           - Slack Webhook連携 : 'plugin/plugin_slackwebhook.md'
           - Teams Webhook連携 : 'plugin/plugin_teamswebhook.md'
+          - コメントスクリーン連携 : 'plugin/plugin_comscr.md'
         - つかいやすさ向上:
           - 直接入力: 'plugin/plugin_directinput.md'
           - 入力支援 : 'plugin/plugin_InputAssist.md'

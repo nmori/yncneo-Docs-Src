@@ -20,6 +20,16 @@
     ワンポイント一言
     「世界中の人たちとお友達になれる魔法のツール！」
 
+#### ゆきひこさん
+!!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](　https://www.twitch.tv/yukihiko78)"
+    <iframe src="https://player.twitch.tv/?video=1788921012&time=0h18m54s&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **   
+    2023年3月から Twitch で配信を始めたばかりの初心者です。
+
+    僕自身は日本語しかできないので、このツールがなかったら海外の方と意思疎通はできませんし、ゲーム配信をしてみようと考えることもなかったと思います。
+    ゆかりねっとコネクターNEO と TwiChaDash を使用して、世界中にフレンドの輪を広げていきたいです。
+    
 ### わんコメ併用
 #### びたぁずさん
 !!! Abstract "びたぁずさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/bitterzzzzzz)"
@@ -52,15 +62,16 @@
     ** 一言コメント **   
     　リアルタイム音声認識によるボイスロイド実況＋2か国語字幕＋わんコメ（WordParty）の合わせ技です🥳 ✨ 
 
-### 読み上げと翻訳併用
-#### 甘え隊さん
-!!! Abstract "甘え隊さん　 [:material-web:{ .niconico }](https://www.nicovideo.jp/user/121614426)"
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4UdlKYVAkcQ?start=2258" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### 湧浦カランさん
+!!! Abstract "湧浦カランさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/@WakuuraKaranTV)"
+    <iframe width="560" height="315" src="https://www.youtube.com/live/es9yrPvc_vE?feature=share&t=319" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     ** 一言コメント **   
-    いざという時でも喋れちゃうEdgeの音声認識や
-    テキストでの綺麗な字幕出力・翻訳機能などとても助かっております！ 
-    
+    海外での展開がメインのメックウォーリアというロボットゲームをメインコンテツとして配信しており、コメントに英語圏の方が来てくださるのでその際に受け答えにとても重宝しています。
+
+    配信の時にはこんな感じで日本語字幕と英語字幕を併用しています。視認性を維持するため、字幕は日本語・英語に絞っており、見やすい画面配置になっていると自負しています！ 
+
+
 ### リスト表示活用
 #### むらづき/ Muradukiさん
 !!! Abstract "むらづき/ Muradukiさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/muraduki)"

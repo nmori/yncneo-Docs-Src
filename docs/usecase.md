@@ -3,7 +3,9 @@
 ## 活用事例
 
 ### 多言語翻訳
+
 #### ぱきちさん
+
 !!! Abstract "ぱきちさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/pakichi)"
     <iframe src="https://clips.twitch.tv/embed?clip=FreezingFineHarePRChase-_mvtCJao2_xmHjMh&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
@@ -21,6 +23,7 @@
     「世界中の人たちとお友達になれる魔法のツール！」
 
 #### ゆきひこさん
+
 !!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](　https://www.twitch.tv/yukihiko78)"
     <iframe src="https://player.twitch.tv/?video=1788921012&time=0h18m54s&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
@@ -29,10 +32,13 @@
 
     僕自身は日本語しかできないので、このツールがなかったら海外の方と意思疎通はできませんし、ゲーム配信をしてみようと考えることもなかったと思います。
     ゆかりねっとコネクターNEO と TwiChaDash を使用して、世界中にフレンドの輪を広げていきたいです。
-    
+
 ### わんコメ併用
+
 #### びたぁずさん
+
 !!! Abstract "びたぁずさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/bitterzzzzzz)"
+
     ![](./images/usecase_bitterz.png)
 
     ** 一言コメント **   
@@ -56,6 +62,7 @@
     ぜひゆかコネneoの紹介枠につかっていただければと思います！
 
 #### しゃくら / Shakuraさん
+
 !!! Abstract "しゃくら / Shakuraさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/channel/UCQaKE1t1qE_enMj79T418-A)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/04X2WUdv6dk?start=4908" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,6 +70,7 @@
     　リアルタイム音声認識によるボイスロイド実況＋2か国語字幕＋わんコメ（WordParty）の合わせ技です🥳 ✨ 
 
 #### 湧浦カランさん
+
 !!! Abstract "湧浦カランさん　 [:fontawesome-brands-youtube:{ .youtube }](　https://www.youtube.com/@WakuuraKaranTV)"
     <iframe width="560" height="315" src="https://www.youtube.com/embed/es9yrPvc_vE?feature=share&t=319" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
@@ -71,9 +79,10 @@
 
     配信の時にはこんな感じで日本語字幕と英語字幕を併用しています。視認性を維持するため、字幕は日本語・英語に絞っており、見やすい画面配置になっていると自負しています！ 
 
-
 ### リスト表示活用
+
 #### むらづき/ Muradukiさん
+
 !!! Abstract "むらづき/ Muradukiさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/muraduki)"
     <iframe src="https://clips.twitch.tv/embed?clip=PopularBlazingFalconCeilingCat-SFuX44lzDKA_jPZD&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 

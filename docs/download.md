@@ -19,7 +19,7 @@
 
 ## 開発版
 
-### v2.0.122：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/04/YNCneo_v2.0.122.zip)
+### v2.0.151：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.151.zip)
 
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
 
@@ -31,16 +31,10 @@
     * AssistantSeika連携
     * 翻訳安定化、通信負荷調整
     * プラグイン追加(Teams/Slack)
-
-## 開発版（早期アクセス）
-
-### v2.0.148：[コミュニティへアクセス](https://discord.gg/Pyk5EwVrXQ)
-
-!!! Tech "早期適用をしたい方はこちらをどうぞ"
-
     * AIアシスタント機能
     * わんコメ連携
 
+不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 ## 旧バージョン（サポート外）
 
 !!! Warning "導入に関する注意"

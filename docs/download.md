@@ -22,7 +22,7 @@
 ### v2.0.152：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.152.zip)
 
 !!! Warning "導入に関する注意"
-    * FANBOXのキー更新が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
+    * [FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
     * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
     * このバージョンでは、.Net Framework 4.8.1 のランタイムが必要です。未導入の方はインストールが必要です。
 

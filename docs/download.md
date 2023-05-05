@@ -19,7 +19,11 @@
 
 ## 開発版
 
-### v2.0.151：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.151.zip)
+### v2.0.152：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.152.zip)
+
+!!! Warning "導入に関する注意"
+    * FANBOXのキー更新が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
+    * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
 
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
 

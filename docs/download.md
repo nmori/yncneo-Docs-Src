@@ -19,7 +19,7 @@
 
 ## 開発版
 
-### v2.0.153：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.153.zip)
+### v2.0.155：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.155.zip)
 
 !!! Warning "導入に関する注意"
     * [FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。

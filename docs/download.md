@@ -17,12 +17,12 @@
 ・言語推定の最適化
 ```
 
-## 開発版
+## 最新開発版
 
-### v2.0.155：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.155.zip)
+### v2.0.156：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/05/YNCneo_v2.0.156.zip)
 
 !!! Warning "導入に関する注意"
-    * [FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
+    * 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
     * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
     * このバージョンでは、[.Net Framework 4.8.1 のランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/thank-you/net481-web-installer)が必要です。未導入の方はインストールが必要です。
 

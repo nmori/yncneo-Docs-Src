@@ -1,0 +1,60 @@
+
+## あなたが実施するべきこと
+
+!!! info "翻訳結果を表示するにあたり"
+    * 翻訳や連携するサービスについて、システム提供社の規約に従う必要があります。
+    * 帰属表示など、使用にあたって必要とされる項目においては、ゆかコネを活用する人が対応する必要があります。
+
+* 基本的にライセンス表記は個人で理解し適用する必要があります。
+
+## 下記解説について
+
+* 便宜上、ダイジェストとして載せています。
+* 2023/5/21現在の内容です。
+* 記載内容が現時点で正しいことは保証しませんので、あくまで参考としてください。
+
+### Google翻訳
+* 帰属表記は必須
+* 「powered by Google 翻訳」ロゴの表示が必要
+* 公序良俗に反する場合、Googleにとって好ましくないない表現を含む場合、Google商標表示は禁止
+* 帰属は隠してはならず、読めるようにすること
+* 関連する他社のロゴを並べて表示する事は一切認められない
+
+### Microsoft翻訳
+* テキストとMicrosoftロゴ（フルカラー）の表記が必要
+* 帰属にリンクを張る必要がある
+* 帰属は隠してはならず、読めるようにすること
+
+### DeepL翻訳
+* 翻訳結果に手を加えず表示する場合、DeepL の名前を明示する必要があります。
+
+### Amazon 翻訳
+* 帰属表示は必須ではない。
+* 機械翻訳であることを使えることは推奨。
+
+### IBM Watson 翻訳
+* 明確な許可がない限りロゴは表示してはならない
+
+### NAVER Papago 翻訳
+* 著作権表示が必要
+* 公序良俗に反する内容の場合は商標表示してはならない
+* Papagoブランドが毀損される可能性がある場合は商標表示してはならない
+
+### IBM Watson 翻訳
+* 明確な許可がない限りロゴは表示してはならない
+
+### わんコメ
+* 無料版を使う場合は、クレジット表記が必要
+
+## 確認はこちらから
+
+* Google：[規約](https://cloud.google.com/translate/attribution?hl=ja)
+* Microsoft:[規約](https://www.microsoft.com/ja-jp/translator/business/attribution/)
+* DeepL Pro:[規約](https://www.deepl.com/ja/pro-license)
+* Amazon ：[規約](https://docs.aws.amazon.com/ja_jp/translate/latest/dg/what-is-limits.html)
+* IBM Watson:[規約](https://www.ibm.com/jp-ja/legal?lnk=flg-tous-jpja)
+* NAVER Papago：[規約](https://guide.ncloud-docs.com/docs/ja/naveropenapiv3-translation-copyright)
+* OpenAI:[規約](https://openai.com/policies/terms-of-use/)
+* Tencent:[規約](https://www.tencentcloud.com/document/product/1161/51200)
+* Baidu:[規約](http://api.fanyi.baidu.com/doc/5)
+* わんコメ:[規約](https://onecomme.com/terms/)

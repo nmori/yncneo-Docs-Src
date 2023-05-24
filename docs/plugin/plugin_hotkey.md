@@ -29,7 +29,20 @@
 !!! Info "送付キー"
     * Microsoftの[キー表現](https://docs.microsoft.com/ja-jp/dotnet/api/system.windows.forms.sendkeys.send?view=windowsdesktop-6.0)に従ってください。
     * キーによってはうまくいかないものがあります。
-    * 例）{ENTER}とかくと、エンターを送出します
+
+# 記述例
+
+|表記      | 意味          |
+|----------+---------------|
+|{Enter}   |改行キー       |
+|{F1}      |F1キー         |
+|+{F4}     |Shift+F4キー   |
+|^C        |Ctrl+Cキー     |
+|%F        |Alt+Fキー      |
+|{f 4}     |Fキーを4連打   |
+|+(EC)     |Shift押しながらE,Cを押す  |
+
+
 
 ## 使うとき
 

@@ -30,10 +30,10 @@
     * Microsoftの[キー表現](https://docs.microsoft.com/ja-jp/dotnet/api/system.windows.forms.sendkeys.send?view=windowsdesktop-6.0)に従ってください。
     * キーによってはうまくいかないものがあります。
 
-# 記述例
+## 記述例
 
 |表記      | 意味          |
-|----------+---------------|
+|:---------|:--------------|
 |{Enter}   |改行キー       |
 |{F1}      |F1キー         |
 |+{F4}     |Shift+F4キー   |

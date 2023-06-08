@@ -138,7 +138,7 @@
         status: 'success'
         id: '0000-0000-0000-0000',
         lang: 'ja_JP',
-        text: 'Hello.' 
+        text: 'Hello.'
     }
     ```
 === "Response(NG)"
@@ -148,7 +148,7 @@
         status: 'failure'
         id: '0000-0000-0000-0000',
         lang: 'ja_JP',
-        text: 'こんにちは.' 
+        text: 'こんにちは.'
     }
     ```
 * 要求時は、翻訳してほしい言語を指定します。
@@ -322,7 +322,6 @@
                 'ずんだもん/VOICEVOX',
                 '弦巻マキ(日)/CeVIO AI'
             ]
-        }
     }
     ```
 === "Response(NG)"
@@ -366,7 +365,6 @@
         id: '0000-0000-0000-0000'
     }
     ```
-
 
 #### バージョンの取得
 
@@ -443,7 +441,7 @@
         operation: 'osc',
         status: 'sended'
         id: '0000-0000-0000-0000',
-        text: 'こんにちは.' 
+        text: 'こんにちは.'
     }
     ```
 === "Response(NG)"
@@ -452,7 +450,7 @@
         operation: 'osc',
         status: 'failure'
         id: '0000-0000-0000-0000',
-        text: 'こんにちは.' 
+        text: 'こんにちは.'
     }
     ```
 !!! info "連携に必要なプラグイン名"
@@ -505,13 +503,12 @@
         operation: 'gpt',
         status: 'failure'
         id: '0000-0000-0000-0000',
-        text: '' 
+        text: ''
     }
     ```
 
 * GPT3プラグイン自体が有効で、APIキーなどが設定済みであるときに使用可能です。
 * statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
-
 
 ## 入力支援
 
@@ -541,11 +538,31 @@
         http://localhost:15520/api/command?target=Plugin_InputAssist&command=sendnext
     ```
 
+## 辞書プラグイン
+
+* ゆかりねっとコネクターNEOの文字精度UPを支援します
+!!! Tech "使用条件"
+    * 辞書プラグインをONにしていること
+    * バージョン v1.8以上
+
+### 辞書の臨時差し替え
+
+* 送付方式：HTTP(GET)
+
+=== "置換辞書"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_Dictionary&command=load&type=replace&file=d:/dic1.csv
+    ```
+=== "対訳辞書"
+    ```js
+        http://localhost:15520/api/command?target=Plugin_Dictionary&command=load&type=translation&file=d:/dic2.csv
+    ```
+
 ## 歌詞プラグイン
 
-* ゆかりねっとコネクターNEOの文字入力を支援します
+* 音楽にあわせて歌詞表示を支援します
 !!! Tech "使用条件"
-    * 入力支援プラグインをONにしていること
+    * 歌詞プラグインをONにしていること
     * 送信先ポートはレジストリから取得します
 
 ### 遠隔操作
@@ -736,7 +753,7 @@
         operation: 'gpt',
         status: 'success'
         id: '0000-0000-0000-0000',
-        text: '「皆の者、おはよう」' 
+        text: '「皆の者、おはよう」'
     }
     ```
 === "Response(NG)"
@@ -745,7 +762,7 @@
         operation: 'gpt',
         status: 'failure'
         id: '0000-0000-0000-0000',
-        text: '' 
+        text: ''
     }
     ```
 

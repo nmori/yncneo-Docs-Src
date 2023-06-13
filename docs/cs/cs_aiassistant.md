@@ -41,22 +41,30 @@
 
 ### 2. ゆかコネ：AI設定
 
+* ゆかりねっとコネクターNEOのオプション設定を開き、赤枠に先ほど取得したAPIキーを設定します。
+
+![pict](./images/cs_aiassistant_p19.png)
+
 * ゆかりねっとコネクターNEOの「GPT3整形/AIアシスタント」をONにします。
 * ONにしたら、設定を開きます。
+
 ![pict](./images/cs_aiassistant_p5.png)
 
-* 赤枠に先ほど取得したAPIキーを設定します。
 * モデル選択は「gpt-3.5-turbo-0301」にします。
 * 文章を加工させる枠はチェックをしなくてOKです。
+
 ![pict](./images/cs_aiassistant_p6.png)
 
 * フィルター枠はチェックをしなくてOKです。
+
 ![pict](./images/cs_aiassistant_p7.png)
 
 * この２つもチェックをしなくてOKです。
+
 ![pict](./images/cs_aiassistant_p8.png)
 
 * この枠の設定が大事です。しっかり設定していきましょう
+
 ![pict](./images/cs_aiassistant_p9.png)
 
 |タイトル          |設定内容                                         |

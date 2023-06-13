@@ -118,6 +118,7 @@ nav:
           - 画面共有でコラボ: 'cs/cs_colab_rd.md'
         - StreamDeckで操作する : 'cs/cs_streamdeck.md'
         - AIアシスタントを作る : 'cs/cs_aiassistant.md'
+        - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'
       - システムVerUP:
         - ゆかコネ→NEO : 'mig/mig_neo.md'
         - NEO v1.9→v2.0 : 'mig/mig_neo_v2.md'
@@ -204,6 +205,7 @@ nav:
         - わんコメ系API : 'tech/tech_api_plugin_oc.md'
       - 開発履歴 : 'qa/history.md'
       - 協力者 : 'qa/collaborator.md'
+      - 支援者 : 'fanbox_supporter/supporter.md'
     - アンバサダー▼:
       - 活動メンバー: 'ambasador/ambasador_member.md'
       - 卒業メンバー: 'ambasador/ambasador_expired.md'

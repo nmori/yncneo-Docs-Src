@@ -9,14 +9,9 @@
 
 ## 安定版
 
-### v2.0.68：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/01/YNCneo_v2.0.68.zip)
+### v2.0.194：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/06/YNCneo_v2.0.194.zip)
 
-* NEO本体
-
-```text
-・言語推定の最適化
-```
-
+★インストールするときは、上書きインストールではなくて、元のものを一度アンインストールした方がトラブルに遭遇しにくいです。
 ## 最新開発版
 
 ### v2.0.194：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/06/YNCneo_v2.0.194.zip)

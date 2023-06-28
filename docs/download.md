@@ -15,7 +15,7 @@
 ★[.Net Framework 4.8.1](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net481)が必要です。
 ## 最新開発版
 
-### v2.0.194：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/06/YNCneo_v2.0.194.zip)
+### v2.0.195：[ダウンロード](https://drive.google.com/file/d/1MaH71eH3rnLvByWe8-mic-AG_VH63NwD/view?usp=sharing)
 
 !!! Warning "導入に関する注意"
     * 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。

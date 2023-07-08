@@ -9,18 +9,21 @@
 
 ## 安定版
 
-### v2.0.194：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/06/YNCneo_v2.0.194.zip)
+### v2.0.196：[ダウンロード](https://drive.google.com/file/d/1XSbGlKjgfo4UnfJnPxEI-nNU_bgYblbu/view?usp=sharing&que=YNCneo_v2.0.196.zip)
 
 ★インストールするときは、上書きインストールではなくて、元のものを一度アンインストールした方がトラブルに遭遇しにくいです。
 ★[.Net Framework 4.8.1](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net481)が必要です。
-## 最新開発版
-
-### v2.0.196：[ダウンロード](https://drive.google.com/file/d/1XSbGlKjgfo4UnfJnPxEI-nNU_bgYblbu/view?usp=sharing&que=YNCneo_v2.0.196.zip)
 
 !!! Warning "導入に関する注意"
     * 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
     * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
-    * このバージョンでは、[.Net Framework 4.8.1 のランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/thank-you/net481-web-installer)が必要です。未導入の方はインストールが必要です。
+
+## 最新開発版
+
+### v2.1.0 beta 1：[ダウンロード](https://drive.google.com/file/d/1niBAFNtUnR8EzVFtDnlw6whX6gJmNW0D/view?usp=sharing&que=YNCneo_v2.1.0.zip)
+
+!!! Warning "導入に関する注意"
+    * UIを調整中です。マニュアルとちょっとデザインが異なります
 
 !!! Tech "早期適用をしたい方はこちらをどうぞ"
 

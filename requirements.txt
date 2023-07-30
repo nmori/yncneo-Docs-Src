@@ -29,7 +29,6 @@ mkdocs-material-extensions>=1.0.3
 pygments>=2.12
 pymdown-extensions>=9.4
 mkdocs-git-revision-date-localized-plugin
-fontawesome_markdown
 pymdown-extensions
 mkdocs-glightbox
 mkdocs-meta-descriptions-plugin

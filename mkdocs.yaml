@@ -63,7 +63,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.magiclink
-  - fontawesome_markdown
   - codehilite
   - pymdownx.emoji
   - pymdownx.tabbed

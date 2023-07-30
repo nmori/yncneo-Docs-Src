@@ -50,7 +50,7 @@ extra:
     provider: google
     property: G-8VEJJC6B3D
   social:
-    - icon: fontawesome/brands/X
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/yncneo
   generator: true
 markdown_extensions:

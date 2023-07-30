@@ -1,6 +1,6 @@
 #アンバサダーについて
 
-ゆかりねっとコネクターを楽しく使いながら、みんなにその使い方や文化を広げてもらおうということで、アンバサダーを任命しています。
+ゆかコネNEOを楽しく使いながら、みんなにその使い方や文化を広げてもらおうということで、アンバサダーを任命しています。
 
 ## 第２期
 
@@ -22,7 +22,7 @@
     50代Vtuberの母上　そらな（もがみ　そらな）です。
     思い立った時がベストタイミングをモットーに
     いろんなことにチャレンジしています。Vtuber活動もその一つ！
-    ゆかりねっとコネクターを使って、世界の人とつながれる楽しさもお伝えしたいです
+    ゆかコネを使って、世界の人とつながれる楽しさもお伝えしたいです
 
 !!! Abstract "磯辺もち 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/IsobeMochi_V)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@isobemochi) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/isobemochivtuber) 　[:fontawesome-brands-bilibili:{ .bilibili }](https://live.bilibili.com/23727754)  　[:m:{ .mirrativ }](https://www.mirrativ.com/user/125307162) 　[:octicons-device-camera-video-16:{ .mildom }](https://www.mildom.com/14436826) 　"
     ![磯辺もち](images/isobemochi.png){ align=left } 

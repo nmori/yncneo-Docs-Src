@@ -34,7 +34,7 @@
 
 ![slack](images/plugin_slackwebhook_p5.png)
 
-* URLが発行されます。このアドレスをゆかりねっとコネクターNEOに設定します。
+* URLが発行されます。このアドレスをゆかコネNEOに設定します。
 
 ![slack](images/plugin_slackwebhook_p6.png)
 

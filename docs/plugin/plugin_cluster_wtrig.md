@@ -53,7 +53,7 @@
 ## 使い方
 
 1. Clusterでイベントを作ります。
-2. ゆかりねっとコネクターNEOの画面からコントロール画面に入ります。
+2. ゆかコネNEOの画面からコントロール画面に入ります。
 ![Cluster](images/plugin_clusterwtrigger_p3.png)
 
 3. コントロール画面で「HOME」ボタンを押します。

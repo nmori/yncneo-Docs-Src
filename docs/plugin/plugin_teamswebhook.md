@@ -37,7 +37,7 @@
 
 ![Teams](images/plugin_teamswebhook_p5.png)
 
-* URLが発行されます。このアドレスをゆかりねっとコネクターNEOに設定します。
+* URLが発行されます。このアドレスをゆかコネNEOに設定します。
 
 ![Teams](images/plugin_teamswebhook_p6.png)
 

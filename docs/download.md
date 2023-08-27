@@ -20,7 +20,7 @@
 
 ## 最新開発版
 
-### v2.1.0 beta 37：[ダウンロード](https://drive.google.com/file/d/16N-Ja4N4gAbJ7wpaaucZM1ANRjKzGU7I/view?usp=sharing&que=YNCneo_v2.1.0beta37.zip)
+### v2.1.0 beta 38：[ダウンロード](https://drive.google.com/file/d/1N-HjNvsiu5eC1WWVygvEuFYsME5ydlAn/view?usp=sharing&que=YNCneo_v2.1.0beta38.zip)
 
 !!! Warning "導入に関する注意"
     * UIを調整中です。マニュアルとちょっとデザインが異なります

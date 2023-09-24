@@ -9,44 +9,34 @@
 
 ## 安定版
 
-### v2.0.196：[ダウンロード](https://drive.google.com/file/d/1XSbGlKjgfo4UnfJnPxEI-nNU_bgYblbu/view?usp=sharing&que=YNCneo_v2.0.196.zip)
+### v2.1.0 ：[ダウンロード](https://drive.google.com/file/d/1nRQ3NDtmH22haCO4zhzeSM-JC6EYNFtp/view?usp=sharing&que=YNCneo_v2.1.0.zip)
 
 ★インストールするときは、上書きインストールではなくて、元のものを一度アンインストールした方がトラブルに遭遇しにくいです。
-★[.Net Framework 4.8.1](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net481)が必要です。
+★[.Net Framework 4.8](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net48)が必要です。
 
 !!! Warning "導入に関する注意"
+
     * 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
     * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
 
 ## 最新開発版
 
-### v2.1.0 beta 43：[ダウンロード](https://drive.google.com/file/d/1tqzx0wqCN_L-4oD31mt6YyjOzHf7m0e9/view?usp=sharing&que=YNCneo_v2.1.0beta43.zip)
+### v2.1.0 ：[ダウンロード](https://drive.google.com/file/d/1nRQ3NDtmH22haCO4zhzeSM-JC6EYNFtp/view?usp=sharing&que=YNCneo_v2.1.0.zip)
 
-!!! Warning "導入に関する注意"
-    * UIを調整中です。マニュアルとちょっとデザインが異なります
-    * VRChatでチャットボックスが出ない現象の方は、こちらをお使いください
-
-!!! Tech "早期適用をしたい方はこちらをどうぞ"
-
-    * OBS　WebSocket5 通信 フリーズ対策、文字が残る問題
-    * コンベアテロップの未スクロールバグ修正
-    * 音声発話の言語別設定
-    * API 拡張への早期アクセス
-    * Discord連携のアップデート
-    * AssistantSeika連携
-    * 翻訳安定化、通信負荷調整
-    * プラグイン追加(Teams/Slack)
-    * AIアシスタント機能
-    * わんコメ連携
+!!! Warning "正式リリースしたので、今の時点では開発版がありません。"
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
+
 ## 旧バージョン（サポート外）
 
 !!! Warning "導入に関する注意"
     * バージョン1 とバージョン2 は仕組みが大きく異なるので、バージョンを戻す場合には上書きインストールせず、設定を含めてアンインストールしてから導入してください
 
 !!! Warning "サポート終了"
-    * 速めにv2へバージョンアップをお願いします
+    * 速めにv2.1へバージョンアップをお願いします
+
+### v2.0.196：[ダウンロード](https://drive.google.com/file/d/1XSbGlKjgfo4UnfJnPxEI-nNU_bgYblbu/view?usp=sharing&que=YNCneo_v2.0.196.zip)
+
 ### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
 
 ## 補足情報

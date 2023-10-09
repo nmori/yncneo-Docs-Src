@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.3 ：[ダウンロード](https://drive.google.com/file/d/1RKYNq6ugQpg5co-KCGwe4QDU-l9hHltD/view?usp=sharing&que=YNCneo_v2.1.3.zip)
+### v2.1.4 ：[ダウンロード](https://drive.google.com/file/d/1hX46kdvMjUY3wPc-4PredAuLQ3feSMdL/view?usp=sharing&que=YNCneo_v2.1.4.zip)
 
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)

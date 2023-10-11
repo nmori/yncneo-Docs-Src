@@ -238,6 +238,49 @@
 * 要求時は、翻訳してほしい言語を指定します。
 * 返答時には、推定した言語と翻訳した文が来ます。
 * statusがfailureの場合は、処理に失敗しています。
+#### 言語到底
+
+* 翻訳/発話連携サーバプラグインが開いているHTTPサーバもしくはWebSocketサーバに下記のリクエストを送付してください。
+* 送付方式：HTTPの場合はPOST、WSの場合はテキスト
+* 対応バージョン : 連携プラグイン v1.6b～
+
+=== "Request"
+    ```js
+    {
+        operation: 'detectLanguage',
+        params: [
+            {
+                id: '0000-0000-0000-0000',
+                text: 'こんにちは'
+            }
+        ]
+    }
+    ```
+=== "Response(OK)"
+    ```js
+    {
+        operation: 'detectLanguage',
+        status: 'success'
+        id: '0000-0000-0000-0000',
+        lang: 'ja_JP',
+        text: 'こんにちは'
+    }
+    ```
+=== "Response(NG)"
+    ```js
+    {
+        operation: 'detectLanguage',
+        status: 'failure'
+        id: '0000-0000-0000-0000',
+        lang: 'unknown',
+        text: 'こんにちは'
+    }
+    ```
+
+* 要求時は、言語特定してほしい文を指定します。
+* 返答時には、推定した言語が来ます。
+* 特定実行したが判断できない場合は言語名が unknow になります。
+* statusがfailureの場合は、処理に失敗しています。
 
 #### 読み上げ
 

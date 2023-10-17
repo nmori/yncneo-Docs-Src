@@ -21,8 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.6 ：[ダウンロード](https://drive.google.com/file/d/1YT6VwbDiGZGWX6VSnnR32Y37SuG8kPQr/view?usp=sharing&que=YNCneo_v2.1.6.zip)
+### v2.1.7 ：[ダウンロード](https://drive.google.com/file/d/1stRYt5fMq-Wk6gQ2ZNwGKQ9YjkUT3eac/view?usp=sharing&que=YNCneo_v2.1.7.zip)
 
+* VOICEVOX新キャラ読み上げ対応
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.9 ：[ダウンロード](https://drive.google.com/file/d/1V5Cbrk1UWBUE4MRSwqqB--6sWEMnpxSd/view?usp=sharing&que=YNCneo_v2.1.9.zip)
+### v2.1.9 ：[ダウンロード](https://drive.google.com/file/d/1Tg1ypHbfUFWMZt_ambG-2N3UUw1Im4XV/view?usp=sharing&que=YNCneo_v2.1.11.zip)
 
 * VOICEVOX新キャラ読み上げ対応
 

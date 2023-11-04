@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.9 ：[ダウンロード](https://drive.google.com/file/d/1Tg1ypHbfUFWMZt_ambG-2N3UUw1Im4XV/view?usp=sharing&que=YNCneo_v2.1.11.zip)
+### v2.1.11 ：[ダウンロード](https://drive.google.com/file/d/1Tg1ypHbfUFWMZt_ambG-2N3UUw1Im4XV/view?usp=sharing&que=YNCneo_v2.1.11.zip)
 
-* VOICEVOX新キャラ読み上げ対応
+* Twitch接続エラー修正、セキュリティアップデート、COEIROINK読み上げ修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.11 ：[ダウンロード](https://drive.google.com/file/d/1Tg1ypHbfUFWMZt_ambG-2N3UUw1Im4XV/view?usp=sharing&que=YNCneo_v2.1.11.zip)
+### v2.1.12 ：[ダウンロード](https://drive.google.com/file/d/1C7rmDNGafL01zIF7DmltkTf6T8B8YtKD/view?usp=sharing&que=YNCneo_v2.1.12.zip)
 
-* Twitch接続エラー修正、セキュリティアップデート、COEIROINK読み上げ修正
+* わんコメテンプレ連携修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 
@@ -35,7 +35,7 @@
 !!! Warning "サポート終了"
     * 速めにv2.1へバージョンアップをお願いします
 
-### v2.0.196：[ダウンロード](https://drive.google.com/file/d/1XSbGlKjgfo4UnfJnPxEI-nNU_bgYblbu/view?usp=sharing&que=YNCneo_v2.0.196.zip)
+### v2.0.197：[ダウンロード](https://drive.google.com/file/d/1lEHHf9QymS474DBiNWCDCctwSBVHXHJg/view?usp=sharing&que=YNCneo_v2.0.197.zip)
 
 ### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
 

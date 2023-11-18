@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.12 ：[ダウンロード](https://drive.google.com/file/d/1C7rmDNGafL01zIF7DmltkTf6T8B8YtKD/view?usp=sharing&que=YNCneo_v2.1.12.zip)
+### v2.1.13 ：[ダウンロード](https://drive.google.com/file/d/11dMHQpCDbZDRNrNL34MnQd1fQz1gYTS9/view?usp=sharing&que=YNCneo_v2.1.13.zip)
 
-* わんコメテンプレ連携修正
+* VOICEVOX Nemo 仮対応
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

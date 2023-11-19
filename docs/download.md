@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.13 ：[ダウンロード](https://drive.google.com/file/d/11dMHQpCDbZDRNrNL34MnQd1fQz1gYTS9/view?usp=sharing&que=YNCneo_v2.1.13.zip)
+### v2.1.15 ：[ダウンロード](https://drive.google.com/file/d/1v0Fd1GpIj4vAXLFkiEJGVJElI3i2ipVO/view?usp=sharing&que=YNCneo_v2.1.15.zip)
 
 * VOICEVOX Nemo 仮対応
 

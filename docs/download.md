@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.15 ：[ダウンロード](https://drive.google.com/file/d/1v0Fd1GpIj4vAXLFkiEJGVJElI3i2ipVO/view?usp=sharing&que=YNCneo_v2.1.15.zip)
+### v2.1.16 ：[ダウンロード](https://drive.google.com/file/d/11spcUfagz1_yaJJaeyEx88kRry_GTAkJ/view?usp=sharing&que=YNCneo_v2.1.16.zip)
 
-* VOICEVOX Nemo 仮対応
+* UDトークとの通信ができなくなった件の修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

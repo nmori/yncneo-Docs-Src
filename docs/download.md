@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.16 ：[ダウンロード](https://drive.google.com/file/d/11spcUfagz1_yaJJaeyEx88kRry_GTAkJ/view?usp=sharing&que=YNCneo_v2.1.16.zip)
+### v2.1.17 ：[ダウンロード](https://drive.google.com/file/d/1aEwGfqVeQdRAu8ze_8TKRv--SvW52HHo/view?usp=sharing&que=YNCneo_v2.1.17.zip)
 
-* UDトークとの通信ができなくなった件の修正
+* 表示テンプレートのエラー修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

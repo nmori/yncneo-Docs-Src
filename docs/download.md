@@ -9,7 +9,7 @@
 
 ## 安定版
 
-### v2.1.0 ：[ダウンロード](https://drive.google.com/file/d/1nRQ3NDtmH22haCO4zhzeSM-JC6EYNFtp/view?usp=sharing&que=YNCneo_v2.1.0.zip)
+### v2.1.11 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.11.zip)
 
 ★インストールするときは、上書きインストールではなくて、元のものを一度アンインストールした方がトラブルに遭遇しにくいです。
 ★[.Net Framework 4.8](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net48)が必要です。
@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.18 ：[ダウンロード](https://drive.google.com/file/d/1qVGDlbgn_n96JjpNG4Ig9Je-Rm7OUYlh/view?usp=sharing&que=YNCneo_v2.1.18.zip)
+### v2.1.18 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.18.zip)
 
 * 表示テンプレートのエラー修正
 

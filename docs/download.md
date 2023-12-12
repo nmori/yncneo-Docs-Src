@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.18 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.18.zip)
+### v2.1.19 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.19.zip)
 
 * 表示テンプレートのエラー修正
 

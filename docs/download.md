@@ -21,10 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.20 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.20.zip)
+### v2.1.21 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.21.zip)
 
-* VOICEPEAK連携ができない問題の修正
-* Firebot 日本語ローカライズ版 連携のための機能拡張
+* わんコメ⇒ゆかコネNEO⇒VOICEPEAK連携時のエラーを修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

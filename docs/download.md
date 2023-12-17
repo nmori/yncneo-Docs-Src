@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.21 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.21.zip)
+### v2.1.22 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.22.zip)
 
 * わんコメ⇒ゆかコネNEO⇒VOICEPEAK連携時のエラーを修正
 

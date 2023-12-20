@@ -1,5 +1,13 @@
 # 更新履歴
 
+## v2.1.23
+
+* VTubeStudio連携
+
+```text
+・Firebot連携用にAPIを調整
+```
+
 ## v2.1.22
 
 * NEO本体

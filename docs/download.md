@@ -21,11 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.26 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.26.zip)
+### v2.1.27 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.27.zip)
 
-* レイアウト修正
-* 設定保存に失敗し異常終了するケースの修正
-* A.I.Voice2仮対応
+* 表示レイアウトの崩れ修正
+* 逆翻訳処理の動作修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

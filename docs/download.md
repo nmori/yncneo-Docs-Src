@@ -21,16 +21,20 @@
 
 ## 最新開発版
 
-### v2.1.27 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.27.zip)
+### v2.1.28 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.28.zip)
 
-* 表示レイアウトの崩れ修正
-* 逆翻訳処理の動作修正
+* 表示レイアウトの修正
+* 字幕が消えない問題の修正
+* プロモーションコードが消える問題の修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 
 !!! Warning "バージョンアップ後に支援翻訳できなくなった場合"
     * 内部認証が正しく行えない場合に翻訳ができないことがあります。再認証をお試しください。
 
+## 旧バージョン
+
+### v2.1.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.0.zip)
 
 ## 旧バージョン（サポート外）
 

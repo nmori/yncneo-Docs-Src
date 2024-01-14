@@ -21,11 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.28 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.28.zip)
+### v2.1.30 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.30.zip)
 
-* 表示レイアウトの修正
-* 字幕が消えない問題の修正
-* プロモーションコードが消える問題の修正
+* レイアウトUIを修正
+* 内蔵レイアウトフォーマットのバージョンアップ
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

@@ -192,6 +192,7 @@ nav:
           - NeosVR 連携: 'plugin/plugin_neosvr.md'
           - Discord BOT連携 : 'plugin/plugin_dicord.md'
           - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
+          - Notion連携 : 'plugin/plugin_notion.md'
           - Twitchチャット連携: 'plugin/plugin_twitch.md'
           - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
           - YouTube タイムコード生成 : 'plugin/plugin_youtubetimecode.md'

@@ -21,10 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.30 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.30.zip)
+### v2.1.32 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.32.zip)
 
-* レイアウトUIを修正
-* 内蔵レイアウトフォーマットのバージョンアップ
+* Notion連携プラグイン追加
+* 翻訳処理の修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

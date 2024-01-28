@@ -21,10 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.33 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.33.zip)
+### v2.1.34 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.34.zip)
 
-* AssistantSeika読み上げ連携の動作修正
-* オフライン音声認識アプリのレベルアップ
+* ブラウザのTTS音源連携がうまくできなくなってた問題の修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

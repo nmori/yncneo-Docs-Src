@@ -21,10 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.32 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.32.zip)
+### v2.1.33 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.33.zip)
 
-* Notion連携プラグイン追加
-* 翻訳処理の修正
+* AssistantSeika読み上げ連携の動作修正
+* オフライン音声認識アプリのレベルアップ
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

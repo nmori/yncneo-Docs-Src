@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.34 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.34.zip)
+### v2.1.35 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.35.zip)
 
-* ブラウザのTTS音源連携がうまくできなくなってた問題の修正
+* CeVIO/CeVIO AI
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

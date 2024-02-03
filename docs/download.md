@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.35 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.35.zip)
+### v2.1.36 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.36.zip)
 
-* CeVIO/CeVIO AI
+* 置換処理の速度UP、音声認識が時間と共に重くなる件への予防的対処
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

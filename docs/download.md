@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.37 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.37.zip)
+### v2.1.39 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.39.zip)
 
-* 置換処理の速度UP、音声認識が時間と共に重くなる件への予防的対処
+* Tencent翻訳が起動時直後うまく行かないパターンが有る件の修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

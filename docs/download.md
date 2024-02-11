@@ -21,9 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.39 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/01/YNCneo_v2.1.39.zip)
+### v2.1.40：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/02/YNCneo_v2.1.40.zip)
 
-* Tencent翻訳が起動時直後うまく行かないパターンが有る件の修正
+* Alibabaクラウド翻訳に対応（仮）
+* VOICEVOX Cloudに対応
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

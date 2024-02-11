@@ -11,7 +11,7 @@
 * 読み上げ連携
 
 ```text
-・VOICEVOX Cloudに対応
+・VOICEVOX Cloud API(0kqさん)に対応
 ```
 
 ## v2.1.39

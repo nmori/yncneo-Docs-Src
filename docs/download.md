@@ -21,10 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.42：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/02/YNCneo_v2.1.42.zip)
+### v2.1.46：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/02/YNCneo_v2.1.46.zip)
 
-* ブラウザの音声認識の動作を修正
-* COEIROINK の特定名称の音源が再生サれない問題の修正
+* WASAPIデバイスをつかった読み上げに対応
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

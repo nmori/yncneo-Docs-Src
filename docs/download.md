@@ -21,7 +21,7 @@
 
 ## 最新開発版
 
-### v2.1.47：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.47.zip)
+### v2.1.49：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.49.zip)
 
 * 読み上げパラメータ修正、わんコメ連携まわりの調整
 

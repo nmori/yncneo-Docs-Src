@@ -21,9 +21,10 @@
 
 ## 最新開発版
 
-### v2.1.49：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.49.zip)
+### v2.1.51：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.51.zip)
 
-* 読み上げパラメータ修正、わんコメ連携まわりの調整
+* 縁取り色設定が保存されない問題
+* GPTを使った翻訳のモデル選択を追加
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

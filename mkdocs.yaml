@@ -78,8 +78,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true      
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - codehilite:
       noclasses: true
       pygments_style: colorful
@@ -213,11 +213,11 @@ nav:
       - 開発履歴 : 'qa/history.md'
       - 協力者 : 'qa/collaborator.md'
       - 支援者 : 'fanbox_supporter/supporter.md'
-    - アンバサダー▼:
-      - 活動メンバー: 'ambasador/ambasador_member.md'
+    - メンバー▼:
+      - アンバサダー: 'ambasador/ambasador_member.md'
+      - 開発サイド: 'supporter/supporter.md'
       - 卒業メンバー: 'ambasador/ambasador_expired.md'
       - 活動レポート: 'ambasador/ambasador_report.md'
-    - 担当・サポータ▼: 'supporter/supporter.md'
     - 困ったときは▼:
       - ヘルプが欲しいとき : 'qa/before_help.md'
       - 再インストール : 'qa/reinstall.md'

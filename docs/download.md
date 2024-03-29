@@ -21,10 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.56：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.56.zip)
+### v2.1.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.57.zip)
 
-* わんコメ読み上げ連携
-* サウンド再生遅延処理の修正
+* WebSocketプラグイン追加。VNyanと通信できます。
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

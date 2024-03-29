@@ -9,7 +9,7 @@
 !!! Note "わんコメとの連携"
     * この機能を使うと[わんコメ](https://onecomme.com/)に翻訳機能と発話機能を提供できます。
 
-##　有効化
+## 有効化
 
 ![ファイル](images/plugin_transSrv_p1.png)
 
@@ -21,15 +21,12 @@
 
 * 「設定」ボタンを押すことで、接続先が表示されます。
 
-!!! Info "下記プラグインが有効な場合は、下記の設定が反映されます"    
-    * [辞書プラグイン](plugin_dictionary.md)
-    * [正規表現プラグイン](plugin_regexp.md)
-    * [文字種変換プラグイン](plugin_)
-
+!!! Info "下記プラグインが有効な場合は、下記の設定が反映されます"
+    *[辞書プラグイン](plugin_dictionary.md)
+    *[正規表現プラグイン](plugin_regexp.md)
+    *[文字種変換プラグイン](plugin_ConvertString.md)
 
 ## その他
 
 !!! info "このプラグインにはAPIがあります"
     * このプラグインを有効にすると、[翻訳/発話仕様API](../tech/tech_api_plugin.md)の機能を使えます。
-
-    

@@ -24,15 +24,6 @@
 
 !!! info "順不同"
 
-!!! Abstract "あまえび/阿和音フィロ 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/awane_philo)       　 [:fontawesome-brands-youtube:{ .youtube }](https://youtube.com/channel/UCFMTDHoAZd7WOZn5CpOWiDg) 　[:fontawesome-brands-instagram:{ .instagram }](https://instagram.com/awane_philo) 　[:fontawesome-solid-address-book:](https://vprof.me/@/Awane_Philo) 　[:fontawesome-solid-blog:](https://vr-lifemagazine.com/author/amaebi0141friends/) 　【2期】"
-    ![あまえび](images/amaebi.png){ align=left }
-
-    ** 一言コメント **   
-    文字を書くのが好きなVTuber！
-    タイピングせずに記事を書いてみせます！
-    文字と一緒に広がるVの世界！！！
-    この機会にあまえびのことを推してみてね！！！！！
-
 !!! Abstract "あげヮラのぽよ麻呂 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/poyomaro_ageage)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/poyomaro) 　[:tv:{ .niconico }](https://www.nicovideo.jp/user/124588558) 　【2期】"
     ![あげヮラのぽよ麻呂](images/poyomaro.png){ align=left }
 

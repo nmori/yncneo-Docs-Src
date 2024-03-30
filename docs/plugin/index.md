@@ -70,6 +70,7 @@
 |ばもきゃ連携                     | VMCProtocolと連携                               |[■](plugin_vmc.md)         |
 |MTGカード支援                    | MTG自動実況ツールと連携しカードを表示           |[■](plugin_MTGCard.md)     |
 |HTTPコール                       | 文字をトリガーにHTTPコールをする                |[■](plugin_httpcall.md)    |
+|WebSocketコール                  | 文字をトリガーにWebSocketでデータを送る（VNyan等と連携可）                |[■](plugin_wscall.md)    |
 |VTubeStudio連携                  | VTuberStudio の画面の字幕を表示                 |[■](plugin_VtubeStudio.md) |
 |ファイル出力                     | 動画字幕編集ソフトに字幕をエクスポート          |[■](plugin_exporter.md)    |
 

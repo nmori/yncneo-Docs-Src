@@ -53,14 +53,3 @@
 
     ** 一言コメント **   
     バーチャルでの魅力を沢山伝えていきたい九尾の狐です
-
-<!-- #### あまえび/阿和音フィロ -->
-
-!!! Abstract "Amaebi/Awane Philo 　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/awane_philo)       　 [:fontawesome-brands-youtube:{ .youtube }](https://youtube.com/channel/UCFMTDHoAZd7WOZn5CpOWiDg) 　[:fontawesome-brands-instagram:{ .instagram }](https://instagram.com/awane_philo) 　[:fontawesome-solid-address-book:](https://vprof.me/@/Awane_Philo) 　[:fontawesome-solid-blog:](https://vr-lifemagazine.com/author/amaebi0141friends/) 　【2期】"
-    ![あまえび](images/amaebi.png){ align=left }
-
-    ** 一言コメント **   
-    文字を書くのが好きなVTuber！
-    タイピングせずに記事を書いてみせます！
-    文字と一緒に広がるVの世界！！！
-    この機会にあまえびのことを推してみてね！！！！！

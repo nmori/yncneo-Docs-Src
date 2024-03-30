@@ -122,7 +122,7 @@
     ゲーム実況や、VRSNSで遊んだりすることも多いよ！
     メタバースでの接客などのお仕事も得意です。
 
-#### 阿和音あまえびちゃん
+#### 阿和音あまえびちゃん🦐💚
 
 !!! Abstract "Awane Amaebichan　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/awane_philo)       　 [:fontawesome-brands-youtube:{ .youtube }](http://youtube.com/@Awane_Philo) 　[:simple-c:{ .cluster }](https://cluster.mu/u/Awane_Philo) 　[:fontawesome-brands-tiktok:{ .tiktok }](https://www.tiktok.com/@awane_philo) 　【2期～】"
     ![あまえび](images/amaebichan.jpg){ align=left }

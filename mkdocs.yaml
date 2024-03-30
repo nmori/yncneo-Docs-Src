@@ -183,6 +183,7 @@ nav:
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
+          - WebSocketコール : 'plugin/plugin_wscall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
         - プラットフォーム連携:

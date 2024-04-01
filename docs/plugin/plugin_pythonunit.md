@@ -7,13 +7,13 @@
 
 ## 有効化
 
-![再生](images/plugin_PythonUnit_p1.png)
+![再生](images/plugin_pythonunit_p1.png)
 
 * プラグインを使うチェックをONにしてください。
 
 ## 設定画面
 
-![プラグイン](images/plugin_PythonUnit_p2.png)
+![プラグイン](images/plugin_pythonunit_p2.png)
 
 |設定|意味|
 |:--|:---|

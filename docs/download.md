@@ -21,9 +21,9 @@
 
 ## 最新開発版
 
-### v2.1.59：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/03/YNCneo_v2.1.59.zip)
+### v2.1.60：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.60.zip)
 
-* Pythonプラグイン追加。
+* Pythonプラグイン修正
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

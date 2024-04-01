@@ -177,15 +177,11 @@ nav:
         - アプリ連携:
           - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
           - わんコメ連携 : 'plugin/Plugin_OCComm.md'
-          - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
           - VaNiiツール連携 : 'plugin/plugin_vanii.md'
           - VRオーバーレイ : 'plugin/plugin_vroverlay.md'
           - ばもきゃ連携 : 'plugin/plugin_vmc.md'
           - MTGカード支援 : 'plugin/plugin_MTGCard.md'
-          - HTTPコール : 'plugin/plugin_httpcall.md'
-          - WebSocketコール : 'plugin/plugin_wscall.md'
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
-          - ファイル出力 : 'plugin/plugin_exporter.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
           - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
@@ -201,6 +197,12 @@ nav:
           - Slack Webhook連携 : 'plugin/plugin_slackwebhook.md'
           - Teams Webhook連携 : 'plugin/plugin_teamswebhook.md'
           - コメントスクリーン連携 : 'plugin/plugin_comscr.md'
+        - API・ツール拡張:
+          - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
+          - HTTPコール : 'plugin/plugin_httpcall.md'
+          - WebSocketコール : 'plugin/plugin_wscall.md'
+          - ファイル出力 : 'plugin/plugin_exporter.md'
+          - Python連携: 'plugin/plugin_pythonunit.md'
         - つかいやすさ向上:
           - 直接入力: 'plugin/plugin_directinput.md'
           - 入力支援 : 'plugin/plugin_InputAssist.md'

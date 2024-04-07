@@ -58,7 +58,7 @@
 #=====================================================
 # これは、音声認識されるたびに呼び出されます。
 # ここを書き換えると、母国語の表示を置換できます。
-# Message["fixedText"] が True ならば、音声認識で文が確定した状態です
+# Message["TextFixed"] が True ならば、音声認識で文が確定した状態です
 # Message["isDeleted"] が True ならば、文が取り消されたことを意味します
 def PostRecognition(Message):
     text = Message["Text"]

@@ -9,6 +9,8 @@
 
 ## 安定版
 
+### v2.1.59 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/3/YNCneo_v2.1.59.zip)
+
 ### v2.1.11 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.11.zip)
 
 * インストールするときは、上書きインストールではなくて、元のものを一度アンインストールした方がトラブルに遭遇しにくいです。

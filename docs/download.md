@@ -23,7 +23,7 @@
 
 ## 最新開発版
 
-### v2.1.63：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.63.zip)
+### v2.1.64：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.64.zip)
 
 * Warudo連携に向けた調整
 

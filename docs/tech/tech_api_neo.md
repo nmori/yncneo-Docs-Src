@@ -107,20 +107,20 @@
 
 * 選択・認知可能な言語であれば変更を反映します
 
-
 ## 翻訳表示設定の変更
 
 * 翻訳字幕表示設定を変更します
 
 !!! Tech "使用条件"
     * ゆかコネNEO v2.0以上
+
 * 送付方式：GET
 * 送付先 : /api/setTranslationParam
 
 |クエリ|意味|例|
 |:----|:---|:--|
 |slot|翻訳ナンバー|1~4|
-|language|言語名（ISO表記)|ja|
+|language|言語名（ISO表記）|ja,zh-TW,en … , 無しにするなら `off` |
 |engine|翻訳エンジン設定|`google`,`microsoft`,`deeplpro`,`deeplfree`,`amazon`,`amazon-eu`,`googletrans`,`watson`,`Papago`,`papago-app`,`share`,`gas`,`off`|
 
 === "Query"
@@ -136,6 +136,7 @@
 
 !!! Tech "使用条件"
     * プラグイン自体が対応していること
+
 * 送付方式：GET
 * 送付先 : /api/command
 
@@ -143,7 +144,6 @@
 |:----|:---|:--|
 |target|送付先プラグイン識別名||
 |command|命令文字列||
-
 
 * 成功すると ok が返ってきます。
 
@@ -169,7 +169,7 @@
     * 特になし
 
 * 送付方式：Websocket Text
-* 送付先 :　ws://127.0.0.1:50000/ 
+* 送付先 :　ws://127.0.0.1:50000/
 * ポート番号は前述のレジストリから取得してください
 
 !!! Warning "パラメータについて"
@@ -179,7 +179,6 @@
 
 === "Query"
     ``` js
-        
             {
                 "VoiceText": "12", 
                 "UpdateTranslation": false, //翻訳が更新されるとtrueになる
@@ -310,16 +309,18 @@
         "isDeleted": false
         }
     ```
+
 === "意味"
     |タグ|内容|
     |----|---|
-    |textList|発話もしくは翻訳文のリスト（keyは言語名、dataは文章)|
+    |textList|発話もしくは翻訳文のリスト（keyは言語名、dataは文章）|
     |fixedText|文章が確定したか|
     |talkerID|発話者のユニークなID|
     |talkerName|発話者名|
     |MessageID|この発話に対するユニークなID|
-    |isAlreadyShown|既に表示(確定）されたことがあるか|
+    |isAlreadyShown|既に表示（確定）されたことがあるか|
     |isDeleted|文章が取り消されているか|
+
 === "特性"
     * 途中経過を送るかどうかは、見た目の微調整にある「過程を送る」に左右されます。
     * 未確定の状態（発話途中）はfixedText=falseで送られます

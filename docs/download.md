@@ -23,9 +23,9 @@
 
 ## 最新開発版
 
-### v2.1.66：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.66.zip)
+### v2.1.67：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.67.zip)
 
-* レイアウト修正等
+* 翻訳処理タスクの最適化
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

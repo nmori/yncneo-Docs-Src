@@ -4,19 +4,10 @@
 
 ### 多言語の翻訳
 
-#### だばちゃんさん
-
-!!! Abstract "だばちゃんさん　 [:fontawesome-brands-twitch:{ .twitch }](twitch.tv/dabachaaaaan)"
-
-    ** 一言コメント **   
-    
-    ゆかコネの邦訳機能を使って外国人視聴者とのコミュニケーションがうまく出来ています。
-    ツイッチは外国人視聴者も多いので、重宝してます！
-
 #### ゆきひこさん
 
 !!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/yukihiko78)"
-    <iframe src="https://www.twitch.tv/videos/2025678320?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=2025678320&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **
    
@@ -28,8 +19,7 @@
 #### 寝住ようかんさん
 
 !!! Abstract "寝住ようかんさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/youkan000320)"
-
-    <iframe src="https://www.twitch.tv/videos/2100015276?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=2100015276?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **
 
@@ -41,8 +31,7 @@
 #### カバ子さん
 
 !!! Abstract "カバ子さん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/coveredcore)"
-
-    <iframe src="https://www.twitch.tv/videos/2083158489?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=2083158489?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **
 
@@ -62,6 +51,16 @@
     リアルタイム翻訳字幕ツール用いて「文字を必要とされる人たちにエンタメを届けたい」をモットーに活動しているよ。
     インドネシアの人がこられたので、ゆかコネとわんコメを使って双方感のやり取りが円滑にできました。
     もっとこういう世界を増やしたいですね。
+
+#### だばちゃんさん
+
+!!! Abstract "だばちゃんさん　 [:fontawesome-brands-twitch:{ .twitch }](twitch.tv/dabachaaaaan)"
+
+    ** 一言コメント **   
+    
+    ゆかコネの邦訳機能を使って外国人視聴者とのコミュニケーションがうまく出来ています。
+    ツイッチは外国人視聴者も多いので、重宝してます！
+
 
 ## 活用事例(2023)
 

@@ -132,7 +132,7 @@
 
 #### 未知カケル
 
-!!! Abstract "未知カケル　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/michikakeruch)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@michikakeru) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/michi_kakeru) 　【2期】"
+!!! Abstract "未知カケル　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/michikakeruch)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@michikakeru) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/michi_kakeru) 　【2期～】"
     ![未知カケル](images/kakeru2.png){ align=left }
 
     ** 一言コメント **   

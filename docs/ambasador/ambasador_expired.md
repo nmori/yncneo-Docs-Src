@@ -33,15 +33,6 @@
     ユーザーフレンドリーな配信目指してゆかコネを使っておりまするよ✨
     ゆかコネの導入を前提とした配信画面の素材なんかも作っていきたいの～💪
 
-!!! Abstract "未知カケル　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/michikakeruch)       　 [:fontawesome-brands-youtube:{ .youtube }]( https://www.youtube.com/c/michikakeru) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/michi_kakeru) 　[:material-web:{ .booth }](　https://michikakeru.booth.pm/)　【2期】"
-    ![未知カケル](images/kakeru.png){ align=left }
-
-    ** 一言コメント **   
-    クラフトゲームの解説や討論会の企画を行っている、武将系バーチャルライバーの未知カケルです！
-    ゲームに言語圏は関係ない！バーチャルも言語は関係ない！ならば配信に言語の壁があるのはおかしい！ということで
-    ゆかコネを用いて言語の壁を取っ払ってしまいます！
-    配信、解説動画、企画動画、様々な場面で自然に字幕をつけ、多くの人が自然に見ることができる映像づくりをしていきたいです！
-
 !!! Abstract "甘姉ミナ　[:fontawesome-brands-twitter:{ .twitter }](https://mobile.twitter.com/AmaneMina_maha5)       　 [:fontawesome-brands-youtube:{ .youtube }]( http://youtube.com/@AmaneMina) 　[:fontawesome-brands-instagram:{ .instagram }](https://www.instagram.com/amanemina_maha5) 　[:material-web:{ .litlink }](https://lit.link/AmaneMina)　【2期】"
     ![甘姉ミナ](images/mina.png){ align=left }
 

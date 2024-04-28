@@ -1,6 +1,69 @@
 ユーザさんから寄せられた活用事例をご紹介します
 
-## 活用事例
+## 活用事例(2024)
+
+### 多言語の翻訳
+
+#### だばちゃんさん
+
+!!! Abstract "だばちゃんさん　 [:fontawesome-brands-twitch:{ .twitch }](twitch.tv/dabachaaaaan)"
+
+    ** 一言コメント **   
+    
+    ゆかコネの邦訳機能を使って外国人視聴者とのコミュニケーションがうまく出来ています。
+    ツイッチは外国人視聴者も多いので、重宝してます！
+
+#### ゆきひこさん
+
+!!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/yukihiko78)"
+    <iframe src="https://www.twitch.tv/videos/2025678320?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **
+   
+    配信歴１年の初心者です。
+    僕は日本語しかできませんが、"ゆかコネNeo" と "わんコメ" を連携させることで、海外の方と意思疎通ができて本当に助かっています！
+    ゆかコネNeoは、他ソフトとの連携機能が充実しているので、自分好みの配信スタイルを簡単に創ることができます。
+    動画では "Firebot" というツールを使用したタイムキーパーの作り方を説明しています。
+
+#### 寝住ようかんさん
+
+!!! Abstract "寝住ようかんさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/youkan000320)"
+
+    <iframe src="https://www.twitch.tv/videos/2100015276?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **
+
+    2024年3月からTwitchで配信を始めた寝住ようかんと申します。
+    色々な翻訳ツールを試してみたところゆかコネNEOさんのツールが一番使いやすかったのでこちらを使用させていただきました！
+    自分自身英語は得意ではないので代わりに翻訳してくれて凄く助かっています✨
+    私が話してからの音声認識のスピードも速くて表示スピードも速く正確なのでこれからも重宝していこうと思います！
+
+#### カバ子さん
+
+!!! Abstract "カバ子さん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/coveredcore)"
+
+    <iframe src="https://www.twitch.tv/videos/2083158489?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **
+
+    気が向いた時にひっそりとゲーム実況配信しています。
+    ゆかコネの字幕/翻訳のおかげで、非日本語ネイティブな方ともコミュニケーションでき、何度も見に来てくれるリスナーの方ができました。
+    近頃はVMagicMirrorのモーション再生機能と、ゆかコネの「ホットキー」プラグインを組み合わせて、特定のキーワードでアバターがリアクションをするようにしています。
+    PC負荷を抑えたいのでVMMではフェイストラッカーを使用しないようにしており、ゲーム中にショートカットキーを押すのも難しいのでこの使用法で表情を補っています。
+
+#### clea_vtuberさん
+
+!!! Abstract "clea_vtuberさん　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCP-hBqu7wYKOzAAv_WrZ5wQ)"
+    <iframe src="https://www.youtube.com/watch?v=s2bzU7nBOS0" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ** 一言コメント **   
+
+    ゆかコネ公式ガイド、０期アンバサダーのcleaです。
+    リアルタイム翻訳字幕ツール用いて「文字を必要とされる人たちにエンタメを届けたい」をモットーに活動しているよ。
+    インドネシアの人がこられたので、ゆかコネとわんコメを使って双方感のやり取りが円滑にできました。
+    もっとこういう世界を増やしたいですね。
+
+## 活用事例(2023)
 
 ### 多言語翻訳
 

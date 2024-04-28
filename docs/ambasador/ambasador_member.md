@@ -129,3 +129,11 @@
 
     ** 一言コメント **   
     男の娘Vとして活動しています！あまえびちゃんです！どんなハンデを背負っていても楽しくイベントに参加出来る世界を目指します！
+
+#### 未知カケル
+
+!!! Abstract "未知カケル　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/michikakeruch)       　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@michikakeru) 　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/michi_kakeru) 　【2期】"
+    ![未知カケル](images/kakeru2.png){ align=left }
+
+    ** 一言コメント **   
+    ホラーゲームやRPしながらのゲームを行っています。海外との垣根のない配信を目指します

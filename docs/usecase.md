@@ -19,7 +19,7 @@
 #### 寝住ようかんさん
 
 !!! Abstract "寝住ようかんさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/youkan000320)"
-    <iframe src="https://player.twitch.tv/?video=2100015276?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=2100015276&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **
 
@@ -31,7 +31,7 @@
 #### カバ子さん
 
 !!! Abstract "カバ子さん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/coveredcore)"
-    <iframe src="https://player.twitch.tv/?video=2083158489?parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://player.twitch.tv/?video=2083158489&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
     ** 一言コメント **
 
@@ -43,7 +43,7 @@
 #### clea_vtuberさん
 
 !!! Abstract "clea_vtuberさん　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UCP-hBqu7wYKOzAAv_WrZ5wQ)"
-    <iframe src="https://www.youtube.com/watch?v=s2bzU7nBOS0" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s2bzU7nBOS0?si=M_phRDvjbJGUHC7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     ** 一言コメント **   
 

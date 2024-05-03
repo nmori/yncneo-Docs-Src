@@ -23,7 +23,7 @@
 
 ## 最新開発版
 
-### v2.1.69：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/04/YNCneo_v2.1.69.zip)
+### v2.1.71：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.71.zip)
 
 * 起動失敗に関する対応
 

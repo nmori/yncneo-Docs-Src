@@ -23,9 +23,9 @@
 
 ## 最新開発版
 
-### v2.1.71：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.71.zip)
+### v2.1.72：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.72.zip)
 
-* 起動失敗に関する対応
+* アプリUI改善の要望がおおかったので修正を入れています。見た目が少々変更になっています。
 
 不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
 

@@ -23,7 +23,7 @@
 
 ## 最新開発版
 
-### v2.1.74：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.74.zip)
+### v2.1.75：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.75.zip)
 
 * アプリUI改善の要望がおおかったので修正を入れています。見た目が少々変更になっています。
 

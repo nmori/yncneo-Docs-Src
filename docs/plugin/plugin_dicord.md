@@ -77,7 +77,7 @@ New Application を押して、登録しましょう。
 
 ### 4.DiscordチャンネルにBOTの読み書き権限を付与
 
-![Discord](../cs/images/cs_colab_discord_p15.png)
+![設定](images/plugin_discord_p4.png)
 
 * Discordチャンネルに読み書き権限を付与します。
 
@@ -94,5 +94,3 @@ New Application を押して、登録しましょう。
 ![設定](images/plugin_discord_p3.png) 
 
 * Discord側でBotにアクセス権を与えてください。アクセス権がないと読み書きができずBotが動きません。
-![設定](images/plugin_discord_p4.png)
-

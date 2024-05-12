@@ -71,9 +71,9 @@ New Application を押して、登録しましょう。
 
 ### 8.接続設定をする
 
-![Discord](images/cs_colab_discord_p11.png)
+![Discord](images/cs_colab_discord_p11-4.png)
 
-![Discord](images/cs_colab_discord_p11-2.png)
+![Discord](images/cs_colab_discord_p11.png)
 
 * 値を入手したら、プラグインに設定します。
 

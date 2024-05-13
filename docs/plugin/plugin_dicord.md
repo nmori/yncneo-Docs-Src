@@ -61,6 +61,11 @@ New Application を押して、登録しましょう。
 
 ![Discord](../cs/images/cs_colab_discord_p12.png)
 
+!!! Info その他のページについて
+    下記の設定は変更しません。
+    * OAuth2ページのすべて
+    * Botページの「Bot Permissions」
+
 * ChannelIDは、Discordの画面から取得します。
 
 ![Discord](../cs/images/cs_colab_discord_p13.png)

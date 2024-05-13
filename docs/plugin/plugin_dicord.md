@@ -63,6 +63,7 @@ New Application を押して、登録しましょう。
 
 !!! Info その他のページについて
     下記の設定は変更しません。
+
     * OAuth2ページのすべて
     * Botページの「Bot Permissions」
 

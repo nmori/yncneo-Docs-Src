@@ -61,8 +61,9 @@ New Application を押して、登録しましょう。
 
 ![Discord](../cs/images/cs_colab_discord_p12.png)
 
-!!! Info ”その他のページについて”
+!!! Info その他のページについて、
     下記の設定は変更せずに、そのままの状態でOKです
+
     * OAuth2ページのすべて
     * Botページの「Bot Permissions」
 

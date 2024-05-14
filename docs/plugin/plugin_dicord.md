@@ -51,7 +51,16 @@ New Application を押して、登録しましょう。
 
 * 名前は自由にわかるようなものをつけてください。
 
-### 2.接続設定をする
+### 2.アクセス権の設定をする
+
+* Discordのアクセス権を設定
+
+![Discord](images/plugin_discord_p5.png)
+![Discord](images/plugin_discord_p6.png)
+
+### 3.接続に必要な設定を得る
+
+* ツールに設定する値を取得
 
 ![Discord](../cs/images/cs_colab_discord_p11-4.png)
 
@@ -75,13 +84,13 @@ New Application を押して、登録しましょう。
     BOTがメッセージを受信できるように、読み取り権限を設定する必要があります。この項目をONにしておいてください。
     ![Discord](../cs/images/cs_colab_discord_p11-3.png)
 
-### 3.Discord接続認証を行う
+### 4.Discord接続認証を行う
 
 ![Discord](../cs/images/cs_colab_discord_p14.png)
 
 * このボタンを押して認証ができると、通信ができるようになります。
 
-### 4.DiscordチャンネルにBOTの読み書き権限を付与
+### 5.DiscordチャンネルにBOTの読み書き権限を付与
 
 ![設定](images/plugin_discord_p4.png)
 

@@ -23,7 +23,7 @@
 
 ## 最新開発版
 
-### v2.1.79：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.79.zip)
+### v2.1.81：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.81.zip)
 
 * 辞書ファイル読み込みエラー、上書き問題の修正　他
 

@@ -23,7 +23,6 @@
 |FANBOX支援|〇|支援しなくても利用はできます。<br>支援するとみんなで支える企業版翻訳サーバがつかえるようになります|
 |ツール連携|〇|●[わんコメ](https://onecomme.com/)(アスティさん)<br>●[ゆかりねっと](http://www.okayulu.moe/)(おかゆぅさん)<br>●[OBS Studio](https://obsproject.com/ja/download)<br>●[HTML5コメントジェネレータ](https://seesaawiki.jp/fcg/)(kilinさん)<br>●[HTML5コメントジェネレータ改](http://twinstraycat.kagome-kagome.com/commegene/commentgenerator_kai)(彼岸扇花さん)<br>●[MTGA自動解説ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)(ぽsさん)<br>●[バーチャルモーションキャプチャー](https://vmc.info/)(あきらさん)<br>●[棒読みちゃん](https://chi.usamimi.info/Program/Application/BouyomiChan/)(みちあきさん)<br>●[AssistantSeika](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a)(ゆかコネNEOv2.0.112より対応)<br>●[Softalk](https://www.vector.co.jp/soft/winnt/art/se412443.html)(CNCCさん)<br>●[VaNiiシリーズ](https://sabowl.sakura.ne.jp/gpsnmeajp/)(gpsnmeajpさん)<br>●[VTube Studio](https://denchisoft.com/)(DenchiSoftさん)<br>●[VRChat](https://hello.vrchat.com/)<br>●[VirtualCast](https://virtualcast.jp/)<br>●[cluster](https://cluster.mu/)<br>●[twitch](https://www.twitch.tv/)<br>●[neos VR](https://neos.com/)<br>※上記は一例。他にもプラグイン等で実現例あり|
 
-
 ## 翻訳の種類について
 
 ![翻訳リスト](./support/images/support_countermap.jpg)

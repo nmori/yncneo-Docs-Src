@@ -33,9 +33,8 @@
 ![pict](./images/cs_aiassistant_p3.png)
 
 !!! Warning "控えを取る前に閉じた場合"
-
     * 再表示できないので、同じ操作をして新しいキーを作成してください。
-    
+
 !!! Warning "使いすぎを防止するため、クオータ（リミッター）の設定を推奨します"
 ![pict](./images/cs_aiassistant_p4.png)
 

@@ -107,26 +107,27 @@ nav:
       - ライセンス表記: 'licensing.md'
       - よくある質問 : 'qa/faq.md'
       - 記念グッツ : 'goods.md'
+    - カンタンな使い方▼:
+      - はじめてさわるとき : 'cs/cs_startup.md'
+      - 最速で英語翻訳をだす : 'cs/cs_en.md'
+      - 最速で英語翻訳（支援版） : 'cs/cs_en_sp.md'
+      - 配信ソフトに取り込む : 'cs/cs_import_obs.md'
+      - VRChatのチャットとつなぐ : 'cs/cs_vrchat.md'
+      - OBS Studioできれいに出す: 'cs/cs_obs.md'
+      - わんコメとの連動 : 'cs/cs_onecomme.md'
+      - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
+      - コラボ字幕 :
+        - Discord経由でコラボ: 'cs/cs_colab_discord.md'
+        - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
+        - 画面共有でコラボ: 'cs/cs_colab_rd.md'
+      - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+      - AIアシスタントを作る : 'cs/cs_aiassistant.md'
+      - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'    
     - ドキュメント▼:
-      - 攻略手順(チートシート):
-        - はじめてさわるとき : 'cs/cs_startup.md'
-        - 最速で英語翻訳をだす : 'cs/cs_en.md'
-        - 最速で英語翻訳（支援あり） : 'cs/cs_en_sp.md'
-        - 配信ソフトに取り込む : 'cs/cs_import_obs.md'
-        - VRChatのチャットとつなぐ : 'cs/cs_vrchat.md'
-        - OBS Studioできれいに出す: 'cs/cs_obs.md'
-        - わんコメとの連動 : 'cs/cs_onecomme.md'
-        - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
-        - コラボ字幕 :
-          - Discord経由でコラボ: 'cs/cs_colab_discord.md'
-          - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
-          - 画面共有でコラボ: 'cs/cs_colab_rd.md'
-        - StreamDeckで操作する : 'cs/cs_streamdeck.md'
-        - AIアシスタントを作る : 'cs/cs_aiassistant.md'
-        - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'
       - システムVerUP:
         - ゆかコネ→NEO : 'mig/mig_neo.md'
         - NEO v1.9→v2.0 : 'mig/mig_neo_v2.md'
+        - NEO v2.0→v2.1 : 'mig/mig_neo_v21.md'
       - 設定について:
         - 標準設定項目: 'startup/startup_basic.md'      
         - オプション設定: 'startup/startup_option.md'

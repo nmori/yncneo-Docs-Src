@@ -23,7 +23,7 @@
 
 ## 最新開発版
 
-### v2.1.84：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.84.zip)
+### v2.1.86：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.86.zip)
 
 * YouTube字幕送信の調整、UI調整
 

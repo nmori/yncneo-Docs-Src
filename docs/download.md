@@ -21,16 +21,26 @@
     * 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
     * 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
 
+不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
+
+!!! Warning "バージョンアップ後に支援翻訳できなくなった場合"
+    * 内部認証が正しく行えない場合に翻訳ができないことがあります。再認証をお試しください。
+
+## v2.1最終リリース候補版
+
+### v2.1.86：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.86.zip)
+
+* YouTube字幕送信の調整、UI調整
+
 ## 最新開発版
 
 ### v2.1.86：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.86.zip)
 
 * YouTube字幕送信の調整、UI調整
 
-不具合報告や仕様調整のリクエストは [コミュニティへ](https://discord.gg/Pyk5EwVrXQ)
+## v2.2
 
-!!! Warning "バージョンアップ後に支援翻訳できなくなった場合"
-    * 内部認証が正しく行えない場合に翻訳ができないことがあります。再認証をお試しください。
+* 今後設計していきます
 
 ## 旧バージョン
 

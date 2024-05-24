@@ -26,17 +26,13 @@
 !!! Warning "バージョンアップ後に支援翻訳できなくなった場合"
     * 内部認証が正しく行えない場合に翻訳ができないことがあります。再認証をお試しください。
 
-## v2.1最終リリース候補版
+## v2.1最終リリース候補版(開発版)
 
-### v2.1.86：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.86.zip)
+### v2.1.88：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.88.zip)
 
-* YouTube字幕送信の調整、UI調整
+* Discord音声転送機能
 
-## 最新開発版
-
-### v2.1.86：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.86.zip)
-
-* YouTube字幕送信の調整、UI調整
+* レイアウト修正等
 
 ## v2.2
 

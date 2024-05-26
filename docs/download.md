@@ -28,11 +28,11 @@
 
 ## v2.1最終リリース候補版(開発版)
 
-### v2.1.91：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.91.zip)
+### v2.1.92：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.92.zip)
 
 * Discord音声転送機能＋わんコメコメント読み上げ転送も可能に
 
-## v2.2
+## v2.2.0
 
 * 今後設計していきます
 

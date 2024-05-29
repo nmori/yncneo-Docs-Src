@@ -21,7 +21,7 @@
     
 ## 安定版
 
-### v2.1.88 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.88.zip)
+### v2.1.89 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.89.zip)
 
 - リカバリーが必要な場合は[こちら](qa/before_help.md)をご確認ください。
 
@@ -35,7 +35,7 @@
     
     - 改善や不具合修正などをいち早く実施していますが、開発中なので不安定な部分もあるかもしれません。誰かのニーズに応えた結果、別の方の環境に合わなくなっている可能性もあり、随時調整するバージョンになっています。ニーズに応じてご利用ください。
 
-### v2.1.95 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.95.zip)
+### v2.1.96 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/05/YNCneo_v2.1.96.zip)
 
 - フォールダウン機能
 

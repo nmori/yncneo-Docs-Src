@@ -227,5 +227,6 @@ nav:
       - 再インストール : 'qa/reinstall.md'
       - 不具合を発見した時 : 'qa/report.md'
       - こんなときは : 'qa/troubleshooting.md'
+      - わんコメ連携がうまく動かないとき : 'qa/ts_onecomme.md'
       - サポートレベル表 : 'qa/support_lv.md'
 

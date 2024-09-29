@@ -72,7 +72,7 @@
 
 #### 猫入あこ
 
-!!! Abstract "Necoilie Aco　 [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Aco_Necoilie)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/aco_necoilie)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@necoaco_chan)　【1期～】"
+!!! Abstract "Necoilie Aco　 [:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Aco_Necoilie)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/aconeco)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@necoaco_chan)　【1期～】"
     ![猫入あこ](images/aco.png){ align=left }
 
     ** 一言コメント **    

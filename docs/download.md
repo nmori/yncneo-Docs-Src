@@ -44,7 +44,7 @@ v2.2ベータ版は現在[サポートDiscord](https://discord.com/channels/5398
 
 下記のリンクからも入手可能です。フィードバックはDiscordへどうぞ。
 
-### v2.2.0 RC2 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/09/YNCneo_v2.2.0_RC2.zip)
+### v2.2.0 RC3 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/09/YNCneo_v2.2.0_RC3.zip)
 
 ## 旧バージョン
 

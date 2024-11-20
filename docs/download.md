@@ -21,7 +21,7 @@
     
 ## 安定版
 
-### v2.1.119 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/08/YNCneo_v2.1.119.zip)
+### v2.2.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.0.zip)
 
 - リカバリーが必要な場合は[こちら](qa/before_help.md)をご確認ください。
 
@@ -31,24 +31,7 @@
 
 ## 開発版
 
-!!! Warning "v2.1開発版について"
-    - 現在 v2.2 を開発中なので、v2.1は 2.1.130で更新が止まる予定です
-
-### v2.1.130 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/08/YNCneo_v2.1.130.zip)
-
-- 読み上げに失敗するケース、Discord読み上げ、Twitchなど一部プラグインがうまく動かない問題の修正
-
-## ベータ版
-
-v2.2ベータ版は現在[サポートDiscord](https://discord.com/channels/539815056939024386/1277164345616502844)にて評価提供中です。
-
-下記のリンクからも入手可能です。フィードバックはDiscordへどうぞ。
-
-### v2.2.0 RC13 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/10/YNCneo_v2.2.0_RC13.zip)
-
-## 旧バージョン
-
-### v2.1.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.0.zip)
+!!! Warning "現在公開している開発版はありません"    
 
 ## 旧バージョン（サポート外）
 
@@ -58,7 +41,13 @@ v2.2ベータ版は現在[サポートDiscord](https://discord.com/channels/5398
 
 !!! Warning "サポート終了"
     
-    - 速めにv2.1へバージョンアップをお願いします。
+    - 速めにv2.2へバージョンアップをお願いします。
+
+### v2.1.130 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/08/YNCneo_v2.1.130.zip)
+
+- 読み上げに失敗するケース、Discord読み上げ、Twitchなど一部プラグインがうまく動かない問題の修正
+
+### v2.1.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.0.zip)
 
 ### v2.0.197：[ダウンロード](https://drive.google.com/file/d/1lEHHf9QymS474DBiNWCDCctwSBVHXHJg/view?usp=sharing&que=YNCneo_v2.0.197.zip)
 

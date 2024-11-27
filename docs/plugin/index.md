@@ -75,6 +75,7 @@
 |タイトル                          | 内容                                            |リンク                                  |
 |---------------------------------|--------------------------------------------------|----------------------------------------|
 |clusterウェブトリガ              | 文字をトリガーにclusterのトリガーを発火          |[■](plugin_cluster_wtrig.md)|
+|clusterチャット転送              | 音声認識結果をclusterチャットに送信します          |[■](plugin_clustertransfer.md)|
 |バーチャルキャスト連携           | バーチャルキャストにOSC送付&字幕を表示           |[■](plugin_vcas.md)        |
 |VRChat OSC連携                   | VRChatにOSC送付&字幕を表示                       |[■](plugin_vrchat_osc.md)  |
 |NeosVR 連携                      | NeosVRにOSC送付&字幕を表示                       |[■](plugin_neosvr.md)      |

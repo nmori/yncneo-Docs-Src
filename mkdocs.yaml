@@ -181,6 +181,7 @@ nav:
           - VTubeStudio連携 : 'plugin/plugin_VtubeStudio.md'
         - プラットフォーム連携:
           - clusterウェブトリガ : 'plugin/plugin_cluster_wtrig.md'
+          - clusterチャット転送 : 'plugin/plugin_clustertransfer.md'
           - バーチャルキャスト連携 : 'plugin/plugin_vcas.md'
           - VRChat OSC連携: 'plugin/plugin_vrchat_osc.md'
           - NeosVR 連携: 'plugin/plugin_neosvr.md'

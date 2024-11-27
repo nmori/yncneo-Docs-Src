@@ -95,6 +95,7 @@
 |  翻訳・発話連携                 | わんコメや連携ツールとつなげる外部API機能       |[■](plugin_transSrv.md)           |
 |HTTPコール                       | 文字をトリガーにHTTPコールをする                |[■](plugin_httpcall.md)    |
 |WebSocketコール                  | 文字をトリガーにWebSocketでデータを送る（VNyan等と連携可）                |[■](plugin_wscall.md)    |
+|UDP通信                         | 文字をUDP通信で送る                              |[■](plugin_udpunit.md)    |
 |ファイル出力                     | 動画字幕編集ソフトに字幕をエクスポート          |[■](plugin_exporter.md)    |
 |Python連携                       | Pythonでプラグインを記述できます                |[■](plugin_pythonunit.md) |
 

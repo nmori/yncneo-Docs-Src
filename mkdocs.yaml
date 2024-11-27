@@ -198,6 +198,7 @@ nav:
           - 翻訳・発話連携 : 'plugin/plugin_transSrv.md'
           - HTTPコール : 'plugin/plugin_httpcall.md'
           - WebSocketコール : 'plugin/plugin_wscall.md'
+          - UDP通信 : 'plugin/plugin_udpunit.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
           - Python連携: 'plugin/plugin_pythonunit.md'
         - つかいやすさ向上:

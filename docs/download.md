@@ -21,6 +21,10 @@
     
 ## 安定版
 
+### v2.2.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.0.zip)
+
+## 最新版
+
 ### v2.2.5 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.5.zip)
 
 - リカバリーが必要な場合は[こちら](qa/before_help.md)をご確認ください。
@@ -29,9 +33,6 @@
 
 - [再インストール方法](qa/reinstall.md)
 
-## 開発版
-
-!!! Warning "現在公開している開発版はありません"    
 
 ## 旧バージョン（サポート外）
 

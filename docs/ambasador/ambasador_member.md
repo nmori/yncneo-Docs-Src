@@ -78,10 +78,10 @@
     ** 一言コメント **    
     「Kawaiiが大好き！言語の国境をこえて、ワールドワイドなオタク活動を目指してます！」
 
-#### ニコ
+#### ニコロ(Nicolo)
 
-!!! Abstract "picNicco　[:fontawesome-brands-twitch:{ .twitch }](https://twitch.tv/picnicco)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@picniccochannel5834)　【1期～】"
-    ![ニコ(picNicco)](images/nicco.png){ align=left }
+!!! Abstract "picNicco　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/picnicolo/)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@picniccochannel5834)　【1期～】"
+    ![ニコロ(Nicolo)](images/nicco.png){ align=left }
 
     ** 一言コメント **    
     「ゲーム、フルート練習、料理など、好きなことを配信しています！英語を勉強中です。UnityとVRも少しずつ挑戦中。」

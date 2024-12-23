@@ -1,10 +1,10 @@
 # サンプルボタン
 
-[日本語に設定](#){ .md-button #postButton}
+[日本語に設定](){ .md-button #postButton}
 
 <script>
 document.getElementById('postButton').addEventListener('click', function() {
-    fetch('http://127.0.0.1:15520/setconfig', {
+    fetch('http://127.0.0.1:15520/api/setconfig', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

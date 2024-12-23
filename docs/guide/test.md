@@ -1,6 +1,8 @@
 # サンプルボタン
 
-<button id="postButton">日本語に設定</button>
+<form name="jenkins_build" action="" method="post">
+    <button id="postButton">日本語に設定</button>
+</form>
 
 <script>
 document.getElementById('postButton').addEventListener('click', function() {

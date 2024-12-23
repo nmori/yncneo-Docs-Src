@@ -21,5 +21,6 @@ document.getElementById('postButton').addEventListener('click', function() {
     .then(response => response.json())
     .then(data => console.log('成功:', data))
     .catch((error) => console.error('エラー:', error));
+    return false;
 });
 </script>

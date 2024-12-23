@@ -4,6 +4,7 @@
 
 <script>
 document.getElementById('postButton').addEventListener('click', function() {
+    event.preventDefault();
     fetch('http://127.0.0.1:15520/api/setconfig', {
         method: 'POST',
         headers: {

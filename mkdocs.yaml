@@ -86,7 +86,7 @@ markdown_extensions:
 extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     - css/extra.css
-plugins:
+plugin:
   - git-revision-date-localized
   - meta-descriptions  
   - search
@@ -109,6 +109,8 @@ nav:
       - よくある質問 : 'qa/faq.md'
       - 記念グッツ : 'goods.md'
     - カンタンな使い方▼:
+      - 使い方ガイド:
+        - 初めに : 'guide/start.md'
       - はじめてさわるとき : 'cs/cs_startup.md'
       - 最速で英語翻訳をだす : 'cs/cs_en.md'
       - 最速で英語翻訳（支援版） : 'cs/cs_en_sp.md'
@@ -217,8 +219,6 @@ nav:
         - 本体内蔵API : 'tech/tech_api_neo.md'
         - プラグイン系API : 'tech/tech_api_plugin.md'
         - わんコメ系API : 'tech/tech_api_plugin_oc.md'
-        - テスト用:
-          - テスト : 'guide/test.md'
       - 開発履歴 : 'qa/history.md'
       - 協力者 : 'qa/collaborator.md'
       - 支援者 : 'fanbox_supporter/supporter.md'

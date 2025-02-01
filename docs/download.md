@@ -34,6 +34,10 @@
 - [再インストール方法](qa/reinstall.md)
 
 
+## 過去版
+
+### v2.2.1 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
+
 ## 旧バージョン（サポート外）
 
 !!! Warning "導入に関する注意"

@@ -33,31 +33,17 @@
 
 - [再インストール方法](qa/reinstall.md)
 
+## 早期アクセス
+
+### v2.3.0 beta 14 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/02/YNCneo_v2.3.0_beta14.zip)
+
 ## 過去版
 
 ### v2.2.1 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
 
-## 旧バージョン（サポート外）
-
-!!! Warning "導入に関する注意"
-    
-    - バージョン1 とバージョン2 は仕組みが大きく異なるので、バージョンを戻す場合には上書きインストールせず、設定を含めてアンインストールしてから導入してください。
-
-!!! Warning "サポート終了"
-    
-    - 速めにv2.2へバージョンアップをお願いします。
-
-### v2.1.130 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/08/YNCneo_v2.1.130.zip)
-
-- 読み上げに失敗するケース、Discord読み上げ、Twitchなど一部プラグインがうまく動かない問題の修正
-
-### v2.1.0 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2023/12/YNCneo_v2.1.0.zip)
-
-### v2.0.197：[ダウンロード](https://drive.google.com/file/d/1lEHHf9QymS474DBiNWCDCctwSBVHXHJg/view?usp=sharing&que=YNCneo_v2.0.197.zip)
-
-### v1.9594：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2022/08/YNCneo_v1.9594.zip)
-
 ## 補足情報
+
+v2.2より前のバージョンは提供を終了しました。
 
 !!! Note "アップデート後表示がうまくいかない場合"
     - 表示がうまくいかない場合はテンプレートを再生成してみてください
@@ -78,8 +64,4 @@
 !!! Warning "インストール先について"
     
     - インストール先として「ゆかりねっと」のフォルダを選ばないようにしてください。ゆかりねっとが干渉で起動しなくなります。別フォルダにすることで問題なく動きます。
-
-!!! Info "わんコメ連携について"
-    
-    - ゆかコネNEO v2.1は、わんコメv4.0～に対応しています。
 

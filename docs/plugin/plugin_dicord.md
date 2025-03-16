@@ -77,6 +77,7 @@ New Application を押して、登録しましょう。
     * Botページの「Bot Permissions」
 
 * ChannelIDは、Discordの画面から取得します。
+* ChannelIDは、カテゴリーではなく個別のチャンネルを指定してください。
 
 ![Discord](../cs/images/cs_colab_discord_p13.png)
 
@@ -98,6 +99,9 @@ New Application を押して、登録しましょう。
 
 !!! Info "権限の付与について"
     * 与える権限は最低限にしましょう
+
+!!! Info "読み上げ音声を流したい場合"
+    * ボイスチャンネルの参加、発言についてもONにしてください
 
 ## 具体的な使い方
 

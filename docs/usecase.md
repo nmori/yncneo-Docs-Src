@@ -6,8 +6,8 @@
 
 #### ゆきひこさん
 
-!!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/yukihiko78)"
-    <iframe src="https://player.twitch.tv/?video=2025678320&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+!!! Abstract "ゆきひこさん　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/watch?v=rMgO7EmAfXo)"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rMgO7EmAfXo?si=ZMbxk55VLqOjDscD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     ** 一言コメント **
    
@@ -86,8 +86,9 @@
 
 #### ゆきひこさん
 
-!!! Abstract "ゆきひこさん　 [:fontawesome-brands-twitch:{ .twitch }](　https://www.twitch.tv/yukihiko78)"
-    <iframe src="https://player.twitch.tv/?video=1788921012&time=0h18m54s&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+!!! Abstract "ゆきひこさん　 [:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/watch?v=sCJ7kHZJECw)"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sCJ7kHZJECw?si=JpZfyLkFe5ExaEm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
     ** 一言コメント **   
     2023年3月から Twitch で配信を始めたばかりの初心者です。

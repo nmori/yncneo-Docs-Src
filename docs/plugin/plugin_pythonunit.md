@@ -24,12 +24,16 @@
 
 !!! Info "Pythonのインストールが必要です"
     * Python3のインストールが必要です
-    * [Python公式](https://www.python.org/downloads/)からダウンロードします
+    * Microsoftストアではなく、[Python公式サイト](https://www.python.org/downloads/windows/)から、ダウンロードしてください。
     * 脆弱性などの関係から、古いバージョンはお勧めしません
+
+* 注意点としては、インストール時に表示されるパスを通すチェックをONにする必要があります。
+![alt text](images/plugin_pythonunit_p3.png)
+![alt text](images/plugin_pythonunit_p4.png)
 
 ## 使うとき
 
-1. Python を予めインストールしておきます。
+1. Python をインストールしておきます。
 2. 設定画面のフォルダを開き、Pythonプログラム（～.py）を入れます
 3. 自動的に読み込まれ、音声認識するたびに内部で動きます。
 4. ファイルを書き換えたら、ゆかコネを再起動するかモジュール再読み込みボタンをおしてください。

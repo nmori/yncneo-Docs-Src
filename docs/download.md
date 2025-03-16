@@ -35,7 +35,7 @@
 
 ## 早期アクセス
 
-### v2.3.0 beta 23 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/03/YNCneo_v2.3.0_beta23.zip)
+### v2.3.0 beta 24 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/03/YNCneo_v2.3.0_beta24.zip)
 
 ## 過去版
 

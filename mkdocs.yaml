@@ -132,6 +132,7 @@ nav:
         - オプション設定: 'startup/startup_option.md'
         - レイアウト: 'startup/startup_layout.md'
         - GASの設定: 'startup/startup_gas.md'
+        - 音声認識できないとき: 'startup/startup_asr.md'
       - 支援について:
         - 支援の概要: 'support/support_summary.md'
         - 支援の仕方: 'support/support_howto.md'
@@ -214,6 +215,7 @@ nav:
         - NEO v1.9→v2.0 : 'mig/mig_neo_v2.md'
         - NEO v2.0→v2.1 : 'mig/mig_neo_v21.md'
         - NEO v2.1→v2.2 : 'mig/mig_neo_v22.md'
+        - NEO v2.2→v2.3 : 'mig/mig_neo_v23.md'
       - 技術者向け:
         - 起動オプション : 'tech/tech_option_neo.md' 
         - 本体内蔵API : 'tech/tech_api_neo.md'

@@ -25,7 +25,7 @@
 
 ## 最新版
 
-### v2.2.55：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.2.55.zip)
+### v2.2.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.2.57.zip)
 
 - リカバリーが必要な場合は[こちら](qa/before_help.md)をご確認ください。
 

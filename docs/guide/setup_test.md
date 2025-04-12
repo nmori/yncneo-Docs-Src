@@ -43,7 +43,7 @@
         return true;
     });
 
-    document.getElementById('Setting_Voice_US').addEventListener('click', async function(event) {    
+    document.getElementById('Setting_Voice_US').addEventListener('click', async function(event) {
         event.preventDefault();
         try
         {
@@ -56,11 +56,11 @@
                 },
                 body: JSON.stringify(
                     {
-                        "YNC-NEO": 
+                        "YNC-NEO":
                         {
                             "NativeLanguage": 16
                         }
-                    }        
+                    }
                 )
             })
         }

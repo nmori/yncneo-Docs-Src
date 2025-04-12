@@ -1,67 +1,102 @@
+# ダウンロードとインストール
 
-## ダウンロードする前に
+<div class="purpose-grid">
+  <a href="#_3" class="purpose-card">
+    <div class="purpose-icon">🚀</div>
+    <h3>最新版を使いたい</h3>
+    <p>最新機能が使える最新バージョン</p>
+  </a>
+  <a href="#_2" class="purpose-card">
+    <div class="purpose-icon">✅</div>
+    <h3>安定版を使いたい</h3>
+    <p>動作が安定している推奨バージョン</p>
+  </a>
+  <a href="#_5" class="purpose-card">
+    <div class="purpose-icon">🔄</div>
+    <h3>再インストールしたい</h3>
+    <p>問題解決のための再インストール手順</p>
+  </a>
+</div>
 
-!!! Info "更新履歴について"
-    
-    - 更新詳細については、[履歴](./qa/history.md)をご確認ください。
+## 安定版をダウンロード
 
-!!! Note "アップデートタイミングについて"
-    
-    - 更新は、配信直前などを避けて、再調整などができる「ゆとりのある時」に実施してください。
-    - うまくいかない場合は[再インストール](qa/reinstall.md)をお試しください。
+### v2.2.17：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/01/YNCneo_v2.2.17.zip)
 
-!!! Warning "バージョンアップ後に支援翻訳できなくなった場合"
-    
-    - 内部認証が正しく行えない場合に翻訳ができないことがあります。再認証をお試しください。
+安定版は十分テストされたバージョンで、重要な配信や安定性を重視する場合におすすめです。
 
-!!! Warning "導入に関する注意"
-    
-    - 支援モードで利用する方は[FANBOXにある新しいキーの取得](https://nmori.github.io/yncneo-Docs/support/support_howto/#2)が必要です。支援者の方は、FANBOXページから新しいキーを入手してください。
-    - 暫くアップデートをしていない方は、新規インストールのほうがトラブルが少ない可能性があります。
-    
-## 安定版
+## 最新版をダウンロード
 
-### v2.2.17 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/01/YNCneo_v2.2.17.zip)
+### v2.2.57：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.2.57.zip)
 
-## 最新版
+<div class="tips-box">
+  <h4>インストール前のポイント</h4>
+  <ul>
+    <li>配信直前などの重要な時間帯は避けてインストールしましょう</li>
+    <li>「ゆかりねっと」のフォルダとは別のフォルダにインストールしてください</li>
+    <li>支援モードを使う方は<a href="https://nmori.github.io/yncneo-Docs/support/support_howto/#2">FANBOXから新しいキーを取得</a>してください</li>
+  </ul>
+</div>
 
-### v2.2.57：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.2.57.zip)
+## インストール後によくある問題と解決法
 
-- リカバリーが必要な場合は[こちら](qa/before_help.md)をご確認ください。
+<div class="step-guide">
+  <div class="step-item">
+    <h3>表示レイアウトがおかしい場合</h3>
+    <p>テンプレートを再生成すると解決することがあります</p>
+    <div class="annotated-image">
+      <img src="../images/templete_remake.png" alt="テンプレート再生成ボタン">
+      <div class="annotation" style="top: 30%; left: 70%;">
+        このボタンをクリック
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-item">
+    <h3>再起動するたび表示が消える場合</h3>
+    <p>フォームを取り込むことで解決できます</p>
+    <div class="annotated-image">
+      <img src="../images/tolocal.png" alt="フォーム取り込みボタン">
+      <div class="annotation" style="top: 30%; left: 70%;">
+        このボタンをクリック
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-item">
+    <h3>支援翻訳ができなくなった場合</h3>
+    <p>内部認証の再実行が必要かもしれません</p>
+    <a href="../support/support_enabled/" class="md-button">支援機能の設定方法</a>
+  </div>
+</div>
 
-- [更新履歴](qa/history.md)
+## 再インストール方法
 
-- [再インストール方法](qa/reinstall.md)
+問題が解決しない場合は、再インストールをお試しください。特に長期間アップデートしていない場合は再インストールをおすすめします。
 
-## 早期アクセス
+<a href="../qa/reinstall/" class="md-button">再インストール手順を見る</a>
 
-### v2.3.0 beta 32 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.3.0_beta32.zip)
+## その他のバージョン
 
-## 過去版
+### 開発版（ベータ版）
 
-### v2.2.1 ：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
+v2.3.0 beta 32：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/04/YNCneo_v2.3.0_beta32.zip)
 
-## 補足情報
+<div class="tips-box">
+  <h4>開発版について</h4>
+  <p>開発版は最新機能を試せる一方で、不具合が含まれている可能性があります。通常利用には安定版または最新版をおすすめします。</p>
+</div>
 
-v2.2より前のバージョンは提供を終了しました。
+### 過去バージョン
 
-!!! Note "アップデート後表示がうまくいかない場合"
-    - 表示がうまくいかない場合はテンプレートを再生成してみてください
-    ![テンプレ](images/templete_remake.png)
+v2.2.1：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
 
-!!! Note "再起動するたび表示レイアウトが表示されなくなる場合"
-    - 取り込む場合はこちらのボタンからフォームを取り込んでみてください
-    ![テンプレ](images/tolocal.png)
+!!! Note "過去バージョンについて"
+    v2.2より前のバージョンは提供を終了しました。
 
-!!! Warning "インストールについて"
-    
-    - バージョン1 とバージョン2 は仕組みが大きく異なるので上書きインストールで混ぜないでください。
-
-!!! Warning "アップデートに間が空いた場合"
-    
-    - 変更が大きい場合は上書きインストールすると不整合が起きる場合があります。その場合は一度消してから導入してください。
-
-!!! Warning "インストール先について"
-    
-    - インストール先として「ゆかりねっと」のフォルダを選ばないようにしてください。ゆかりねっとが干渉で起動しなくなります。別フォルダにすることで問題なく動きます。
-
+<div class="tips-box">
+  <h4>もっと詳しく知りたい方へ</h4>
+  <ul>
+    <li><a href="../qa/history/">更新履歴を確認する</a></li>
+    <li><a href="../qa/before_help/">トラブルシューティングガイド</a></li>
+  </ul>
+</div>

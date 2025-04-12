@@ -1,5 +1,5 @@
-site_name: ゆかコネ｜リアルタイム字幕・翻訳・連携ツール
-site_description: 音声認識型多言語翻訳字幕ツール「ゆかコネNEO」の説明ページです
+site_name: ゆかコネ｜リアルタイム字幕・翻訳ツール
+site_description: 音声認識と翻訳で多言語配信を支援する「ゆかコネNEO」の公式ガイド
 site_author: nao
 copyright: Copyright &copy; 2020 -  N,Mori/*nao*
 theme:
@@ -16,6 +16,10 @@ theme:
     - navigation.top
     - navigation.section
     - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
     #- toc.integrate
   font:
     code: Roboto Mono
@@ -110,22 +114,28 @@ nav:
       - 記念グッツ : 'goods.md'
     - カンタンな使い方▼:
       - 使い方ガイド:
-        - 初めに : 'guide/start.md'
-      - はじめてさわるとき : 'cs/cs_startup.md'
-      - 最速で英語翻訳をだす : 'cs/cs_en.md'
-      - 最速で英語翻訳（支援版） : 'cs/cs_en_sp.md'
-      - 配信ソフトに取り込む : 'cs/cs_import_obs.md'
-      - VRChatのチャットとつなぐ : 'cs/cs_vrchat.md'
-      - OBS Studioできれいに出す: 'cs/cs_obs.md'
-      - わんコメとの連動 : 'cs/cs_onecomme.md'
-      - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
+        - ゆかコネでできること : 'guide/start.md'
+        - 5分クイックスタート : 'guide/quickstart.md'
+      - はじめての設定 : 'cs/cs_startup.md'
+      - 英語字幕を出す方法:
+        - 無料で英語翻訳を出す : 'cs/cs_en.md'
+        - 支援版で高品質翻訳 : 'cs/cs_en_sp.md'
+      - 配信で使う:
+        - 配信ソフトに取り込む : 'cs/cs_import_obs.md'
+        - OBSできれいに出す: 'cs/cs_obs.md'
+      - VR連携:
+        - VRChatのチャットとつなぐ : 'cs/cs_vrchat.md'
+      - 他サービス連携:
+        - わんコメとの連動 : 'cs/cs_onecomme.md'
+        - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
       - コラボ字幕 :
         - Discord経由でコラボ: 'cs/cs_colab_discord.md'
         - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'
         - 画面共有でコラボ: 'cs/cs_colab_rd.md'
-      - StreamDeckで操作する : 'cs/cs_streamdeck.md'
-      - AIアシスタントを作る : 'cs/cs_aiassistant.md'
-      - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'    
+      - 便利な使い方:  
+        - StreamDeckで操作する : 'cs/cs_streamdeck.md'
+        - AIアシスタントを作る : 'cs/cs_aiassistant.md'
+        - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'    
     - ドキュメント▼:
       - 設定について:
         - 標準設定項目: 'startup/startup_basic.md'      
@@ -172,8 +182,8 @@ nav:
         - 配信（OBS・コメント):
           - コメジェネ連携: 'plugin/plugin_commentgen.md'
           - 配信ソフト向けテキスト出力 : 'plugin/plugin_OBSFile.md'
-          - OBS連携 WSv4 : 'plugin/plugin_OBS.md'
-          - OBS連携 WSv5 : 'plugin/plugin_OBS5.md'
+          - OBS連携 WSv4（～OBS27) : 'plugin/plugin_OBS.md'
+          - OBS連携 WSv5（OBS28～) : 'plugin/plugin_OBS5.md'
         - アプリ連携:
           - わんコメテンプレ連携 : 'plugin/plugin_OCTemplateGen.md'
           - わんコメ連携 : 'plugin/Plugin_OCComm.md'
@@ -236,4 +246,3 @@ nav:
       - こんなときは : 'qa/troubleshooting.md'
       - わんコメ連携できない時 : 'qa/ts_onecomme.md'
       - サポートレベル表 : 'qa/support_lv.md'
-

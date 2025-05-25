@@ -44,3 +44,11 @@
 
     ** 一言コメント **   
     バーチャルでの魅力を沢山伝えていきたい九尾の狐です
+
+## 第３期
+
+!!! Abstract "Awane Amaebichan　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/awane_philo)       　 [:fontawesome-brands-youtube:{ .youtube }](http://youtube.com/@Awane_Philo) 　[:simple-c:{ .cluster }](https://cluster.mu/u/Awane_Philo) 　[:fontawesome-brands-tiktok:{ .tiktok }](https://www.tiktok.com/@awane_philo) 　【2期～】"
+    ![あまえび](images/amaebichan.jpg){ align=left }
+
+    ** 一言コメント **   
+    男の娘Vとして活動しています！あまえびちゃんです！どんなハンデを背負っていても楽しくイベントに参加出来る世界を目指します！

@@ -231,12 +231,12 @@ nav:
         - プラグイン系API : 'tech/tech_api_plugin.md'
         - わんコメ系API : 'tech/tech_api_plugin_oc.md'
       - 開発履歴 : 'qa/history.md'
-      - 協力者 : 'qa/collaborator.md'
       - 支援者 : 'fanbox_supporter/supporter.md'
     - メンバー▼:
-      - アンバサダー: 'ambasador/ambasador_member.md'
-      - 開発サイド: 'supporter/supporter.md'
+      - 活動メンバー: 'ambasador/ambasador_member.md'
       - 卒業メンバー: 'ambasador/ambasador_expired.md'
+      - 開発サイド: 'supporter/supporter.md'
+      - 協力者 : 'qa/collaborator.md'
       - 活動レポート: 'ambasador/ambasador_report.md'
     - 困ったときは▼:
       - ヘルプが欲しいとき : 'qa/before_help.md'

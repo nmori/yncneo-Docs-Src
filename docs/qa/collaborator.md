@@ -15,8 +15,15 @@
 !!! Note "ブラウザ音声認識システム（個別）"
     * ガムベック さん
 
+!!! Note "YukariWhisper"
+    * tyapa0 さん
+
 ## わんコメ連携
 
 !!! Note "通信仕様、テンプレ連携、翻訳連携"
     * アスティ さん
 
+## 読み上げエンジン
+
+!!! Note "TTSController"
+    * ksasao さん

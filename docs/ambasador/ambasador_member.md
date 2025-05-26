@@ -22,7 +22,7 @@
 
 #### L*aura💫バーチャル世界の歌姫ローラ
 
-!!! Abstract "L*aura Diva　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Laura_Diva_VR)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/LauraDivaVR)　[:link:{ .lit }](hhttps://lit.link/lauravr)　【1期～】"
+!!! Abstract "L*aura Diva　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/Laura_Diva_VR)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/c/LauraDivaVR)　[:link:{ .lit }](https://lit.link/lauravr)　【1期～】"
     ![Laura](images/Laura.png){ align=left }
 
     ** 一言コメント **    

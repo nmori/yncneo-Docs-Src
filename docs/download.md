@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.2.70：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.2.70.zip)
+### v2.2.69：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.2.69.zip)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

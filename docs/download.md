@@ -79,7 +79,7 @@
 
 ### 開発版（ベータ版）
 
-v2.3.0 beta 51：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.3.0_beta51.zip)
+v2.3.0 beta 52：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.3.0_beta52.zip)
 
 <div class="tips-box">
   <h4>開発版について</h4>

@@ -55,7 +55,7 @@
 
 #### ハナシチさん
 
-!!! Abstract "ハナシチさん [:web:](https://note.com/jacaranda0/n/n5b224a65f6c9?sub_rt=share_b)"
+!!! Abstract "ハナシチさん [:material-web-check:](https://note.com/jacaranda0/n/n5b224a65f6c9?sub_rt=share_b)"
     <iframe class="note-embed" src="https://note.com/embed/notes/n5b224a65f6c9" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
 
     ■一言コメント

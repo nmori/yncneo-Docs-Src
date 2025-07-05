@@ -93,6 +93,30 @@
 
     いろんな人へ自分の考えや好きなものを届けたい！という人にはぴったりだと思います。
 
+### UDトーク併用
+
+#### おかずやさん
+
+!!! Abstract "おかずやさん [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/okazuya)"
+    <iframe src="https://player.twitch.tv/?video=2502229827&time=2h2m48s&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    ■一言コメント
+    
+    Twitchでハースストーンとういうゲームをメインに配信をしている「おかずや」と申します。
+    UDトークとゆかコネNEOを組み合わせることで、リアルタイム翻訳字幕を立ち絵に表示し、配信中の会話をより多くの人に届けられるよう工夫しています。
+
+    配信しているゲームは海外ユーザーも多く、海外からのコメントをいただくこともあります。海外のコメント内容はこちらで翻訳すればすぐ理解できますが、こちらの発言も日本語のままリアルタイムで字幕が翻訳表示されることで、自然なコミュニケーションが成立しやすくなり、とても助かっています。
+    ゲーム専用単語も辞書登録しておけばより海外ユーザーとのやりとりが分かりやすくなって便利です。
+
+    ■新規ユーザさんへ
+
+    ゆかコネNEOは、話している内容をリアルタイムで文字にしてくれるので、配信や動画に「わかりやすさ」と「親しみやすさ」をプラスできるツールです。
+
+    わたしの配信では、UDトークと連携して翻訳字幕を表示しているのですが、海外の方から「内容が伝わって嬉しい！」という声をもらえたり、
+    日本語リスナーからも「電車の中で音なしでも内容がわかって助かる」といった感想をいただけました。
+
+    字幕があることで、より多くの人に見てもらえるきっかけにもなっています。
+
 ## 活用事例(2024)
 
 ### 多言語の翻訳
@@ -149,7 +173,7 @@
 
 !!! Abstract "だばちゃんさん　 [:fontawesome-brands-twitch:{ .twitch }](https://twitch.tv/dabachaaaaan)"
     <iframe src="https://clips.twitch.tv/embed?clip=ImpartialBusyButterflyUnSane-fr_FPphVAw0bivkq&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
-    
+
     ** 一言コメント **   
     
     ゆかコネの邦訳機能を使って外国人視聴者とのコミュニケーションがうまく出来ています。

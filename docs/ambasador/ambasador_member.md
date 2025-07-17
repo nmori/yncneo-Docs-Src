@@ -125,6 +125,7 @@
 #### 鬱ノ宮シアン
 
 !!! Abstract "utsunomiya sian [:fontawesome-brands-twitter:{ .twitter }]( https://x.com/sian_suru29 )　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@sian_suru29)　【4期】"
+    ![鬱ノ宮シアン](images/sian.png){ align=left }
 
     ** 一言コメント **   
     メンタル福祉系Vtuberとして、障害福祉サービスの紹介をしています。

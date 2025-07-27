@@ -79,7 +79,8 @@
 
 ### 開発版（ベータ版）
 
-v2.3.0 beta 67：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/07/YNCneo_v2.3.0_beta67.zip)
+v2.3.0 beta 70：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/07/YNCneo_v2.3.0_beta70.zip)
+・AivisSpeech Cloudに対応しました。
 
 <div class="tips-box">
   <h4>開発版について</h4>

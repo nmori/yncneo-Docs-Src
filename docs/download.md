@@ -79,8 +79,9 @@
 
 ### 開発版（ベータ版）
 
-v2.3.0 beta 71：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/07/YNCneo_v2.3.0_beta71.zip)
+v2.3.0 beta 72：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/07/YNCneo_v2.3.0_beta72.zip)
 ・AivisSpeech Cloudに対応しました。
+・ローカル翻訳の接続選択を追加（OpenAI互換）
 
 <div class="tips-box">
   <h4>開発版について</h4>

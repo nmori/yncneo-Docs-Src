@@ -213,6 +213,7 @@ nav:
           - WebSocketコール : 'plugin/plugin_wscall.md'
           - UDP通信 : 'plugin/plugin_udpunit.md'
           - ファイル出力 : 'plugin/plugin_exporter.md'
+          - 会話の記録 : 'plugin/plugin_talkhistory.md'
           - Python連携: 'plugin/plugin_pythonunit.md'
         - つかいやすさ向上:
           - 直接入力: 'plugin/plugin_directinput.md'

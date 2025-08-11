@@ -5,6 +5,12 @@
 ## このプラグインで出来ること
 
 * NeosVR内に音声認識結果、翻訳結果、トリガー信号を出すことができます。
+* WebSocketサーバーによるリアルタイム通信
+* JSON・EMAPフォーマット両方対応
+* 高度なルールベース自動化システム
+* 自動ポート選択機能（30211-30410）
+* パラメータ型自動検出（bool, int, float, hex, string）
+* 外部API制御対応
 
 ##　有効化
 
@@ -48,6 +54,99 @@
 |パラメータ|渡すパラメータを指定します。 true/false、 0x00～0xff、0.0～ 、文字列 を指定できます。|
 |対象者|話者名に指定文字が含まれているときに反応します。空欄の場合は全員が対象です|
 |APIタグ|APIから呼び出すときにつかうタグ名です|
+
+## 高度な機能
+
+### WebSocketサーバー詳細
+
+#### 通信仕様
+* **プロトコル**: WebSocket (Watson WebSocket ライブラリ)
+* **バインド**: localhost/127.0.0.1 (セキュリティ考慮)
+* **デフォルトポート**: 50210
+* **自動ポート選択**: 30211-30410の範囲で利用可能ポートを検索
+
+#### 接続管理
+* **クライアント管理**: リアルタイム接続/切断の検出
+* **接続状態表示**: アクティブな接続の可視化
+* **レジストリ保存**: Windows レジストリでポート情報保持
+
+### ルールシステム詳細
+
+#### 8パラメータ設定システム
+| 番号 | パラメータ名 | 説明 | 例 |
+|:-----|:------------|:-----|:---|
+| 1 | Enabled | 有効/無効状態 | true/false |
+| 2 | Mode | マッチモード | Complete/Partial |
+| 3 | Target | 対象言語 | Native/Translation1-4 |
+| 4 | Phrase | 起動フレーズ | "笑顔", "ウィンク" |
+| 5 | Address | メッセージアドレス | "avatar.eye.wink" |
+| 6 | Parameter | 送信値 | true, 1.5, "hello" |
+| 7 | TargetName | 対象話者 | 特定ユーザーのみ |
+| 8 | ExternalTag | API用タグ | 外部呼び出し識別子 |
+
+#### パラメータ型自動検出
+| 入力例 | 検出型 | NeosVRでの型 |
+|:-------|:-------|:------------|
+| `true`, `false` | Boolean | bool |
+| `123`, `-456` | Integer | int |
+| `1.5`, `3.14` | Float | float |
+| `0xFF`, `0x20` | Hexadecimal | int |
+| `"hello"` | String | string |
+
+### CSV ルール管理
+
+#### ファイル形式
+* **エンコーディング**: UTF-8
+* **パース**: Microsoft.VisualBasic.FileIO.TextFieldParser
+* **リアルタイム読込**: ファイル変更の動的読み込み
+
+```csv
+"true","Complete","Native","笑顔","avatar.face.smile","true","","smile_trigger"
+"true","Partial","Translation1","sad","avatar.face.sad","true","","sad_trigger"
+```
+
+#### パフォーマンス最適化
+* **非同期処理**: Task ベースの非同期送信
+* **文字置換**: 最適化された文字変換処理
+* **メモリ管理**: 効率的なクライアント管理
+
+#### レジストリ統合
+* **保存パス**: `Software\YukarinetteConnectorNeo\NeosServer\`
+* **保存内容**: ポート番号情報
+* **用途**: 他のアプリケーションとの連携
+
+### 実用例
+
+#### 表情制御
+```csv
+"true","Complete","Native","笑顔","avatar.face.smile","true","","smile"
+"true","Complete","Native","悲しい","avatar.face.sad","true","","sad"
+"true","Complete","Native","驚き","avatar.face.surprise","true","","surprise"
+```
+
+#### アニメーション制御
+```csv
+"true","Partial","Translation1","wave","avatar.gesture.wave","1.0","","wave_anim"
+"true","Partial","Translation1","dance","avatar.animation.dance","true","","dance_anim"
+```
+
+#### パラメータ調整
+```csv
+"true","Complete","Native","音量上げて","avatar.voice.volume","0.8","","vol_up"
+"true","Complete","Native","透明","avatar.visibility","0.3","","transparent"
+```
+
+### トラブルシューティング
+
+#### 接続できない
+* **ポート確認**: 他のアプリケーションによるポート使用
+* **ファイアウォール**: Windows ファイアウォールの設定
+* **NeosVR側**: 接続ツールの正しい設定
+
+#### データが送信されない
+* **ルール設定**: CSV ルールの文法確認
+* **アドレス**: NeosVR 側での正しいアドレス設定
+* **型変換**: パラメータ型の適合性確認
 
 ## 使い方
 1. NeosVRを起動します

@@ -79,10 +79,8 @@
 
 ### 開発版（ベータ版）
 
-v2.3.0 beta 77：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_beta77.zip)
-・発話結果の蓄積→アドバイスプラグインを追加
-・やさしい日本語翻訳モードを追加
-・エンジンごとに使える/使えない翻訳の表示を明確化
+v2.3.0 RC 1[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC1.zip)
+・リリースに向けた動作確認を開始
 
 <div class="tips-box">
   <h4>開発版について</h4>

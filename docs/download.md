@@ -26,7 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.2.70：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.2.70.zip)
+### v2.3.0 RC 4[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC4.zip)
+・わんコメテンプレート名に日本語がはいってたときの処理を修正
+・ライブラリのロードエラーによる翻訳動作エラーを修正
+・テンプレートを修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>
@@ -75,12 +78,7 @@
 
 <a href="../qa/reinstall/" class="md-button">再インストール手順を見る</a>
 
-## その他のバージョン
-
-### 開発版（ベータ版）
-
-v2.3.0 RC 1[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC1.zip)
-・リリースに向けた動作確認を開始
+### 開発版
 
 <div class="tips-box">
   <h4>開発版について</h4>
@@ -90,6 +88,8 @@ v2.3.0 RC 1[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025
 ### 過去バージョン
 
 v2.2.1：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
+
+### v2.2.70：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.2.70.zip)
 
 !!! Note "過去バージョンについて"
     v2.2より前のバージョンは提供を終了しました。

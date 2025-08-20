@@ -26,11 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 5[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC5.zip)
+### v2.3.0 RC 7[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC7.zip)
 
-・支援版翻訳に必要な通信ができなくなっている部分の修正
-　（支援版翻訳がうまく起動しない方はアップデート推奨）
-・一部設定の保存・反映に失敗している点の修正
+・ChromeブラウザのAI翻訳を用いて翻訳できるようになりました。
+　※新言語に対応する際は、別途開くダウンロード画面でクリック操作が必要です。
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

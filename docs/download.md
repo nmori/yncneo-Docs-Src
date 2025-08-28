@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 10[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC10.zip)
+### v2.3.0 RC 12[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/08/YNCneo_v2.3.0_RC12.zip)
 
 ・レイアウトおよびブラウザ翻訳の動作を修正しています
 

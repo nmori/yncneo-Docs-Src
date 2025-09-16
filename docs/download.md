@@ -26,9 +26,13 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 15[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/09/YNCneo_v2.3.0_RC15.zip)
+### v2.3.0 RC 17[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/09/YNCneo_v2.3.0_RC17.zip)
 
-・レイアウトおよびブラウザ翻訳の動作を修正しています
+・設定ファイル回りの調整
+・わんコメ連携プラグインの調整
+　ー　結果のみ送るように（暫定変更。トラブル報告がなくなれば確定仕様へ）
+・やさしい日本語変換の調整
+　ー　簡潔にするよう指示追加
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

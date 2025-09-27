@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 17[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/09/YNCneo_v2.3.0_RC17.zip)
+### v2.3.0 RC 21[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/09/YNCneo_v2.3.0_RC21.zip)
 
 ・設定ファイル回りの調整
 ・わんコメ連携プラグインの調整

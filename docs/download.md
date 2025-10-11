@@ -26,13 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 21[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/09/YNCneo_v2.3.0_RC21.zip)
+### v2.3.0 RC 24[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/10/YNCneo_v2.3.0_RC24.zip)
 
-・設定ファイル回りの調整
-・わんコメ連携プラグインの調整
-　ー　結果のみ送るように（暫定変更。トラブル報告がなくなれば確定仕様へ）
-・やさしい日本語変換の調整
-　ー　簡潔にするよう指示追加
+・UDトーク連携時の処理修正
+・動画再生プラグインの動作修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

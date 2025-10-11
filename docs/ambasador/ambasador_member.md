@@ -8,6 +8,24 @@
 
 !!! info "順不同"
 
+### 公式ストリーマー/イラストレーター
+
+#### ぬる(null)
+
+!!! Abstract "ぬる(null)　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/asu5m843B)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@Alien_Null)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/alien_null)　【初期～】【イラストレーター】"
+    ![ぬる(null)](images/null.jpg){ align=left }
+    **一言コメント**
+
+    突如現れた宇宙人！？
+    地球のことを勉強中、日本語もまだまだだけどいろんな言語をマスターしていく…かも？アプリのアップデートともに、宇宙人の成長も見守っててね！
+
+    ※お絵描きが得意！生放送ではお絵描き配信も！アプリ内のイラストも担当しています、何卒！！
+
+    An alien suddenly appeared!?
+    Studying Earth right now. Still learning Japanese, but might master all kinds of languages... maybe? Watch the alien grow along with the app updates!
+
+    *Great at drawing! I also do live drawing streams! I handle the illustrations in the app too, so please support me!!
+
 ### エバンジェリスト/公式ガイド
 
 #### clea
@@ -184,11 +202,3 @@
     ゲーム実況や、VRSNSで遊んだりすることも多いよ！
     メタバースでの接客などのお仕事も得意です。
 
-#### ASUMA/ぬる
-
-!!! Abstract "asuma/null　[:fontawesome-brands-twitter:{ .twitter }(Stream)](https://twitter.com/ASU5M843A)　[:fontawesome-brands-twitter:{ .twitter }(Art)](https://twitter.com/asu5m843B)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@ASU5M843A)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/asu5m843a)　【初期～】【イラストレータ】"
-    ![asuma](images/asuma.png){ align=left }
-    **一言コメント**
-
-    ゆかコネのイラストレーターを
-    させていただいてるASUMAです！よろしくお願いします！

@@ -12,8 +12,8 @@
 
 #### ぬる(null)
 
-!!! Abstract "ぬる(null)　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/asu5m843B)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@Alien_Null)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/alien_null)　【初期～】【イラストレーター】"
-    ![ぬる(null)](images/null.jpg){ align=left }
+!!! Abstract "ぬる(null)　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/asu5m843B)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@Alien_Null)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/alien_null)　【初期～】"
+    ![ぬる(null)](images/null.png){ align=left }
     **一言コメント**
 
     突如現れた宇宙人！？

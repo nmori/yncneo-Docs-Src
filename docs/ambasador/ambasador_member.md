@@ -173,11 +173,12 @@
 #### かぐや
 
 !!! Abstract "kaguya　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/_kaguya_o0)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@kaguyao0)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/kaguya_o0)　【4期】"
-    ![かぐや](images/kaguya.jpg){ align=left }
+    ![かぐや](images/kaguya.png){ align=left }
 
     ** 一言コメント **   
     お月様に住んでるうさぎさんに夢を見て…
-    FPSメインでまったり配信の｢かぐや｣と申します。｢かぐやん｣って呼んでくれたら嬉しいな！ジャンル問わず色んなゲーム、遊びに興味があるので、気づいたら手を出しているかもしれない… おバカなのに英語や中国語にも興味津々！！
+    FPSメインでまったり配信の｢かぐや｣と申します。｢かぐねえ｣とも呼ばれてるよ！ジャンル問わず色んなゲーム、遊びに興味がある
+    で、気づいたら手を出しているかもしれない… おバカなのに多言語にも興味津々！！
     配信はみんなの居場所になれたらいいな︎︎。詳細はXにて随時更新！
 
 ### 活動支援者

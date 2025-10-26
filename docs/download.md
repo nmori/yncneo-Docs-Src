@@ -26,10 +26,11 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 25[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/10/YNCneo_v2.3.0_RC25.zip)
+### v2.3.0 RC 26[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/10/YNCneo_v2.3.0_RC26.zip)
 
-・テンプレート追加
-・プラグイン追加
+・文字色変更プラグインの拡張
+・テンプレートの微修正
+・Discordプラグイン：読み上げ設定が保存されない件の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

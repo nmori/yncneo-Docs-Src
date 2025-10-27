@@ -52,8 +52,9 @@ jobs:
           python -m pipenv run mike deploy --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master $VERSION latest --update-aliases
           python -m pipenv run mike set-default --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master latest
       
-       - run: cp google28874255ae63c5b1.html ./site
-       - uses: peaceiris/actions-gh-pages@v3
+      - run: cp google28874255ae63c5b1.html ./site
+      
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: nmori/yncneo-Docs

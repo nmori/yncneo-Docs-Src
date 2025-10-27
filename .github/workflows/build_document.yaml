@@ -40,7 +40,7 @@ jobs:
         run: |
           # mkdocs.ymlからバージョンを取得、または固定値
           VERSION="v2.2"  # ここを動的に変更
-          python -m pipenv run mike deploy v2.2 --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master $VERSION latest --update-aliases
+          python -m pipenv run mike deploy --version v2.2 --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master $VERSION latest --update-aliases
       
       - name: Deploy with Mike v2.3
         env:
@@ -48,7 +48,7 @@ jobs:
         run: |
           # mkdocs.ymlからバージョンを取得、または固定値
           VERSION="v2.3"  # ここを動的に変更
-          python -m pipenv run mike deploy v2.3 latest --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master $VERSION latest --update-aliases
+          python -m pipenv run mike deploy --version v2.3 latest --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master $VERSION latest --update-aliases
           python -m pipenv run mike set-default --remote https://x-access-token:${GITHUB_TOKEN}@github.com/nmori/yncneo-Docs.git --branch master latest
       
       - run: cp google28874255ae63c5b1.html ./site

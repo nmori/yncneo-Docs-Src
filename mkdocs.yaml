@@ -58,6 +58,7 @@ extra:
   generator: true
   version:
     provider: mike
+    default: latest
 markdown_extensions:
   - abbr
   - tables

@@ -160,6 +160,18 @@
     毎日お世話になっているゆかコネNEOの便利さを広められたらと思っています。
     よろしくお願いします。
 
+#### かぐや
+
+!!! Abstract "kaguya　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/_kaguya_o0)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@kaguyao0)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/kaguya_o0)　【4期】"
+    ![かぐや](images/kaguya.png){ align=left }
+
+    ** 一言コメント **   
+    お月様に住んでるうさぎさんに夢を見て…
+    FPSメインでまったり配信の｢かぐや｣と申します。｢かぐねえ｣とも呼ばれてるよ！
+    ジャンル問わず色んなゲーム、遊びに興味があるので、気づいたら手を出しているかもしれない… 
+    おバカなのに多言語にも興味津々！！配信はみんなの居場所になれたらいいな︎︎。詳細はXにて随時更新！
+    ＜2025.10.31更新＞
+
 ### 研究生
 
 #### 圭一ちゃん
@@ -170,16 +182,6 @@
     ** 一言コメント **   
     Twitchで活動している狐のVtuber、圭一ちゃんだよ！スローライフ系のゲームをまったり配信していて、ゆかコネでスペイン語と英語を勉強中！ゆったりした時間を一緒に楽しもうね！たまにアコギの弾き語りや絵本の朗読もしてるから、気軽に遊びに来てくれると嬉しいな！
 
-#### かぐや
-
-!!! Abstract "kaguya　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/_kaguya_o0)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@kaguyao0)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/kaguya_o0)　【4期】"
-    ![かぐや](images/kaguya.png){ align=left }
-
-    ** 一言コメント **   
-    お月様に住んでるうさぎさんに夢を見て…
-    FPSメインでまったり配信の｢かぐや｣と申します。｢かぐねえ｣とも呼ばれてるよ！ジャンル問わず色んなゲーム、遊びに興味がある
-    で、気づいたら手を出しているかもしれない… おバカなのに多言語にも興味津々！！
-    配信はみんなの居場所になれたらいいな︎︎。詳細はXにて随時更新！
 
 ### 活動支援者
 

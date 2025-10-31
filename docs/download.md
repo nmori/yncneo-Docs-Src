@@ -22,11 +22,11 @@
 
 ### v2.2.17：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/01/YNCneo_v2.2.17.zip)
 
-安定版は十分テストされたバージョンで、重要な配信や安定性を重視する場合におすすめです。
+このバージョンは安定版ですが、少し古くなってきているので v2.3への移行をおためしください。
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 26[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/10/YNCneo_v2.3.0_RC26.zip)
+### v2.3.0 RC 28[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/10/YNCneo_v2.3.0_RC28.zip)
 
 ・文字色変更プラグインの拡張
 ・テンプレートの微修正

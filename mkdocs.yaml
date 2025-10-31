@@ -56,9 +56,6 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://x.com/yncneo
   generator: true
-  version:
-    provider: mike
-    default: latest
 markdown_extensions:
   - abbr
   - tables

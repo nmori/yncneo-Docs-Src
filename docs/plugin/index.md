@@ -80,6 +80,7 @@
 |歌詞支援|歌っている曲の歌詞を表示できる|[詳しく見る](plugin_LyricAssist.md)|
 |フォト読み込み|特定の言葉で画像を表示できる|[詳しく見る](plugin_photopickup.md)|
 |表示拡張(スタンプ)|文字の代わりに絵文字やスタンプを表示できる|[詳しく見る](plugin_viewextend.md)|
+|色の変更(β)|条件に合わせて色や表現を変更します|[詳しく見る](plugin/plugin_regexp_color.md)|
 |遅延|字幕の表示タイミングを調整できる|[詳しく見る](plugin_delay.md)|
 
 ### Windows連携

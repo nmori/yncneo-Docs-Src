@@ -20,17 +20,17 @@
 
 ## 安定版をダウンロード
 
-### v2.2.17：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/01/YNCneo_v2.2.17.zip)
+### v2.2.71：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.71.zip)
 
 このバージョンは安定版ですが、少し古くなってきているので v2.3への移行をおためしください。
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 31[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.3.0_RC31.zip)
+### v2.3.0 RC 35[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.3.0_RC35.zip)
 
-・Papago翻訳の動作修正(RC29)
+・Papago翻訳の動作修正(RC29,RC35)
 ・UDトーク連携の修正（RC30)
-・プラグインロード失敗の修正(RC31)
+・プラグインロード失敗の修正(RC31,RC35)
 ・読み上げエンジンのロード失敗の修正（RC31)
 
 <div class="tips-box">
@@ -88,10 +88,6 @@
 </div>
 
 ### 過去バージョン
-
-v2.2.1：[ダウンロード](https://machanbazaar.com/wp-content/uploads/2024/11/YNCneo_v2.2.1.zip)
-
-### v2.2.70：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/06/YNCneo_v2.2.70.zip)
 
 !!! Note "過去バージョンについて"
     v2.2より前のバージョンは提供を終了しました。

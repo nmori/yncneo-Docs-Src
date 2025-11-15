@@ -20,7 +20,7 @@
 
 ## 安定版をダウンロード
 
-### v2.2.71：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.71.zip)
+### v2.2.72：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.72.zip)
 
 このバージョンは安定版ですが、少し古くなってきているので v2.3への移行をおためしください。
 

@@ -127,6 +127,7 @@ nav:
       - 他サービス連携:
         - わんコメとの連動 : 'cs/cs_onecomme.md'
         - ゆかりねっとと繋ぐ : 'cs/cs_yukari.md'
+        - たぬえさ３を呼び出す : 'cs/cs_tanu3.md'
       - コラボ字幕 :
         - Discord経由でコラボ: 'cs/cs_colab_discord.md'
         - UDトーク経由でコラボ: 'cs/cs_colab_udtalk.md'

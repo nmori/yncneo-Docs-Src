@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 39[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.3.0_RC39.zip)
+### v2.3.0 RC 40[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.3.0_RC40.zip)
 
 ・Papago翻訳の動作修正(RC29,RC35)
 ・UDトーク連携の修正（RC30)

@@ -26,13 +26,15 @@
 
 ## 最新版をダウンロード
 
-### v2.3.0 RC 40[ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.3.0_RC40.zip)
+### v2.3.0 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNC-NEO_2.3.0_Setup.zip)
 
-・Papago翻訳の動作修正(RC29,RC35)
-・UDトーク連携の修正（RC30)
-・プラグインロード失敗の修正(RC31,RC35)
-・読み上げエンジンのロード失敗の修正（RC31)
-・VoiSona Talk に対応(RC37)
+* Papago翻訳の動作修正(RC29,RC35)
+* UDトーク連携の修正（RC30)
+* プラグインロード失敗の修正(RC31,RC35)
+* 読み上げエンジンのロード失敗の修正（RC31)
+* VoiSona Talk に対応(RC37)
+* 色パレットの修正(v2.3.0)
+* インストーラの改善(v2.3.0)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

@@ -20,21 +20,13 @@
 
 ## 安定版をダウンロード
 
-### v2.2.72：[ダウンロード開始](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.72.zip)
-
-このバージョンは安定版ですが、少し古くなってきているので v2.3への移行をおためしください。
+### v2.3.2 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.2.zip)
 
 ## 最新版をダウンロード
 
-### v2.3.1 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.1.zip)
+### v2.3.3 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.3.zip)
 
-* Papago翻訳の動作修正(RC29,RC35)
-* UDトーク連携の修正（RC30)
-* プラグインロード失敗の修正(RC31,RC35)
-* 読み上げエンジンのロード失敗の修正（RC31)
-* VoiSona Talk に対応(RC37)
-* 色パレットの修正(v2.3.0)
-* インストーラの改善(v2.3.0)
+* AIアドバイスにもとづき、動作改善
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>
@@ -77,23 +69,25 @@
   </div>
 </div>
 
-## 再インストール方法
-
-問題が解決しない場合は、再インストールをお試しください。特に長期間アップデートしていない場合は再インストールをおすすめします。
-
-<a href="../qa/reinstall/" class="md-button">再インストール手順を見る</a>
-
-### 開発版
+## 開発版
 
 <div class="tips-box">
   <h4>開発版について</h4>
   <p>開発版は最新機能を試せる一方で、不具合が含まれている可能性があります。通常利用には安定版または最新版をおすすめします。</p>
 </div>
 
-### 過去バージョン
+### v3.0 alpha1 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v3.0alpha1.zip)
+
+* プロファイル機能追加
+
+## 過去バージョン
 
 !!! Note "過去バージョンについて"
     v2.2より前のバージョンは提供を終了しました。
+
+### v2.2.72 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.72.zip)
+
+* v2.2のラストアップデート（予定）
 
 <div class="tips-box">
   <h4>もっと詳しく知りたい方へ</h4>
@@ -102,3 +96,9 @@
     <li><a href="../qa/before_help/">トラブルシューティングガイド</a></li>
   </ul>
 </div>
+
+## 再インストール方法
+
+問題が解決しない場合は、再インストールをお試しください。特に長期間アップデートしていない場合は再インストールをおすすめします。
+
+<a href="../qa/reinstall/" class="md-button">再インストール手順を見る</a>

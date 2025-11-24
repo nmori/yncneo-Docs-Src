@@ -24,9 +24,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.3 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.3.zip)
+### v2.3.4 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.4.zip)
 
-* AIアドバイスにもとづき、動作改善
+* インストーラの動作修正
+* 「動作が遅くなった」というレポートへの対応
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

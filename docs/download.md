@@ -20,7 +20,7 @@
 
 ## 安定版をダウンロード
 
-### v2.3.2 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.2.zip)
+### v2.3.1 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.1.zip)
 
 ## 最新版をダウンロード
 

@@ -20,16 +20,17 @@
 
 ## 安定版をダウンロード
 
-### v2.3.6 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.6.zip)
+### v2.3.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.7.zip)
 
-* 終了や設定変更時に不安定となる環境向けの修正
+* 通信切れ対応
+* インストーラの修正
 
 ## 最新版をダウンロード
 
-### v2.3.6 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.6.zip)
+### v2.3.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.7.zip)
 
-* インストーラの動作修正
-* 終了や設定変更時に不安定となる環境向けの修正
+* 通信切れ対応
+* インストーラの修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>
@@ -79,7 +80,7 @@
   <p>開発版は最新機能を試せる一方で、不具合が含まれている可能性があります。通常利用には安定版または最新版をおすすめします。</p>
 </div>
 
-### v3.0 alpha2 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v3.0alpha2.zip)
+### v3.0 alpha3 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v3.0alpha3.zip)
 
 * プロファイル機能追加
 * 終了や設定変更時に不安定となる環境向けの修正

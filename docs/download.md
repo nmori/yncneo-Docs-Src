@@ -20,17 +20,16 @@
 
 ## 安定版をダウンロード
 
-### v2.3.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.7.zip)
+### v2.3.9 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.9.zip)
 
-* 通信切れ対応
-* インストーラの修正
+* プラグインが正しく起動、終了できずに動作不良となっているケースがあった件の修正
 
 ## 最新版をダウンロード
 
-### v2.3.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.7.zip)
+### v2.3.10 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.19.zip)
 
-* 通信切れ対応
-* インストーラの修正
+* ボタンデザインの修正
+* スタートアッププラグイン：ボタン表示が欠けていた件の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

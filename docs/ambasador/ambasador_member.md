@@ -172,8 +172,6 @@
     おバカなのに多言語にも興味津々！！配信はみんなの居場所になれたらいいな︎︎。詳細はXにて随時更新！
     ＜2025.10.31更新＞
 
-### 研究生
-
 #### 圭一ちゃん
 
 !!! Abstract "keiitiChan　[:fontawesome-brands-twitter:{ .twitter }]( https://x.com/keiitichan)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@keiitichan)　[:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/keiitichan)　[:link:{ .fanbox }](https://keiitichan.fanbox.cc/)　【4期】"
@@ -182,6 +180,9 @@
     ** 一言コメント **   
     Twitchで活動している狐のVtuber、圭一ちゃんだよ！スローライフ系のゲームをまったり配信していて、ゆかコネでスペイン語と英語を勉強中！ゆったりした時間を一緒に楽しもうね！たまにアコギの弾き語りや絵本の朗読もしてるから、気軽に遊びに来てくれると嬉しいな！
 
+### 研究生
+
+* 現在は所属している研究生はおりません。
 
 ### 活動支援者
 

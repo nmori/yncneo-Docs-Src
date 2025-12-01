@@ -232,7 +232,6 @@ nav:
         - 起動オプション : 'tech/tech_option_neo.md' 
         - 本体内蔵API : 'tech/tech_api_neo.md'
         - プラグイン系API : 'tech/tech_api_plugin.md'
-        - わんコメ系API : 'tech/tech_api_plugin_oc.md'
       - 開発履歴 : 'qa/history.md'
       - 支援者 : 'fanbox_supporter/supporter.md'
     - メンバー▼:
@@ -248,3 +247,10 @@ nav:
       - こんなときは : 'qa/troubleshooting.md'
       - わんコメ連携できない時 : 'qa/ts_onecomme.md'
       - サポートレベル表 : 'qa/support_lv.md'
+    - AIエージェント向け▼:
+      - 検索インデックス : 'ai_docs/index.md'
+      - トラブルシュート : 'ai_docs/faq_troubleshoot.md'
+      - プラグイン : 'ai_docs/plugins_reference.md'
+      - クイックスタート : 'ai_docs/quickstart_scenarios.md'
+      - 設定 : 'ai_docs/setting_reference.md'
+      - GUI : 'ai_docs/ync_neo_gui_reference.md'

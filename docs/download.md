@@ -28,8 +28,8 @@
 
 ### v2.3.13 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.13.zip)
 
-* ボタンデザインの修正
-* スタートアッププラグイン：ボタン表示が欠けていた件の修正
+* OBS周りの修正(2.3.13)
+* Discord周りの修正(2.3.12)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

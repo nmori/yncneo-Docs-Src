@@ -26,9 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.13 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.13.zip)
+### v2.3.14 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.14.zip)
 
-* OBS周りの修正(2.3.13)
+* ゆーかねすぴれこが起動しない件の修正(2.3.14)
+* OBS周りの修正(2.3.13、2.3.14)
 * Discord周りの修正(2.3.12)
 
 <div class="tips-box">

@@ -23,15 +23,16 @@
 ### v2.3.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.15.zip)
 
 * 翻訳キャッシュが壊れる件の修正(2.3.15)
-
-## 最新版をダウンロード
-
-### v2.3.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.15.zip)
-
-* 翻訳キャッシュが壊れる件の修正(2.3.15)
 * ゆーかねすぴれこが起動しない件の修正(2.3.14)
 * OBSの通信周りの修正(2.3.13、2.3.14)
 * Discord周りの修正(2.3.12)
+
+## 最新版をダウンロード
+
+### v2.3.16 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.16.zip)
+
+* WebSpeechパラメータの保存(2.3.16)
+* 音源リストにWebSpeech音源が出てこないケースの修正(2.3.16)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

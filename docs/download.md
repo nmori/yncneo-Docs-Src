@@ -20,16 +20,17 @@
 
 ## 安定版をダウンロード
 
-### v2.3.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v2.3.7.zip)
+### v2.3.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.15.zip)
 
-* プラグインが正しく起動、終了できずに動作不良となっているケースがあった件の修正
+* 翻訳キャッシュが壊れる件の修正(2.3.15)
 
 ## 最新版をダウンロード
 
-### v2.3.14 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.14.zip)
+### v2.3.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.15.zip)
 
+* 翻訳キャッシュが壊れる件の修正(2.3.15)
 * ゆーかねすぴれこが起動しない件の修正(2.3.14)
-* OBS周りの修正(2.3.13、2.3.14)
+* OBSの通信周りの修正(2.3.13、2.3.14)
 * Discord周りの修正(2.3.12)
 
 <div class="tips-box">

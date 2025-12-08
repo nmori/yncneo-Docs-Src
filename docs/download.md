@@ -29,7 +29,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.16 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.16.zip)
+### v2.3.17 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.17.zip)
 
 * WebSpeechパラメータの保存(2.3.16)
 * 音源リストにWebSpeech音源が出てこないケースの修正(2.3.16)

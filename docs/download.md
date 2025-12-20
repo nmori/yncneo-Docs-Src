@@ -29,9 +29,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.18 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.18.zip)
+### v2.3.20 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.20.zip)
 
-・Discordプラグインの処理がデッドロックしている部分の修正
+・翻訳動作の応答を速くなるように内部構成を見直しました。
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

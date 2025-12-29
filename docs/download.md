@@ -20,18 +20,15 @@
 
 ## 安定版をダウンロード
 
-### v2.3.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.15.zip)
+### v2.3.21 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.21.zip)
 
-* 翻訳キャッシュが壊れる件の修正(2.3.15)
-* ゆーかねすぴれこが起動しない件の修正(2.3.14)
-* OBSの通信周りの修正(2.3.13、2.3.14)
-* Discord周りの修正(2.3.12)
+・設定保存周りで問題が起きる環境への対応（2.3.21)
 
 ## 最新版をダウンロード
 
-### v2.3.20 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.20.zip)
+### v2.3.22 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.22.zip)
 
-・翻訳動作の応答を速くなるように内部構成を見直しました。
+・Discord連携の音量調整を追加しています(2.3.22)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

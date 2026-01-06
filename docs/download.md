@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.22 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.22.zip)
+### v2.3.26 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.26.zip)
 
-・Discord連携の音量調整を追加しています(2.3.22)
+・読み上げ関連の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

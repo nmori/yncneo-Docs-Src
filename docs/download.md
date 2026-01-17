@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.26 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.26.zip)
+### v2.3.28 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.28.zip)
 
-・読み上げ関連の修正
+・コミュニティにレポートがあった案件の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

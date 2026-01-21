@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.28 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.28.zip)
+### v2.3.30 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.30.zip)
 
-・コミュニティにレポートがあった案件の修正
+・VOICEVOX最新キャスト対応
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

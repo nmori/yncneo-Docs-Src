@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.33 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.33.zip)
+### v2.3.34 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.34.zip)
 
 ・Windows11 音声認識に対応
 

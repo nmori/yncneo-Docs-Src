@@ -106,13 +106,13 @@
     ** 一言コメント **   
     「プリン大好きバ美肉Vtuberの朝日ゆいなのだ！🍮歌って踊ってMIXしてたまにゲームをしてるのだ！ワールドワイドアイドルを目指すのだ！」
 
-#### 磯辺もち
+#### 嬉望もち
 
-!!! Abstract "Isobe Mochi　[:fontawesome-brands-twitter:{ .twitter }](https://twitter.com/IsobeMochi_V)　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/@isobemochi)　[:fontawesome-brands-bilibili:{ .bilibili }](https://live.bilibili.com/23727754)　[:m:{ .mirrativ }](https://www.mirrativ.com/user/125307162)　【2期～】 【わんコメわんバサダー】"
-    ![磯辺もち](images/isobemochi.png){ align=left }
+!!! Abstract "Kimochi Mochi　[:fontawesome-brands-youtube:{ .youtube }](https://www.youtube.com/channel/UC4So7L6spv36g1Pyk3kx2VQ)　[:fontawesome-brands-bilibili:{ .bilibili }](https://space.bilibili.com/1266172489)　【2期～】 【わんコメわんバサダー】"
+    ![嬉望もち](images/kimochimochi.png){ align=left }
 
     ** 一言コメント **   
-    主にYoutubeでほぼ毎日ゲーム配信を中心に活動している、ボイチェンバ美肉Vtuber磯辺もちです！超多機能コメントアプリ『わんコメ』の公認アンバサダーも兼任しています！中国の配信サイトBilibiliでも同時配信していて、中国の皆さんとの言語の壁を超えたコミュニケーションを実現しようと頑張っています！
+    主にYoutubeでほぼ毎日ゲーム配信を中心に活動している、ボイチェンバ美肉Vtuber嬉望もちです！超多機能コメントアプリ『わんコメ』の公認アンバサダーも兼任しています！中国の配信サイトBilibiliでも同時配信していて、中国の皆さんとの言語の壁を超えたコミュニケーションを実現しようと頑張っています！
 
 #### 蜜眼天洙
 

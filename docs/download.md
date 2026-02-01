@@ -20,9 +20,9 @@
 
 ## 安定版をダウンロード
 
-### v2.3.22 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/12/YNCNEO_v2.3.22.zip)
+### v2.3.35 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.35.zip)
 
-・設定保存周りで問題が起きる環境への対応（2.3.21)
+・OBSプラグイン動作修正、Win11音声認識
 
 ## 最新版をダウンロード
 

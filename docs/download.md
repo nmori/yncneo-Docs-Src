@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.39 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.39.zip)
+### v2.3.42 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.42.zip)
 
 ・優先度を下げ、PC負荷低減をねらいました。
 

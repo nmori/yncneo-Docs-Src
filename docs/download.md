@@ -20,13 +20,13 @@
 
 ## 安定版をダウンロード
 
-### v2.3.35 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/01/YNCNEO_v2.3.35.zip)
+### v2.3.41 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.41.zip)
 
 ・OBSプラグイン動作修正、Win11音声認識
 
 ## 最新版をダウンロード
 
-### v2.3.42 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.42.zip)
+### v2.3.45 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.45.zip)
 
 ・優先度を下げ、PC負荷低減をねらいました。
 

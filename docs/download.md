@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.45 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.45.zip)
+### v2.3.49 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.49.zip)
 
-・優先度を下げ、PC負荷低減をねらいました。
+・ユーザフィードバック分をおりこみました
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

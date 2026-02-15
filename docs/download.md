@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.49 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.49.zip)
+### v2.3.51 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.51.zip)
 
 ・ユーザフィードバック分をおりこみました
 

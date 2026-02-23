@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.51 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.51.zip)
+### v2.3.58 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.58.zip)
 
-・ユーザフィードバック分をおりこみました
+・アプリが勝手に落ちるパターンを修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

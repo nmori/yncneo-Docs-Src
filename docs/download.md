@@ -20,15 +20,15 @@
 
 ## 安定版をダウンロード
 
-### v2.3.41 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.41.zip)
-
-・OBSプラグイン動作修正、Win11音声認識
-
-## 最新版をダウンロード
-
 ### v2.3.58 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.58.zip)
 
 ・アプリが勝手に落ちるパターンを修正
+
+## 最新版をダウンロード
+
+### v2.3.59 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.59.zip)
+
+・通信応答の改善、GPT5シリーズへの対応
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

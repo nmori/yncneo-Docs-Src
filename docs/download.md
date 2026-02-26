@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.59 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.59.zip)
+### v2.3.60 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.60.zip)
 
-・通信応答の改善、GPT5シリーズへの対応
+・PC負荷が高い場合への対応
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

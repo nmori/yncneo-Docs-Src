@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.60 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.60.zip)
+### v2.3.61 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.61.zip)
 
 ・PC負荷が高い場合への対応
 
@@ -77,20 +77,6 @@
   <h4>開発版について</h4>
   <p>開発版は最新機能を試せる一方で、不具合が含まれている可能性があります。通常利用には安定版または最新版をおすすめします。</p>
 </div>
-
-### v3.0 alpha3 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCNEO_v3.0alpha3.zip)
-
-* プロファイル機能追加
-* 終了や設定変更時に不安定となる環境向けの修正
-
-## 過去バージョン
-
-!!! Note "過去バージョンについて"
-    v2.2より前のバージョンは提供を終了しました。
-
-### v2.2.72 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2025/11/YNCneo_v2.2.72.zip)
-
-* v2.2のラストアップデート（予定）
 
 <div class="tips-box">
   <h4>もっと詳しく知りたい方へ</h4>

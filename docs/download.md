@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.61 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.61.zip)
+### v2.3.62 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/03/YNCNEO_v2.3.62.zip)
 
-・PC負荷が高い場合への対応
+・安定度のレベルアップ
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

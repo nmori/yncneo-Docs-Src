@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.62 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/03/YNCNEO_v2.3.62.zip)
+### v2.3.63 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/03/YNCNEO_v2.3.63.zip)
 
-・安定度のレベルアップ
+・ニコニコ生放送運コメプラグインを追加
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.74 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/03/YNCNEO_v2.3.74.zip)
+### v2.3.75 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.75.zip)
 
 ・ニコニコ生放送運コメプラグインを追加
 

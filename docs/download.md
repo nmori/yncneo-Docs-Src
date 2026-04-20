@@ -26,10 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.78 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.78.zip)
+### v2.3.79 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.79.zip)
 
-・共用翻訳エンジンの翻訳品質をあげるための調整
-・テンプレート（リスト）の動作修正
+・VOICEROID2連携失敗の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

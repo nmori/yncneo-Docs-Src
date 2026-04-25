@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.79 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.79.zip)
+### v2.3.80 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.80.zip)
 
-・VOICEROID2連携失敗の修正
+・スマートアプリコントロール対策の追加
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

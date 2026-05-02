@@ -26,9 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.80 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/04/YNCNEO_v2.3.80.zip)
+### v2.3.83 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.83.zip)
 
-・スマートアプリコントロール対策の追加
+・Parapper（Parakeet株式会社製）を音声認識リストに追加
+・プラグインリスト保存に失敗を修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

@@ -26,10 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.83 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.83.zip)
+### v2.3.84 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.84.zip)
 
-・Parapper（Parakeet株式会社製）を音声認識リストに追加
-・プラグインリスト保存に失敗を修正
+・わんコメ連携時の翻訳が詰まり気味だったので、もっと速く動くように処理を調整
+・API連携時のエンジン選択がずれることがあったので、修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

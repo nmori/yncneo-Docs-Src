@@ -26,10 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.84 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.84.zip)
+### v2.3.85 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.85.zip)
 
-・わんコメ連携時の翻訳が詰まり気味だったので、もっと速く動くように処理を調整
-・API連携時のエンジン選択がずれることがあったので、修正
+・わんコメ連携/APIコール時のHTTP翻訳の返答がエラーだったのを修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

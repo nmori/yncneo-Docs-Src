@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.85 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.85.zip)
+### v2.3.87 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.87.zip)
 
-・わんコメ連携/APIコール時のHTTP翻訳の返答がエラーだったのを修正
+・Parapperの位置を指定できます
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

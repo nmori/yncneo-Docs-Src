@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.91 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.91.zip)
+### v2.3.92 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.92.zip)
 
-・Parapperの位置を指定できます
+・AI応答の修正（Gemini）
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

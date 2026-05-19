@@ -26,9 +26,10 @@
 
 ## 最新版をダウンロード
 
-### v2.3.92 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.92.zip)
+### v2.3.93 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.93.zip)
 
-・AI応答の修正（Gemini）
+・言語推定ファイルのロードに失敗している件の修正
+・HTTP/WS通信ポートのオープンに失敗しているケースの修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

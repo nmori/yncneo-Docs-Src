@@ -26,7 +26,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.93 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.93.zip)
+### v2.3.95 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/05/YNCNEO_v2.3.95.zip)
 
 ・言語推定ファイルのロードに失敗している件の修正
 ・HTTP/WS通信ポートのオープンに失敗しているケースの修正

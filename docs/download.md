@@ -26,9 +26,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.102 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/06/YNCNEO_v2.3.102.zip)
+### v2.3.104 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/06/YNCNEO_v2.3.104.zip)
 
-・プラグインロードエラー修正、高速化対応
+・高速化対応
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

@@ -27,9 +27,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.107 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.107.zip)
+### v2.3.108 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.108.zip)
 
-・高速化対応
+・Parapper連携時の読み上げ動作修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

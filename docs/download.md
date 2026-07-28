@@ -27,9 +27,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.122 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.122.zip)
+### v2.3.123 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.123.zip)
 
-・Parapper連携時の読み上げ動作修正
+・VRChat連携機能のアップデート
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

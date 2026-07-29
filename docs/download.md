@@ -27,9 +27,9 @@
 
 ## 最新版をダウンロード
 
-### v2.3.123 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.123.zip)
+### v2.3.124 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/07/YNCNEO_v2.3.124.zip)
 
-・VRChat連携機能のアップデート
+・ブラウザをつかうプラグインが異常終了する件の修正
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

@@ -151,30 +151,41 @@ YNC_Neoのメイン画面は以下の構造で構成されています：
 
 **翻訳エンジン一覧**:
 
-| エンジン名 | 特徴 | APIキー必要 |
-|-----------|------|-------------|
-| Google Translate | 高品質、多言語対応 | 要（有料） |
-| Google Translate Free | 無料版、制限あり | 不要 |
-| Google Translate V3 | 最新API | 要（有料） |
-| Microsoft Translator | Azure翻訳 | 要（有料） |
-| DeepL Pro | 高品質翻訳 | 要（有料） |
-| DeepL Free | 無料版DeepL | 要（無料枠） |
-| Amazon Translate (Asia/EU) | AWS翻訳 | 要（有料） |
-| IBM Translator | Watson翻訳 | 要（有料） |
-| NAVER Translator | Papago | 要 |
-| GPT-3 | OpenAI翻訳 | 要（有料） |
-| GPT-4o | 最新GPT | 要（有料） |
-| GPT-4o Mini | 軽量GPT | 要（有料） |
-| Gemini | Google AI | 要 |
-| Gemini 2.5 Flash Lite | 高速版 | 要 |
-| Claude | Anthropic AI | 要（有料） |
-| Grok | xAI | 要 |
-| OpenRouter | 複数AI統合 | 要 |
-| Tencent Translator | 中国語特化 | 要 |
-| BAIDU Translator | 中国語特化 | 要 |
-| Alibaba Translator | 中国語特化 | 要 |
-| Custom Translator | カスタム設定 | 設定による |
-| TransOFF | 翻訳無効 | 不要 |
+ID は `ComboBoxItem` の `Tag` で、設定 `Translator1`～`Translator5` に保存される値です。ID とAPI名の対応は [設定リファレンス](./SETTINGS_REFERENCE.md) の「翻訳エンジンID一覧」を参照してください。
+
+| ID | エンジン名 | 特徴 | APIキー必要 |
+|---|-----------|------|-------------|
+| 0 | Google 翻訳v2 | 高品質、多言語対応 | 支援①～ |
+| 1 | Microsoft翻訳システム | Azure翻訳 | 支援①～ |
+| 2 | DeepL API Pro | 高品質翻訳 | 支援③～ |
+| 3 | DeepL API Free | 無料枠DeepL | 個人でKey取得 |
+| 4 | Amazon 翻訳システム (Asia向け) | AWS翻訳 | 支援③～ |
+| 5 | Amazon 翻訳システム (EU圏向け) | AWS翻訳 | 支援③～ |
+| 8 | NAVER Papago 翻訳システム | 韓国語特化 | 支援③～ |
+| 9 | NAVER Papago 翻訳システム | 韓国語特化 | 個人キー |
+| 10 | 共用翻訳 (m2m100) | 無料の共用サーバ | 不要 |
+| 11 | Google Apps Script 翻訳 | 個人で用意 | 個人で用意 |
+| 12 | Google 翻訳V3 | 最新API | 支援③～ |
+| 13 | OpenAI GPT4.1 API翻訳 | OpenAI翻訳 | 支援③～/β |
+| 14 | Tencent Cloud Translator | 中国語特化 | 個人キー |
+| 15 | Baidu(百度)Translator | 中国語特化 | 個人キー |
+| 16 | Microsoftローマ字変換 | ローマ字化 | 支援①～ |
+| 17 | Alibaba クラウド翻訳 | 中国語特化 | 個人キー |
+| 18 | 共用翻訳 (Algos/より良い翻訳) | 共用サーバ | 支援①～ |
+| 19 | OpenAI GPT-4.1-mini | 軽量GPT | 支援③～/β |
+| 20 | OpenAI GPT-4.1-nano | 最軽量GPT | 支援③～/β |
+| 21 | Google Gemini 2.5 flash Lite API翻訳 | 高速版 | 個人キー |
+| 22 | Google Gemini API翻訳 | モデルは翻訳APIタブのMODELで選択 | 個人キー |
+| 23 | Anthropic Claude | Anthropic AI | 個人キー |
+| 24 | OpenRouter API | 複数AI統合 | 個人キー |
+| 25 | Grok AI 翻訳 | xAI | 個人キー |
+| 26 | ローカル翻訳（個人API） | OpenAI互換など。LM Studio等 | 設定による |
+| 27 | ブラウザ翻訳 | ブラウザ内蔵の翻訳を使う | 不要 |
+| 28 | OFF（翻訳しない） | 翻訳無効 | 不要 |
+| 29 | Parapper翻訳 | ローカル翻訳。ポートのみ設定 (v2.3.128～) | 不要 |
+
+> ID6 / ID7 は廃止された欠番です。
+> ID19 / ID20 は、アプリの一覧の表示名が実際に使われるモデルと入れ替わっています。上の表は実際に使われるモデルを示しています。
 
 ---
 

@@ -13,25 +13,53 @@
 
 | 設定 | 型 | デフォルト | 説明 |
 |-----|---|---------|------|
-| `Translator1` | int | 10 | 翻訳エンジン1のID |
+| `Translator1` | int | 27 | 翻訳エンジン1のID |
 | `Translator2` | int | 23 | 翻訳エンジン2のID |
 | `Translator3` | int | 23 | 翻訳エンジン3のID |
 | `Translator4` | int | 23 | 翻訳エンジン4のID |
-| `Translator1s`～`Translator4s` | string | "" | カスタム翻訳エンジン名 |
+| `Translator5` | int | 10 | 翻訳エンジン5のID |
+| `Translator1s`～`Translator5s` | string | "" | 翻訳エンジンの表示名（空でなければこちらが優先されます） |
 
 ### 翻訳エンジンID一覧
 
-| ID | エンジン名 | 特徴 |
+`MainWindow.xaml` の `ComboBoxItem` の `Tag` が正です。`engine` 列は `/api/setTranslationParam` に渡す値です（[本体内蔵API](../tech/tech_api_neo.md#engine)）。
+
+| ID | エンジン名 | `engine` |
 |---|----------|------|
-| 10 | Google翻訳 | 高品質、多言語対応 |
-| 23 | 無効(TransOFF) | 翻訳しない |
-| - | Microsoft Azure | Azure翻訳API |
-| - | DeepL | 高品質（支援プラン③以上） |
-| - | IBM Watson | Watson翻訳 |
-| - | Papago | 韓国語特化 |
-| - | GPT-3/4 | OpenAI翻訳 |
-| - | Gemini | Google AI |
-| - | Claude | Anthropic AI |
+| 0 | Google 翻訳v2(支援①～) | `google` |
+| 1 | Microsoft翻訳システム(支援①～) | `microsoft` |
+| 2 | DeepL API Pro翻訳エンジン(支援③～) | `deeplpro` |
+| 3 | DeepL API Free翻訳エンジン(個人でKey取得) | `deeplfree` |
+| 4 | Amazon 翻訳システム(Asia向け/支援③～) | `amazon` |
+| 5 | Amazon 翻訳システム(EU圏向け/支援③～) | `amazon-eu` |
+| 6 | （廃止／欠番） | — |
+| 7 | （廃止／欠番） | — |
+| 8 | NAVER Papago 翻訳システム(支援③～) | `papago` |
+| 9 | NAVER Papago 翻訳システム(個人キー) | `papago-app` |
+| 10 | 共用翻訳(m2m100/無料) | `share` |
+| 11 | Google Apps Script 翻訳（個人で用意） | `gas` |
+| 12 | Google 翻訳V3 (支援③～) | `googlev3` |
+| 13 | OpenAI GPT4.1 API翻訳(支援③～/β) | `gpt4.1` |
+| 14 | Tencent Cloud Translator(個人キー) | `tencent` |
+| 15 | Baidu(百度)Translator (個人キー) | `baidu` |
+| 16 | Microsoftローマ字変換（支援①～) | `roman` |
+| 17 | Alibaba クラウド翻訳(個人キー) | `alibaba` |
+| 18 | 共用翻訳(Algos/より良い翻訳/支援①～) | — |
+| 19 | OpenAI GPT-4.1-mini(支援③～/β) | `gpt4.1mini` |
+| 20 | OpenAI GPT-4.1-nano(支援③～/β) | `gpt4.1nano` |
+| 21 | Google Gemini 2.5 flash Lite API翻訳(個人キー) | `gemini25flash` |
+| 22 | Google Gemini API翻訳(個人キー) | `gemini25pro` |
+| 23 | Anthropic Claude （個人キー) | `claude` |
+| 24 | OpenRouter API (個人キー) | `openrouter` |
+| 25 | Grok AI 翻訳(個人キー) | `grok` |
+| 26 | ローカル翻訳（個人API） | `custom` |
+| 27 | ブラウザ翻訳 | — |
+| 28 | OFF（翻訳しない） | `off` |
+| 29 | Parapper翻訳 | `parapper` |
+
+> **注意**: 「翻訳しない」は **ID28** です。ID23 は Anthropic Claude です。
+> ID19 と ID20 は、アプリの一覧の表示名が実際に使われるモデルと入れ替わっています。上の表は実際に使われるモデルを示しています。
+> ID21 / ID22 は `engine` の値の名前と実際のエンジンが一致していません。
 
 **公式ドキュメント**: [無料で英語翻訳を出す](../cs/cs_en.md) / [支援版で高品質翻訳](../cs/cs_en_sp.md)
 
@@ -55,6 +83,10 @@
 | `GPT3_APIKEY` | string | OpenAI APIキー |
 | `UseChangeAPIKey_OpenAI` | bool | OpenAI連携を有効化 |
 | `GAS_URL` | string | Google Apps Script URL |
+| `URL_CustomAPI` | string | ローカル翻訳(ID26)の接続先URL |
+| `MODEL_CustomAPI` | string | ローカル翻訳(ID26)のモデル名 |
+| `CustomAPI_Mode` | string | ローカル翻訳(ID26)の通信フォーマット（`POST(form)` / `POST(JSON)` / `OpenAI Format` / `plamo-2-translate`） |
+| `Parapper_TransPort` | int | Parapper翻訳(ID29)の接続先ポート（既定 18081 / 1～65535）。ホストは `127.0.0.1` 固定 |
 
 **公式ドキュメント**: [GASの設定](../startup/startup_gas.md)
 
@@ -177,7 +209,7 @@
 
 | 設定 | 型 | デフォルト | 説明 |
 |-----|---|---------|------|
-| `KeepTime` | double | 4 | 字幕表示時間(秒) |
+| `KeepTime` | double | 4 | 字幕表示時間(秒)。確定した字幕が画面に出た時点から数えます(v2.3.128～) |
 | `ScrollTime` | double | 4 | スクロールアニメーション時間(秒) |
 | `rb_Plugin_DivideAssistTiming` | double | 3000 | テキスト分割タイミング(ms) |
 

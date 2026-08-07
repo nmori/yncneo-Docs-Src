@@ -128,7 +128,7 @@
 |:----|:---|:--|
 |slot|翻訳ナンバー|1~4|
 |language|言語名（ISO表記）|ja,zh-TW,en … , 無しにするなら `off` |
-|engine|翻訳エンジン設定|`google`,`microsoft`,`deeplpro`,`deeplfree`,`amazon`,`amazon-eu`,`googletrans`,`watson`,`Papago`,`papago-app`,`share`,`gas`,`off`|
+|engine|翻訳エンジン設定|下表を参照|
 
 === "Query"
     ``` js
@@ -136,6 +136,93 @@
     ```
 
 * 選択・認知可能な言語であれば変更を反映します
+
+### engine に指定できる値
+
+|`engine`|ID|翻訳エンジン|状態|備考|
+|:--|:--|:--|:--|:--|
+|`google`|0|Google 翻訳v2(支援①～)|利用可||
+|`microsoft`|1|Microsoft翻訳システム(支援①～)|利用可||
+|`deeplpro`|2|DeepL API Pro翻訳エンジン(支援③～)|利用可||
+|`deeplfree`|3|DeepL API Free翻訳エンジン(個人でKey取得)|利用可||
+|`amazon`|4|Amazon 翻訳システム(Asia向け/支援③～)|利用可||
+|`amazon-eu`|5|Amazon 翻訳システム(EU圏向け/支援③～)|利用可||
+|`googletrans`|6|—|廃止|v2.3.128でエンジン一覧から削除しました。指定しても選択は変わりません|
+|`watson`|7|—|廃止|v2.3.128でエンジン一覧から削除しました。指定しても選択は変わりません|
+|`papago`|8|NAVER Papago 翻訳システム(支援③～)|利用可||
+|`papago-app`|9|NAVER Papago 翻訳システム(個人キー)|利用可||
+|`share`|10|共用翻訳(m2m100/無料)|利用可||
+|`gas`|11|Google Apps Script 翻訳（個人で用意）|利用可||
+|`googlev3`|12|Google 翻訳V3 (支援③～)|利用可||
+|`gpt4.1`|13|OpenAI GPT4.1 API翻訳(支援③～/β)|利用可||
+|`tencent`|14|Tencent Cloud Translator(個人キー)|利用可||
+|`baidu`|15|Baidu(百度)Translator (個人キー)|利用可||
+|`roman`|16|Microsoftローマ字変換（支援①～)|利用可||
+|`alibaba`|17|Alibaba クラウド翻訳(個人キー)|利用可||
+|`gpt4.1mini`|19|OpenAI GPT-4.1-mini(支援③～/β)|利用可|アプリの一覧では19と20の表示名が入れ替わっています。実際に使われるモデルはこの表のとおりです|
+|`gpt4.1nano`|20|OpenAI GPT-4.1-nano(支援③～/β)|利用可|同上|
+|`gemini25flash`|21|Google Gemini 2.5 flash Lite API翻訳(個人キー)|利用可|値の名前と実際のエンジンが一致していません|
+|`gemini25pro`|22|Google Gemini API翻訳(個人キー)|利用可|使うモデルは翻訳APIタブの MODEL で決まります。値の名前と実際のエンジンが一致していません|
+|`claude`|23|Anthropic Claude （個人キー)|利用可||
+|`openrouter`|24|OpenRouter API (個人キー)|利用可||
+|`grok`|25|Grok AI 翻訳(個人キー)|利用可||
+|`custom`|26|ローカル翻訳（個人API）|利用可||
+|`off`|28|OFF（翻訳しない）|利用可||
+|`parapper`|29|Parapper翻訳|利用可|v2.3.128～|
+
+!!! Info "この表の基準"
+    * ゆかコネNEO **v2.3.128** 時点の一覧です。
+    * 値は **大文字・小文字を区別します**。``Papago`` は無効で、``papago`` が正しい表記です。
+    * 一覧にない文字列を指定した場合、翻訳エンジンの選択は変更されません。
+
+!!! Warning "値の変更履歴"
+    * v2.3.128：``gemini15flash`` → ``gemini25flash``、``gemini15pro`` → ``gemini25pro`` に改名しました（旧名は使えません）
+    * v2.3.128：``parapper`` を追加しました
+    * v2.3.128：``googletrans`` ``watson`` を廃止しました
+
+## 設定の変更
+
+* 設定項目を外部から書き換えます。
+
+!!! Tech "使用条件"
+    * ``Parapper_TransPort`` の対応は ゆかコネNEO v2.3.128～
+
+* 送付方式：POST（``Content-Type: application/json``）
+* 送付先 : /api/setconfig
+
+|キー|型|意味|
+|:--|:--|:--|
+|NativeLanguage|int|母国語の選択番号|
+|TranslateLanguage1 ～ TranslateLanguage4|string|翻訳先の言語名|
+|Translator1String ～ Translator5String|string|翻訳エンジンの表示名|
+|KeepTime|double|字幕の保持時間（秒）|
+|ScrollTime|double|スクロール時間（秒）|
+|Parapper_TransPort|int|Parapper翻訳の接続先ポート（1～65535）|
+
+=== "Query"
+    ``` js
+        POST http://localhost:15520/api/setconfig
+    ```
+=== "Body"
+    ``` json
+    {
+        "YNC-NEO": {
+            "Parapper_TransPort": 18081
+        }
+    }
+    ```
+
+* 受け付けると ``200`` が返ります。
+* POST 以外のメソッド、JSONとして解釈できない本文は ``400`` を返します。
+* 一覧にないキーは無視されます。エラーにはなりません。
+
+!!! Warning "200は「反映が終わった」という意味ではありません"
+    * 設定の反映は、受け付けたあとに非同期で行われます。
+    * ``/api/setconfig`` を送った直後に ``/api/setTranslationParam`` などを送ると、反映の順序が入れ替わることがあります。続けて送る場合は少し間隔をあけてください。
+
+!!! Info "扱えるキーについて"
+    * ここに載せているキーだけが動作を保証している範囲です。
+    * 本文の ``"YNC-NEO"`` は省略して ``{"Parapper_TransPort": 18081}`` と書くこともできますが、将来の互換性のため付けることを推奨します。
 
 ## プラグインコマンド
 

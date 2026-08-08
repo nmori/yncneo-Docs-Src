@@ -16,8 +16,9 @@
 * つぎに、やりたいことを決めます。下記にかいてある「やりたいこと」には、URLがかいてあります
 
 !!! Tips "制御用のアドレスについて"
+    * 下記の例では既定のポート番号 ``11900`` を使っています。
     * パソコンで起動しているアプリが占有しているなどで使えない場合は番号が変わるときがあります。
-    * うまく動かないときは、番号を確認してください。
+    * うまく動かないときは、ゆかコネNEOの「レイアウトデザインの選択」画面に表示されているアドレスで番号を確認してください。
 
 * そのURLを、StreamDeckのWebサイト機能に設定して使います。
 
@@ -31,8 +32,8 @@
 
 |音声認識結果|URL|
 |:----------|:--|
-|受け取る	 |http://127.0.0.1:15520/api/mute-off|
-|受け取らない| http://127.0.0.1:15520/api/mute-on|
+|受け取る	 |http://127.0.0.1:11900/api/mute-off|
+|受け取らない| http://127.0.0.1:11900/api/mute-on|
 
 
 ## 2.定型文をいれる
@@ -44,7 +45,7 @@
 
 |URL|
 |:--|
-|http://localhost:15520/api/input?text=あいうえお|
+|http://localhost:11900/api/input?text=あいうえお|
 
 ## 3.翻訳１～４の翻訳をOFFに
 
@@ -55,7 +56,7 @@
 
 |URL|
 |:--|
-|http://localhost:15520/api/setTranslationParam?slot=1&engine=off|
+|http://localhost:11900/api/setTranslationParam?slot=1&engine=off|
 
 |パラメータ|意味|
 |:--|:--|
@@ -71,7 +72,7 @@
 
 |URL|
 |:--|
-|http://localhost:15520/api/setTranslationParam?slot=1&engine=deeplpro&language=en|
+|http://localhost:11900/api/setTranslationParam?slot=1&engine=deeplpro&language=en|
 
 |パラメータ|意味|
 |:--|:--|

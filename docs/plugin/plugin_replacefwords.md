@@ -10,7 +10,8 @@
 
 ## 有効化
 
-![有効化](images/plugin_replacefwords_p1.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_replacefwords_p1.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_replacefwords_p1.png) -->
 
 * プラグインを使うチェックをONにしてください。
 
@@ -32,7 +33,9 @@
 
 ## 設定
 
-![設定](images/plugin_replacefwords_p2.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_replacefwords_p2.png として置き、次の行を有効にする -->
+<!-- ![設定](images/plugin_replacefwords_p2.png) -->
+
 
 ### 禁止ワードの置き換え
 

@@ -68,6 +68,7 @@
 |文字変換|漢字やカタカナなど文字種を自由に変換できる|[詳しく見る](plugin_ConvertString.md)|
 |強制整形|字幕の改行や区切りを自分で設定できる|[詳しく見る](plugin_forcestyle.md)|
 |ルビ付与|難しい漢字にふりがなをつけられる|[詳しく見る](plugin_ruby.md)|
+|不適切語の置換|不適切な言葉を自動で検出して置き換えられる|[詳しく見る](plugin_replacefwords.md)|
 |GPT3整形/AIアシスタント|AIが字幕を整形したり会話に応答してくれる|[詳しく見る](plugin_GPT3.md)|
 
 ### 表示関連
@@ -80,8 +81,10 @@
 |歌詞支援|歌っている曲の歌詞を表示できる|[詳しく見る](plugin_LyricAssist.md)|
 |フォト読み込み|特定の言葉で画像を表示できる|[詳しく見る](plugin_photopickup.md)|
 |表示拡張(スタンプ)|文字の代わりに絵文字やスタンプを表示できる|[詳しく見る](plugin_viewextend.md)|
-|色の変更(β)|条件に合わせて色や表現を変更します|[詳しく見る](plugin/plugin_regexp_color.md)|
+|色の変更(β)|条件に合わせて色や表現を変更します|[詳しく見る](plugin_regexp_color.md)|
 |遅延|字幕の表示タイミングを調整できる|[詳しく見る](plugin_delay.md)|
+|表示時間の自動調整|文字数に応じて字幕の表示時間を自動で変えられる|[詳しく見る](plugin_dynamickeeptime.md)|
+|インフォグラフィックス(実験的)|会話の内容を図にして表示できる|[詳しく見る](plugin_infographics.md)|
 
 ### Windows連携
 
@@ -133,6 +136,7 @@ Windowsの他の機能と連携できます。
 |Discord Webhook連携|Discordのチャンネルに字幕を転送できる|[詳しく見る](plugin_dicordwebhook.md)|
 |Notion連携|Notionに字幕内容を自動記録できる|[詳しく見る](plugin_notion.md)|
 |Twitchチャット連携|Twitchチャットに字幕を送信できる|[詳しく見る](plugin_twitch.md)|
+|ニコニコ生放送連携|ニコニコ生放送のコメントとして字幕を送信できる|[詳しく見る](plugin_niconama.md)|
 |YouTube Live字幕送信|YouTube Liveのクローズドキャプションを使える|[詳しく見る](plugin_youtube.md)|
 |YouTube タイムコード生成|動画編集用のタイムコードを自動生成できる|[詳しく見る](plugin_youtubetimecode.md)|
 |ZOOM連携|ZOOMミーティングで字幕を表示できる|[詳しく見る](plugin_zoom.md)|

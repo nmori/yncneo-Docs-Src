@@ -27,7 +27,7 @@
 
 ## 最新版をダウンロード
 
-### v2.3.128 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/08/YNCNEO_v2.3.128.zip)
+### v2.3.129 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/08/YNCNEO_v2.3.129.zip)
 
 ・Parapper翻訳(ローカル翻訳)の追加と、字幕の保持時間の修正
 

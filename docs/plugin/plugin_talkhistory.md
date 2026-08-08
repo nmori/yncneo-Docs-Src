@@ -10,9 +10,10 @@
 
 ## 有効化
 
-![再生](images/plugin_talkhistory_p1.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_talkhistory_p1.png として置き、次の行を有効にする -->
+<!-- ![有効化](images/plugin_talkhistory_p1.png) -->
 
-* プラグインを使うチェックをONにしてください。
+* プラグイン一覧から「会話の記録」のチェックをONにしてください。
 
 ## 基本の使い方
 
@@ -28,7 +29,9 @@
 
 ### プラグイン設定画面で出来ること
 
-![再生](images/plugin_talkhistory_p2.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_talkhistory_p2.png として置き、次の行を有効にする -->
+<!-- ![設定画面](images/plugin_talkhistory_p2.png) -->
+
 
 #### 保存済み会話の管理
 

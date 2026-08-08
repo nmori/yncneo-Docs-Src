@@ -1,6 +1,7 @@
 # ゆかコネNEO 設定リファレンス
 
-> user.config に保存される全設定項目のリファレンスです。
+> ゆかコネNEOの設定項目のリファレンスです。
+> ここに載せているキー名は、`/api/setconfig` や設定の書き出しなど、**外部から設定を扱うとき**に使う名前です。
 > GUI操作方法の詳細は [YNC_NEO_GUI_REFERENCE.md](./YNC_NEO_GUI_REFERENCE.md) を参照してください。
 
 **公式ドキュメント**: [標準設定項目](../startup/startup_basic.md) / [オプション設定](../startup/startup_option.md)
@@ -22,7 +23,7 @@
 
 ### 翻訳エンジンID一覧
 
-`MainWindow.xaml` の `ComboBoxItem` の `Tag` が正です。`engine` 列は `/api/setTranslationParam` に渡す値です（[本体内蔵API](../tech/tech_api_neo.md#engine)）。
+ID はアプリの一覧に対応する番号です。`engine` 列は `/api/setTranslationParam` に渡す値です（[本体内蔵API](../tech/tech_api_neo.md#engine)）。
 
 | ID | エンジン名 | `engine` |
 |---|----------|------|
@@ -58,7 +59,6 @@
 | 29 | Parapper翻訳 | `parapper` |
 
 > **注意**: 「翻訳しない」は **ID28** です。ID23 は Anthropic Claude です。
-> ID19 と ID20 は、アプリの一覧の表示名が実際に使われるモデルと入れ替わっています。上の表は実際に使われるモデルを示しています。
 > ID21 / ID22 は `engine` の値の名前と実際のエンジンが一致していません。
 
 **公式ドキュメント**: [無料で英語翻訳を出す](../cs/cs_en.md) / [支援版で高品質翻訳](../cs/cs_en_sp.md)
@@ -121,9 +121,9 @@
 |-----|---|---------|------|
 | `EnableTranslationCache` | bool | false | 翻訳キャッシュ有効 |
 | `EnableTranslationCacheConstant` | bool | false | 定型句キャッシュ |
-| `isSavingUseAPI` | bool | true | API使用統計を保存 |
-| `isSavingUseAPI_MAX` | bool | true | API使用量制限 |
-| `isAsyncUseAPI` | bool | true | 非同期翻訳リクエスト |
+| `isSavingUseAPI` | bool | true | 翻訳を節約（発話途中の翻訳間隔を伸ばす） |
+| `isSavingUseAPI_MAX` | bool | true | 効果を最大化（発話途中で翻訳しない） |
+| `isAsyncUseAPI` | bool | true | 翻訳を並行処理（PCによっては速くなります） |
 | `TransCharCount` | int | 0 | 翻訳済み文字数 |
 | `TransCountMonth` | int | 0 | 今月の翻訳回数 |
 | `TransCount` | int | 0 | セッション翻訳回数 |
@@ -171,7 +171,8 @@
 
 | 設定 | 型 | デフォルト | 説明 |
 |-----|---|---------|------|
-| `LayoutID` | int | 13 | レイアウトテンプレートID |
+| `LayoutID_Name` | string | "スマート" | **実際に使われるレイアウト名。こちらが優先されます** |
+| `LayoutID` | int | 13 | 旧式のレイアウト番号（互換用） |
 | `SelectLineStyle` | int | 10 | 行スタイルプリセット |
 | `ShowCaptionMode` | int | 0 | 字幕表示モード |
 | `ShowLangName` | bool | false | 言語名を表示 |
@@ -180,18 +181,12 @@
 | `Alignment_Right` | bool | false | 右揃え |
 | `Alignment1`～`Alignment4` | string | "center" | 言語別配置 |
 
-### レイアウトID一覧
+### レイアウトの指定について
 
-| ID | 名前 | 説明 |
-|---|------|------|
-| 0 | 海外ドラマ | 映画字幕風の下部中央表示 |
-| 1 | 海外ドラマ(リスト) | ドラマ風リスト表示 |
-| 2 | ゲームメッセージ風 | ゲームのメッセージボックス風 |
-| 8 | STD-LIST | 標準リストレイアウト |
-| 9 | 多言語 | 複数言語を縦に並べて表示 |
-| 12 | トークセッション | トーク番組風表示 |
-| 13 | Default | デフォルトレイアウト |
-| 16 | STD-GAMEWINDOW-H3 | 2列ゲームレイアウト |
+* 現行のバージョンでは、レイアウトは **`LayoutID_Name`（レイアウト名の文字列）** で決まります。
+* `LayoutID`（数値）は古い形式で、互換のために残っているだけです。数値を書き換えてもレイアウトは変わりません。
+* `LayoutID_Name` に入れる名前は、アプリの「レイアウトデザインの選択」のプルダウンに出ている名前と同じです（例: `多言語` / `リスト` / `スマート` / `海外ドラマ` / `ゲームメッセージ風` / `トークセッション` / `電光掲示板` / `ショート`）。
+* 選べるレイアウトは全36種類あります。一覧は公式ドキュメントを参照してください。
 
 **公式ドキュメント**: [レイアウト](../startup/startup_layout.md)
 
@@ -229,11 +224,22 @@
 
 | 設定 | 型 | デフォルト | 説明 |
 |-----|---|---------|------|
-| `UseVOSK` | bool | false | VOSKオフライン認識を有効化 |
+| `UseChrome` | bool | true | ブラウザ（Chrome / Google音声認識） |
+| `UseEdge` | bool | false | ブラウザ（Edge / Microsoft音声認識） |
+| `UseVOSK` | bool | false | オフライン認識を有効化 |
+| `UseUDtalk` | bool | false | UDトークを有効化 |
 | `UseYukarinette` | bool | false | ゆかりねっと連携を有効化 |
+| `UseWhisper` | bool | false | 音声認識モデル(Whisper)を有効化 |
+| `UseYukane` | bool | false | ゆーかねすぴれこを有効化 |
+| `UseParapper` | bool | false | Parapper（音声認識）を有効化 |
+| `UseWinVoice` | bool | false | Windows11音声認識を有効化 |
+| `UseJoinSubUtterance` | bool | false | 認識結果が細分化されるのを抑制します（UDトーク） |
+| `isNewRecognitionPrg` | bool | false | 新バージョンの音声認識画面を使う |
 | `UseYukarinetteExtend` | bool | false | ゆかりねっと拡張モード |
 | `UseWebRecogExtend` | bool | false | Web認識拡張を有効化 |
 | `UsePlayBouyomi` | bool | false | 棒読みちゃんを有効化 |
+
+> 入力ソースは画面上ではラジオボタンなので、有効になるのは1つだけです。
 
 **公式ドキュメント**: [音声認識できないとき](../startup/startup_asr.md)
 
@@ -249,7 +255,8 @@
 | `Left` | double | 0 | ウィンドウX位置 |
 | `Width` | double | 510 | ウィンドウ幅 |
 | `Height` | double | 890 | ウィンドウ高さ |
-| `isAutoOpenInWindow` | bool | true | 字幕ウィンドウを自動で開く |
+| `isAutoOpenInWindow` | bool | true | 起動時に音声認識ウィンドウを開く |
+| `isAutoOpenExWindow` | bool | true | 起動時に字幕ウィンドウを開く |
 | `isTopmostWindow` | bool | true | 常に最前面に表示 |
 
 ### 字幕ウィンドウ位置
@@ -268,9 +275,11 @@
 |-----|---|---------|------|
 | `BrowserPath_Edge` | string | (パス) | Edgeブラウザパス |
 | `UseExternalBrowser` | bool | true | 外部ブラウザを使用 |
-| `UseChrome` | bool | true | Chromeを優先 |
+| `UseChrome` | bool | true | 音声認識にChromeを使う（認識エンジンの選択） |
+| `BrowserSelectEdge` | bool | true | 字幕表示に使うブラウザ（true=Edge / false=Chrome） |
 | `BrowserWidth` | int | 800 | ブラウザウィンドウ幅 |
 | `BrowserHeight` | int | 400 | ブラウザウィンドウ高さ |
+| `BrowserPath_Chrome` | string | (パス) | Chromeブラウザパス |
 | `isBrowserSizeLock` | bool | false | ブラウザサイズを固定 |
 | `BrowserParam` | string | "" | ブラウザ起動パラメータ |
 
@@ -329,7 +338,7 @@
 | 設定 | 型 | デフォルト | 説明 |
 |-----|---|---------|------|
 | `DebugOption` | bool | false | デバッグモードを有効化 |
-| `isOffSystemMessage` | bool | false | システムメッセージを無効化 |
+| `isOffSystemMessage` | bool | false | システムメッセージをOFFにする |
 | `MuteStatus` | bool | false | グローバルミュート状態 |
 | `isSavingMute` | bool | true | ミュート状態を保持 |
 | `UpdatedCounter` | int | 0 | アップデート確認カウンタ |
@@ -381,6 +390,46 @@
 
 ---
 
+## v2.3系で追加された設定
+
+| 設定 | 型 | デフォルト | 説明 |
+|-----|---|---------|------|
+| `Translator5` | int | 10 | 翻訳失敗時に使うエンジン |
+| `LayoutID_Name` | string | "スマート" | 使用するレイアウト名 |
+| `Parapper_TransPort` | int | 18081 | Parapper翻訳の接続先ポート（1～65535／ホストは127.0.0.1固定） |
+| `ParapperPath` | string | `C:\Program Files\Parapper` | Parapper（音声認識）の場所 |
+| `WhisperBatPath` | string | "" | Whisper起動バッチの場所 |
+| `YukaneBatPath` | string | "" | ゆーかねすぴれこ起動バッチの場所 |
+| `BackupMode` | bool | true | バックアップ機能を有効にする |
+| `BackupDir` | string | "" | バックアップの保存先 |
+| `dynamicPortMode` | bool | true | 使える通信ポートを自動で選びます |
+| `APIEnableWebHost` | string | "" | Web許可ホスト（改行区切り・前方一致） |
+| `isIPAddressFullOpen` | bool | false | すべてのIPアドレスを有効にする（管理者起動が必要） |
+| `isUseOneSocket` | bool | false | 同時通信量を節約する |
+| `NICIPAddress` | string | "" | 使うネットワークの指定 |
+| `isDarkMode` | bool | true | ダークモードにする |
+| `BackgroundColor_Frame` | string | "#F0B400" | フレームカラー |
+| `isStopFlash` | bool | false | UIの点滅効果を止める |
+| `isNotAppMode` | bool | false | ウィンドウフレームを表示する |
+| `isAdminLevel` | bool | false | 管理者として実行（ブラウザ等の起動） |
+| `isWaitClearing` | bool | false | 次の字幕が来ても保持時間経過まで表示切り替えを待つ |
+| `CanInvertTranslation` | bool | false | 他国語で話したときは母国語に逆翻訳する |
+| `CustomStyleSheet` | string | (既定のCSS) | 追加設定（スタイルシート） |
+| `use_Function_AI` | string | - | プラグインで使うAIの種類 |
+| `Gemini_MODEL` | string | "2.5 Flash" | Geminiのモデル |
+| `claude_MODEL` | string | - | Claudeのモデル |
+| `CustomAPI_Mode` | string | "OpenAI Format" | ローカル翻訳の通信形式 |
+
+---
+
+## 外部から設定を変更する
+
+* `/api/setconfig` で設定を書き換えられます。**動作を保証しているキーは限られています。**
+* `/api/getlayoutdata` で現在の設定一式をJSONで取得できます。
+* 詳しくは [公式: 本体内蔵API](../tech/tech_api_neo.md) を参照してください。
+
+---
+
 ## 関連ドキュメント
 
 - [INDEX](./INDEX.md) - 全体案内
@@ -389,3 +438,4 @@
 - [GUIリファレンス](./YNC_NEO_GUI_REFERENCE.md) - 本体GUI操作
 - [公式: 標準設定項目](../startup/startup_basic.md)
 - [公式: オプション設定](../startup/startup_option.md)
+- [公式: 本体内蔵API](../tech/tech_api_neo.md)

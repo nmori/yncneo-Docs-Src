@@ -1,3 +1,6 @@
+!!! Warning "このプラグインは現在配布していません"
+    * このページは開発中の内容です。ゆかコネNEOには同梱されていないため、プラグイン一覧には表示されません。
+
 !!! Info "前提条件"
     * なし
 
@@ -37,7 +40,8 @@ Plugin_Captioner は「字幕専門職向けコネクタ」として名前が付
 
 ## 設定
 
-![設定](images/plugin_captioner_p2.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_captioner_p2.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_captioner_p2.png) -->
 
 現在の設定画面には、OKボタンとCancelボタンのみが配置されており、具体的な設定項目はありません。
 

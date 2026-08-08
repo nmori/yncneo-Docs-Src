@@ -138,9 +138,10 @@ nav:
         - わんコメテンプレートを使う : 'cs/cs_onetemplate.md'    
     - ドキュメント▼:
       - 設定について:
-        - 標準設定項目: 'startup/startup_basic.md'      
+        - 標準設定項目: 'startup/startup_basic.md'
         - オプション設定: 'startup/startup_option.md'
         - レイアウト: 'startup/startup_layout.md'
+        - 設定の保存・復元: 'startup/startup_profile.md'
         - GASの設定: 'startup/startup_gas.md'
         - 音声認識できないとき: 'startup/startup_asr.md'
       - 支援について:
@@ -168,6 +169,7 @@ nav:
           - 強制整形 : 'plugin/plugin_forcestyle.md'
           - ルビ付与 : 'plugin/plugin_ruby.md'
           - ゆかコネ互換 : 'plugin/plugin_viewcompat.md'
+          - 不適切語の置換 : 'plugin/plugin_replacefwords.md'
           - GPT3整形/AIアシスタント : 'plugin/plugin_GPT3.md'
         - 表示関連:
           - 内蔵ブラウザ: 'plugin/plugin_browser.md'
@@ -176,6 +178,8 @@ nav:
           - 表示拡張(スタンプ) : 'plugin/plugin_viewextend.md'
           - 色の変更(β) : 'plugin/plugin_regexp_color.md'
           - 遅延 : 'plugin/plugin_delay.md'
+          - 表示時間の自動調整 : 'plugin/plugin_dynamickeeptime.md'
+          - インフォグラフィックス(実験的) : 'plugin/plugin_infographics.md'
         - Windows連携:
           - クリップボード連携: 'plugin/plugin_clipboard.md'
           - MIDI入力 : 'plugin/plugin_midiinput.md'
@@ -203,6 +207,7 @@ nav:
           - Discord Webhook連携 : 'plugin/plugin_dicordwebhook.md'
           - Notion連携 : 'plugin/plugin_notion.md'
           - Twitchチャット連携: 'plugin/plugin_twitch.md'
+          - ニコニコ生放送連携: 'plugin/plugin_niconama.md'
           - YouTube Live字幕送信: 'plugin/plugin_youtube.md'
           - YouTube タイムコード生成 : 'plugin/plugin_youtubetimecode.md'
           - ZOOM連携 : 'plugin/plugin_zoom.md'

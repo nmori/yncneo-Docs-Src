@@ -11,14 +11,14 @@
         port = decodeURIComponent(results[2].replace(/\+/g, " "));
         localStorage.setItem("port", port);
     } catch {        
-        //localStorage.setItem("port", 15520);
+        //localStorage.setItem("port", 11900);
     }
 
     document.getElementById('Setting_Voice_JP').addEventListener('click', async function(event) {
         event.preventDefault();
         try
         {
-            let port=localStorage.getItem("port") ?? 15520;
+            let port=localStorage.getItem("port") ?? 11900;
 
             fetch('http://127.0.0.1:'+port+'/api/setconfig', {
                 method: 'POST',
@@ -47,7 +47,7 @@
         event.preventDefault();
         try
         {
-            let port=localStorage.getItem("port") ?? 15520;
+            let port=localStorage.getItem("port") ?? 11900;
 
             fetch('http://127.0.0.1:'+port+'/api/setconfig', {
                 method: 'POST',

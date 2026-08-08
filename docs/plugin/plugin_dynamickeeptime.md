@@ -9,7 +9,8 @@
 
 ## 有効化
 
-![有効化](images/plugin_dynamickeeptime_p1.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_dynamickeeptime_p1.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_dynamickeeptime_p1.png) -->
 
 * プラグインを使うチェックをONにしてください。
 
@@ -24,11 +25,13 @@
 * その間の文字数の場合：比例計算で表示時間を決定
 
 グラフイメージ：
-![グラフ](images/plugin_dynamickeeptime_graph.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_dynamickeeptime_graph.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_dynamickeeptime_graph.png) -->
 
 ## 設定
 
-![設定](images/plugin_dynamickeeptime_p2.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_dynamickeeptime_p2.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_dynamickeeptime_p2.png) -->
 
 設定画面には、文字数と表示時間の関係を視覚的に示すグラフが表示されます。
 

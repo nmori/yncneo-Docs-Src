@@ -100,6 +100,6 @@ StreamDeckのアプリケーションに、下記のように設定すること�
 ![Cluster](images/plugin_clusterwtrigger_p10.png)
 
 設定例：
-``http://localhost:15520/api/command?target=Plugin_ClusterTrigger&command=exec&tag=Trig1``
+``http://localhost:11900/api/command?target=Plugin_ClusterTrigger&command=exec&tag=Trig1``
 
 

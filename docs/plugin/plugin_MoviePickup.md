@@ -10,7 +10,8 @@
 
 ## 有効化
 
-![有効化](images/plugin_moviepickup_p1.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_moviepickup_p1.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_moviepickup_p1.png) -->
 
 * プラグインを使うチェックをONにしてください。
 
@@ -26,7 +27,8 @@
 
 ## 設定
 
-![設定](images/plugin_moviepickup_p2.png)
+<!-- TODO: スクリーンショット未撮影。撮ったら images/plugin_moviepickup_p2.png として置き、次の行を有効にする -->
+<!-- ![画面](images/plugin_moviepickup_p2.png) -->
 
 ### ファイル特定辞書
 

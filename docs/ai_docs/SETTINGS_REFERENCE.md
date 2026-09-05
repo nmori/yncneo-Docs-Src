@@ -82,6 +82,7 @@ ID はアプリの一覧に対応する番号です。`engine` 列は `/api/setT
 | `UseChangeAPIKey_PapagoAPI` | bool | Papago APIを使用 |
 | `GPT3_APIKEY` | string | OpenAI APIキー |
 | `UseChangeAPIKey_OpenAI` | bool | OpenAI連携を有効化 |
+| `ChangeAPIKey_GoogleGemini` | string | Google Gemini APIキー（翻訳ID21/ID22 とAI機能で共用）。モデルは `Gemini_MODEL` |
 | `GAS_URL` | string | Google Apps Script URL |
 | `URL_CustomAPI` | string | ローカル翻訳(ID26)の接続先URL |
 | `MODEL_CustomAPI` | string | ローカル翻訳(ID26)のモデル名 |
@@ -416,7 +417,7 @@ ID はアプリの一覧に対応する番号です。`engine` 列は `/api/setT
 | `CanInvertTranslation` | bool | false | 他国語で話したときは母国語に逆翻訳する |
 | `CustomStyleSheet` | string | (既定のCSS) | 追加設定（スタイルシート） |
 | `use_Function_AI` | string | - | プラグインで使うAIの種類 |
-| `Gemini_MODEL` | string | "2.5 Flash" | Geminiのモデル |
+| `Gemini_MODEL` | string | "3.5 Flash Lite" | Geminiのモデル。選択肢は `2.5 Flash` / `2.5 Flash Lite` / `2.5 Pro` / `3.1 Pro` / `3.1 Flash Lite` / `3.5 Flash` / `3.5 Flash Lite` / `3.6 Flash` / `3.7 Flash` / `3.8 Flash`。廃止済みの値（`2.0 Flash` / `2.0 Flash Lite` / `3.1 Flash` / `3.6 Flash Lite`）や未知の値は起動時に自動で読み替えられる |
 | `claude_MODEL` | string | - | Claudeのモデル |
 | `CustomAPI_Mode` | string | "OpenAI Format" | ローカル翻訳の通信形式 |
 

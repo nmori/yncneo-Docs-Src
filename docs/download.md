@@ -33,15 +33,11 @@
 
 ## 先行開発版をダウンロード
 
-### v3.0.0 beta 15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta15.zip)
+### v3.0.0 beta 16 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta16.zip)
 
-・読みつまり系の修正
-・字幕と読みの同期関連の精度UP
-・次の読みをなるべく早くする音声合成前倒し機能織り込み
-・設定回りのUIをアップデート
-・いくつかの設定が機能していなかった件の修正
-・テンプレートの修正
-・ルビ付与時に文字が小さくなる件の修正
+・読みタイミング調整
+・プラグイン連携がうまくいかない件の修正
+・VRChat連携の強化
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

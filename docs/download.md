@@ -27,17 +27,16 @@
 
 ## 最新版をダウンロード
 
-### v2.3.132 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.132.zip)
+### v2.3.133 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.133.zip)
 
 ・プリセット周りの修正
 
 ## 先行開発版をダウンロード
 
-### v3.0.0 beta 16 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta16.zip)
+### v3.0.0 beta 21 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta21.zip)
 
-・読みタイミング調整
-・プラグイン連携がうまくいかない件の修正
-・VRChat連携の強化
+・音声認識関連の受信調整
+・プラグイン関連のUXレベルアップ (読み上げ、OBS5)
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

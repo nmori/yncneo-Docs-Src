@@ -5911,7 +5911,7 @@
 ```
 * NEO本体
 
-     外部ツール向けの[シンプルAPI](../tech/tech_api_neo.md##発話の受信websocketシンプル)を実装
+     外部ツール向けの[シンプルAPI](../v3.0/tech/tech_api_neo.md##発話の受信websocketシンプル)を実装
 
 
 ## v2.0α4 
@@ -5955,7 +5955,7 @@
 ```
 ・色設定が崩れているレポートに対する対応
 ```
-* [ホットキー](../plugin/plugin_hotkey.md) プラグイン追加
+* [ホットキー](../v3.0/plugin/plugin_hotkey.md) プラグイン追加
 * Twitchプラグイン
 ```
 ・母国語＋翻訳(1-4)の送信を可能に

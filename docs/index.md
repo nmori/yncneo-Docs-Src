@@ -8,17 +8,17 @@
 ## あなたは何をしたいですか？
 
 <div class="purpose-grid">
-  <a href="cs/cs_en/" class="purpose-card">
+  <a href="v3.0/cs/cs_en/" class="purpose-card">
     <div class="purpose-icon">🌍</div>
     <h3>配信で翻訳字幕を出してみる</h3>
     <p>5分で英語字幕付き配信を始められます</p>
   </a>
-  <a href="cs/cs_vrchat/" class="purpose-card">
+  <a href="v3.0/cs/cs_vrchat/" class="purpose-card">
     <div class="purpose-icon">🎮</div>
     <h3>VRChatで会話をサポート</h3>
     <p>VRChatのチャットに自分の声を表示</p>
   </a>
-  <a href="cs/cs_onecomme/" class="purpose-card">
+  <a href="v3.0/cs/cs_onecomme/" class="purpose-card">
     <div class="purpose-icon">💬</div>
     <h3>配信のコメント管理</h3>
     <p>わんコメと連携して翻訳表示</p>
@@ -36,12 +36,12 @@
   <div class="step-item">
     <h3>5分で試してみる</h3>
     <p>話すだけで字幕が出る！基本的な使い方を体験</p>
-    <a href="guide/quickstart/" class="md-button">5分クイックスタート</a>
+    <a href="v3.0/guide/quickstart/" class="md-button">5分クイックスタート</a>
   </div>
   <div class="step-item">
     <h3>自分なりの使い方を見つける</h3>
     <p>できることを知って、自分の配信スタイルに合わせる</p>
-    <a href="guide/start/" class="md-button">使い方を探索する</a>
+    <a href="v3.0/guide/start/" class="md-button">使い方を探索する</a>
   </div>
 </div>
 

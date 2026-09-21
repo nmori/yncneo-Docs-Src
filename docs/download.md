@@ -75,7 +75,7 @@
   <div class="step-item">
     <h3>支援翻訳ができなくなった場合</h3>
     <p>内部認証の再実行が必要かもしれません</p>
-    <a href="../support/support_enabled/" class="md-button">支援機能の設定方法</a>
+    <a href="../v3.0/support/support_enabled/" class="md-button">支援機能の設定方法</a>
   </div>
 </div>
 
@@ -90,7 +90,7 @@
   <h4>もっと詳しく知りたい方へ</h4>
   <ul>
     <li><a href="../qa/history/">更新履歴を確認する</a></li>
-    <li><a href="../qa/before_help/">トラブルシューティングガイド</a></li>
+    <li><a href="../v3.0/qa/before_help/">トラブルシューティングガイド</a></li>
   </ul>
 </div>
 
@@ -98,4 +98,4 @@
 
 問題が解決しない場合は、再インストールをお試しください。特に長期間アップデートしていない場合は再インストールをおすすめします。
 
-<a href="../qa/reinstall/" class="md-button">再インストール手順を見る</a>
+<a href="../v3.0/qa/reinstall/" class="md-button">再インストール手順を見る</a>

@@ -13,7 +13,7 @@
 |項目|可否|補足|
 |:--|:---|:---|
 |多言語翻訳|〇|母国語＋４か国語まで|
-|翻訳エンジン|状況による|●Microsoft翻訳エンジン<br>●Google翻訳エンジン<br>●DeepL Free/Pro翻訳エンジン<br>●Amazon翻訳エンジン<br>●NAVER Papago翻訳エンジン<br>●共用翻訳サーバ(m2m100/Algos）<br>●[Google Apps Script翻訳](startup/startup_gas.md)<br>●Google 翻訳v3<br>●Tencentクラウド翻訳<br>●Baidu翻訳<br>●Alibaba翻訳<br>●OpenAI翻訳<br>●Gemini翻訳<br>●Claude翻訳<br>●Grok翻訳<br>●Open Router(LM Studio)翻訳<br>●オフラインブラウザ翻訳|
+|翻訳エンジン|状況による|●Microsoft翻訳エンジン<br>●Google翻訳エンジン<br>●DeepL Free/Pro翻訳エンジン<br>●Amazon翻訳エンジン<br>●NAVER Papago翻訳エンジン<br>●共用翻訳サーバ(m2m100/Algos）<br>●[Google Apps Script翻訳](v3.0/startup/startup_gas.md)<br>●Google 翻訳v3<br>●Tencentクラウド翻訳<br>●Baidu翻訳<br>●Alibaba翻訳<br>●OpenAI翻訳<br>●Gemini翻訳<br>●Claude翻訳<br>●Grok翻訳<br>●Open Router(LM Studio)翻訳<br>●オフラインブラウザ翻訳|
 |音声認識|〇| ●[UDトーク](https://udtalk.jp/)（Shamrock Records,Inc製）<br>●ブラウザ音声認識<br>●ブラウザ音声認識(ガムベックさん開発)<br>●オフライン音声認識(Whisper,Kotoba-v2,VOSK)<br>●[Whisper音声認識](https://github.com/tyapa0/YukariWhisper)（tyapa0さん開発）<br>●[ゆーかねすぴれこ](https://harukei66494739.github.io/recognize/) (Haru_Keiさん開発)）<br>●[Parapper](https://github.com/Parakeet-Inc/Parapper-ASR/) (Parakeet株式会社製)|
 |ゆかりねっと連携|〇|●ゆかりねっとプラグイン併用モード<br>●ブラウザエミュレート|
 |OBS連携|〇| OBS Studio用 WebSocket v4/v5対応|
@@ -25,6 +25,6 @@
 
 ## 翻訳の種類について
 
-![翻訳リスト](./support/images/support_countermap.jpg)
+![翻訳リスト](v3.0/support/images/support_countermap.jpg)
 
-* 支援については、 [こちら](support/support_summary.md)をご覧ください。
+* 支援については、 [こちら](v3.0/support/support_summary.md)をご覧ください。

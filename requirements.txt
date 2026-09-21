@@ -35,3 +35,4 @@ mkdocs-meta-descriptions-plugin
 plantuml_markdown
 pygments
 mike
+mkdocs-redirects

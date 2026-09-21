@@ -32,7 +32,7 @@
 #### はるちゃんねるさん
 
 !!! Abstract "はるちゃんねるさん [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/hqruch)"
-    <iframe src="https://player.twitch.tv/?video=2839651865&parent=nmori.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    [haruchan](./images/haruchan.png)
 
     ■一言コメント
 

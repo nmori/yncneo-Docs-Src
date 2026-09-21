@@ -14,7 +14,7 @@
     1. **v2.3（.NET Framework 4.8）向けにビルドされたプラグインは v3.0 では読み込めません。**
        公式配布の 64 本はすべて `net10.0-windows` で再ビルド済みです。
        自作・個人配布のものは、配布元に v3.0 対応版を依頼してもらってください。
-    2. **36 本のプラグインで設定画面が WPF の共通土台へ移りました。**
+    2. **設定画面を持つほぼすべてのプラグイン（約 60 本）で、設定画面が WPF の共通土台へ移りました。**
        画面の並び・項目の見た目が v2.3 と違います。
     3. **内蔵ブラウザを使う 4 本が WebView2 になりました。**
        内蔵ブラウザ / コメントスクリーン連携 / ニコニコ生放送連携 / clusterウェブトリガ。
@@ -24,20 +24,20 @@
 
 ## v3.0 の設定画面（WPF 共通土台）
 
-### 対象プラグイン（36 本）
+### 対象プラグイン（58 本）
 
-Bouyomi / ClusterTransfer / ClusterTrigger / CommentGen / ConvertString / Delay /
-Dictionary / DiscordWebHook / ForceStyle / GPT3 / HTTPCall / HotKey / MTGCard /
-MediaPlayer / MidiInput / NEOSVR / Nomlish / Notion / OBS5 / OBSFile / PhotoPickUP /
-PlaySound / PlayVoice / RegExp / RegExpColor / Ruby / SlackWebHook / Softalk /
-TeamsWebHook / UDPUnit / VMC / VROverlay / VaNii / ViewCompat / ViewExtend / VtubeStudio / WSCall
+Bouyomi / Browser / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / ComScr / ConvertString / Delay / Dictionary / Discord / DiscordWebHook / DynamicKeepTime / Exporter / ForceStyle / GPT3 / HotKey / HTTPCall / InfoGraphics / LyricAssist / MediaPlayer / MidiInput / MTGCard / NEOSVR / NicoNama / Nomlish / Notion / OBS / OBS5 / OBSFile / OCComm / OCTemplateGen / PhotoPickUP / PlaySound / PlayVoice / PythonUnit / RegExp / RegExpColor / replaceFWords / Ruby / SlackWebHook / Softalk / Startup / TeamsWebHook / Twitch / UDPUnit / Update / VaNii / VCas / ViewCompat / ViewExtend / VMC / VRCHAT_OSC / VROverlay / VtubeStudio / WSCall / Youtube / Zoom
+
+作業用の窓（会話の記録 / YouTube タイムコード）も WPF になりました。直接入力・入力支援・翻訳発話連携は設定画面を持ちません。
+
+独自の画面を持つもの（共通土台の宣言ではなく、専用の XAML）：Dictionary / OBS5 / PlayVoice。
 
 ### 共通の振る舞い
 
 | 事項 | 内容 |
 |:--|:--|
 | 表示言語 | ホストの表示言語に合わせて出し分ける（`uitext.<言語>.json`）。v2.3 の「Slack設定 (Setting)」のような日英混在の見出しは廃止 |
-| 保存 | **下書き方式**。触ったキーだけを持ち、閉じるときに「適用」「破棄」「続ける」の 3 択 |
+| 保存 | **下書き方式**。触ったキーだけを持ち、変更したまま閉じるときに［はい］保存して閉じる／［いいえ］破棄して閉じる／［キャンセル］閉じるのをやめる の 3 択 |
 | 規則の表 | 引用符つき CSV・見出し行なし・`{Plugin_Tag}_rule.config`。**書式は v2.3 と互換**（切り戻し可） |
 | 表の書き出し | ページを離れる時点で書き出す。「キャンセル」で戻したいときは、表のページを離れる前に操作する |
 | 失敗時 | 読み込みに失敗した表は**書き戻さない**（空の写しで規則を消さないため） |

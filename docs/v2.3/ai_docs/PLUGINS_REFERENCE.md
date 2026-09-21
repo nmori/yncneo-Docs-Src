@@ -36,7 +36,7 @@
 
 ## Audio/TTS Plugins
 
-### Plugin_PlayVoice - 読み上げプラグイン
+### Plugin_PlayVoice - 読み上げプラグイン { #plugin_playvoice }
 **Purpose**: Multi-engine text-to-speech synthesis
 
 #### ConfigWindow構造: 6タブ構成
@@ -318,7 +318,7 @@
 
 ## VR/Metaverse Plugins
 
-### Plugin_VRCHAT_OSC - VRChat OSC連携
+### Plugin_VRCHAT_OSC - VRChat OSC連携 { #plugin_vrchat_osc }
 **Purpose**: VRChat avatar control via OSC
 
 #### ConfigWindow構造: 3タブ構成

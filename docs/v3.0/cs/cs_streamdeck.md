@@ -84,4 +84,4 @@
 |languages|言語名|
 |engine|翻訳エンジンの種類|
 
-* 詳しい選択肢は、[API設定](../tech/tech_api_neo.md#翻訳表示設定の変更)を参照してください
+* 詳しい選択肢は、[API設定](../tech/tech_api_neo.md#api-change-translate-view)を参照してください

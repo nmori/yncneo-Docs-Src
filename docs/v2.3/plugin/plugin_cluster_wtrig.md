@@ -97,7 +97,7 @@
 ## StreamDeckと連動させるとき
 
 !!! info "このプラグインにはAPIがあります"
-    * このプラグインを有効にすると、[clusterウェブトリガープラグインAPI](../tech/tech_api_plugin.md#clusterウェブトリガープラグイン)の機能を使えます。
+    * このプラグインを有効にすると、[clusterウェブトリガープラグインAPI](../tech/tech_api_plugin.md#api-cluster-wtrig)の機能を使えます。
 
 StreamDeckのアプリケーションに、下記のように設定することで、ボタンによる発火が可能になります。
 

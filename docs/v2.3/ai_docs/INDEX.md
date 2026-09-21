@@ -35,7 +35,7 @@
 4. OBSへの取り込み
 
 **参照:**
-- [QUICKSTART_SCENARIOS.md #Scenario 1](./QUICKSTART_SCENARIOS.md#scenario-1-basic-streaming-setup-obs--caption)
+- [QUICKSTART_SCENARIOS.md #Scenario 1](./QUICKSTART_SCENARIOS.md#sc1)
 - 公式: [OBSできれいに出す](../cs/cs_obs.md) / [配信ソフトに取り込む](../cs/cs_import_obs.md)
 
 ---
@@ -48,8 +48,8 @@
 3. 送信ポート: 9000（VRChat固定）
 
 **参照:**
-- [QUICKSTART_SCENARIOS.md #Scenario 3](./QUICKSTART_SCENARIOS.md#scenario-3-vrchat-caption-display)
-- [PLUGINS_REFERENCE.md #Plugin_VRCHAT_OSC](./PLUGINS_REFERENCE.md#plugin_vrchat_osc---vrchat-osc連携)
+- [QUICKSTART_SCENARIOS.md #Scenario 3](./QUICKSTART_SCENARIOS.md#sc3)
+- [PLUGINS_REFERENCE.md #Plugin_VRCHAT_OSC](./PLUGINS_REFERENCE.md#plugin_vrchat_osc)
 - 公式: [VRChat OSC連携](../plugin/plugin_vrchat_osc.md) / [VRChatのチャットとつなぐ](../cs/cs_vrchat.md)
 
 ---
@@ -64,8 +64,8 @@
 | Discord Webhook | 一方向送信のみ、簡単設定 | 簡単 |
 
 **参照:**
-- [QUICKSTART_SCENARIOS.md #Scenario 4](./QUICKSTART_SCENARIOS.md#scenario-4-discord-bot-integration)
-- [FAQ_TROUBLESHOOTING.md #Discord連携](./FAQ_TROUBLESHOOTING.md#8-discord連携関連)
+- [QUICKSTART_SCENARIOS.md #Scenario 4](./QUICKSTART_SCENARIOS.md#sc4)
+- [FAQ_TROUBLESHOOTING.md #Discord連携](./FAQ_TROUBLESHOOTING.md#faq-discord)
 - 公式: [Discord BOT連携](../plugin/plugin_dicord.md) / [Discord Webhook連携](../plugin/plugin_dicordwebhook.md)
 
 ---
@@ -79,8 +79,8 @@
 - AssistantSeika経由（VOICEROID等）
 
 **参照:**
-- [QUICKSTART_SCENARIOS.md #Scenario 5](./QUICKSTART_SCENARIOS.md#scenario-5-tts-voice-output)
-- [PLUGINS_REFERENCE.md #Plugin_PlayVoice](./PLUGINS_REFERENCE.md#plugin_playvoice---読み上げプラグイン)
+- [QUICKSTART_SCENARIOS.md #Scenario 5](./QUICKSTART_SCENARIOS.md#sc5)
+- [PLUGINS_REFERENCE.md #Plugin_PlayVoice](./PLUGINS_REFERENCE.md#plugin_playvoice)
 - 公式: [読み上げ](../plugin/plugin_playvoice.md) / [棒読みちゃん連携](../plugin/plugin_bouyomi.md)
 
 ---
@@ -98,7 +98,7 @@
 
 **参照:**
 - [SETTINGS_REFERENCE.md #Translation Settings](./SETTINGS_REFERENCE.md#translation-settings)
-- [FAQ_TROUBLESHOOTING.md #翻訳機能関連](./FAQ_TROUBLESHOOTING.md#3-翻訳機能関連)
+- [FAQ_TROUBLESHOOTING.md #翻訳機能関連](./FAQ_TROUBLESHOOTING.md#faq-translate)
 - 公式: [無料で英語翻訳を出す](../cs/cs_en.md) / [GASの設定](../startup/startup_gas.md)
 
 ---

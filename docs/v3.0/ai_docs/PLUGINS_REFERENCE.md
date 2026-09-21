@@ -10,6 +10,49 @@
 
 **公式ドキュメント**: [プラグインの使い方](../plugin/enabled.md) / [プラグイン一覧](../plugin/index.md)
 
+!!! danger "v3.0 で変わったこと（案内の前に確認）"
+    1. **v2.3（.NET Framework 4.8）向けにビルドされたプラグインは v3.0 では読み込めません。**
+       公式配布の 64 本はすべて `net10.0-windows` で再ビルド済みです。
+       自作・個人配布のものは、配布元に v3.0 対応版を依頼してもらってください。
+    2. **36 本のプラグインで設定画面が WPF の共通土台へ移りました。**
+       画面の並び・項目の見た目が v2.3 と違います。
+    3. **内蔵ブラウザを使う 4 本が WebView2 になりました。**
+       内蔵ブラウザ / コメントスクリーン連携 / ニコニコ生放送連携 / clusterウェブトリガ。
+       WebView2 ランタイムが要り、ログイン状態は入り直しになることがあります。
+    4. **VRChat OSC のシナリオ原稿で `TEXT` 行と素の行の送り先が入れ替わりました。**
+       v2.3 の台本はエラーを出さずに逆に動きます。
+
+## v3.0 の設定画面（WPF 共通土台）
+
+### 対象プラグイン（36 本）
+
+Bouyomi / ClusterTransfer / ClusterTrigger / CommentGen / ConvertString / Delay /
+Dictionary / DiscordWebHook / ForceStyle / GPT3 / HTTPCall / HotKey / MTGCard /
+MediaPlayer / MidiInput / NEOSVR / Nomlish / Notion / OBS5 / OBSFile / PhotoPickUP /
+PlaySound / PlayVoice / RegExp / RegExpColor / Ruby / SlackWebHook / Softalk /
+TeamsWebHook / UDPUnit / VMC / VROverlay / VaNii / ViewCompat / ViewExtend / VtubeStudio / WSCall
+
+### 共通の振る舞い
+
+| 事項 | 内容 |
+|:--|:--|
+| 表示言語 | ホストの表示言語に合わせて出し分ける（`uitext.<言語>.json`）。v2.3 の「Slack設定 (Setting)」のような日英混在の見出しは廃止 |
+| 保存 | **下書き方式**。触ったキーだけを持ち、閉じるときに「適用」「破棄」「続ける」の 3 択 |
+| 規則の表 | 引用符つき CSV・見出し行なし・`{Plugin_Tag}_rule.config`。**書式は v2.3 と互換**（切り戻し可） |
+| 表の書き出し | ページを離れる時点で書き出す。「キャンセル」で戻したいときは、表のページを離れる前に操作する |
+| 失敗時 | 読み込みに失敗した表は**書き戻さない**（空の写しで規則を消さないため） |
+| 逃げ道 | 新しい画面を開けなかった場合、従来の WinForms 画面が開く |
+| 配布 | 共有するのはビルド時のソースのリンクだけ。**実行時の依存は増えていない**（1 プラグイン = 1 フォルダで自己完結のまま） |
+
+### 注意が要るキーの扱い
+
+| キー | 注意 |
+|:--|:--|
+| `RemainTimer`（MediaPlayer / PhotoPickUP） | 設定ファイル上は**文字列**。数値にすると再生中に落ちる |
+| `ClearMode_Time` / `ClearMode_Clear` | 画面では 1 つの選択だが、設定では独立した 2 つの真偽値。**片方だけ書くと読む側が「どちらも入」を見る** |
+| `Reform_CRdataByte`（ForceStyle） | 1 本目だけ番号が付かない（`clopTextLen1` は付く）という歴史的なばらつきがある |
+| OBS5 の全キー | 新しい画面は「触ったキーだけ」を書くため、旧画面のように全キーがそろわない。読み込み直後に既定値で埋める |
+
 ---
 
 ## プラグインアーキテクチャ

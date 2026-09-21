@@ -11,6 +11,33 @@
 
 **公式ドキュメント**: [標準設定項目](../startup/startup_basic.md) / [オプション設定](../startup/startup_option.md)
 
+!!! danger "v3.0 で設定の保存先フォルダ名が変わりました"
+    ユーザー設定は `%LOCALAPPDATA%\YNC_Neo\<アプリ識別フォルダ>\<バージョン>\user.config` に入ります。
+    このフォルダ名は実行アセンブリ名から計算されるため、
+    `YNC_Neo.exe` → `YNC_Neo.dll` になった v3.0 では**別の名前**になります。
+
+    | 版 | アプリ識別フォルダ |
+    |:--|:--|
+    | v2.3 | `YNC_Neo.exe_Url_<ハッシュ>` |
+    | v3.0 | `.exe` が付かない別名 |
+
+    v3.0 は初回起動で、会社フォルダ（`%LOCALAPPDATA%\YNC_Neo`）の兄弟フォルダから
+    いちばん新しい `user.config` を自分の保存先へコピーします。
+    ただし**値をそのまま運ぶだけ**なので、意味が変わった項目の変換は
+    「設定保存・復元」→「v2.3設定を移行」が担当します。
+
+    * 自分の `user.config` が既にあるときは上書きしません
+    * 1 度取り込むと会社フォルダに `.net10-settings-imported` を置き、二度と走りません
+    * 取り込めなかったときは、黙って既定値に戻さずダイアログで知らせます
+
+!!! Info "「v2.3設定を移行」が取り込まないキー"
+    `PluginEnableList` / `PluginInstalledList` / `FanBoxData*` /
+    `TransCharCount` `TransCountMonth` `TransCount` `TransCountTotal` /
+    `VersionDataItem` / `IsUpgrated` / `isResetConfigData` / `HasCompletedFirstRun` /
+    `TranslatorAPISettingVersion` / `TemplatePresetApplied` / `SelectedDisplayProfileId` / `UpdatedCounter`
+
+    どれも「利用者が選んだ値」ではないためです。
+
 ---
 
 ## 翻訳設定 { #translation-settings }
@@ -393,6 +420,28 @@ ID はアプリの一覧に対応する番号です。`engine` 列は `/api/setT
 ### 認識関連
 - `UseUDtalk`, `UseVOSK`, `UseYukarinette`, `UseWebRecogExtend`
 - `UDtalkIPAddress`, `AddLocalUDtalkIP`
+
+---
+
+## v3.0 で追加・変更された設定
+
+| 設定 | 型 | デフォルト | 説明 |
+|-----|---|---------|------|
+| `ScenarioSyntaxVersion` | int | - | VRChat OSC のシナリオ原稿が v3.0 の書式で書かれていることを示す（`Plugin_VRChat_OSC.config` 側）。**v3.0 beta 7 で `TEXT` 行と素の行の送り先が入れ替わった**ため、この値が無い原稿は v2.3 の書式とみなされる |
+| `TemplatePresetVersion` | int | 3 | テンプレートの想定値の版。3 で ext-pack の 40 本を共有エンジンへ載せ替え、`theme.css` を新設した |
+| `ExtendFuchidoriAdjust` | bool | false | 縁取りの言語別調整。v2.3.128 以前は保存されない不具合があった |
+| 縁取り（内側） | int | 0 | 上限が **4 → 20** に広がった |
+
+!!! Info "廃止された翻訳エンジン ID"
+    ID **6（Google 無料翻訳）** と **7（IBM Watson）** は一覧から消えました。
+    `Translator1..5` でこの ID を指していた枠は、移行時に「翻訳しない」（ID **28**）へ置き換えられます。
+    `TranslatorAPI1..4` では「上段を引き継ぐ」（**-1**）になります。
+
+### 起動オプション（v3.0 追加）
+
+| オプション | 説明 |
+|:--|:--|
+| `/pcore` | 本体を性能コア（P コア）だけで動かす。既定 OFF。P/E の区別が無い CPU、複数プロセッサグループ、外部指定のアフィニティに P コアが含まれない場合は何もしない。子プロセスにも継承される |
 
 ---
 

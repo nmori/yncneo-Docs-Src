@@ -327,7 +327,7 @@
 |—|18|共用翻訳(Algos/より良い翻訳/支援①～)|**APIからは指定できません**|アプリの一覧には表示されます|
 |`gpt4.1mini`|19|OpenAI GPT-4.1-mini(支援③～/β)|利用可||
 |`gpt4.1nano`|20|OpenAI GPT-4.1-nano(支援③～/β)|利用可||
-|`gemini25flash`|21|Google Gemini 2.5 flash Lite API翻訳(個人キー)|利用可|使うモデルは 2.5 Flash Lite に固定されます|
+|`gemini25flash`|21|Google Gemini Flash Lite API翻訳(個人キー)|利用可|使うモデルは **3.5 Flash Lite** に固定されます（v3.0～。v2.3 では 2.5 Flash Lite でした）。engine 名は改名していません|
 |`gemini25pro`|22|Google Gemini API翻訳(個人キー)|利用可|使うモデルは「翻訳（API、設定）」画面の MODEL で決まります。値の名前は ``pro`` ですが、選んだモデルがそのまま使われます|
 |`claude`|23|Anthropic Claude （個人キー)|利用可||
 |`openrouter`|24|OpenRouter API (個人キー)|利用可||
@@ -347,6 +347,7 @@
     * v2.3.128：``gemini15flash`` → ``gemini25flash``、``gemini15pro`` → ``gemini25pro`` に改名しました（旧名は使えません）
     * v2.3.128：``parapper`` を追加しました
     * v2.3.128：``googletrans`` ``watson`` を廃止しました
+    * v3.0：``gemini25flash`` (ID 21) が使うモデルを 2.5 Flash Lite から **3.5 Flash Lite** に変更しました（engine 名はそのまま）
 
 ## 設定の変更
 

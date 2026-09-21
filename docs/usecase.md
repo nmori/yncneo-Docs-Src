@@ -32,7 +32,7 @@
 #### はるちゃんねるさん
 
 !!! Abstract "はるちゃんねるさん [:fontawesome-brands-twitch:{ .twitch }](https://www.twitch.tv/hqruch)"
-    [haruchan](./images/haruchan.png)
+    ![haruchan](./images/haruchan.png)
 
     ■一言コメント
 

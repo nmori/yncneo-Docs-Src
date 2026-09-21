@@ -39,10 +39,10 @@
 
 ## 先行開発版をダウンロード
 
-### v3.0.0 beta 21 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta21.zip)
+### v3.0.0 beta 23 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta23.zip)
 
-・音声認識関連の受信調整
-・プラグイン関連のUXレベルアップ (読み上げ、OBS5)
+・プラグイン画面系の修正
+・ルビ回りのAPI追加対応
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

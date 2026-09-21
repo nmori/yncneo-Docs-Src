@@ -35,7 +35,7 @@
     <h3>メインメニューからプラグイン設定を開く</h3>
     <p>ゆかコネNEOのメインメニューから「プラグイン」を選択します</p>
     <div class="annotated-image">
-      <img src="images/plugin_enabled_p1.png" alt="プラグイン有効化画面">
+      <img src="../images/plugin_enabled_p1.png" alt="プラグイン有効化画面">
       <div class="annotation" style="top: 40%; left: 70%;">
         使いたいプラグインにチェックを入れる
       </div>
@@ -70,7 +70,7 @@
     <h3>メンテナンスツールを開く</h3>
     <p>ゆかコネNEOのフォルダにある「MaintenanceTool.exe」を実行します</p>
     <div class="annotated-image">
-      <img src="images/plugin_enabled_p2.png" alt="メンテナンスツール画面">
+      <img src="../images/plugin_enabled_p2.png" alt="メンテナンスツール画面">
       <div class="annotation" style="top: 30%; left: 60%;">
         ロードしたいプラグインにチェックを入れる
       </div>
@@ -180,12 +180,12 @@
 </div>
 
 <div class="purpose-grid">
-  <a href="../plugin/index/" class="purpose-card">
+  <a href="../" class="purpose-card">
     <div class="purpose-icon">🧩</div>
     <h3>利用可能なプラグイン一覧</h3>
     <p>様々なプラグインの詳細を見る</p>
   </a>
-  <a href="../qa/troubleshooting/" class="purpose-card">
+  <a href="../../qa/troubleshooting/" class="purpose-card">
     <div class="purpose-icon">🔧</div>
     <h3>トラブルシューティング</h3>
     <p>問題解決のヒント</p>

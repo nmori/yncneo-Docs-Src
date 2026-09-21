@@ -203,7 +203,7 @@
       <li>「ウィンドウ」の欄から字幕ウィンドウを選択</li>
       <li>必要に応じて「色域」で背景色の透明化を設定</li>
     </ol>
-    <a href="../cs/cs_import_obs/" class="md-button">詳しい取り込み方法を見る</a>
+    <a href="../cs_import_obs/" class="md-button">詳しい取り込み方法を見る</a>
   </div>
 </div>
 
@@ -217,13 +217,13 @@
     <li>マイクのミュートが解除されているか確認</li>
     <li>Windowsの設定でマイクがデフォルトデバイスになっているか確認</li>
   </ul>
-  <a href="../startup/startup_asr/" class="md-button">音声認識のトラブルシューティング</a>
+  <a href="../../startup/startup_asr/" class="md-button">音声認識のトラブルシューティング</a>
 </div>
 
 <div class="tips-box">
   <h4>翻訳の精度を上げたい</h4>
   <p>無料の共用翻訳エンジンでも十分使えますが、より高精度な翻訳をご希望の場合は支援版をお試しください。</p>
-  <a href="../cs/cs_en_sp/" class="md-button">支援版の設定方法を見る</a>
+  <a href="../cs_en_sp/" class="md-button">支援版の設定方法を見る</a>
 </div>
 
 <div class="purpose-grid">

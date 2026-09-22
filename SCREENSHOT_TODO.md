@@ -54,6 +54,7 @@
 | `docs/v3.0/cs/images/cs_startup_wizard3.png` | セットアップ案内 ステップ 3/3（配信ソフトに出す） | v3.0/cs/cs_startup.md |
 | `docs/v3.0/startup/images/startup_migrate_v23.png` | 「設定保存・復元」の v2.3設定を移行 ボタンと確認ダイアログ | v3.0/startup/startup_profile.md |
 | `docs/v3.0/startup/images/startup_layout_extpack.png` | ext-pack のテンプレート一覧（アイコン付き） | v3.0/startup/startup_layout.md |
+| `docs/v3.0/plugin/images/v30/playvoice_settings_3.png`（撮り直し） | 読み上げと出力：「パラメータを Jev に調整させる」／「強さ」の欄が写っていない。HEAD でビルドし、Jev を使える状態（本体の呼び出し口あり）でスクロールして撮る（beta 24 で追加） | v3.0/plugin/plugin_playvoice.md |
 
 ## 撮影済み（2026-09-22、プラグインの試験用ハーネスで撮影）
 

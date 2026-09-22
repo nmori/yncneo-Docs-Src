@@ -24,9 +24,9 @@
 
 ## v3.0 の設定画面（WPF 共通土台）
 
-### 対象プラグイン（58 本）
+### 対象プラグイン（59 本）
 
-Bouyomi / Browser / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / ComScr / ConvertString / Delay / Dictionary / Discord / DiscordWebHook / DynamicKeepTime / Exporter / ForceStyle / GPT3 / HotKey / HTTPCall / InfoGraphics / LyricAssist / MediaPlayer / MidiInput / MTGCard / NEOSVR / NicoNama / Nomlish / Notion / OBS / OBS5 / OBSFile / OCComm / OCTemplateGen / PhotoPickUP / PlaySound / PlayVoice / PythonUnit / RegExp / RegExpColor / replaceFWords / Ruby / SlackWebHook / Softalk / Startup / TeamsWebHook / Twitch / UDPUnit / Update / VaNii / VCas / ViewCompat / ViewExtend / VMC / VRCHAT_OSC / VROverlay / VtubeStudio / WSCall / Youtube / Zoom
+Bouyomi / Browser / CaptionShare / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / ComScr / ConvertString / Delay / Dictionary / Discord / DiscordWebHook / DynamicKeepTime / Exporter / ForceStyle / GPT3 / HotKey / HTTPCall / InfoGraphics / LyricAssist / MediaPlayer / MidiInput / MTGCard / NEOSVR / NicoNama / Nomlish / Notion / OBS / OBS5 / OBSFile / OCComm / OCTemplateGen / PhotoPickUP / PlaySound / PlayVoice / PythonUnit / RegExp / RegExpColor / replaceFWords / Ruby / SlackWebHook / Softalk / Startup / TeamsWebHook / Twitch / UDPUnit / Update / VaNii / VCas / ViewCompat / ViewExtend / VMC / VRCHAT_OSC / VROverlay / VtubeStudio / WSCall / Youtube / Zoom
 
 作業用の窓（会話の記録 / YouTube タイムコード）も WPF になりました。直接入力・入力支援・翻訳発話連携は設定画面を持ちません。
 
@@ -81,6 +81,8 @@ Bouyomi / Browser / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / 
 
 ### Plugin_PlayVoice - 読み上げプラグイン { #plugin_playvoice }
 **Purpose**: Multi-engine text-to-speech synthesis
+
+**v5.2（v3.0.0 beta 24～）**: 「読み上げと出力」に「パラメータを Jev に調整させる」（既定 OFF）／強さ 0～100%（既定 50%）。文ごとに勢い・気分・声の大きさを Jev に判定させ、話速・高さ・抑揚・音量を少し動かす。4 秒で間に合わなければいつもの調整で読む、失敗が続くと 1 分休止。Jev の鍵は本体の API キー画面で入れる。AssistantSeika のパスワード・CoeFont のアクセスキーも伏せ字になった。
 
 #### ConfigWindow構造: 6タブ構成
 
@@ -364,63 +366,26 @@ Bouyomi / Browser / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / 
 ### Plugin_VRCHAT_OSC - VRChat OSC連携 { #plugin_vrchat_osc }
 **Purpose**: VRChat avatar control via OSC
 
-#### ConfigWindow構造: 3タブ構成
+#### 設定画面: WPF 共通土台・7 ページ（v2.7 / v3.0.0 beta 24〜）
 
-**GroupBox: VRChat → NEO**
+つなぐ／送るもの／VRChat に合わせる／音声コマンド／OSC コマンド／シナリオロール／YNC Msg。詳細は [VRChat OSC連携](../plugin/plugin_vrchat_osc.md)。
 
-| GUI要素 | 種類 | デフォルト | 説明 |
-|---------|------|------------|------|
-| ポート番号 | NumericUpDown (`VMCPort`) | 9001 | 受信ポート |
-| 接続 | Button (`btVMCConnect`) | - | 受信開始 |
-| 切断 | Button (`btVMCDisconnect`) | - | 受信停止 |
+| ページ | 要点 |
+|:--|:--|
+| つなぐ | 宛先 (Address) / 宛先の口 (Port)、受け取り口の決め方（OSCQuery でさがす など） |
+| 送るもの | チャットボックスへ送る字幕（話した言葉・訳 1〜4）、確定だけ送る など |
+| VRChat に合わせる | ミュート・ジェスチャー連動など |
+| 音声コマンド | 用意された「やること」（写真・カメラ・身長・アバター・歩く…）を言葉で動かす表。列：使う／やること／きっかけの言葉／値／当て方／基準（そのままの値／原点からの差）。行ボタン：説明／値を作る／ためす。**原点（カメラの位置、X・Y・Z・向きの個別欄、いま届いている値、いまの値を入れる）もこのページ**。「ためす」は編集中の原点で動かす。「最後に動かした結果」を表示 |
+| OSC コマンド | 起動フレーズが字幕に出たら任意の OSC アドレスへ値を送る表（`Plugin_VRChat_OSC_rule.config`、v2.3 の Option タブ「ルール」と同じファイル・同じ書式）。列：使う／当て方（そっくり同じ・含まれる・正規表現）／判定する字幕（話した言葉・訳 1〜4）／起動フレーズ／OSC アドレス／送る値／話した人／API タグ + ためす |
+| シナリオロール | 台本を F1 で 1 行ずつ送る。続けて送るときの行間 |
+| YNC Msg | `/YNC/Text/(言語)/[Int または String]` で他の OSC 受け手へ字幕を流す |
 
-**GroupBox: NEO → VRChat**
+**注意**
 
-| GUI要素 | 種類 | デフォルト | 説明 |
-|---------|------|------------|------|
-| 送信先アドレス | TextBox (`VMCSendIP_YNC`) | 127.0.0.1 | VRChat IP |
-| 送信ポート | NumericUpDown (`VMCSendPort_YNC`) | 9000 | OSCポート |
-
-**タブ1: VRChat - チャット送信設定**
-
-| GUI要素 | 種類 | 説明 |
-|---------|------|------|
-| 母国語送信 | CheckBox (`vrchatSendText1`) | Native送信 |
-| 翻訳送信 | CheckBox (`vrchatSendText2`) | 翻訳送信 |
-| 翻訳1～4 | CheckBox (`Trans1`～`Trans4`) | 各言語選択 |
-| VRChat音声ミュート連動 | CheckBox (`linkingMute`) | ミュート同期 |
-| 左ジェスチャー連動 | CheckBox (`linkingStyle`) | ジェスチャー同期 |
-| 確定結果のみ送信 | CheckBox (`sendOnlyFixed`) | 途中結果除外 |
-| テスト送信 | Button (`SendTest`) | 動作確認 |
-
-**GroupBox: オプション**
-
-| GUI要素 | 種類 | 説明 |
-|---------|------|------|
-| 対象ユーザ名リスト | TextBox (Multiline, `IncludingUser`) | フィルタ対象 |
-
-**タブ3: Option - ルール/変換ルール**
-
-DataGridView (`DicFix`) で条件設定:
-
-| 列名 | 種類 | 説明 |
-|------|------|------|
-| 有効(Enabled) | CheckBox | ルール有効化 |
-| モード(Mode) | ComboBox | マッチング方式 |
-| 対象(Target) | ComboBox | 判定対象言語 |
-| キーワード(Phrase) | TextBox | トリガー文字列 |
-| OSCアドレス | TextBox | 送信先アドレス |
-| パラメータ(Parameter) | TextBox | OSC値 |
-| 対象者(TargetName) | TextBox | ユーザー名 |
-| ExternalCallTag | TextBox | 外部呼び出しタグ |
-
-**タブ2: YNC Msg - YNCMessage設定**
-
-| GUI要素 | 種類 | 説明 |
-|---------|------|------|
-| 母国語送信 | CheckBox (`vmcSendText1`) | VMC Native |
-| 翻訳言語送信 | CheckBox (`vmcSendText2`) | VMC翻訳 |
-| 送信タイプを整数で指定 | CheckBox (`SendInt`) | Int型送信 |
+* beta 24 より前の画面では OSC コマンドの表が誤って「言い換え」と表示されていた。消すと自作の OSC コマンドを失う。判定する字幕が「原文」「訳文」の行はそれぞれ「話した言葉」「訳 1」として動く。
+* 判定する字幕はファイル上 `1:母国語(Native)` の綴りで保存される（最古の「0」〜「4」の綴りも読める）。
+* 正規表現は行ごとに 1 回だけ組み立て、照合の期限は 100ms。壊れた式はその行だけ止めてログに出す。
+* API タグ付きの行は `/api/command?target=Plugin_VRChat_OSC&command=exec&tag=(タグ)` で呼べる。
 
 ---
 
@@ -885,6 +850,7 @@ Plugin_Dictionary, Plugin_RegExp等:
 - [HTTPコール](../plugin/plugin_httpcall.md)
 - [WebSocketコール](../plugin/plugin_wscall.md)
 - [ファイル出力](../plugin/plugin_exporter.md)
+- [字幕共有](../plugin/plugin_captionshare.md) (v3.0 新規。Pusher 経由で字幕を送受信)
 
 ---
 

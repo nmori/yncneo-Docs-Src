@@ -39,10 +39,9 @@
 
 ## 先行開発版をダウンロード
 
-### v3.0.0 beta 23 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta23.zip)
+### v3.0.0 beta 24 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta24.zip)
 
-・プラグイン画面系の修正
-・ルビ回りのAPI追加対応
+・表記の修正
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

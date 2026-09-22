@@ -185,6 +185,7 @@ plugins:
           'plugin/plugin_udpunit.md': 'v3.0/plugin/plugin_udpunit.md'
           'plugin/plugin_exporter.md': 'v3.0/plugin/plugin_exporter.md'
           'plugin/plugin_talkhistory.md': 'v3.0/plugin/plugin_talkhistory.md'
+          'plugin/plugin_captionshare.md': 'v3.0/plugin/plugin_captionshare.md'
           'plugin/plugin_pythonunit.md': 'v3.0/plugin/plugin_pythonunit.md'
           'plugin/plugin_directinput.md': 'v3.0/plugin/plugin_directinput.md'
           'plugin/plugin_InputAssist.md': 'v3.0/plugin/plugin_InputAssist.md'
@@ -344,6 +345,7 @@ nav:
           - UDP通信: 'v3.0/plugin/plugin_udpunit.md'
           - ファイル出力: 'v3.0/plugin/plugin_exporter.md'
           - 会話の記録: 'v3.0/plugin/plugin_talkhistory.md'
+          - 字幕共有: 'v3.0/plugin/plugin_captionshare.md'
           - Python連携: 'v3.0/plugin/plugin_pythonunit.md'
         - つかいやすさ向上:
           - 直接入力: 'v3.0/plugin/plugin_directinput.md'

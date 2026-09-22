@@ -100,6 +100,7 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
 |Plugin_DiscordWebHook|``exec``|text, ID, talkername|Webhookへ投稿する|
 |Plugin_Ruby|``makehiragana``|text|ひらがな読みを作る|
 |Plugin_Ruby|``makemorph``|text|形態素解析の結果を得る|
+|Plugin_Ruby|``makerubymorph``|lanes, text|枠ごとに、ルビに使う語と読みの組を得る (v1.7～)|
 |Plugin_TalkHistory|``gethistory``|limit|会話の記録を取り出す|
 |Plugin_TalkHistory|``search``|q|会話の記録を検索する|
 |Plugin_TalkHistory|``stats`` ``karte``|—|集計結果を取得する|
@@ -1209,7 +1210,28 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
         http://localhost:11900/api/command?target=Plugin_Ruby&command=makemorph&text=今日は良い天気です
     ```
 
-* ``makehiragana`` はプレーンテキスト、``makemorph`` はJSONを返します。
+=== "ルビの組を得る"
+    ```js
+        http://localhost:11900/api/command?target=Plugin_Ruby&command=makerubymorph&text=&lanes=[{"lane":1,"lang":"ja","text":"今日は良い天気です"}]
+    ```
+
+* ``makehiragana`` はプレーンテキスト、``makemorph`` と ``makerubymorph`` はJSONを返します。
+* ``makemorph`` の結果には読み（``spokenForm``）が入りません。読みが要るときは ``makerubymorph`` を使います。
+
+!!! Info "makerubymorph (ルビ付与プラグイン v1.7～)"
+    * 本体が字幕にルビを描くときに、このプラグインへ頼む処理です (v3.0.0 beta 23～)。外から呼ぶこともできます。
+    * ``lanes`` には、枠の番号（``lane``）・言語（``lang``）・文字（``text``）の組を**JSON配列の文字列**で渡します。URL に入れるときはエンコードしてください。
+    * ``text`` は使いませんが、省略せずに空で付けてください。
+    * 枠の番号ごとに、語と読みの組が返ります。解析できなかった枠は入りません。
+
+    ```json
+    {
+        "1": [
+            { "writtenForm": "今日", "spokenForm": "きょう", "hinsi": "名詞", "hinsi2": "副詞可能" },
+            ...
+        ]
+    }
+    ```
 
 ## 会話の記録プラグイン
 

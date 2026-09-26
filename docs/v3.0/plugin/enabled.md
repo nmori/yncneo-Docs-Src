@@ -147,6 +147,7 @@ v3.0 では、**設定画面を持つほぼすべてのプラグイン（約 60 
 | 読み上げさせたい | [読み上げ](plugin_playvoice.md) |
 | 会話を記録したい | [会話の記録](plugin_talkhistory.md) |
 | 離れた相手と字幕を共有したい | [字幕共有](plugin_captionshare.md) |
+| Node.js 製の字幕表示アプリを使いたい | [Node.jsアプリ連携](plugin_nodehost.md) ／ [配信ソフト向けテキスト出力](plugin_OBSFile.md) |
 
 ---
 

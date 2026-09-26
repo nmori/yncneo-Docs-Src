@@ -26,20 +26,13 @@
 
 ## 安定版をダウンロード
 
-### v2.3.58 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/02/YNCNEO_v2.3.58.zip)
-
-・アプリが勝手に落ちるパターンを修正
-※最新版が安定次第、安定版に移行します。
-
-## 最新版をダウンロード
-
 ### v2.3.133 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.133.zip)
 
 ・プリセット周りの修正
 
-## 先行開発版をダウンロード
+## 開発版をダウンロード
 
-### v3.0.0 beta 24 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta24.zip)
+### v3.0.0 beta 30 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta30.zip)
 
 ・表記の修正
 

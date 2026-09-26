@@ -239,6 +239,8 @@ Windows 標準の **WebView2** へ切り替わりました。
 !!! info "v3.0 で新しく入ったプラグイン"
     [字幕共有](../v3.0/plugin/plugin_captionshare.md)（v3.0.0 beta 24 〜）：自分の字幕（原文・翻訳・話者）を、共有コードを渡した相手へリアルタイムに届けます。
 
+    [Node.jsアプリ連携](../v3.0/plugin/plugin_nodehost.md)（v3.0.0 beta 30 〜）：Node.js で作られた字幕表示などのアプリを、黒い画面なしで一緒に起動・終了します。アプリの作者は node.exe を同梱せずに配れます（[配り方](../v3.0/tech/tech_node_app.md)）。
+
 !!! info "うまく開かないときは"
     新しい設定画面が開けなかった場合は、従来の WinForms 画面が逃げ道として残してあります。
 

@@ -186,6 +186,7 @@ plugins:
           'plugin/plugin_exporter.md': 'v3.0/plugin/plugin_exporter.md'
           'plugin/plugin_talkhistory.md': 'v3.0/plugin/plugin_talkhistory.md'
           'plugin/plugin_captionshare.md': 'v3.0/plugin/plugin_captionshare.md'
+          'plugin/plugin_nodehost.md': 'v3.0/plugin/plugin_nodehost.md'
           'plugin/plugin_pythonunit.md': 'v3.0/plugin/plugin_pythonunit.md'
           'plugin/plugin_directinput.md': 'v3.0/plugin/plugin_directinput.md'
           'plugin/plugin_InputAssist.md': 'v3.0/plugin/plugin_InputAssist.md'
@@ -194,6 +195,7 @@ plugins:
           'tech/tech_option_neo.md': 'v3.0/tech/tech_option_neo.md'
           'tech/tech_api_neo.md': 'v3.0/tech/tech_api_neo.md'
           'tech/tech_api_plugin.md': 'v3.0/tech/tech_api_plugin.md'
+          'tech/tech_node_app.md': 'v3.0/tech/tech_node_app.md'
           'qa/faq.md': 'v3.0/qa/faq.md'
           'qa/before_help.md': 'v3.0/qa/before_help.md'
           'qa/reinstall.md': 'v3.0/qa/reinstall.md'
@@ -346,6 +348,7 @@ nav:
           - ファイル出力: 'v3.0/plugin/plugin_exporter.md'
           - 会話の記録: 'v3.0/plugin/plugin_talkhistory.md'
           - 字幕共有: 'v3.0/plugin/plugin_captionshare.md'
+          - Node.jsアプリ連携: 'v3.0/plugin/plugin_nodehost.md'
           - Python連携: 'v3.0/plugin/plugin_pythonunit.md'
         - つかいやすさ向上:
           - 直接入力: 'v3.0/plugin/plugin_directinput.md'
@@ -356,6 +359,7 @@ nav:
         - 起動オプション: 'v3.0/tech/tech_option_neo.md'
         - 本体内蔵API: 'v3.0/tech/tech_api_neo.md'
         - プラグイン系API: 'v3.0/tech/tech_api_plugin.md'
+        - Node.jsアプリの配り方: 'v3.0/tech/tech_node_app.md'
       - 困ったときは:
         - よくある質問: 'v3.0/qa/faq.md'
         - ヘルプが欲しいとき: 'v3.0/qa/before_help.md'

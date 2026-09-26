@@ -24,9 +24,9 @@
 
 ## v3.0 の設定画面（WPF 共通土台）
 
-### 対象プラグイン（59 本）
+### 対象プラグイン（60 本）
 
-Bouyomi / Browser / CaptionShare / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / ComScr / ConvertString / Delay / Dictionary / Discord / DiscordWebHook / DynamicKeepTime / Exporter / ForceStyle / GPT3 / HotKey / HTTPCall / InfoGraphics / LyricAssist / MediaPlayer / MidiInput / MTGCard / NEOSVR / NicoNama / Nomlish / Notion / OBS / OBS5 / OBSFile / OCComm / OCTemplateGen / PhotoPickUP / PlaySound / PlayVoice / PythonUnit / RegExp / RegExpColor / replaceFWords / Ruby / SlackWebHook / Softalk / Startup / TeamsWebHook / Twitch / UDPUnit / Update / VaNii / VCas / ViewCompat / ViewExtend / VMC / VRCHAT_OSC / VROverlay / VtubeStudio / WSCall / Youtube / Zoom
+Bouyomi / Browser / CaptionShare / ClipBoard / ClusterTransfer / ClusterTrigger / CommentGen / ComScr / ConvertString / Delay / Dictionary / Discord / DiscordWebHook / DynamicKeepTime / Exporter / ForceStyle / GPT3 / HotKey / HTTPCall / InfoGraphics / LyricAssist / MediaPlayer / MidiInput / MTGCard / NEOSVR / NicoNama / NodeHost / Nomlish / Notion / OBS / OBS5 / OBSFile / OCComm / OCTemplateGen / PhotoPickUP / PlaySound / PlayVoice / PythonUnit / RegExp / RegExpColor / replaceFWords / Ruby / SlackWebHook / Softalk / Startup / TeamsWebHook / Twitch / UDPUnit / Update / VaNii / VCas / ViewCompat / ViewExtend / VMC / VRCHAT_OSC / VROverlay / VtubeStudio / WSCall / Youtube / Zoom
 
 作業用の窓（会話の記録 / YouTube タイムコード）も WPF になりました。直接入力・入力支援・翻訳発話連携は設定画面を持ちません。
 
@@ -851,6 +851,7 @@ Plugin_Dictionary, Plugin_RegExp等:
 - [WebSocketコール](../plugin/plugin_wscall.md)
 - [ファイル出力](../plugin/plugin_exporter.md)
 - [字幕共有](../plugin/plugin_captionshare.md) (v3.0 新規。Pusher 経由で字幕を送受信)
+- [Node.jsアプリ連携](../plugin/plugin_nodehost.md) (v3.0 新規。Node.js 製アプリを起動・停止し、字幕を WebSocket で渡す)
 
 ---
 

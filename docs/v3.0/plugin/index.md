@@ -169,6 +169,7 @@ Windowsの他の機能と連携できます。
 |ファイル出力|字幕データをファイルに保存できる|[詳しく見る](plugin_exporter.md)|
 |会話の記録|話した内容を記録して、あとから見返したり書き出したりできる|[詳しく見る](plugin_talkhistory.md)|
 |字幕共有|自分の字幕（原文・翻訳）を共有コードで相手に届けたり、相手の字幕を受け取ったりできる（v3.0 新規）|[詳しく見る](plugin_captionshare.md)|
+|Node.jsアプリ連携|Node.js で作られた字幕表示などのアプリを、黒い画面なしでゆかコネNEO と一緒に動かせる（v3.0 新規）|[詳しく見る](plugin_nodehost.md)|
 |Python連携|Pythonスクリプトで独自機能を作れる|[詳しく見る](plugin_pythonunit.md)|
 
 ### つかいやすさ向上 { #usability }

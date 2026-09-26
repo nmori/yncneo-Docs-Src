@@ -32,9 +32,9 @@
 
 ## 開発版をダウンロード
 
-### v3.0.0 beta 30 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta30.zip)
+### v3.0.0 beta 31 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta31.zip)
 
-・表記の修正
+・体感向上
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

@@ -32,9 +32,9 @@
 
 ## 開発版をダウンロード
 
-### v3.0.0 beta 31 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta31.zip)
+### v3.0.0 beta 32 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v3.0.0-beta32.zip)
 
-・体感向上
+・リリックモーション JIZURAに対応
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

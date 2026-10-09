@@ -32,9 +32,9 @@
 
 ## 開発版をダウンロード
 
-### v3.0.0 beta 36 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0-beta36.zip)
+### v3.0.0 beta 39 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0-beta39.zip)
 
-・UDトーク読み上げ順整合調整
+・音声認識画面の調整
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

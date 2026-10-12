@@ -26,13 +26,13 @@
 
 ## 安定版をダウンロード
 
-### v2.3.133 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.133.zip)
+### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.137.zip)
 
 ・プリセット周りの修正
 
 ## 開発版をダウンロード
 
-### v3.0.0 beta 42 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0-beta42.zip)
+### v3.0.0 beta 46 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0-beta46.zip)
 
 ・Irodori-TTS対応
 

@@ -32,9 +32,9 @@
 
 ## 開発版をダウンロード
 
-### v3.0.0 beta 46 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0-beta46.zip)
+### v3.0.0 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0.zip)
 
-・Irodori-TTS対応
+・最終確認版です。問題なければこのままリリースです
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>

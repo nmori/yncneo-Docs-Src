@@ -24,7 +24,13 @@
       上げる前に [v2.3 → v3.0 の移行](mig/mig_neo_v3.0.md) を読んでください
     * どちらのドキュメントを読むかは [ドキュメントのバージョン](versions.md) をご覧ください
 
-## 安定版をダウンロード
+## リリース版をダウンロード
+
+### v3.0.1 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.1.zip)
+
+・バージョン３の公式リリースです。
+
+## 旧版をダウンロード
 
 ### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.137.zip)
 
@@ -34,7 +40,7 @@
 
 ### v3.0.0 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0.zip)
 
-・最終確認版です。問題なければこのままリリースです
+・最終確認バージョン
 
 <div class="tips-box">
   <h4>v3.0 を入れる前に</h4>
@@ -86,21 +92,6 @@
     <p>内部認証の再実行が必要かもしれません</p>
     <a href="../v3.0/support/support_enabled/" class="md-button">支援機能の設定方法</a>
   </div>
-</div>
-
-## 開発版
-
-<div class="tips-box">
-  <h4>開発版について</h4>
-  <p>開発版は最新機能を試せる一方で、不具合が含まれている可能性があります。通常利用には安定版または最新版をおすすめします。</p>
-</div>
-
-<div class="tips-box">
-  <h4>もっと詳しく知りたい方へ</h4>
-  <ul>
-    <li><a href="../qa/history/">更新履歴を確認する</a></li>
-    <li><a href="../v3.0/qa/before_help/">トラブルシューティングガイド</a></li>
-  </ul>
 </div>
 
 ## 再インストール方法

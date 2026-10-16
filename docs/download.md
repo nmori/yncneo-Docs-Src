@@ -26,9 +26,9 @@
 
 ## リリース版をダウンロード
 
-### v3.0.1 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.1.zip)
+### v3.0.2 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.2.zip)
 
-・バージョン３の公式リリースです。
+・リリース後に発覚した不具合の修正
 
 ## 旧版をダウンロード
 

@@ -30,28 +30,18 @@
 
 ・ファイル出力プラグインの動作修正
 
+## 開発版をダウンロード
+
+### v3.0.4 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.4.zip)
+
+・irodori-tts読み上げ時の音声ビットレートが軒並み低い件の修正
+・起動ポートがぶつかると声が再生できない件の修正
+
 ## 旧版をダウンロード
 
 ### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.137.zip)
 
 ・プリセット周りの修正
-
-## 開発版をダウンロード
-
-### v3.0.0 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.0.zip)
-
-・最終確認バージョン
-
-<div class="tips-box">
-  <h4>v3.0 を入れる前に</h4>
-  <ul>
-    <li><strong>v2.3 と同じフォルダに上書きしないでください。</strong>別のフォルダに展開します</li>
-    <li>.NET ランタイムを同梱しているので<strong>別途インストールは要りません</strong>。内蔵ブラウザが WebView2 になったぶん、容量は v2.3 より小さくなっています（展開後でおよそ 1GB）</li>
-    <li>設定は自動では完全に引き継がれません。<strong>「設定保存・復元」→「v2.3設定を移行」</strong>を 1 回実行してください</li>
-    <li>自作・個人配布のプラグインは、<strong>.NET 10 対応版でないと読み込めません</strong></li>
-    <li><a href="../mig/mig_neo_v3.0/">v2.3 → v3.0 の移行</a>に、やることがまとまっています</li>
-  </ul>
-</div>
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

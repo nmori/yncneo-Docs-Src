@@ -32,10 +32,10 @@
 
 ## 開発版をダウンロード
 
-### v3.0.4 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.4.zip)
+### v3.0.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.7.zip)
 
-・irodori-tts読み上げ時の音声ビットレートが軒並み低い件の修正
-・起動ポートがぶつかると声が再生できない件の修正
+・MCP対応
+・セキュリティアップデート
 
 ## 旧版をダウンロード
 

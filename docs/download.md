@@ -41,7 +41,7 @@
 
 ## 旧版をダウンロード
 
-### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/09/YNCNEO_v2.3.137.zip)
+### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v2.3.137.zip)
 
 ・プリセット周りの修正
 

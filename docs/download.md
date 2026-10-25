@@ -32,9 +32,8 @@
 
 ## 開発版をダウンロード
 
-### v3.0.7 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.7.zip)
+### v3.0.8 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.8.zip)
 
-・MCP対応
 ・セキュリティアップデート
 ・【重要】FANBOX支援プロモーションコードが変更になっています。
 　支援者のかたは、FANBOXからコードを再取得ください

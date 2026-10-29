@@ -26,13 +26,15 @@
 
 ## リリース版をダウンロード
 
-### v3.0.3 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.3.zip)
+### v3.0.9 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.9.zip)
 
-・ファイル出力プラグインの動作修正
+・セキュリティアップデート
+・【重要】FANBOX支援プロモーションコードが変更になっています。
+　支援者のかたは、FANBOXからコードを再取得ください
 
 ## 開発版をダウンロード
 
-### v3.0.8 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.8.zip)
+### v3.0.9 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v3.0.9.zip)
 
 ・セキュリティアップデート
 ・【重要】FANBOX支援プロモーションコードが変更になっています。
@@ -40,9 +42,9 @@
 
 ## 旧版をダウンロード
 
-### v2.3.137 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v2.3.137.zip)
+### v2.3.140 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/10/YNCNEO_v2.3.140.zip)
 
-・プリセット周りの修正
+・セキュリティアップデート
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

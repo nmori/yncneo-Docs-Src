@@ -84,3 +84,31 @@ MIDI 入力「割り当て」、OBS 連携 WSv4「シーン切り替え」、Pyt
 | `docs/v3.0/plugin/images/plugin_playvoice_preset.png` | 設定プリセットの作成 | v3.0/plugin/plugin_playvoice.md |
 | `docs/v3.0/plugin/images/plugin_ux_common.png` | 新しいプラグイン設定画面（WPF 共通土台）の見本 | v3.0/plugin/enabled.md ほか |
 | `docs/v3.0/plugin/images/plugin_ux_table.png` | 新しい設定画面の規則の表（列幅が内容に合わせて配分されるもの） | v3.0/plugin/plugin_regexp.md ほか |
+
+## v3.0.13 までの更新で必要になったもの（2026-11 追加）
+
+ページ内の `<!-- TODO(screenshot): ... -->` と対応しています。
+
+| 必要な画像 | 内容 | 使うページ |
+|:--|:--|:--|
+| `docs/v3.0/startup/images/startup_cockpit.png` | 操作パネル → いまの状態（中央に字幕ログ、右に選ぶ欄、下に機能ボタン） | v3.0/startup/startup_basic.md |
+| `docs/v3.0/startup/images/startup_live_settings.png` | 操作パネル → ライブ設定（プラグインごとの欄と「反映」「接続」） | v3.0/startup/startup_basic.md |
+| `docs/v3.0/startup/images/startup_menu3.png`（撮り直し） | 字幕デザイン → デザイン（プレビュー・タイルの一覧・右の分類のタブ） | v3.0/startup/startup_basic.md |
+| `docs/v3.0/startup/images/startup_design_chips.png` | 「詳しい調整」を押した状態のボタン列 | v3.0/startup/startup_basic.md |
+| `docs/v3.0/startup/images/startup_layout_citypop.png` ほか 8 枚 | 新しいテンプレートの表示例（citypop / avatar / game / counter / dopamine / list2 / retro / options） | v3.0/startup/startup_layout.md |
+| オフライン翻訳（無料）の欄 | APIキーの設定のオフライン翻訳の欄（同意チェック・状態・フォルダを開く） | v3.0/startup/startup_option.md |
+| モデルの保存先と管理 | 保存先の変更／既定に戻す、置き場ごとの一覧 | v3.0/startup/startup_option.md |
+| API/Webサーバ設定 | Web許可ホスト・トークンのコピー／作り直す・アクセス状況（IP と端末名はぼかす） | v3.0/startup/startup_option.md |
+| ブラウザ音声認識の画面 | ランプ・メーター・第1入力／第2入力・2本同時 | v3.0/startup/startup_asr.md |
+| オフライン認識の ⚙ 設定 | モデル＋取得・句読点・GPU高速化 | v3.0/startup/startup_asr.md |
+| MCP「AI クライアントの設定」ページ | 設定例のコピー | v3.0/tech/tech_api_neo.md |
+| `docs/v3.0/plugin/images/v30/viewextend_emphasis_1.png` | 文字強調（表に 2〜3 行、右の編集欄を開いた状態） | v3.0/plugin/plugin_viewextend.md |
+| `docs/v3.0/plugin/images/v30/viewextend_usercss_1.png` | ユーザCSS のページ | v3.0/plugin/plugin_viewextend.md |
+| `docs/v3.0/plugin/images/v30/viewextend_1.png`（撮り直し） | 画像差し替えのページ（旧「スタンプの設定」窓のまま） | v3.0/plugin/plugin_viewextend.md |
+| `regexp_1.png` / `regexpcolor_1.png` / `ruby_1.png`（撮り直し） | セクションの帯・絞り込み・並べ替え（⇅ / 並べ替えの帯）が写った状態 | v3.0/plugin/plugin_regexp*.md, plugin_ruby.md |
+| `docs/v3.0/plugin/images/v30/countertrigger_1.png` | カウンター・トリガーのルールのページ（見本の行） | v3.0/plugin/plugin_countertrigger.md |
+| `twitch_4.png` / `twitch_5.png` | Twitch のチャット翻訳／読み上げの教育のページ | v3.0/plugin/plugin_twitch.md |
+| `clustertransfer_1.png`（撮り直し）/ `_2` / `_3` | cluster の送信／受信／接続タブ | v3.0/plugin/plugin_clustertransfer.md |
+| `playvoice_settings_irodori.png` / `playvoice_settings_export.png` | 読み上げの Irodori-TTS の欄／音声ファイルの生成 | v3.0/plugin/plugin_playvoice.md |
+| `vroverlay_1.png`（撮り直し） | VRオーバーレイの新しい項目 | v3.0/plugin/plugin_vroverlay.md |
+| `playsound_1.png`（撮り直し）/ `playsound_2.png` | 効果音の 1 段の表と詳細パネル／再生のページ | v3.0/plugin/plugin_playsound.md |

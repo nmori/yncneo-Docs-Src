@@ -350,6 +350,7 @@ nav:
           - 字幕共有: 'v3.0/plugin/plugin_captionshare.md'
           - Node.jsアプリ連携: 'v3.0/plugin/plugin_nodehost.md'
           - Python連携: 'v3.0/plugin/plugin_pythonunit.md'
+          - カウンター・トリガー: 'v3.0/plugin/plugin_countertrigger.md'
         - つかいやすさ向上:
           - 直接入力: 'v3.0/plugin/plugin_directinput.md'
           - 入力支援: 'v3.0/plugin/plugin_InputAssist.md'

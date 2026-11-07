@@ -82,6 +82,7 @@
 |ゆかコネ互換|文字幅と文字サイズを自動調整して、旧ゆかコネと同じ見え方にできる|[詳しく見る](plugin_viewcompat.md)|
 |不適切語の置換|不適切な言葉を自動で検出して置き換えられる|[詳しく見る](plugin_replacefwords.md)|
 |GPT3整形/AIアシスタント|AIが字幕を整形したり会話に応答してくれる|[詳しく見る](plugin_GPT3.md)|
+|口調チェンジャー|字幕の日本語を、お嬢様風・執事風・関西弁風・武士風など 18 の口調に変えられる（PC の中だけで動きます）|[詳しく見る](plugin_expressionfilter.md)|
 
 ### 表示関連 { #display }
 
@@ -118,6 +119,8 @@ Windowsの他の機能と連携できます。
 |配信ソフト向けテキスト出力|XSplitなどで字幕を表示できる|[詳しく見る](plugin_OBSFile.md)|
 |OBS連携 WSv4|OBSに字幕を直接送信できる|[詳しく見る](plugin_OBS.md)|
 |OBS連携 WSv5|OBS v28以降に字幕を送信できる|[詳しく見る](plugin_OBS5.md)|
+|Streamlabs / N Air 連携|Streamlabs Desktop・N Air のテキストソース／ブラウザソースへ字幕を直接送り、言葉でシーンも切り替えられる（v3.0 新規）|[詳しく見る](plugin_streamlabsnair.md)|
+|セットリスト再生|曲ごとに動画・音・画像・字幕を時間軸にまとめ、セットリストの順に流せる（v3.0 新規）|[詳しく見る](plugin_setlistplayer.md)|
 
 ### アプリ連携 { #apps }
 
@@ -172,6 +175,7 @@ Windowsの他の機能と連携できます。
 |Node.jsアプリ連携|Node.js で作られた字幕表示などのアプリを、黒い画面なしでゆかコネNEO と一緒に動かせる（v3.0 新規）|[詳しく見る](plugin_nodehost.md)|
 |Python連携|Pythonスクリプトで独自機能を作れる|[詳しく見る](plugin_pythonunit.md)|
 |カウンター・トリガー|言葉を数えたり文の中の数で計算したりして、ゲージやテンプレートに出し、決めた数でシーン切替・効果音・コメント送付などができる（v3.0 新規）|[詳しく見る](plugin_countertrigger.md)|
+|MCP サーバー|Claude などの AI アシスタント（MCP 対応のアプリ）から、ゆかコネNEO の状態を調べたり、読み上げ・字幕・翻訳などを頼んだりできる（v3.0 新規）|[詳しく見る](plugin_mcpserver.md)|
 
 ### つかいやすさ向上 { #usability }
 

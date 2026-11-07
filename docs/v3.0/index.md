@@ -46,7 +46,7 @@
 | 読み上げ | ボイスパレット・マイボイスが増え、詳細設定が 6 ページに整理されました | [読み上げ](plugin/plugin_playvoice.md) |
 | 内蔵ブラウザ | CefSharp から WebView2 に変わりました | [内蔵ブラウザ](plugin/plugin_browser.md) |
 
-## 最近の更新で増えたこと（v3.0.1～v3.0.13）
+## 最近の更新で増えたこと（v3.0.1～v3.0.18）
 
 | 増えたこと | 内容 | 詳しくは |
 |:--|:--|:--|
@@ -65,6 +65,14 @@
 | 読み上げ | Irodori-TTS、VoiSona の感情スタイル、読み上げの教育（教育／忘却コマンド）などが増えました | [読み上げ](plugin/plugin_playvoice.md) |
 | Twitch・cluster | Twitch のチャット翻訳（v3.0.9）、cluster のコメント受信（v3.0.12） | [Twitch](plugin/plugin_twitch.md) / [clusterチャット転送](plugin/plugin_clustertransfer.md) |
 | 表の使い方 | 正規表現・色付け・ルビ・辞書の表で、並べ替え・絞り込み・セクションが使えます（v3.0.11） | [正規表現](plugin/plugin_regexp.md) |
+| AIアシスタント（GPT3） | API キーなしの無料の AI でも使えるようになり、人格・記憶・声だけで会話を続ける「会話モード」が増えました。設定画面は 7 ページに作り直しました（v3.0.18） | [GPT3整形/AIアシスタント](plugin/plugin_GPT3.md) |
+| 句読点（本体） | 音声認識の結果に、AI モデルで句読点を打ちこめます（日本語のみ・既定はオフ・v3.0.15） | [AIモデルで句読点を打ちこむ](startup/startup_basic.md#punctuation-restore) |
+| PLaMo 3 翻訳（オフライン） | PC の中で動く 2 つめの翻訳エンジンです。53 言語とやさしい日本語に対応（v3.0.17） | [PLaMo 3 翻訳](startup/startup_option.md#plamo3-translation) |
+| オフライン音声認識 | 「区切る間」を選んで、話し手の間で 1 文ずつ確定します（v3.0.18）。ウィンドウの位置と大きさも覚えます（v3.0.15） | [文を区切る間](startup/startup_asr.md#offline-sentence-pause) |
+| 辞書・正規表現 | 辞書にセクションが入り、辞書・正規表現ともセクションごとに操作パネルからオン・オフできます（v3.0.16） | [辞書](plugin/plugin_dictionary.md#sections) / [正規表現](plugin/plugin_regexp.md#live) |
+| 字幕デザイン | プレビューの下の入力欄と「ランダム送信」で、配信に出さずに見た目を試せます（v3.0.16） | [プレビューで文を試す](startup/startup_basic.md#design-preview-input) |
+| 文字強調 | 縁取りがなめらかになり、PC のフォント・Web フォントを選べます（v3.0.14） | [表示拡張(文字強調)](plugin/plugin_viewextend.md) |
+| 説明ページの追加 | Streamlabs / N Air 連携・セットリスト再生・MCP サーバー・口調チェンジャーのページを足しました | [プラグイン一覧](plugin/index.md) |
 
 細かい変更は [更新履歴](../qa/history.md) をご覧ください。
 

@@ -192,6 +192,7 @@ plugins:
           'plugin/plugin_InputAssist.md': 'v3.0/plugin/plugin_InputAssist.md'
           'plugin/plugin_startup.md': 'v3.0/plugin/plugin_startup.md'
           'plugin/plugin_update.md': 'v3.0/plugin/plugin_update.md'
+          'plugin/plugin_mcpserver.md': 'v3.0/plugin/plugin_mcpserver.md'
           'tech/tech_option_neo.md': 'v3.0/tech/tech_option_neo.md'
           'tech/tech_api_neo.md': 'v3.0/tech/tech_api_neo.md'
           'tech/tech_api_plugin.md': 'v3.0/tech/tech_api_plugin.md'
@@ -297,6 +298,7 @@ nav:
           - ゆかコネ互換: 'v3.0/plugin/plugin_viewcompat.md'
           - 不適切語の置換: 'v3.0/plugin/plugin_replacefwords.md'
           - GPT3整形/AIアシスタント: 'v3.0/plugin/plugin_GPT3.md'
+          - 口調チェンジャー: 'v3.0/plugin/plugin_expressionfilter.md'
         - 表示関連:
           - 内蔵ブラウザ: 'v3.0/plugin/plugin_browser.md'
           - 歌詞支援: 'v3.0/plugin/plugin_LyricAssist.md'
@@ -315,6 +317,8 @@ nav:
           - 配信ソフト向けテキスト出力: 'v3.0/plugin/plugin_OBSFile.md'
           - OBS連携 WSv4（～OBS27): 'v3.0/plugin/plugin_OBS.md'
           - OBS連携 WSv5（OBS28～): 'v3.0/plugin/plugin_OBS5.md'
+          - Streamlabs / N Air 連携: 'v3.0/plugin/plugin_streamlabsnair.md'
+          - セットリスト再生: 'v3.0/plugin/plugin_setlistplayer.md'
         - アプリ連携:
           - わんコメテンプレ連携: 'v3.0/plugin/plugin_OCTemplateGen.md'
           - わんコメ連携: 'v3.0/plugin/Plugin_OCComm.md'
@@ -351,6 +355,7 @@ nav:
           - Node.jsアプリ連携: 'v3.0/plugin/plugin_nodehost.md'
           - Python連携: 'v3.0/plugin/plugin_pythonunit.md'
           - カウンター・トリガー: 'v3.0/plugin/plugin_countertrigger.md'
+          - MCP サーバー: 'v3.0/plugin/plugin_mcpserver.md'
         - つかいやすさ向上:
           - 直接入力: 'v3.0/plugin/plugin_directinput.md'
           - 入力支援: 'v3.0/plugin/plugin_InputAssist.md'

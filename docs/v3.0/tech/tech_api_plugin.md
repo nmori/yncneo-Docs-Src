@@ -783,7 +783,11 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
     }
     ```
 
-* GPT3プラグイン自体が有効で、APIキーなどが設定済みであるときに使用可能です。
+* GPT3プラグイン（AIフィルタ／AIアシスタント）自体が有効であるときに使用可能です。プラグインの「使う AI」が「ゆかコネの「AI 連携」の設定に従う」のときは、本体に API キーが設定済みである必要があります。この PC・ブラウザ・Ollama / LM Studio で動かすときは不要です。
+* プラグインの ``question`` 命令として送ります。答えを待つのは **6 秒まで** で、間に合わなかったときや AI が答えなかったときは、``text`` にプラグインの「答えられなかったときの返事」が入ります（空のこともあります）。
+* ``premise`` を省くと、前提なし（人格も使わない）で問い合わせます。人格で答えさせたいときは、下の「[GPT3 プラグイン](#gpt3)」の ``/api/command`` で ``premise`` を付けずに送ってください。
+* ``maxtokens`` ``temperature`` は使われません。答えの長さなどは、プラグインの設定で決まります。
+* 会話の記憶は使わず、記憶へ足しもしません。
 * statusがfailureの場合は、プラグインが無効な場合など要求が出せなかった場合にでます。
 
 #### 知らない operation を送ったとき
@@ -1260,14 +1264,14 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
 * いずれもJSONを返します。``gethistory`` は ``{success, count, data}``、``search`` は ``{success, searchTerm, count, data}`` の形です。
 * 対応していない ``command`` を送ると、使えるコマンドの一覧が返ります。
 
-## GPT3 プラグイン
+## GPT3 プラグイン { #gpt3 }
 
 * AIに文章を作らせることができます。
 
 !!! Tech "使用条件"
-    * GPT3プラグインをONにしていること
-    * APIキーが設定済みであること
-    * ゆかコネNEO v2.0.94～で有効
+    * GPT3プラグイン（AIフィルタ／AIアシスタント）をONにしていること
+    * プラグインの「使う AI」が「ゆかコネの「AI 連携」の設定に従う」のときは、本体に APIキーが設定済みであること（この PC・ブラウザ・Ollama / LM Studio で動かすときは不要）
+    * ゆかコネNEO v2.0.94～で有効。下に書いた動き（``question`` と ``response`` の違い・6 秒の上限）は、AIフィルタ／AIアシスタント v3.1（ゆかコネNEO v3.0.18 以降）のものです
 
 ### AIに文章を作らせる
 
@@ -1275,19 +1279,139 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
 
 |パラメータ|意味|
 |:--|:--|
-|prompt|AIに投げる文章|
-|premise|前提（役割や状況の指定）|
-|talkerName|相手の名前。プロンプト内の ``$name_user`` に入ります|
-|maxtokens|返答の最大長|
-|temperature|ばらつきの度合い|
+|prompt|AIに投げる文章。そのまま渡します（「話しかけの包み方」では包みません）|
+|premise|前提（役割や状況の指定）。AI への指示（system）を丸ごとこれに置き換えます。``$name_ai`` は AI の名前に、``$name_user`` は ``talkerName`` に置き換わります。省くと、プラグインの「人格」の設定で答えます|
+|talkerName|相手の名前。プロンプト内の ``$name_user`` に入ります（省略時：視聴者）|
+|maxtokens|v3.1 からは使いません|
+|temperature|v3.1 からは使いません|
 
 === "実行"
     ```js
-        http://localhost:11900/api/command?target=Plugin_GPT3&command=question&premise=あなたはおじいさん役。&prompt=役割に合わせ発言せよ。「おはよう」&maxtokens=1000&temperature=0.5
+        http://localhost:11900/api/command?target=Plugin_GPT3&command=question&premise=あなたはおじいさん役。&prompt=役割に合わせ発言せよ。「おはよう」
     ```
 
-* ``command`` には ``question`` または ``response`` を指定します。どちらも同じ動作です。
-* AIが返した文章がそのまま応答本文になります。
+* ``command`` には ``question`` または ``response`` を指定します。
+
+|command|動き|応答本文|
+|:--|:--|:--|
+|``question``|答えを作って返します。待つのは **6 秒まで** です|AIが返した文章。間に合わなかったときや失敗したときは、プラグインの「答えられなかったときの返事」|
+|``response``|裏で答えを作り、**AI の名前で字幕へ出します**（「答えを VRM_AI へ出す」がオンなら VRM_AI へ）。すぐに戻ります|空|
+
+* 「使う AI」で選んだ AI を使います。「この PC で動かす」でモデルを読み込んでいる最中は、``question`` は待たずに失敗します。
+* 会話の記憶は使わず、記憶へ足しもしません（コメントへの応答で、人格の記憶が埋まらないようにするため）。
+* ``response`` は、同時に 2 つまで答えを作ります。それより多く来たときは、順番に答えます。
+
+!!! Info "6 秒で打ち切る理由"
+    本体は、プラグインへの命令が 8 秒で返らないと打ち切り、3 回続くとそのプラグインへの命令を 120 秒止めます。
+    これを避けるため、``question`` は 6 秒で諦め、``response`` は裏で答えてすぐ戻ります。
+    ゆっくり答える AI（「この PC で動かす」や大きいモデルの Ollama）で確実に答えさせたいときは、``response`` を使ってください。
+
+## プラグインから AI を呼ぶ（プラグイン開発者向け） { #plugin-ai }
+
+* プラグインの中から、本体の AI を呼ぶ方法です。``onLoad`` の ``Message`` に入っています。
+* ここに書いた 2 つ（``CallGPTFunctionVia`` と ``CallLocalLlmAsync``）は、ゆかコネNEO v3.0.18 以降で入ります。古い本体ではキーが無いので、``null`` として扱い、機能を薄くしてください。
+* 開発用の SDK（``YNC_PluginSdk`` の ``PluginHost``）には、まだプロパティがありません。``Host.RawMessage["CallLocalLlmAsync"]`` のように読んでください。
+* 受け取るときは、下の表と**同じデリゲート型**にしてください。型が違うと ``as`` で ``null`` になります。
+
+|キー|型|
+|:--|:--|
+|``CallGPTFunction``|``Func<string method, string query, string>``（従来からあるもの。本体で選んだ AI を呼びます）|
+|``CallGPTFunctionVia``|``Func<string unit, string method, string query, string>``|
+|``CallLocalLlmAsync``|``Func<string requestJson, int timeoutMs, CancellationToken token, Task<string>>``|
+
+### AI を名指しして呼ぶ（CallGPTFunctionVia）
+
+本体の「プラグインで使うAIの種類」で何を選んでいても、決まった AI を名指しして呼べます。
+
+|引数|意味|
+|:--|:--|
+|unit|呼ぶ AI。いま名指しできるのは ``"BrowserLLM"``（ブラウザの AI。大文字・小文字は区別しません）だけです。それ以外の値や空は、``CallGPTFunction`` と同じ（本体で選んだ AI）になります|
+|method|``CallGPTFunction`` と同じ。``BrowserLLM`` は ``"chat/completions"`` だけに対応します|
+|query|送る JSON（OpenAI の ``chat/completions`` の形）。``BrowserLLM`` が読むのは ``messages`` だけです|
+
+* **戻り値**：JSON の文字列です。``BrowserLLM`` の成功は OpenAI と同じ形（``choices[0].message.content``）、失敗は ``{"error":{"message":"…","type":"…"}}`` です。
+
+|error.type|意味|
+|:--|:--|
+|``not_connected``|ブラウザの AI のページが開いていない|
+|``timeout``|時間内に答えが返らなかった|
+|``empty_result``|答えが空だった（Chrome の内蔵 AI が使えないなど）|
+|``unsupported_method``|``chat/completions`` 以外を送った|
+|``invalid_request``|``query`` が読めない・``messages`` が空|
+|``internal_error``|そのほかの失敗|
+
+* **時間の上限**：``BrowserLLM`` は既定で 30 秒待ちます（本体の設定 ``BrowserLLM_TimeoutMs`` で変わります）。ページが開いていなければ、本体が Chrome でページを開きます。
+* **呼んだスレッドは、答えが返るまで止まります。** UI スレッドやフック（``PostRecognition`` など。本体は 8 秒で打ち切ります）の中から呼ばず、自分で立てたスレッドから呼んでください。
+* API キーの要る AI（OpenAI・Claude・Gemini など）は名指しできません。キーと料金は、利用者が本体で選んだ AI だけに使うためです。
+
+### この PC の AI を呼ぶ（CallLocalLlmAsync）
+
+本体が「オフライン翻訳（無料）」と同じしくみ（llama.cpp）で、この PC の中で AI を動かします。通信はしません。
+
+* **引数**：``requestJson``（下の JSON）・``timeoutMs``（待つ上限。50〜15000 ミリ秒に丸めます）・``token``（取り消し）
+* **戻り値**：JSON の文字列を返す ``Task``。例外は投げません。
+
+=== "文章を作る"
+    ```js
+    // 送る
+    {
+        "model": "light",
+        "messages": [
+            { "role": "system", "content": "あなたは猫の女の子です。" },
+            { "role": "user", "content": "こんにちは" }
+        ],
+        "max_tokens": 128,
+        "temperature": 0.2,
+        "stop": ["\n"]
+    }
+    // 成功
+    { "ok": true, "text": "こんにちはにゃ！", "model": "LFM2-1.2B", "ms": 412 }
+    // 失敗
+    { "ok": false, "reason": "preparing", "message": "ローカル LLM (LFM2-1.2B) を読み込んでいます。" }
+    ```
+=== "状態を見る"
+    ```js
+    // 送る（ダウンロードも起動もしません）
+    { "status": true, "model": "light" }
+    // 返る
+    {
+        "ok": true, "installed": false, "terms": true, "model": "LFM2-1.2B",
+        "sizeBytes": 730893248, "busy": false, "done": 0, "total": 0,
+        "loading": false, "error": ""
+    }
+    ```
+=== "ダウンロードする"
+    ```js
+    // 送る（利用者がボタンを押したときだけ）
+    { "download": true, "model": "light" }
+    // 返る：「状態を見る」と同じ形。待たずに返るので、進み具合は status で見る
+    ```
+
+|キー|意味|
+|:--|:--|
+|model|``"quality"`` = Gemma 4 E2B（約 2.8GB・オフライン翻訳と共用）、それ以外（既定 ``"light"``）= LFM2-1.2B（約 0.7GB）|
+|messages|``role`` は ``system`` ``user`` ``assistant`` だけ（ほかは捨てます）。``content`` の合計は 8000 文字まで|
+|max_tokens|1〜256（既定 128）|
+|temperature|0〜1.5（既定 0.2）|
+|stop|止める文字列。4 つまで|
+|status|``true`` で、入っているか・準備中か・同意済みかだけを返します|
+|download|``true`` で、本体がモデルを取ってきて起動を始めます。ライセンスへの同意がまだなら、本体が同意の画面を出します|
+|probe|``true`` で、文章を作らずに使えるかだけを返します（使えるなら起動も始めます）|
+
+|reason|意味|
+|:--|:--|
+|``not_installed``|モデルか実行体が入っていない。``download`` で取ってこられます|
+|``terms``|「オフライン翻訳（無料）」のライセンスに同意していない|
+|``preparing``|読み込み中。少し待ってからもう一度|
+|``timeout``|``timeoutMs`` のうちに返らなかった|
+|``busy``|ほかの仕事で席が空いていない|
+|``error``|そのほか（要求が JSON でない・``messages`` が空・長すぎる など）|
+
+* **ふだんの呼び出しでは何もダウンロードしません。** そろっていないときは ``not_installed`` を返すだけです。取りに行くのは ``download`` を送ったときだけにしてください（利用者がボタンを押したときなど）。
+* 最初の 1 回は読み込みに数秒かかり、その間は ``preparing`` が返ります。フックの中では待たずに諦め、元の文を返してください。
+* プラグインが使ってから 30 分の間は、翻訳で選ばれていなくても本体は AI を止めません。
+* 中身は本体がスレッドプールで動かします。UI スレッドから ``.GetAwaiter().GetResult()`` で待っても固まりませんが、``timeoutMs`` まで UI が止まるので、``await`` するか自分のスレッドで待ってください。ただし ``download`` は同意の画面を本体の UI スレッドで出すので、**UI スレッドから待たないでください**。
+* フックの中から呼ぶときは、``timeoutMs`` を本体の打ち切り（8 秒）より短くしてください（例：6000）。
 
 !!! Info "JSON形式で送りたい場合"
     JSONでやりとりしたい場合は、このページの「翻訳・発話連携サーバ」にある「GPTをつかった言葉の処理」または「AIをつかった言葉の処理」を使ってください。こちらの ``/api/command`` はクエリ形式のみです。
@@ -1322,7 +1446,7 @@ http://localhost:11900/api/command?target=<プラグイン識別名>&command=<�
 |WebSocketコール|``{text0}``～``{text4}`` ``{lang0}``～``{lang4}`` ``{talker}``|コールURL と 送信文字の両方|
 |clusterウェブトリガ|``{talker}``|送信内容|
 |配信ソフト向けテキスト出力|``$title`` ``$summary``|要約フォーマット（既定 ``【$title】$summary``）|
-|GPT3/AIアシスタント|``$name_ai`` ``$name_user`` ``$message``|AIロールプロンプト、高優先プロンプト|
+|GPT3/AIアシスタント|``$name_ai`` ``$name_user``（``$message`` は「話しかけの包み方」だけ）|「人格」の追加の指示 (上級)、「会話」の話しかけの包み方 (上級)、API の ``premise``|
 |Teams Webhook|``{{Text1}}`` ``{{Text2}}``|送信カードのテンプレート|
 
 |マクロ|内容|

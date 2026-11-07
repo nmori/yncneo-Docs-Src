@@ -22,6 +22,24 @@
     4. **VRChat OSC のシナリオ原稿で `TEXT` 行と素の行の送り先が入れ替わりました。**
        v2.3 の台本はエラーを出さずに逆に動きます。
 
+## 最近の変更（v3.0.14〜v3.0.18・AI 向け要約） { #recent }
+
+案内の前に、ユーザーの版がこれより古くないか確かめてください（古い版には無い項目です）。
+
+| プラグイン | 変わったこと | 版 | 公式ページ |
+|:--|:--|:--|:--|
+| 辞書 | **セクション**（言い換え CSV の 3 列目／用語集の `#section` 列）とセクションごとのオン・オフ。操作パネルの「ライブ設定」でも切り替え。辞書ファイル未指定でも設定フォルダへ自動で作る。**3 列目にメモを書いていた CSV はそれがセクション名になる** | v3.0.16（辞書 v3.8） | [辞書](../plugin/plugin_dictionary.md#sections) |
+| 正規表現 | 規則のセクションを「ライブ設定」でオン・オフ（オン・オフは設定画面には出ない） | v3.0.16 | [正規表現](../plugin/plugin_regexp.md#live) |
+| わんコメ連携 | ライブ設定の「送り先の枠」「受け取る枠」がプルダウン | v3.0.16 | [わんコメ連携](../plugin/Plugin_OCComm.md) |
+| 表示効果（文字強調） | 縁取りがなめらかになり前後の文字にかぶらない。PC のフォント・Web フォントを選べる | v3.0.14 | [表示拡張](../plugin/plugin_viewextend.md) |
+| 棒読みちゃん連携 | 有効にしたときの接続確認の仕方を修正 | v3.0.14 | [棒読みちゃん連携](../plugin/plugin_bouyomi.md#connect-check) |
+| 字幕の書き出し | OUT が IN より前にならない・「はじめの行を 0 秒にそろえる」で時刻が飛ぶ件の修正 | v3.0.16（v2.4） | [ファイル出力](../plugin/plugin_exporter.md) |
+| プラグイン全体 | 新しく追加したプラグインは一覧の最後（処理順も最後）に入る | v3.0.16 | [有効化](../plugin/enabled.md) |
+| 口調チェンジャー（新規・`Plugin_ExpressionFilter`） | 字幕の日本語を 18 の口調に変える。PC の中だけで動き、通信はモデルのダウンロードボタンを押したときだけ | 未配布 | [口調チェンジャー](../plugin/plugin_expressionfilter.md) |
+| ページ新設 | Streamlabs / N Air 連携・セットリスト再生・MCP サーバー（プラグインは既に配布済み、説明ページが無かった） | — | [Streamlabs / N Air](../plugin/plugin_streamlabsnair.md) / [セットリスト再生](../plugin/plugin_setlistplayer.md) / [MCP サーバー](../plugin/plugin_mcpserver.md) |
+
+本体側の変更（AI モデルで句読点を打ちこむ・PLaMo 3 翻訳（オフライン）・オフライン認識の「区切る間」など）は [INDEX](./INDEX.md#recent) にまとめています。
+
 ## v3.0 の設定画面（WPF 共通土台）
 
 ### 対象プラグイン（60 本）
@@ -433,6 +451,9 @@ Bouyomi / Browser / CaptionShare / ClipBoard / ClusterTransfer / ClusterTrigger 
 ### Plugin_Dictionary - 辞書プラグイン
 **Purpose**: Word/phrase replacement using dictionary
 
+!!! note "v3.0 の画面は下の表（旧 WinForms 画面の部品名）と違います"
+    v3.0 の辞書は専用の WPF 画面です。v3.0.16（辞書 v3.8）からセクションの帯があり、セクションごとにオン・オフできます。項目名は [辞書](../plugin/plugin_dictionary.md) を正としてください。
+
 #### ConfigWindow構造: 複数GroupBox + テスト領域
 
 **GroupBox: 音声認識後の補正 (After voice recognition)**
@@ -482,6 +503,9 @@ DataGridView (`ReplaceWordsRecogList`):
 
 ### Plugin_RegExp - 正規表現プラグイン
 **Purpose**: Regex-based text transformation
+
+!!! note "v3.0 の画面は下の表（旧 WinForms 画面の部品名）と違います"
+    v3.0 では表にセクション・並べ替え・絞り込みがあり（v3.0.11）、v3.0.16 からセクションを操作パネルの「ライブ設定」でオン・オフできます。項目名は [正規表現](../plugin/plugin_regexp.md) を正としてください。
 
 #### ConfigWindow構造: 3つのGroupBox
 
@@ -559,6 +583,13 @@ DataGridView (`dgv_Sound`) でホットキー設定:
 
 ### Plugin_GPT3 - ChatGPT/GPT統合
 **Purpose**: OpenAI GPT integration for text generation
+
+!!! warning "v3.1（ゆかコネNEO v3.0.18 以降）で作り直されました。下の表は旧画面です"
+    * 設定画面は **7 ページ**（使う AI／人格／会話／記憶／字幕の加工／画像／提案）。項目名は [GPT3整形/AIアシスタント](../plugin/plugin_GPT3.md) を正としてください。
+    * **使う AI（経路）が 4 通り**: 本体の翻訳エンジンの AI（既定・従来どおり）／この PC の AI（オフライン）／ブラウザの AI／Ollama など OpenAI 互換。**無料の経路は API キー不要** → [使う AI](../plugin/plugin_GPT3.md#route)
+    * **人格**（名前・話し方）・**記憶**（`Plugin_GPT3_Memory\(人格名)\` に保存）・**声だけで会話を続ける会話モード**が増えた（既定はオフ）→ [人格](../plugin/plugin_GPT3.md#persona) / [会話モード](../plugin/plugin_GPT3.md#conversation-mode) / [記憶](../plugin/plugin_GPT3.md#memory)
+    * 字幕の加工は 6 秒で諦めて元の文を出す（本体はフックを 8 秒で打ち切るため）
+    * 旧版からの引き継ぎ・ページの対応表 → [前の版から移った方へ](../plugin/plugin_GPT3.md#migrate)
 
 #### ConfigWindow構造: 7タブ構成
 
@@ -829,6 +860,8 @@ Plugin_Dictionary, Plugin_RegExp等:
 - [OBS連携 WSv5](../plugin/plugin_OBS5.md) (OBS28以降)
 - [OBS連携 WSv4](../plugin/plugin_OBS.md) (OBS27以前)
 - [配信ソフト向けテキスト出力](../plugin/plugin_OBSFile.md)
+- [Streamlabs / N Air 連携](../plugin/plugin_streamlabsnair.md)
+- [セットリスト再生](../plugin/plugin_setlistplayer.md)
 
 ### VR/メタバース系
 - [VRChat OSC連携](../plugin/plugin_vrchat_osc.md)
@@ -845,6 +878,7 @@ Plugin_Dictionary, Plugin_RegExp等:
 - [辞書](../plugin/plugin_dictionary.md)
 - [正規表現](../plugin/plugin_regexp.md)
 - [GPT3整形/AIアシスタント](../plugin/plugin_GPT3.md)
+- [口調チェンジャー](../plugin/plugin_expressionfilter.md)（PC の中だけで口調を変える）
 
 ### API/ツール系
 - [HTTPコール](../plugin/plugin_httpcall.md)
@@ -852,6 +886,8 @@ Plugin_Dictionary, Plugin_RegExp等:
 - [ファイル出力](../plugin/plugin_exporter.md)
 - [字幕共有](../plugin/plugin_captionshare.md) (v3.0 新規。Pusher 経由で字幕を送受信)
 - [Node.jsアプリ連携](../plugin/plugin_nodehost.md) (v3.0 新規。Node.js 製アプリを起動・停止し、字幕を WebSocket で渡す)
+- [カウンター・トリガー](../plugin/plugin_countertrigger.md) (v3.0 新規)
+- [MCP サーバー](../plugin/plugin_mcpserver.md) (v3.0 新規。AI クライアントから操作。詳細は [本体内蔵API](../tech/tech_api_neo.md#mcp))
 
 ---
 

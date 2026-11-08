@@ -203,7 +203,9 @@ plugins:
           'qa/report.md': 'v3.0/qa/report.md'
           'qa/troubleshooting.md': 'v3.0/qa/troubleshooting.md'
           'qa/ts_onecomme.md': 'v3.0/qa/ts_onecomme.md'
-          'qa/support_lv.md': 'v3.0/qa/support_lv.md'
+          'qa/support_lv.md': 'v3.0/qa/faq.md'
+          'v3.0/qa/support_lv.md': 'v3.0/qa/faq.md'
+          'v2.3/qa/support_lv.md': 'v2.3/qa/faq.md'
           'ai_docs/INDEX.md': 'v3.0/ai_docs/INDEX.md'
           'ai_docs/FAQ_TROUBLESHOOTING.md': 'v3.0/ai_docs/FAQ_TROUBLESHOOTING.md'
           'ai_docs/PLUGINS_REFERENCE.md': 'v3.0/ai_docs/PLUGINS_REFERENCE.md'
@@ -373,7 +375,6 @@ nav:
         - 不具合を発見した時: 'v3.0/qa/report.md'
         - こんなときは: 'v3.0/qa/troubleshooting.md'
         - わんコメ連携できない時: 'v3.0/qa/ts_onecomme.md'
-        - サポートレベル表: 'v3.0/qa/support_lv.md'
       - AIエージェント向け:
         - 検索インデックス: 'v3.0/ai_docs/INDEX.md'
         - トラブルシュート: 'v3.0/ai_docs/FAQ_TROUBLESHOOTING.md'
@@ -509,7 +510,6 @@ nav:
         - 不具合を発見した時: 'v2.3/qa/report.md'
         - こんなときは: 'v2.3/qa/troubleshooting.md'
         - わんコメ連携できない時: 'v2.3/qa/ts_onecomme.md'
-        - サポートレベル表: 'v2.3/qa/support_lv.md'
       - AIエージェント向け:
         - 検索インデックス: 'v2.3/ai_docs/INDEX.md'
         - トラブルシュート: 'v2.3/ai_docs/FAQ_TROUBLESHOOTING.md'

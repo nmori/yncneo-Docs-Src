@@ -49,8 +49,7 @@
 
 認識した字幕を cluster のチャット欄へ送ります。
 
-![クラスター連携の設定 - 送信](images/v30/clustertransfer_1.png)
-<!-- TODO(screenshot): images/v30/clustertransfer_1.png を撮り直す — 「送信」ページ（字幕を cluster へ送る／送信内容）。v3.0.12 でタブ構成が変わったため -->
+![cluster 連携の設定 - 送信](images/v30/clustertransfer_1.png)
 
 | 項目 | 説明 |
 |:--|:--|
@@ -61,7 +60,7 @@
 
 cluster のイベントのコメントを受けて、字幕として出します（v3.0.12～）。
 
-<!-- TODO(screenshot): images/v30/clustertransfer_2.png — 「受信」ページ（cluster のコメントを受信する／イベントの URL／読み上げ・翻訳・間隔） -->
+![cluster 連携の設定 - 受信](images/v30/clustertransfer_2.png)
 
 | 項目 | 説明 |
 |:--|:--|
@@ -78,7 +77,7 @@ cluster のイベントのコメントを受けて、字幕として出します
 
 コメントの受信に使う cluster のログインと、受信の開始・停止です。
 
-<!-- TODO(screenshot): images/v30/clustertransfer_3.png — 「接続」ページ（ログイン欄と受信の「接続」「切断」） -->
+![cluster 連携の設定 - 接続](images/v30/clustertransfer_3.png)
 
 **ログイン**
 
@@ -128,23 +127,17 @@ cluster のイベントのコメントを受けて、字幕として出します
 <div class="step-guide">
   <div class="step-item">
     <h3>プラグインを有効にする</h3>
-    <p>ゆかコネのプラグイン設定画面を開き、「cluster チャット転送」プラグインを有効にします</p>
+    <p>上のタブ <strong>プラグイン</strong> → <strong>プラグインを追加</strong> で「cluster チャット転送」を選んで <strong>追加する</strong> を押します（<a href="../enabled/">プラグインの有効化</a>）</p>
     <div class="annotated-image">
-      <img src="../images/plugin_clustertransfer_p1.png" alt="cluster連携プラグイン有効化">
-      <div class="annotation" style="top: 40%; left: 70%;">
-        チェックボックスをONにする
-      </div>
+      <img src="../images/plugin_enabled_add.png" alt="プラグインを追加">
     </div>
   </div>
   
   <div class="step-item">
     <h3>送信内容を選択する</h3>
-    <p>設定ボタンをクリックし、どの内容を送信するか選択します</p>
+    <p>一覧の <strong>設定</strong> を押し、<strong>送信</strong> のページの <strong>送信内容</strong> で、どの内容を送信するか選択します</p>
     <div class="annotated-image">
-      <img src="../images/plugin_clustertransfer_p2.png" alt="送信内容設定">
-      <div class="annotation" style="top: 40%; left: 60%;">
-        送信したい内容にチェックを入れる
-      </div>
+      <img src="../images/v30/clustertransfer_1.png" alt="送信内容設定">
     </div>
     <div class="tips-box">
       <h4>送信内容の選択肢</h4>

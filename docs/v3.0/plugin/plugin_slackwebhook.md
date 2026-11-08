@@ -10,11 +10,9 @@
 
 * 音声認識結果をSlackチャットチャネル転送することができます
 
-##　有効化
+## 有効化
 
-![slack](images/plugin_slackwebhook_p1.png)
-
-* プラグインを使うチェックをONにしてください。
+* 上のタブ **プラグイン** → **プラグインを追加** でこのプラグインを選んで **追加する** を押します（一覧の **使う** が ON になります）。→ [プラグインの有効化](enabled.md)
 
 ## 設定
 
@@ -26,7 +24,7 @@
 
 Slack のチャンネルへ字幕を流します。
 
-![Slack 連携の設定 - Slack](images/v30/slackwebhook_1.png)
+![Slack 連携の設定](images/v30/slackwebhook_1.png)
 
 | 項目 | 説明 |
 |:--|:--|

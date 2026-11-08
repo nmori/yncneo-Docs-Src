@@ -11,40 +11,35 @@
 </div>
 
 <div class="purpose-grid">
-  <a href="#_1" class="purpose-card">
+  <a href="#basic" class="purpose-card">
     <div class="purpose-icon">⚙️</div>
     <h3>基本設定をする</h3>
     <p>初めての設定手順</p>
   </a>
-  <a href="#_2" class="purpose-card">
+  <a href="#obs" class="purpose-card">
     <div class="purpose-icon">🎬</div>
     <h3>配信で使う</h3>
     <p>OBSなどへの取り込み方</p>
   </a>
-  <a href="#_3" class="purpose-card">
+  <a href="#faq" class="purpose-card">
     <div class="purpose-icon">❓</div>
     <h3>困ったときは</h3>
     <p>トラブルシューティング</p>
   </a>
 </div>
 
-## 基本設定（たった6ステップ）
+## 基本設定（たった6ステップ） { #basic }
 
-### ステップ1：設定メニューを開く
+!!! tip "はじめての設定の案内を使うと、もっと簡単です"
+    上のタブ **ホーム** → **はじめての設定** の 3 ステップの案内に沿うと、ステップ2〜6 をまとめて設定できます。→ [はじめての設定](cs_startup.md)
+
+### ステップ1：画面の見かた
 
 <div class="step-guide">
   <div class="step-item">
-    <h3>メニューを固定する</h3>
-    <p>左側のメニューを開いて、操作しやすくピン留めしましょう</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p8.png" alt="メニュー開く">
-      <div class="annotation" style="top: 30%; left: 20%;">
-        ①このオレンジのボタンをクリック
-      </div>
-      <div class="annotation" style="top: 30%; left: 70%;">
-        ②このピンをクリックして固定
-      </div>
-    </div>
+    <h3>上のタブを左から順に設定します</h3>
+    <p>ゆかコネNEO の設定は、画面上部のタブ（ホーム／操作パネル／音声と翻訳／字幕デザイン／プラグイン…）から開きます。タブを選ぶと、左にそのタブの中の画面が並びます。</p>
+    <img src="../images/cs_en_p8.png" alt="上のタブ">
   </div>
 </div>
 
@@ -53,89 +48,52 @@
 <div class="step-guide">
   <div class="step-item">
     <h3>母国語を設定</h3>
-    <p>あなたが話す言語（この例では日本語）を選びます</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p1.png" alt="母国語設定">
-      <div class="annotation" style="top: 40%; left: 60%;">
-        「日本語」を選択
-      </div>
-    </div>
+    <p>上のタブ <strong>音声と翻訳</strong> → <strong>話す言語と名前</strong> で、あなたが話す言語（この例では日本語）を選びます。名前は字幕に出す名前です。</p>
+    <img src="../images/cs_en_p1.png" alt="話す言語と名前">
   </div>
 </div>
 
-### ステップ3：表示レイアウトを選ぶ
+### ステップ3：字幕のデザインを選ぶ
 
 <div class="step-guide">
   <div class="step-item">
     <h3>字幕の表示方法を選ぶ</h3>
-    <p>「多言語」が一番おすすめです（原文と翻訳を両方表示）</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p2.png" alt="レイアウト選択">
-      <div class="annotation" style="top: 30%; left: 60%;">
-        「多言語」を選択するのがおすすめ
-      </div>
-      <div class="annotation" style="top: 60%; left: 20%;">
-        (A) 表示用ブラウザを開くボタン
-      </div>
-      <div class="annotation" style="top: 60%; left: 80%;">
-        (B) OBSへドラッグするボタン
-      </div>
-    </div>
+    <p>上のタブ <strong>字幕デザイン</strong> → <strong>デザイン</strong> の下の一覧から、テンプレートのタイルを押して選びます。「多言語」の分類が一番おすすめです（原文と翻訳を両方表示）。上のプレビューで見え方を確かめられ、「ランダム送信」で見本の字幕を流せます。</p>
+    <img src="../images/cs_en_p2.png" alt="字幕デザイン">
     <div class="tips-box">
-      <h4>レイアウト選びのポイント</h4>
+      <h4>デザイン選びのポイント</h4>
       <ul>
         <li>「多言語」：原文と翻訳を両方表示（最もおすすめ）</li>
         <li>「リスト」：過去の字幕も含めて表示したい場合</li>
-        <li>「スマート」：シンプルにコンパクト表示したい場合</li>
+        <li>「１行レイアウト」：シンプルにコンパクト表示したい場合</li>
       </ul>
+      <p>テンプレートの一覧は <a href="../../startup/startup_layout/">レイアウト</a> にあります。</p>
     </div>
   </div>
 </div>
 
-### ステップ4：おすすめ設定を適用する
-
-<div class="step-guide">
-  <div class="step-item">
-    <h3>おすすめ設定をワンクリックで適用</h3>
-    <p>選んだレイアウトに合った最適な設定を自動適用できます</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p7.png" alt="おすすめ設定">
-      <div class="annotation" style="top: 40%; left: 60%;">
-        ステップ3で選んだのと同じレイアウトを選択
-      </div>
-    </div>
-  </div>
-</div>
-
-### ステップ5：翻訳設定をする
+### ステップ4：翻訳設定をする
 
 <div class="step-guide">
   <div class="step-item">
     <h3>翻訳先の言語と翻訳エンジンを選ぶ</h3>
-    <p>英語翻訳と無料の共用翻訳エンジンを選びます</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p3.png" alt="翻訳設定">
-      <div class="annotation" style="top: 45%; left: 20%;">
-        「17:英語」を選択
-      </div>
-      <div class="annotation" style="top: 45%; left: 60%;">
-        「共用翻訳エンジン」を選択
-      </div>
-    </div>
+    <p>上のタブ <strong>音声と翻訳</strong> → <strong>翻訳する言語</strong> で、翻訳1 を英語、エンジンを無料の共用翻訳にします。</p>
+    <img src="../images/cs_en_p3.png" alt="翻訳設定">
     <table>
-      <tr>
-        <th>設定項目</th>
-        <th>設定値</th>
-      </tr>
-      <tr>
-        <td>第1翻訳設定</td>
-        <td>17:英語</td>
-      </tr>
-      <tr>
-        <td>翻訳エンジン</td>
-        <td>共用翻訳エンジン</td>
-      </tr>
+      <tr><th>設定項目</th><th>設定値</th></tr>
+      <tr><td>翻訳 1（言語）</td><td>17:英語/English(en-US)</td></tr>
+      <tr><td>翻訳 1（エンジン）</td><td>共用翻訳(m2m100/無料)</td></tr>
     </table>
+  </div>
+</div>
+
+### ステップ5：音声認識の種類を選ぶ
+
+<div class="step-guide">
+  <div class="step-item">
+    <h3>「ブラウザ音声認識(Chrome)」が最も簡単です</h3>
+    <p>上のタブ <strong>音声と翻訳</strong> → <strong>音声の入れ方</strong> で、<strong>ブラウザ音声認識(Chrome)</strong> のスイッチを ON にします。</p>
+    <img src="../images/cs_en_p4.png" alt="音声の入れ方">
   </div>
 </div>
 
@@ -143,36 +101,17 @@
 
 <div class="step-guide">
   <div class="step-item">
-    <h3>音声認識の種類を選ぶ</h3>
-    <p>「ブラウザ音声認識」が最も簡単です</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p4.png" alt="音声認識設定">
-      <div class="annotation" style="top: 40%; left: 70%;">
-        「ブラウザ音声認識」を選択
-      </div>
-    </div>
+    <h3>「認識用画面を開く」を押します</h3>
+    <p>同じ画面のいちばん上の <strong>認識用画面を開く</strong> を押すと、音声認識のブラウザが開きます。</p>
+    <img src="../images/cs_en_p5.png" alt="認識用画面を開く">
   </div>
-  
-  <div class="step-item">
-    <h3>音声認識ボタンをクリック</h3>
-    <p>音声認識を開始するボタンをクリックします</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p5.png" alt="音声認識起動">
-      <div class="annotation" style="top: 30%; left: 60%;">
-        このボタンをクリック
-      </div>
-    </div>
-  </div>
-  
+</div>
+
+<div class="step-guide">
   <div class="step-item">
     <h3>ブラウザでStartをクリック</h3>
     <p>音声認識ブラウザが開いたら「Start」をクリックします</p>
-    <div class="annotated-image">
-      <img src="../images/cs_en_p6.png" alt="ブラウザStart">
-      <div class="annotation" style="top: 40%; left: 60%;">
-        「Start」をクリック
-      </div>
-    </div>
+    <img src="../images/cs_en_p6.png" alt="ブラウザStart">
     <div class="tips-box">
       <h4>マイク許可について</h4>
       <p>初めて使う場合は「マイクへのアクセスを許可しますか？」という確認が表示されます。必ず「許可する」を選んでください。</p>
@@ -180,16 +119,16 @@
   </div>
 </div>
 
-## 配信ソフトでの取り込み方
+## 配信ソフトでの取り込み方 { #obs }
 
 字幕を配信画面に表示するには、以下の2つの方法があります：
 
 <div class="step-guide">
   <div class="step-item">
     <h3>方法1：ドラッグ＆ドロップ（簡単）</h3>
-    <p>OBSボタンを配信ソフトの画面にドラッグする方法</p>
+    <p>字幕デザインのタイル、または「OBSへ」ボタンを配信ソフトの画面にドラッグする方法</p>
     <ol>
-      <li>ステップ3で説明した(B)のOBSボタンをクリックしたまま</li>
+      <li>上のタブ <strong>字幕デザイン</strong> → <strong>デザイン</strong> の一覧で使うテンプレートのタイルを（または <strong>配信ソフトへ</strong> の画面の <strong>OBSへ</strong> を）クリックしたまま</li>
       <li>OBSの画面までドラッグして</li>
       <li>配置したい場所でマウスを離します</li>
     </ol>
@@ -207,7 +146,7 @@
   </div>
 </div>
 
-## よくある質問
+## よくある質問 { #faq }
 
 <div class="tips-box">
   <h4>音声がうまく認識されない</h4>

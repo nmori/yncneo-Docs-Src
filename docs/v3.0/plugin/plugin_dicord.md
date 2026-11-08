@@ -42,39 +42,40 @@
 ## 設定
 
 プラグイン一覧で、このプラグインの名前の右にある **「設定」** を押すと開きます。
-画面は **3 ページ**に分かれていて、左の一覧で切り替えます（つなぐ／やりとり／音声）。
+画面は **3 ページ**に分かれていて、左の一覧で切り替えます（接続／送受信／音声）。
 
 !!! info "閉じるときの 3 択"
     設定は**下書き**として持たれ、「OK」か「適用」を押すまで動いているプラグインには効きません。
     変更したまま閉じようとすると「変更が保存されていません」と聞かれ、**［はい］保存して閉じる／［いいえ］破棄して閉じる／［キャンセル］閉じるのをやめる** から選べます。
 
-### つなぐ
+### 接続
 
-Discord の BOT としてつなぎます。
+Discord の BOT として接続します。
 
-![Discord 連携の設定 - つなぐ](images/v30/discord_1.png)
+![Discord 連携の設定 - 接続](images/v30/discord_1.png)
 
 | 項目 | 説明 |
 |:--|:--|
 | クライアント ID | — |
 | トークン | 入力は伏せ字で表示されます。「表示」を押すと中身を確かめられます（もう一度押すと伏せます） |
 | 「BOT を招待する」ボタン | 上のクライアント ID の BOT を、あなたのサーバーへ入れる画面が開きます。 |
+| 「保存されているトークンを消す」ボタン | BOT を替えるときや、保存されている値を読めなくなったときに使います。 |
 | チャンネル ID | 字幕を出すチャンネルです。Discord で「ID をコピー」した値を貼ります。 |
 
 > ★ トークンは、このプラグインの設定ファイルへ残ります。持っている人はあなたの BOT として何でもできるので、共有のパソコンでは使い終わったら空にしてください。
 
-**つなぐ**
+**接続**
 
 | 項目 | 説明 |
 |:--|:--|
-| 「つなぐ」ボタン | — |
-| 「切る」ボタン | — |
+| 「接続」ボタン | 入れた値で Discord へ接続します |
+| 「切断」ボタン | 接続をやめます |
 
-### やりとり
+### 送受信
 
-どちら向きに流すかです。
+送信と受信の向きを決めます。
 
-![Discord 連携の設定 - やりとり](images/v30/discord_2.png)
+![Discord 連携の設定 - 送受信](images/v30/discord_2.png)
 
 | 項目 | 説明 |
 |:--|:--|
@@ -94,10 +95,10 @@ Discord の BOT としてつなぎます。
 | 項目 | 説明 |
 |:--|:--|
 | ☑ 読み上げプラグインの音を Discord へ送る | 既定：OFF |
-| ☑ 送るときは、このパソコンでは鳴らさない | 二重に読み上げられるときに入にします。（既定：OFF） |
+| ☑ 送るときは、このパソコンでは鳴らさない | 二重に読み上げられるときにオンにします。（既定：OFF） |
 | 音量 | 1.00 でそのままです。（0.2～2.0倍。既定：1.0） |
 
-> 話すべき文字が来たらチャンネルへ入って話します。無言が続くと出ていくことがあります。扱える音源は限られます (VOICEVOX 系など)。
+> 読み上げる字幕が来たら、ボイスチャンネルに入って話します。しばらく無言が続くと、チャンネルから抜けることがあります。扱える音源は限られます (VOICEVOX 系など)。
 
 ## ライブ設定（配信中にその場で変える） { #live }
 
@@ -105,6 +106,7 @@ Discord の BOT としてつなぎます。
 
 | 項目 | 説明 |
 |:--|:--|
+| 「保存されているトークンを消す」ボタン | BOT を替えるときや、保存されている値を読めなくなったときに使います。 |
 | チャンネル ID | 字幕を出すチャンネルです。Discord で「ID をコピー」した値を貼ります。 |
 | 話した内容を Discord へ送る | 設定画面の同じ名前のスイッチです |
 | Discord の発言を受け取る | 設定画面の同じ名前のスイッチです |
@@ -122,12 +124,9 @@ Discord の BOT としてつなぎます。
 <div class="step-guide">
   <div class="step-item">
     <h3>プラグイン一覧からDiscord BOTを有効化</h3>
-    <p>ゆかコネのプラグイン設定画面を開き、Discord BOTプラグインを有効にします</p>
+    <p>上のタブ <strong>プラグイン</strong> → <strong>プラグインを追加</strong> で Discord 連携を選んで <strong>追加する</strong> を押します（<a href="../enabled/">プラグインの有効化</a>）</p>
     <div class="annotated-image">
-      <img src="../images/plugin_discord_p1.png" alt="Discord BOTプラグイン有効化">
-      <div class="annotation" style="top: 0%; left: 60%;">
-        チェックボックスをONにする
-      </div>
+      <img src="../images/plugin_enabled_add.png" alt="プラグインを追加">
     </div>
   </div>
 </div>
@@ -235,10 +234,7 @@ Discord の BOT としてつなぎます。
     <h3>プラグイン設定画面を開く</h3>
     <p>Discord BOTプラグインの「設定」ボタンをクリックします</p>
     <div class="annotated-image">
-      <img src="../images/plugin_discord_p2.png" alt="プラグイン設定画面">
-      <div class="annotation" style="top: 20%; left: 60%;">
-        取得した情報を入力する
-      </div>
+      <img src="../images/v30/discord_1.png" alt="プラグイン設定画面">
     </div>
   </div>
   
@@ -251,33 +247,30 @@ Discord の BOT としてつなぎます。
         <th>入力する内容</th>
       </tr>
       <tr>
-        <td>Client ID</td>
+        <td>クライアント ID</td>
         <td>コピーしたApplication ID</td>
       </tr>
       <tr>
-        <td>token</td>
+        <td>トークン</td>
         <td>コピーしたBOTトークン</td>
       </tr>
       <tr>
-        <td>ChannelID</td>
+        <td>チャンネル ID</td>
         <td>コピーしたチャンネルID</td>
       </tr>
     </table>
   </div>
   
   <div class="step-item">
-    <h3>接続認証を行う</h3>
-    <p>「接続認証」ボタンをクリックして、BOTとの接続をテストします</p>
+    <h3>接続する</h3>
+    <p>設定の <strong>接続</strong> のページの <strong>接続</strong> ボタンを押して、BOTとつながることを確かめます</p>
     <div class="annotated-image">
-      <img src="../../cs/images/cs_colab_discord_p14.png" alt="接続認証">
-      <div class="annotation" style="top: 10%; left: 60%;">
-        「接続認証」を押す
-      </div>
+      <img src="../images/v30/discord_1.png" alt="接続">
     </div>
     <div class="tips-box">
       <h4>接続に失敗する場合</h4>
       <ul>
-        <li>入力情報（Client ID、トークン、チャンネルID）が正しいか確認</li>
+        <li>入力情報（クライアント ID、トークン、チャンネル ID）が正しいか確認</li>
         <li>BOTの「Message Content Intent」がONになっているか確認</li>
         <li>インターネット接続に問題がないか確認</li>
       </ul>
@@ -290,10 +283,10 @@ Discord の BOT としてつなぎます。
 <div class="step-guide">
   <div class="step-item">
     <h3>転送方向を選択</h3>
-    <p>どの方向でデータをやり取りするか設定します</p>
+    <p>設定の <strong>送受信</strong> のページで、どの方向でデータをやり取りするか設定します</p>
     <ul>
-      <li><strong>Discord→NEO</strong>：Discordのメッセージをゆかコネに取り込む</li>
-      <li><strong>NEO→Discord</strong>：ゆかコネの音声認識結果をDiscordに送信する</li>
+      <li><strong>Discord の発言を受け取る</strong>：Discordのメッセージをゆかコネに取り込む</li>
+      <li><strong>話した内容を Discord へ送る</strong>：ゆかコネの音声認識結果をDiscordに送信する</li>
     </ul>
     <div class="tips-box">
       <h4>使い方に合わせて選択</h4>
@@ -305,9 +298,9 @@ Discord の BOT としてつなぎます。
     <h3>追加オプションを設定</h3>
     <p>必要に応じて追加設定を行います</p>
     <ul>
-      <li><strong>トークセッションに対応</strong>：コラボ配信など複数人のやり取りではONにする</li>
-      <li><strong>BOTも受信対象</strong>：BOTの投稿も受信したい場合はONにする</li>
-      <li><strong>次の文字を含む文字の投稿を受信</strong>：特定のキーワードを含むメッセージだけ取り込みたい場合に設定</li>
+      <li><strong>トークセッションとして扱う</strong>：コラボ配信など複数人のやり取りではONにする</li>
+      <li><strong>BOT の発言も受け取る</strong>：BOTの投稿も受信したい場合はONにする</li>
+      <li><strong>この名前を含む人だけ受け取る</strong>：特定の名前の人の発言だけ取り込みたい場合に設定（1 行に 1 つ）</li>
     </ul>
   </div>
 </div>
@@ -384,7 +377,7 @@ Discord の BOT としてつなぎます。
   
   <div class="step-item">
     <h3>設定を有効にする</h3>
-    <p>Discord BOTプラグインの設定で「Discordに音声を流し込む」にチェックを入れます</p>
+    <p>Discord 連携プラグインの設定の <strong>音声</strong> のページで「読み上げプラグインの音を Discord へ送る」にチェックを入れます</p>
     <div class="tips-box">
       <h4>使用許諾について</h4>
       <p>一部の音声合成エンジンでは、この使い方が禁止されている場合があります。使用する音声エンジンの利用規約を必ず確認してください。</p>
@@ -413,9 +406,9 @@ Discord の BOT としてつなぎます。
 </div>
 
 <div class="tips-box">
-  <h4>「接続認証」でエラーが出る</h4>
+  <h4>「接続」でエラーが出る</h4>
   <ul>
-    <li>Client IDとトークンが正しいか確認</li>
+    <li>クライアント IDとトークンが正しいか確認</li>
     <li>インターネット接続に問題がないか確認</li>
     <li>トークンが再生成された場合は新しいトークンを設定</li>
   </ul>

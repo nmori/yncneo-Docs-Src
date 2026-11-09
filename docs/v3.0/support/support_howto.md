@@ -31,6 +31,7 @@ PIXIV FANBOXの支援プランのいずれかに入ることで支援が可能�
 * [支援４](https://nao.fanbox.cc/posts/2911158)
 * [支援５](https://nao.fanbox.cc/posts/2911160)
 * [支援６](https://nao.fanbox.cc/posts/2911165)
+* [支援７](https://nao.fanbox.cc/posts/9940978)
 
 ![支援](images/support_howto1.jpg)
 

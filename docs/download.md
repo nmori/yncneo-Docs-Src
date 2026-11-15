@@ -34,9 +34,9 @@
 
 ## 開発版をダウンロード
 
-### v3.0.24 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.0.24.zip)
+### v3.1.0[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.0.zip)
 
-- PLaMo3モデルダウンロード修正
+- .Netの古いバージョンについて移行処理を実施
 
 - 【重要】FANBOX支援プロモーションコードが変更になっています。支援者のかたは、FANBOXからコードを再取得ください
 

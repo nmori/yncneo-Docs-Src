@@ -34,9 +34,9 @@
 
 ## 開発版をダウンロード
 
-### v3.1.0[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.0.zip)
+### v3.1.1[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.1.zip)
 
-- .Netの古いバージョンについて移行処理を実施
+- わんコメテンプレート連携の修正
 
 - 【重要】FANBOX支援プロモーションコードが変更になっています。支援者のかたは、FANBOXからコードを再取得ください
 

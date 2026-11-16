@@ -34,7 +34,7 @@
 
 ## 開発版をダウンロード
 
-### v3.1.1[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.1.zip)
+### v3.1.2[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.2.zip)
 
 - わんコメテンプレート連携の修正
 

@@ -38,6 +38,10 @@ v3.0 のページに残っていた v2.3 の画面はほぼすべて差し替え
 | v3.0/plugin/plugin_setlistplayer.md | 曲の編集の映像プレビュー | 撮影方法の都合で黒く写る |
 | v3.0/plugin/enabled.md | プラグイン設定ツール（YNCNEO_Config.exe） | 別のツール |
 | v3.0/startup/startup_layout.md | わんコメテンプレートの表示例（2022 年撮影） | わんコメ側の画面 |
+| v3.0/qa/network.md | いまの状態の「送り先」の行と ⓘ の一覧／「このパソコンの中だけで動かす」ボタンと 3 択 | v3.2.3 の画面。配布後に撮る |
+| v3.0/cs/cs_startup.md | 目的カード「自分の言葉の字幕だけ出したい（翻訳しない）」／手順 2 の「このパソコンの中だけで認識する」と翻訳の 4 択 | v3.2.3 の画面。配布後に撮る（cs_startup_wizard1 も撮り直し） |
+| v3.0/startup/startup_layout.md | リリックモーションの「見せ方」（#lyric-motion） | v3.2.3 の画面。配布後に撮る |
+| v3.0/plugin/plugin_dicord.md | 「追加で受け取る」→「Discord音声（試験実装）」（#voice-receive） | v3.2.3 の画面。配布後に撮る |
 
 **公開していない画面**（設定フォルダの場所＝ユーザー名が入る、または撮影環境の情報が写るため）:
 MIDI 入力「割り当て」、OBS 連携 WSv4「シーン切り替え」、Python 連携、わんコメ連携「わんコメから受信」、更新通知。

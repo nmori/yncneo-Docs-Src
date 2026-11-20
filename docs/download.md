@@ -34,7 +34,7 @@
 
 ## 開発版をダウンロード
 
-### v3.1.2[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.1.2.zip)
+### v3.2.3[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.3.zip)
 
 - わんコメテンプレート連携の修正
 
@@ -44,9 +44,7 @@
 
 ### v2.3.141 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v2.3.141.zip)
 
-- セキュリティアップデート
-
-- 音声認識と通信が切れる問題の修正
+- UIの改善
 
 <div class="tips-box">
   <h4>インストール前のポイント</h4>

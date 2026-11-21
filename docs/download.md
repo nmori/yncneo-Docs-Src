@@ -34,9 +34,9 @@
 
 ## 開発版をダウンロード
 
-### v3.2.3[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.3.zip)
+### v3.2.5[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.5.zip)
 
-- わんコメテンプレート連携の修正
+- 音声エンジン追加
 
 - 【重要】FANBOX支援プロモーションコードが変更になっています。支援者のかたは、FANBOXからコードを再取得ください
 

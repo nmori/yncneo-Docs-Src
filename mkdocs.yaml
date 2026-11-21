@@ -109,6 +109,7 @@ plugins:
           'cs/cs_yukari.md': 'v3.0/cs/cs_yukari.md'
           'cs/cs_tanu3.md': 'v3.0/cs/cs_tanu3.md'
           'cs/cs_colab_discord.md': 'v3.0/cs/cs_colab_discord.md'
+          'cs/cs_colab_discord_voice.md': 'v3.0/cs/cs_colab_discord_voice.md'
           'cs/cs_colab_udtalk.md': 'v3.0/cs/cs_colab_udtalk.md'
           'cs/cs_colab_rd.md': 'v3.0/cs/cs_colab_rd.md'
           'cs/cs_streamdeck.md': 'v3.0/cs/cs_streamdeck.md'
@@ -261,6 +262,7 @@ nav:
           - たぬえさ３を呼び出す: 'v3.0/cs/cs_tanu3.md'
         - コラボ字幕:
           - Discord経由でコラボ: 'v3.0/cs/cs_colab_discord.md'
+          - Discordの通話の声を字幕にする: 'v3.0/cs/cs_colab_discord_voice.md'
           - UDトーク経由でコラボ: 'v3.0/cs/cs_colab_udtalk.md'
           - 画面共有でコラボ: 'v3.0/cs/cs_colab_rd.md'
         - 便利な使い方:

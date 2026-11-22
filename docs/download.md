@@ -34,9 +34,11 @@
 
 ## 開発版をダウンロード
 
-### v3.2.6[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.6.zip)
+### v3.2.7[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.7.zip)
 
-- 音声認識モデルダウンロード失敗の修正ほか
+- 法的対応の表記整備
+
+- レポートのあったバグの修正
 
 - 【重要】FANBOX支援プロモーションコードが変更になっています。支援者のかたは、FANBOXからコードを再取得ください
 

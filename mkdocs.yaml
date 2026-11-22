@@ -239,6 +239,7 @@ nav:
       - ダウンロード: 'download.md'
       - 利用者の声: 'usecase.md'
       - 利用規約: 'system_info.md'
+      - 外部送信について: 'support/external-transmission.md'
       - ライセンス表記: 'licensing.md'
       - 更新履歴: 'qa/history.md'
     - v3.0 ドキュメント▼:

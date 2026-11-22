@@ -34,9 +34,9 @@
 
 ## 開発版をダウンロード
 
-### v3.2.7[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.7.zip)
+### v3.2.8[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.8.zip)
 
-- 法的対応の表記整備
+- 表示もたつきの処理順番調整
 
 - レポートのあったバグの修正
 

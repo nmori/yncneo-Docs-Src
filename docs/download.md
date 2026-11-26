@@ -34,9 +34,9 @@
 
 ## 開発版をダウンロード
 
-### v3.2.8[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.8.zip)
+### v3.2.12[ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.12.zip)
 
-- 表示もたつきの処理順番調整
+- 音声認識をレベルアップ
 
 - レポートのあったバグの修正
 

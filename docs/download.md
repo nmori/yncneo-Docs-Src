@@ -34,12 +34,10 @@
 
 ## 開発版をダウンロード
 
-### v3.2.13 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.13.zip)
+### v3.2.15 [ダウンロード](https://machanbazaar.com/wp-content/uploads/2026/11/YNCNEO_v3.2.15.zip)
 
-- VRChatプラグインの調整
-
-- レポートのあったバグの修正
-
+- 先行読み上げ機能追加
+ 
 - 【重要】FANBOX支援プロモーションコードが変更になっています。支援者のかたは、FANBOXからコードを再取得ください
 
 ## 旧版をダウンロード
